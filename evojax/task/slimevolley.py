@@ -57,18 +57,18 @@ from PIL import Image
 
 RENDER_MODE = True
 
-REF_W = 24*2
+REF_W = 24 * 2
 REF_H = REF_W
 REF_U = 1.5  # ground height
 REF_WALL_WIDTH = 1.0  # wall width
 REF_WALL_HEIGHT = 3.5
-PLAYER_SPEED_X = 10*1.75
-PLAYER_SPEED_Y = 10*1.35
-MAX_BALL_SPEED = 15*1.5
-TIMESTEP = 1/30.
+PLAYER_SPEED_X = 10 * 1.75
+PLAYER_SPEED_Y = 10 * 1.35
+MAX_BALL_SPEED = 15 * 1.5
+TIMESTEP = 1 / 30.0
 NUDGE = 0.1
 FRICTION = 1.0  # 1 means no FRICTION, less means FRICTION
-GRAVITY = -9.8*2*1.5
+GRAVITY = -9.8 * 2 * 1.5
 
 MAXLIVES = 5  # game ends when one agent loses this many games
 
@@ -82,8 +82,8 @@ FACTOR = WINDOW_WIDTH / REF_W
 PIXEL_MODE = True
 PIXEL_SCALE = 2  # Render at multiple of Pixel Obs resolution, then downscale.
 
-PIXEL_WIDTH = 84*2*2
-PIXEL_HEIGHT = 84*2
+PIXEL_WIDTH = 84 * 2 * 2
+PIXEL_HEIGHT = 84 * 2
 
 
 def setNightColors():
@@ -110,9 +110,9 @@ def setDayColors():
     global PIXEL_AGENT_LEFT_COLOR, PIXEL_AGENT_RIGHT_COLOR
     global BACKGROUND_COLOR, FENCE_COLOR, COIN_COLOR, GROUND_COLOR
     global PIXEL_SCALE, PIXEL_WIDTH, PIXEL_HEIGHT
-    PIXEL_SCALE = int(4*1.0)
-    PIXEL_WIDTH = int(84*2*1.0)
-    PIXEL_HEIGHT = int(84*1.0)
+    PIXEL_SCALE = int(4 * 1.0)
+    PIXEL_WIDTH = int(84 * 2 * 1.0)
+    PIXEL_HEIGHT = int(84 * 1.0)
     BALL_COLOR = (255, 200, 20)
     AGENT_LEFT_COLOR = (240, 75, 0)
     AGENT_RIGHT_COLOR = (0, 150, 255)
@@ -148,26 +148,28 @@ setPixelObsMode()
 
 
 def upsize_image(img):
-    return cv2.resize(img, (PIXEL_WIDTH*PIXEL_SCALE, PIXEL_HEIGHT*PIXEL_SCALE),
-                      interpolation=cv2.INTER_NEAREST)
+    return cv2.resize(
+        img,
+        (PIXEL_WIDTH * PIXEL_SCALE, PIXEL_HEIGHT * PIXEL_SCALE),
+        interpolation=cv2.INTER_NEAREST,
+    )
 
 
 def downsize_image(img):
-    return cv2.resize(img, (PIXEL_WIDTH, PIXEL_HEIGHT),
-                      interpolation=cv2.INTER_AREA)
+    return cv2.resize(img, (PIXEL_WIDTH, PIXEL_HEIGHT), interpolation=cv2.INTER_AREA)
 
 
 # conversion from space to pixels (allows us to render to diff resolutions)
 def toX(x):
-    return (x+REF_W/2)*FACTOR
+    return (x + REF_W / 2) * FACTOR
 
 
 def toP(x):
-    return (x)*FACTOR
+    return (x) * FACTOR
 
 
 def toY(y):
-    return y*FACTOR
+    return y * FACTOR
 
 
 def create_canvas(c):
@@ -178,23 +180,42 @@ def create_canvas(c):
 
 
 def rect(canvas, x, y, width, height, color):
-    """ Processing style function to make it easy to port p5.js to python """
-    return cv2.rectangle(canvas, (round(x), round(WINDOW_HEIGHT-y)),
-                         (round(x+width), round(WINDOW_HEIGHT-y+height)),
-                         color, thickness=-1, lineType=cv2.LINE_AA)
+    """Processing style function to make it easy to port p5.js to python"""
+    return cv2.rectangle(
+        canvas,
+        (round(x), round(WINDOW_HEIGHT - y)),
+        (round(x + width), round(WINDOW_HEIGHT - y + height)),
+        color,
+        thickness=-1,
+        lineType=cv2.LINE_AA,
+    )
 
 
 def half_circle(canvas, x, y, r, color):
-    """ Processing style function to make it easy to port p5.js to python """
-    return cv2.ellipse(canvas, (round(x), WINDOW_HEIGHT-round(y)),
-                       (round(r), round(r)), 0, 0, -180, color, thickness=-1,
-                       lineType=cv2.LINE_AA)
+    """Processing style function to make it easy to port p5.js to python"""
+    return cv2.ellipse(
+        canvas,
+        (round(x), WINDOW_HEIGHT - round(y)),
+        (round(r), round(r)),
+        0,
+        0,
+        -180,
+        color,
+        thickness=-1,
+        lineType=cv2.LINE_AA,
+    )
 
 
 def circle(canvas, x, y, r, color):
-    """ Processing style function to make it easy to port p5.js to python """
-    return cv2.circle(canvas, (round(x), round(WINDOW_HEIGHT-y)), round(r),
-                      color, thickness=-1, lineType=cv2.LINE_AA)
+    """Processing style function to make it easy to port p5.js to python"""
+    return cv2.circle(
+        canvas,
+        (round(x), round(WINDOW_HEIGHT - y)),
+        round(r),
+        color,
+        thickness=-1,
+        lineType=cv2.LINE_AA,
+    )
 
 
 @dataclass
@@ -211,24 +232,118 @@ def initBaselinePolicyParams():
     https://blog.otoro.net/2015/03/28/neural-slime-volleyball/
     """
     weight = jnp.array(
-        [7.5719, 4.4285, 2.2716, -0.3598, -7.8189, -2.5422, -3.2034, 0.3935,
-         1.2202, -0.49, -0.0316, 0.5221, 0.7026, 0.4179, -2.1689, 1.646,
-         -13.3639, 1.5151, 1.1175, -5.3561, 5.0442, 0.8451, 0.3987, -2.9501,
-         -3.7811, -5.8994, 6.4167, 2.5014, 7.338, -2.9887, 2.4586, 13.4191,
-         2.7395, -3.9708, 1.6548, -2.7554, -1.5345, -6.4708, 9.2426, -0.7392,
-         0.4452, 1.8828, -2.6277, -10.851, -3.2353, -4.4653, -3.1153, -1.3707,
-         7.318, 16.0902, 1.4686, 7.0391, 1.7765, -1.155, 2.6697, -8.8877,
-         1.1958, -3.2839, -5.4425, 1.6809, 7.6812, -2.4732, 1.738, 0.3781,
-         0.8718, 2.5886, 1.6911, 1.2953, -9.0052, -4.6038, -6.7447, -2.5528,
-         0.4391, -4.9278, -3.6695, -4.8673, -1.6035, 1.5011, -5.6124, 4.9747,
-         1.8998, 3.0359, 6.2983, -4.8568, -2.1888, -4.1143, -3.9874, -0.0459,
-         4.7134, 2.8952, -9.3627, -4.685, 0.3601, -1.3699, 9.7294, 11.5596,
-         0.1918, 3.0783, 0.0329, -0.1362, -0.1188, -0.7579, 0.3278, -0.977,
-         -0.9377])
-    weight = weight.reshape(nGameOutput+nRecurrentState,
-                            nGameInput+nGameOutput+nRecurrentState)
-    bias = jnp.array([2.2935, -2.0353, -1.7786, 5.4567,
-                      -3.6368, 3.4996, -0.0685])
+        [
+            7.5719,
+            4.4285,
+            2.2716,
+            -0.3598,
+            -7.8189,
+            -2.5422,
+            -3.2034,
+            0.3935,
+            1.2202,
+            -0.49,
+            -0.0316,
+            0.5221,
+            0.7026,
+            0.4179,
+            -2.1689,
+            1.646,
+            -13.3639,
+            1.5151,
+            1.1175,
+            -5.3561,
+            5.0442,
+            0.8451,
+            0.3987,
+            -2.9501,
+            -3.7811,
+            -5.8994,
+            6.4167,
+            2.5014,
+            7.338,
+            -2.9887,
+            2.4586,
+            13.4191,
+            2.7395,
+            -3.9708,
+            1.6548,
+            -2.7554,
+            -1.5345,
+            -6.4708,
+            9.2426,
+            -0.7392,
+            0.4452,
+            1.8828,
+            -2.6277,
+            -10.851,
+            -3.2353,
+            -4.4653,
+            -3.1153,
+            -1.3707,
+            7.318,
+            16.0902,
+            1.4686,
+            7.0391,
+            1.7765,
+            -1.155,
+            2.6697,
+            -8.8877,
+            1.1958,
+            -3.2839,
+            -5.4425,
+            1.6809,
+            7.6812,
+            -2.4732,
+            1.738,
+            0.3781,
+            0.8718,
+            2.5886,
+            1.6911,
+            1.2953,
+            -9.0052,
+            -4.6038,
+            -6.7447,
+            -2.5528,
+            0.4391,
+            -4.9278,
+            -3.6695,
+            -4.8673,
+            -1.6035,
+            1.5011,
+            -5.6124,
+            4.9747,
+            1.8998,
+            3.0359,
+            6.2983,
+            -4.8568,
+            -2.1888,
+            -4.1143,
+            -3.9874,
+            -0.0459,
+            4.7134,
+            2.8952,
+            -9.3627,
+            -4.685,
+            0.3601,
+            -1.3699,
+            9.7294,
+            11.5596,
+            0.1918,
+            3.0783,
+            0.0329,
+            -0.1362,
+            -0.1188,
+            -0.7579,
+            0.3278,
+            -0.977,
+            -0.9377,
+        ]
+    )
+    weight = weight.reshape(
+        nGameOutput + nRecurrentState, nGameInput + nGameOutput + nRecurrentState
+    )
+    bias = jnp.array([2.2935, -2.0353, -1.7786, 5.4567, -3.6368, 3.4996, -0.0685])
 
     return BaselinePolicyParams(weight, bias)
 
@@ -249,10 +364,15 @@ class ParticleState(object):
 
 
 def initParticleState(x, y, vx, vy, r):
-    return ParticleState(jnp.float32(x), jnp.float32(y),
-                         jnp.float32(x), jnp.float32(y),
-                         jnp.float32(vx), jnp.float32(vy),
-                         jnp.float32(r))
+    return ParticleState(
+        jnp.float32(x),
+        jnp.float32(y),
+        jnp.float32(x),
+        jnp.float32(y),
+        jnp.float32(vx),
+        jnp.float32(vy),
+        jnp.float32(r),
+    )
 
 
 @dataclass
@@ -300,6 +420,7 @@ class Observation(object):  # is also the "RelativeState" in the original code
     Note: the observation is from the perspective of the agent.
     an agent playing either side of the fence must see obs the same way
     """
+
     x: jnp.float32  # agent
     y: jnp.float32
     vx: jnp.float32
@@ -322,33 +443,80 @@ def getObsArray(rs: Observation):
     # scale inputs to be in the order
     # of magnitude of 10 for neural network. (legacy)
     scaleFactor = 10.0
-    result = jnp.array([rs.x, rs.y, rs.vx, rs.vy,
-                        rs.bx, rs.by, rs.bvx, rs.bvy,
-                        rs.ox, rs.oy, rs.ovx, rs.ovy]) / scaleFactor
+    result = (
+        jnp.array(
+            [
+                rs.x,
+                rs.y,
+                rs.vx,
+                rs.vy,
+                rs.bx,
+                rs.by,
+                rs.bvx,
+                rs.bvy,
+                rs.ox,
+                rs.oy,
+                rs.ovx,
+                rs.ovy,
+            ]
+        )
+        / scaleFactor
+    )
     return result
 
 
 class Particle:
-    """ used for the ball, and also for the round stub above the fence """
+    """used for the ball, and also for the round stub above the fence"""
+
     def __init__(self, p: ParticleState, c):
         self.p = p
         self.c = c
 
     def display(self, canvas):
-        return circle(canvas, toX(float(self.p.x)), toY(float(self.p.y)),
-                      toP(float(self.p.r)), color=self.c)
+        try:
+            self.p.x = self.p.x[0]
+            self.p.y = self.p.y[0]
+            self.p.r = self.p.r[0]
+        except:
+            pass
+        try:
+            return circle(
+                canvas,
+                toX(float(self.p.x)),
+                toY(float(self.p.y)),
+                toP(float(self.p.r)),
+                color=self.c,
+            )
+        except:
+            return circle(
+                canvas,
+                toX(float(self.p.x[0])),
+                toY(float(self.p.y[0])),
+                toP(float(self.p.r[0])),
+                color=self.c,
+            )
 
     def move(self):
-        self.p = ParticleState(self.p.x+self.p.vx*TIMESTEP,
-                               self.p.y+self.p.vy*TIMESTEP,
-                               self.p.x, self.p.y,
-                               self.p.vx, self.p.vy, r=self.p.r)
+        self.p = ParticleState(
+            self.p.x + self.p.vx * TIMESTEP,
+            self.p.y + self.p.vy * TIMESTEP,
+            self.p.x,
+            self.p.y,
+            self.p.vx,
+            self.p.vy,
+            r=self.p.r,
+        )
 
     def applyAcceleration(self, ax, ay):
-        self.p = ParticleState(self.p.x, self.p.y,
-                               self.p.prev_x, self.p.prev_y,
-                               self.p.vx+ax*TIMESTEP, self.p.vy+ay*TIMESTEP,
-                               r=self.p.r)
+        self.p = ParticleState(
+            self.p.x,
+            self.p.y,
+            self.p.prev_x,
+            self.p.prev_y,
+            self.p.vx + ax * TIMESTEP,
+            self.p.vy + ay * TIMESTEP,
+            r=self.p.r,
+        )
 
     def checkEdges(self):
         oldp = self.p
@@ -360,57 +528,69 @@ class Particle:
         newvx = oldp.vx
         newvy = oldp.vy
 
-        newx = jnp.where(oldp.x <= (oldp.r-REF_W/2),
-                         oldp.r-REF_W/2+NUDGE*TIMESTEP, newx)
-        newvx = jnp.where(oldp.x <= (oldp.r-REF_W/2),
-                          oldp.vx*(-FRICTION), newvx)
+        newx = jnp.where(
+            oldp.x <= (oldp.r - REF_W / 2), oldp.r - REF_W / 2 + NUDGE * TIMESTEP, newx
+        )
+        newvx = jnp.where(oldp.x <= (oldp.r - REF_W / 2), oldp.vx * (-FRICTION), newvx)
 
-        newx = jnp.where(oldp.x >= (REF_W/2-oldp.r),
-                         REF_W/2-oldp.r-NUDGE*TIMESTEP, newx)
-        newvx = jnp.where(oldp.x >= (REF_W/2-oldp.r),
-                          oldp.vx*(-FRICTION), newvx)
+        newx = jnp.where(
+            oldp.x >= (REF_W / 2 - oldp.r), REF_W / 2 - oldp.r - NUDGE * TIMESTEP, newx
+        )
+        newvx = jnp.where(oldp.x >= (REF_W / 2 - oldp.r), oldp.vx * (-FRICTION), newvx)
 
-        return_value = jnp.where(oldp.y <= (oldp.r+REF_U), 1, 0)
+        return_value = jnp.where(oldp.y <= (oldp.r + REF_U), 1, 0)
 
-        newy = jnp.where(oldp.y <= (oldp.r+REF_U),
-                         oldp.r+REF_U+NUDGE*TIMESTEP, newy)
-        newvy = jnp.where(oldp.y <= (oldp.r+REF_U),
-                          oldp.vy*(-FRICTION), newvy)
+        newy = jnp.where(
+            oldp.y <= (oldp.r + REF_U), oldp.r + REF_U + NUDGE * TIMESTEP, newy
+        )
+        newvy = jnp.where(oldp.y <= (oldp.r + REF_U), oldp.vy * (-FRICTION), newvy)
 
-        newy = jnp.where(oldp.y >= (REF_H-oldp.r),
-                         REF_H-oldp.r-NUDGE*TIMESTEP, newy)
+        newy = jnp.where(
+            oldp.y >= (REF_H - oldp.r), REF_H - oldp.r - NUDGE * TIMESTEP, newy
+        )
 
-        newvy = jnp.where(oldp.y >= (REF_H-oldp.r),
-                          oldp.vy*(-FRICTION), newvy)
+        newvy = jnp.where(oldp.y >= (REF_H - oldp.r), oldp.vy * (-FRICTION), newvy)
 
         # fence:
 
-        newx = jnp.where((oldp.x <= (REF_WALL_WIDTH/2+oldp.r)) &
-                         (oldp.prev_x > (REF_WALL_WIDTH/2+oldp.r)) &
-                         (oldp.y <= REF_WALL_HEIGHT),
-                         REF_WALL_WIDTH/2+oldp.r+NUDGE*TIMESTEP, newx)
-        newvx = jnp.where((oldp.x <= (REF_WALL_WIDTH/2+oldp.r)) &
-                          (oldp.prev_x > (REF_WALL_WIDTH/2+oldp.r)) &
-                          (oldp.y <= REF_WALL_HEIGHT),
-                          oldp.vx*(-FRICTION), newvx)
+        newx = jnp.where(
+            (oldp.x <= (REF_WALL_WIDTH / 2 + oldp.r))
+            & (oldp.prev_x > (REF_WALL_WIDTH / 2 + oldp.r))
+            & (oldp.y <= REF_WALL_HEIGHT),
+            REF_WALL_WIDTH / 2 + oldp.r + NUDGE * TIMESTEP,
+            newx,
+        )
+        newvx = jnp.where(
+            (oldp.x <= (REF_WALL_WIDTH / 2 + oldp.r))
+            & (oldp.prev_x > (REF_WALL_WIDTH / 2 + oldp.r))
+            & (oldp.y <= REF_WALL_HEIGHT),
+            oldp.vx * (-FRICTION),
+            newvx,
+        )
 
-        newx = jnp.where((oldp.x >= (-REF_WALL_WIDTH/2-oldp.r)) &
-                         (oldp.prev_x < (-REF_WALL_WIDTH/2-oldp.r)) &
-                         (oldp.y <= REF_WALL_HEIGHT),
-                         -REF_WALL_WIDTH/2-oldp.r-NUDGE*TIMESTEP, newx)
-        newvx = jnp.where((oldp.x >= (-REF_WALL_WIDTH/2-oldp.r)) &
-                          (oldp.prev_x < (-REF_WALL_WIDTH/2-oldp.r)) &
-                          (oldp.y <= REF_WALL_HEIGHT),
-                          oldp.vx*(-FRICTION), newvx)
+        newx = jnp.where(
+            (oldp.x >= (-REF_WALL_WIDTH / 2 - oldp.r))
+            & (oldp.prev_x < (-REF_WALL_WIDTH / 2 - oldp.r))
+            & (oldp.y <= REF_WALL_HEIGHT),
+            -REF_WALL_WIDTH / 2 - oldp.r - NUDGE * TIMESTEP,
+            newx,
+        )
+        newvx = jnp.where(
+            (oldp.x >= (-REF_WALL_WIDTH / 2 - oldp.r))
+            & (oldp.prev_x < (-REF_WALL_WIDTH / 2 - oldp.r))
+            & (oldp.y <= REF_WALL_HEIGHT),
+            oldp.vx * (-FRICTION),
+            newvx,
+        )
 
         self.p = ParticleState(newx, newy, newpx, newpy, newvx, newvy, oldp.r)
-        return return_value*return_sign
+        return return_value * return_sign
 
     def bounce(self, p):  # bounce two balls that have collided (this and that)
         oldp = self.p
-        abx = oldp.x-p.x
-        aby = oldp.y-p.y
-        abd = jnp.sqrt(abx*abx+aby*aby)
+        abx = oldp.x - p.x
+        aby = oldp.y - p.y
+        abd = jnp.sqrt(abx * abx + aby * aby)
         abx /= abd  # normalize
         aby /= abd
         nx = abx  # reuse calculation
@@ -420,37 +600,43 @@ class Particle:
 
         new_y = oldp.y
         new_x = oldp.x
-        dy = (new_y - p.x)
-        dx = (new_x - p.y)
+        dy = new_y - p.x
+        dx = new_x - p.y
 
-        total_r = oldp.r+p.r
-        total_r2 = total_r*total_r
+        total_r = oldp.r + p.r
+        total_r2 = total_r * total_r
 
         # this was a while loop in the orig code, but most cases < 15.
         for i in range(15):
-            total_d2 = (dy*dy + dx*dx)
-            new_x = jnp.where(total_d2 < total_r2, new_x+abx, new_x)
-            new_y = jnp.where(total_d2 < total_r2, new_y+aby, new_y)
-            dy = (p.y - new_y)
-            dx = (p.x - new_x)
+            total_d2 = dy * dy + dx * dx
+            new_x = jnp.where(total_d2 < total_r2, new_x + abx, new_x)
+            new_y = jnp.where(total_d2 < total_r2, new_y + aby, new_y)
+            dy = p.y - new_y
+            dx = p.x - new_x
 
         ux = oldp.vx - p.vx
         uy = oldp.vy - p.vy
-        un = ux*nx + uy*ny
-        unx = nx*(un*2.)  # added factor of 2
-        uny = ny*(un*2.)  # added factor of 2
+        un = ux * nx + uy * ny
+        unx = nx * (un * 2.0)  # added factor of 2
+        uny = ny * (un * 2.0)  # added factor of 2
         ux -= unx
         uy -= uny
-        return ParticleState(x=new_x, y=new_y,
-                             prev_x=oldp.prev_x, prev_y=oldp.prev_y,
-                             vx=ux + p.vx, vy=uy + p.vy, r=oldp.r)
+        return ParticleState(
+            x=new_x,
+            y=new_y,
+            prev_x=oldp.prev_x,
+            prev_y=oldp.prev_y,
+            vx=ux + p.vx,
+            vy=uy + p.vy,
+            r=oldp.r,
+        )
 
     def bounceIfColliding(self, p):
         dy = p.y - self.p.y
         dx = p.x - self.p.x
-        d2 = (dx*dx+dy*dy)
-        r = self.p.r+p.r
-        r2 = r*r
+        d2 = dx * dx + dy * dy
+        r = self.p.r + p.r
+        r2 = r * r
         newp = self.bounce(p)
 
         # make if condition work with jax:
@@ -460,29 +646,42 @@ class Particle:
         newprev_y = jnp.where(d2 < r2, newp.prev_y, self.p.prev_y)
         newvx = jnp.where(d2 < r2, newp.vx, self.p.vx)
         newvy = jnp.where(d2 < r2, newp.vy, self.p.vy)
-        self.p = ParticleState(x=newx, y=newy,
-                               prev_x=newprev_x, prev_y=newprev_y,
-                               vx=newvx, vy=newvy, r=self.p.r)
+        self.p = ParticleState(
+            x=newx,
+            y=newy,
+            prev_x=newprev_x,
+            prev_y=newprev_y,
+            vx=newvx,
+            vy=newvy,
+            r=self.p.r,
+        )
 
     def limitSpeed(self, maxSpeed):
         oldp = self.p
-        mag2 = oldp.vx*oldp.vx+oldp.vy*oldp.vy
+        mag2 = oldp.vx * oldp.vx + oldp.vy * oldp.vy
         mag = jnp.sqrt(mag2)
 
         newvx = oldp.vx
         newvy = oldp.vy
-        newvx = jnp.where(mag2 > (maxSpeed*maxSpeed), newvx/mag, newvx)
-        newvy = jnp.where(mag2 > (maxSpeed*maxSpeed), newvy/mag, newvy)
-        newvx = jnp.where(mag2 > (maxSpeed*maxSpeed), newvx*maxSpeed, newvx)
-        newvy = jnp.where(mag2 > (maxSpeed*maxSpeed), newvy*maxSpeed, newvy)
+        newvx = jnp.where(mag2 > (maxSpeed * maxSpeed), newvx / mag, newvx)
+        newvy = jnp.where(mag2 > (maxSpeed * maxSpeed), newvy / mag, newvy)
+        newvx = jnp.where(mag2 > (maxSpeed * maxSpeed), newvx * maxSpeed, newvx)
+        newvy = jnp.where(mag2 > (maxSpeed * maxSpeed), newvy * maxSpeed, newvy)
 
-        self.p = ParticleState(x=oldp.x, y=oldp.y,
-                               prev_x=oldp.prev_x, prev_y=oldp.prev_y,
-                               vx=newvx, vy=newvy, r=oldp.r)
+        self.p = ParticleState(
+            x=oldp.x,
+            y=oldp.y,
+            prev_x=oldp.prev_x,
+            prev_y=oldp.prev_y,
+            vx=newvx,
+            vy=newvy,
+            r=oldp.r,
+        )
 
 
 class Agent:
-    """ keeps track of the agent in the game. note: not the policy network """
+    """keeps track of the agent in the game. note: not the policy network"""
+
     def __init__(self, agent, c):
         self.p = agent
         self.state = getZeroObs()
@@ -500,34 +699,61 @@ class Agent:
         new_desired_vx = jnp.float32(0.0)
         new_desired_vy = jnp.float32(0.0)
 
-        new_desired_vx = jnp.where(forward & (1-backward),
-                                   -PLAYER_SPEED_X, new_desired_vx)
-        new_desired_vx = jnp.where(backward & (1-forward),
-                                   PLAYER_SPEED_X, new_desired_vx)
+        new_desired_vx = jnp.where(
+            forward & (1 - backward), -PLAYER_SPEED_X, new_desired_vx
+        )
+        new_desired_vx = jnp.where(
+            backward & (1 - forward), PLAYER_SPEED_X, new_desired_vx
+        )
 
         new_desired_vy = jnp.where(jump, PLAYER_SPEED_Y, new_desired_vy)
 
         p = self.p
-        self.p = AgentState(p.direction, p.x, p.y, p.r, p.vx, p.vy,
-                            new_desired_vx, new_desired_vy, p.life)
+        self.p = AgentState(
+            p.direction,
+            p.x,
+            p.y,
+            p.r,
+            p.vx,
+            p.vy,
+            new_desired_vx,
+            new_desired_vy,
+            p.life,
+        )
 
     def move(self):
         p = self.p
-        self.p = AgentState(p.direction, p.x+p.vx*TIMESTEP, p.y+p.vy*TIMESTEP,
-                            p.r, p.vx, p.vy,
-                            p.desired_vx, p.desired_vy,
-                            p.life)
+        self.p = AgentState(
+            p.direction,
+            p.x + p.vx * TIMESTEP,
+            p.y + p.vy * TIMESTEP,
+            p.r,
+            p.vx,
+            p.vy,
+            p.desired_vx,
+            p.desired_vy,
+            p.life,
+        )
 
     def update(self):
         p = self.p
-        new_vy = p.vy + GRAVITY*TIMESTEP
+        new_vy = p.vy + GRAVITY * TIMESTEP
 
-        new_vy = jnp.where(p.y <= REF_U+NUDGE*TIMESTEP, p.desired_vy, new_vy)
+        new_vy = jnp.where(p.y <= REF_U + NUDGE * TIMESTEP, p.desired_vy, new_vy)
 
-        new_vx = p.desired_vx*p.direction
+        new_vx = p.desired_vx * p.direction
 
-        self.p = AgentState(p.direction, p.x, p.y, p.r, new_vx, new_vy,
-                            p.desired_vx, p.desired_vy, p.life)
+        self.p = AgentState(
+            p.direction,
+            p.x,
+            p.y,
+            p.r,
+            new_vx,
+            new_vy,
+            p.desired_vx,
+            p.desired_vy,
+            p.life,
+        )
 
         self.move()
 
@@ -544,60 +770,74 @@ class Agent:
         new_vx = p.vx
         new_x = p.x
 
-        new_vx = jnp.where(p.x*p.direction <= (REF_WALL_WIDTH/2+p.r),
-                           0, new_vx)
-        new_x = jnp.where(p.x*p.direction <= (REF_WALL_WIDTH/2+p.r),
-                          p.direction*(REF_WALL_WIDTH/2+p.r), new_x)
+        new_vx = jnp.where(p.x * p.direction <= (REF_WALL_WIDTH / 2 + p.r), 0, new_vx)
+        new_x = jnp.where(
+            p.x * p.direction <= (REF_WALL_WIDTH / 2 + p.r),
+            p.direction * (REF_WALL_WIDTH / 2 + p.r),
+            new_x,
+        )
 
-        new_vx = jnp.where(p.x*p.direction >= (REF_W/2-p.r), 0, new_vx)
-        new_x = jnp.where(p.x*p.direction >= (REF_W/2-p.r),
-                          p.direction*(REF_W/2-p.r), new_x)
+        new_vx = jnp.where(p.x * p.direction >= (REF_W / 2 - p.r), 0, new_vx)
+        new_x = jnp.where(
+            p.x * p.direction >= (REF_W / 2 - p.r),
+            p.direction * (REF_W / 2 - p.r),
+            new_x,
+        )
 
-        self.p = AgentState(p.direction, new_x, new_y, p.r,
-                            new_vx, new_vy, p.desired_vx, p.desired_vy,
-                            p.life)
+        self.p = AgentState(
+            p.direction,
+            new_x,
+            new_y,
+            p.r,
+            new_vx,
+            new_vy,
+            p.desired_vx,
+            p.desired_vy,
+            p.life,
+        )
 
     def updateLife(self, result):
-        """ updates the life based on result and internal direction """
+        """updates the life based on result and internal direction"""
         p = self.p
-        updateAmount = p.direction*result  # only update if this value is -1
-        new_life = jnp.where(updateAmount < 0, p.life-1, p.life)
-        self.p = AgentState(p.direction, p.x, p.y, p.r, p.vx, p.vy,
-                            p.desired_vx, p.desired_vy, new_life)
+        updateAmount = p.direction * result  # only update if this value is -1
+        new_life = jnp.where(updateAmount < 0, p.life - 1, p.life)
+        self.p = AgentState(
+            p.direction, p.x, p.y, p.r, p.vx, p.vy, p.desired_vx, p.desired_vy, new_life
+        )
 
     def updateState(self, ball: ParticleState, opponent: AgentState):
-        """ normalized to side, customized for each agent's perspective"""
+        """normalized to side, customized for each agent's perspective"""
         p = self.p
         # agent's self
-        x = p.x*p.direction
+        x = p.x * p.direction
         y = p.y
-        vx = p.vx*p.direction
+        vx = p.vx * p.direction
         vy = p.vy
         # ball
-        bx = ball.x*p.direction
+        bx = ball.x * p.direction
         by = ball.y
-        bvx = ball.vx*p.direction
+        bvx = ball.vx * p.direction
         bvy = ball.vy
         # opponent
-        ox = opponent.x*(-p.direction)
+        ox = opponent.x * (-p.direction)
         oy = opponent.y
-        ovx = opponent.vx*(-p.direction)
+        ovx = opponent.vx * (-p.direction)
         ovy = opponent.vy
 
-        self.state = Observation(x, y, vx, vy, bx, by,
-                                 bvx, bvy, ox, oy, ovx, ovy)
+        self.state = Observation(x, y, vx, vy, bx, by, bvx, bvy, ox, oy, ovx, ovy)
 
     def getObservation(self):
         return getObsArray(self.state)
 
     def display(self, canvas, ball_x, ball_y):
-        bx = float(ball_x)
-        by = float(ball_y)
+        bx = float(ball_x[0])
+        by = float(ball_y[0])
         p = self.p
-        x = float(p.x)
-        y = float(p.y)
-        r = float(p.r)
-        direction = int(p.direction)
+
+        x = float(p.x[0])
+        y = float(p.y[0])
+        r = float(p.r[0])
+        direction = int(p.direction[0])
 
         angle = math.pi * 60 / 180
         if direction == 1:
@@ -610,31 +850,45 @@ class Agent:
         # track ball with eyes (replace with observed info later):
         c = math.cos(angle)
         s = math.sin(angle)
-        ballX = bx-(x+(0.6)*r*c)
-        ballY = by-(y+(0.6)*r*s)
+        ballX = bx - (x + (0.6) * r * c)
+        ballY = by - (y + (0.6) * r * s)
 
-        dist = math.sqrt(ballX*ballX+ballY*ballY)
-        eyeX = ballX/dist
-        eyeY = ballY/dist
+        dist = math.sqrt(ballX * ballX + ballY * ballY)
+        eyeX = ballX / dist
+        eyeY = ballY / dist
 
-        canvas = circle(canvas, toX(x+(0.6)*r*c), toY(y+(0.6)*r*s),
-                        toP(r)*0.3, color=(255, 255, 255))
-        canvas = circle(canvas, toX(x+(0.6)*r*c+eyeX*0.15*r),
-                        toY(y+(0.6)*r*s+eyeY*0.15*r), toP(r)*0.1,
-                        color=(0, 0, 0))
+        canvas = circle(
+            canvas,
+            toX(x + (0.6) * r * c),
+            toY(y + (0.6) * r * s),
+            toP(r) * 0.3,
+            color=(255, 255, 255),
+        )
+        canvas = circle(
+            canvas,
+            toX(x + (0.6) * r * c + eyeX * 0.15 * r),
+            toY(y + (0.6) * r * s + eyeY * 0.15 * r),
+            toP(r) * 0.1,
+            color=(0, 0, 0),
+        )
 
         # draw coins (lives) left
-        num_lives = int(p.life)
+        num_lives = int(p.life[0])
         for i in range(1, num_lives):
-            canvas = circle(canvas, toX(direction*(REF_W/2+0.5-i*2.)),
-                            WINDOW_HEIGHT-toY(1.5), toP(0.5),
-                            color=COIN_COLOR)
+            canvas = circle(
+                canvas,
+                toX(direction * (REF_W / 2 + 0.5 - i * 2.0)),
+                WINDOW_HEIGHT - toY(1.5),
+                toP(0.5),
+                color=COIN_COLOR,
+            )
 
         return canvas
 
 
 class Wall:
-    """ used for the fence, and also the ground """
+    """used for the fence, and also the ground"""
+
     def __init__(self, x, y, w, h, c):
         self.x = x
         self.y = y
@@ -643,20 +897,25 @@ class Wall:
         self.c = c
 
     def display(self, canvas):
-        return rect(canvas, toX(self.x-self.w/2), toY(self.y+self.h/2),
-                    toP(self.w), toP(self.h), color=self.c)
+        return rect(
+            canvas,
+            toX(self.x - self.w / 2),
+            toY(self.y + self.h / 2),
+            toP(self.w),
+            toP(self.h),
+            color=self.c,
+        )
 
 
-def baselinePolicy(obs: jnp.ndarray, state: jnp.ndarray,
-                   params: BaselinePolicyParams):
-    """ take obs, prev rnn state, return updated rnn state, action """
+def baselinePolicy(obs: jnp.ndarray, state: jnp.ndarray, params: BaselinePolicyParams):
+    """take obs, prev rnn state, return updated rnn state, action"""
     nGameInput = 8  # 8 states that policy cares about (ignores last 4)
     nGameOutput = 3  # 3 buttons (forward, backward, jump)
 
     weight = params.w
     bias = params.b
     inputState = jnp.concatenate([obs[:nGameInput], state])
-    outputState = jnp.tanh(jnp.dot(weight, inputState)+bias)
+    outputState = jnp.tanh(jnp.dot(weight, inputState) + bias)
     action = jnp.zeros(nGameOutput)
     action = jnp.where(outputState[:nGameOutput] > 0.75, 1, action)
     return outputState, action
@@ -668,6 +927,7 @@ class Game:
     can be used in various settings,
     such as ai vs ai, ai vs human, human vs human
     """
+
     def __init__(self, gameState):
         self.baselineParams = initBaselinePolicyParams()
         self.ground = None
@@ -677,10 +937,16 @@ class Game:
 
     def reset(self, gameState):
         self.ground = Wall(0, 0.75, REF_W, REF_U, c=GROUND_COLOR)
-        self.fence = Wall(0, 0.75 + REF_WALL_HEIGHT/2, REF_WALL_WIDTH,
-                          (REF_WALL_HEIGHT-1.5), c=FENCE_COLOR)
-        fenceStubParticle = initParticleState(0, REF_WALL_HEIGHT,
-                                              0, 0, REF_WALL_WIDTH/2)
+        self.fence = Wall(
+            0,
+            0.75 + REF_WALL_HEIGHT / 2,
+            REF_WALL_WIDTH,
+            (REF_WALL_HEIGHT - 1.5),
+            c=FENCE_COLOR,
+        )
+        fenceStubParticle = initParticleState(
+            0, REF_WALL_HEIGHT, 0, 0, REF_WALL_WIDTH / 2
+        )
         self.fenceStub = Particle(fenceStubParticle, c=FENCE_COLOR)
         self.setGameState(gameState)
 
@@ -709,25 +975,34 @@ class Game:
         obs_left = self.agent_left.getObservation()
         obs_right = self.agent_right.getObservation()
         self.hidden_left, action_left = baselinePolicy(
-            obs_left, self.hidden_left, self.baselineParams)
+            obs_left, self.hidden_left, self.baselineParams
+        )
         self.hidden_right, action_right = baselinePolicy(
-            obs_right, self.hidden_right, self.baselineParams)
+            obs_right, self.hidden_right, self.baselineParams
+        )
         # overwrite internal AI actions if the flags are turned on:
-        action_left = jnp.where(
-            self.action_left_flag, self.action_left, action_left)
+        action_left = jnp.where(self.action_left_flag, self.action_left, action_left)
         action_right = jnp.where(
-            self.action_right_flag, self.action_right, action_right)
+            self.action_right_flag, self.action_right, action_right
+        )
         self.agent_left.setAction(action_left)
         self.agent_right.setAction(action_right)
 
     def getGameState(self):
-        return GameState(self.ball.p, self.agent_left.p, self.agent_right.p,
-                         self.hidden_left, self.hidden_right,
-                         self.action_left_flag, self.action_left,
-                         self.action_right_flag, self.action_right)
+        return GameState(
+            self.ball.p,
+            self.agent_left.p,
+            self.agent_right.p,
+            self.hidden_left,
+            self.hidden_right,
+            self.action_left_flag,
+            self.action_left,
+            self.action_right_flag,
+            self.action_right,
+        )
 
     def step(self):
-        """ main game loop """
+        """main game loop"""
 
         self.agent_left.update()
         self.agent_right.update()
@@ -757,8 +1032,7 @@ class Game:
         canvas = self.fence.display(canvas)
         canvas = self.fenceStub.display(canvas)
         canvas = self.agent_left.display(canvas, self.ball.p.x, self.ball.p.y)
-        canvas = self.agent_right.display(
-            canvas, self.ball.p.x, self.ball.p.y)
+        canvas = self.agent_right.display(canvas, self.ball.p.x, self.ball.p.y)
         canvas = self.ball.display(canvas)
         canvas = self.ground.display(canvas)
         canvas = downsize_image(canvas)
@@ -767,34 +1041,48 @@ class Game:
 
 
 def initGameState(ball_vx, ball_vy):
-    ball = initParticleState(0, REF_W/4, ball_vx, ball_vy, 0.5)
-    agent_left = initAgentState(-1, -REF_W/4, 1.5)
-    agent_right = initAgentState(1, REF_W/4, 1.5)
+    ball = initParticleState(0, REF_W / 4, ball_vx, ball_vy, 0.5)
+    agent_left = initAgentState(-1, -REF_W / 4, 1.5)
+    agent_right = initAgentState(1, REF_W / 4, 1.5)
     hidden_left = initBaselinePolicyState()
     hidden_right = initBaselinePolicyState()
     action_left_flag = jnp.int32(0)  # left is the built-in AI
     action_left = jnp.array([0, 0, 1], dtype=jnp.float32)
     action_right_flag = jnp.int32(1)  # right is the agent being trained.
     action_right = jnp.array([0, 0, 1], dtype=jnp.float32)
-    return GameState(ball, agent_left, agent_right,
-                     hidden_left, hidden_right,
-                     action_left_flag, action_left,
-                     action_right_flag, action_right)
+    return GameState(
+        ball,
+        agent_left,
+        agent_right,
+        hidden_left,
+        hidden_right,
+        action_left_flag,
+        action_left,
+        action_right_flag,
+        action_right,
+    )
 
 
 def newMatch(prevGameState: GameState, ball_vx, ball_vy) -> GameState:
-    ball = initParticleState(0, REF_W/4, ball_vx, ball_vy, 0.5)
+    ball = initParticleState(0, REF_W / 4, ball_vx, ball_vy, 0.5)
     p = prevGameState
-    return GameState(ball, p.agent_left, p.agent_right,
-                     p.hidden_left, p.hidden_right,
-                     p.action_left_flag, p.action_left,
-                     p.action_right_flag, p.action_right)
+    return GameState(
+        ball,
+        p.agent_left,
+        p.agent_right,
+        p.hidden_left,
+        p.hidden_right,
+        p.action_left_flag,
+        p.action_left,
+        p.action_right_flag,
+        p.action_right,
+    )
 
 
 def get_random_ball_v(key: jnp.ndarray):
     result = random.uniform(key, shape=(2,)) * 2 - 1
-    ball_vx = result[1]*20
-    ball_vy = result[2]*7.5+17.5
+    ball_vx = result[1] * 20
+    ball_vy = result[2] * 7.5 + 17.5
     return ball_vx, ball_vy
 
 
@@ -803,17 +1091,15 @@ def get_init_game_state_fn(key: jnp.ndarray):
     return initGameState(ball_vx, ball_vy)
 
 
-def get_new_match_state_fn(game_state: GameState,
-                           key: jnp.ndarray) -> GameState:
+def get_new_match_state_fn(game_state: GameState, key: jnp.ndarray) -> GameState:
     ball_vx, ball_vy = get_random_ball_v(key)
     return newMatch(game_state, ball_vx, ball_vy)
 
 
-def update_state_for_new_match(game_state: GameState,
-                               reward, key: jnp.ndarray):
+def update_state_for_new_match(game_state: GameState, reward, key: jnp.ndarray):
     old_ball = game_state.ball
     ball_vx, ball_vy = get_random_ball_v(key)
-    new_ball = initParticleState(0, REF_W/4, ball_vx, ball_vy, 0.5)
+    new_ball = initParticleState(0, REF_W / 4, ball_vx, ball_vy, 0.5)
     x = jnp.where(reward == 0, old_ball.x, new_ball.x)
     y = jnp.where(reward == 0, old_ball.y, new_ball.y)
     prev_x = jnp.where(reward == 0, old_ball.prev_x, new_ball.prev_x)
@@ -822,10 +1108,17 @@ def update_state_for_new_match(game_state: GameState,
     vy = jnp.where(reward == 0, old_ball.vy, new_ball.vy)
     ball = ParticleState(x, y, prev_x, prev_y, vx, vy, old_ball.r)
     p = game_state
-    return GameState(ball, p.agent_left, p.agent_right,
-                     p.hidden_left, p.hidden_right,
-                     p.action_left_flag, p.action_left,
-                     p.action_right_flag, p.action_right)
+    return GameState(
+        ball,
+        p.agent_left,
+        p.agent_right,
+        p.hidden_left,
+        p.hidden_right,
+        p.action_left_flag,
+        p.action_left,
+        p.action_right_flag,
+        p.action_right,
+    )
 
 
 def update_state(action: jnp.ndarray, game_state: GameState, key: jnp.array):
@@ -836,15 +1129,15 @@ def update_state(action: jnp.ndarray, game_state: GameState, key: jnp.array):
     updated_game_state = game.getGameState()
     obs = game.agent_right.getObservation()
 
-    updated_game_state = update_state_for_new_match(
-        updated_game_state, reward, key)
+    updated_game_state = update_state_for_new_match(updated_game_state, reward, key)
 
     return updated_game_state, reward, obs
 
 
 def detect_done(game_state: GameState):
     result = jnp.bitwise_or(
-        game_state.agent_left.life <= 0, game_state.agent_right.life <= 0)
+        game_state.agent_left.life <= 0, game_state.agent_right.life <= 0
+    )
     return result
 
 
@@ -856,42 +1149,59 @@ def get_obs(game_state: GameState):
 class SlimeVolley(VectorizedTask):
     """Neural Slime Volleyball Environment."""
 
-    def __init__(self,
-                 max_steps: int = 3000,
-                 test: bool = False):
+    def __init__(self, max_steps: int = 3000, test: bool = False):
 
         self.max_steps = max_steps
-        self.obs_shape = tuple([12, ])
-        self.act_shape = tuple([3, ])
+        self.obs_shape = tuple(
+            [
+                12,
+            ]
+        )
+        self.act_shape = tuple(
+            [
+                3,
+            ]
+        )
         self.test = test
 
         def reset_fn(key):
             next_key, key = random.split(key)
             game_state = get_init_game_state_fn(key)
-            return State(game_state=game_state, obs=get_obs(game_state),
-                         steps=jnp.zeros((), dtype=int), key=next_key)
+            return State(
+                game_state=game_state,
+                obs=get_obs(game_state),
+                steps=jnp.zeros((), dtype=int),
+                key=next_key,
+            )
+
         self._reset_fn = jax.jit(jax.vmap(reset_fn))
 
         def step_fn(state, action):
             next_key, key = random.split(state.key)
             cur_state, reward, obs = update_state(
-                action=action, game_state=state.game_state, key=key)
+                action=action, game_state=state.game_state, key=key
+            )
             steps = state.steps + 1
-            done_test = jnp.bitwise_or(
-                detect_done(cur_state), steps >= max_steps)
+            done_test = jnp.bitwise_or(detect_done(cur_state), steps >= max_steps)
             # during training, go for all 3000 steps.
             done = jnp.where(self.test, done_test, steps >= max_steps)
             steps = jnp.where(done, jnp.zeros((), jnp.int32), steps)
-            return State(game_state=cur_state, obs=obs,
-                         steps=steps, key=next_key), reward, done
+            return (
+                State(game_state=cur_state, obs=obs, steps=steps, key=next_key),
+                reward,
+                done,
+            )
+
         self._step_fn = jax.jit(jax.vmap(step_fn))
 
     def reset(self, key: jnp.ndarray) -> State:
         return self._reset_fn(key)
 
-    def step(self,
-             state: State,
-             action: jnp.ndarray) -> Tuple[State, jnp.ndarray, jnp.ndarray]:
+    def step(
+        self, state: State, action: jnp.ndarray
+    ) -> Tuple[State, jnp.ndarray, jnp.ndarray]:
+        # print("state", state)
+        # print("action", action)
         return self._step_fn(state, action)
 
     @staticmethod

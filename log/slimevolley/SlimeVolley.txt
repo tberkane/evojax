@@ -1,0 +1,8 @@
+SlimeVolley: 2024-09-11 10:30:40,920 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 10:30:40,920 [INFO] ==============================
+SlimeVolley: 2024-09-11 10:30:42,175 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 10:30:42,185 [INFO] Start to train for 500 iterations.
+SlimeVolley: 2024-09-11 10:31:22,576 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 10:31:22,576 [INFO] ==============================
+SlimeVolley: 2024-09-11 10:31:23,565 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 10:31:23,577 [INFO] Start to train for 500 iterations.
