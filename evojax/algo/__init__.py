@@ -28,12 +28,14 @@ from .fcrfmc import FCRFMC
 from .crfmnes import CRFMNES
 from .ars_native import ARS_native
 from .fpgpec import FPGPEC
+from .neat import NEAT
 
 Strategies = {
     "CMA": CMA,
     "PGPE": PGPE,
     "SimpleGA": SimpleGA,
     "ARS": ARS,
+    "NEAT": NEAT,
     "OpenES": OpenES,
     "CMA_ES": CMA_ES,
     "Sep_CMA_ES": Sep_CMA_ES,
@@ -50,6 +52,7 @@ __all__ = [
     "NEAlgorithm",
     "QualityDiversityMethod",
     "CMA",
+    "NEAT",
     "PGPE",
     "ARS",
     "SimpleGA",

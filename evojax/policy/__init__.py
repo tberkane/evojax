@@ -17,7 +17,14 @@ from .mlp import MLPPolicy
 from .mlp_pi import PermutationInvariantPolicy
 from .convnet import ConvNetPolicy
 from .seq2seq import Seq2seqPolicy
+from .ann import ANNPolicy
 
 
-__all__ = ['PolicyNetwork', 'MLPPolicy', 'PermutationInvariantPolicy',
-           'ConvNetPolicy', 'Seq2seqPolicy']
+__all__ = [
+    "PolicyNetwork",
+    "MLPPolicy",
+    "PermutationInvariantPolicy",
+    "ConvNetPolicy",
+    "Seq2seqPolicy",
+    "ANNPolicy",
+]

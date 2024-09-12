@@ -34,25 +34,27 @@ from evojax.util import save_lattices
 class Trainer(object):
     """A trainer that organizes the training logistics."""
 
-    def __init__(self,
-                 policy: PolicyNetwork,
-                 solver: NEAlgorithm,
-                 train_task: VectorizedTask,
-                 test_task: VectorizedTask,
-                 max_iter: int = 1000,
-                 log_interval: int = 20,
-                 test_interval: int = 100,
-                 n_repeats: int = 1,
-                 test_n_repeats: int = 1,
-                 n_evaluations: int = 100,
-                 seed: int = 42,
-                 debug: bool = False,
-                 use_for_loop: bool = False,
-                 normalize_obs: bool = False,
-                 model_dir: str = None,
-                 log_dir: str = None,
-                 logger: logging.Logger = None,
-                 log_scores_fn: Optional[Callable[[int, jnp.ndarray, str], None]] = None):
+    def __init__(
+        self,
+        policy: PolicyNetwork,
+        solver: NEAlgorithm,
+        train_task: VectorizedTask,
+        test_task: VectorizedTask,
+        max_iter: int = 1000,
+        log_interval: int = 20,
+        test_interval: int = 100,
+        n_repeats: int = 1,
+        test_n_repeats: int = 1,
+        n_evaluations: int = 100,
+        seed: int = 42,
+        debug: bool = False,
+        use_for_loop: bool = False,
+        normalize_obs: bool = False,
+        model_dir: str = None,
+        log_dir: str = None,
+        logger: logging.Logger = None,
+        log_scores_fn: Optional[Callable[[int, jnp.ndarray, str], None]] = None,
+    ):
         """Initialization.
 
         Args:
@@ -77,8 +79,7 @@ class Trainer(object):
         """
 
         if logger is None:
-            self._logger = create_logger(
-                name='Trainer', log_dir=log_dir, debug=debug)
+            self._logger = create_logger(name="Trainer", log_dir=log_dir, debug=debug)
         else:
             self._logger = logger
 
@@ -114,77 +115,112 @@ class Trainer(object):
         """Start the training / test process."""
 
         if self.model_dir is not None:
-            params, obs_params = load_model(model_dir=self.model_dir)
+            nNodes, wMat, aVec, obs_params = load_model(model_dir=self.model_dir)
             self.sim_mgr.obs_params = obs_params
-            self._logger.info(
-                'Loaded model parameters from {}.'.format(self.model_dir))
+            self._logger.info("Loaded model parameters from {}.".format(self.model_dir))
         else:
-            params = None
+            nNodes, wMat, aVec = None, None, None
 
         if demo_mode:
-            if params is None:
-                raise ValueError('No policy parameters to evaluate.')
-            self._logger.info('Start to test the parameters.')
+            if wMat is None or aVec is None:
+                raise ValueError("No policy parameters to evaluate.")
+            self._logger.info("Start to test the parameters.")
             scores = np.array(
-                self.sim_mgr.eval_params(params=params, test=True)[0])
+                self.sim_mgr.eval_params(
+                    nNodes=int(nNodes), wMat=wMat, aVec=aVec, test=True
+                )[0]
+            )
             self._logger.info(
-                '[TEST] #tests={0}, max={1:.4f}, avg={2:.4f}, min={3:.4f}, '
-                'std={4:.4f}'.format(scores.size, scores.max(), scores.mean(),
-                                     scores.min(), scores.std()))
+                "[TEST] #tests={0}, max={1:.4f}, avg={2:.4f}, min={3:.4f}, "
+                "std={4:.4f}".format(
+                    scores.size, scores.max(), scores.mean(), scores.min(), scores.std()
+                )
+            )
             return scores.mean()
         else:
             self._logger.info(
-                'Start to train for {} iterations.'.format(self._max_iter))
+                "Start to train for {} iterations.".format(self._max_iter)
+            )
 
-            if params is not None:
+            if wMat is not None or aVec is not None:
                 # Continue training from the breakpoint.
-                self.solver.best_params = params
+                self.solver.best_params = (wMat, aVec)
 
-            best_score = -float('Inf')
+            best_score = -float("Inf")
 
             for i in range(self._max_iter):
                 start_time = time.perf_counter()
-                params = self.solver.ask()
-                self._logger.debug('solver.ask time: {0:.4f}s'.format(
-                    time.perf_counter() - start_time))
+                (
+                    nNodes,
+                    wMat,
+                    aVec,
+                ) = self.solver.ask()
+                self._logger.debug(
+                    "solver.ask time: {0:.4f}s".format(time.perf_counter() - start_time)
+                )
 
                 start_time = time.perf_counter()
                 scores, bds = self.sim_mgr.eval_params(
-                    params=params, test=False)
-                self._logger.debug('sim_mgr.eval_params time: {0:.4f}s'.format(
-                    time.perf_counter() - start_time))
+                    nNodes=nNodes,
+                    wMat=wMat,
+                    aVec=aVec,
+                    test=False,
+                )
+                self._logger.debug(
+                    "sim_mgr.eval_params time: {0:.4f}s".format(
+                        time.perf_counter() - start_time
+                    )
+                )
 
                 start_time = time.perf_counter()
                 if isinstance(self.solver, QualityDiversityMethod):
                     self.solver.observe_bd(bds)
                 self.solver.tell(fitness=scores)
-                self._logger.debug('solver.tell time: {0:.4f}s'.format(
-                    time.perf_counter() - start_time))
+                self._logger.debug(
+                    "solver.tell time: {0:.4f}s".format(
+                        time.perf_counter() - start_time
+                    )
+                )
 
                 if i > 0 and i % self._log_interval == 0:
                     scores = np.array(scores)
                     self._logger.info(
-                        'Iter={0}, size={1}, max={2:.4f}, '
-                        'avg={3:.4f}, min={4:.4f}, std={5:.4f}'.format(
-                            i, scores.size, scores.max(), scores.mean(),
-                            scores.min(), scores.std()))
+                        "Iter={0}, size={1}, max={2:.4f}, "
+                        "avg={3:.4f}, min={4:.4f}, std={5:.4f}".format(
+                            i,
+                            scores.size,
+                            scores.max(),
+                            scores.mean(),
+                            scores.min(),
+                            scores.std(),
+                        )
+                    )
                     self._log_scores_fn(i, scores, "train")
 
                 if i > 0 and i % self._test_interval == 0:
                     best_params = self.solver.best_params
                     test_scores, _ = self.sim_mgr.eval_params(
-                        params=best_params, test=True)
+                        nNodes=nNodes,
+                        wMat=wMat,
+                        aVec=aVec,
+                        test=True,
+                    )
                     self._logger.info(
-                        '[TEST] Iter={0}, #tests={1}, max={2:.4f}, avg={3:.4f}, '
-                        'min={4:.4f}, std={5:.4f}'.format(
-                            i, test_scores.size, test_scores.max(),
-                            test_scores.mean(), test_scores.min(),
-                            test_scores.std()))
+                        "[TEST] Iter={0}, #tests={1}, max={2:.4f}, avg={3:.4f}, "
+                        "min={4:.4f}, std={5:.4f}".format(
+                            i,
+                            test_scores.size,
+                            test_scores.max(),
+                            test_scores.mean(),
+                            test_scores.min(),
+                            test_scores.std(),
+                        )
+                    )
                     self._log_scores_fn(i, test_scores, "test")
                     mean_test_score = test_scores.mean()
                     save_model(
                         model_dir=self._log_dir,
-                        model_name='iter_{}'.format(i),
+                        model_name="iter_{}".format(i),
                         params=best_params,
                         obs_params=self.sim_mgr.obs_params,
                         best=mean_test_score > best_score,
@@ -192,32 +228,36 @@ class Trainer(object):
                     best_score = max(best_score, mean_test_score)
 
             # Test and save the final model.
-            best_params = self.solver.best_params
+            best_wMat, best_aVec = self.solver.best_params
+
             test_scores, _ = self.sim_mgr.eval_params(
-                params=best_params, test=True)
+                nNodes=len(best_wMat),
+                wMat=best_wMat,
+                aVec=best_aVec,
+                test=True,
+            )
             self._logger.info(
-                '[TEST] Iter={0}, #tests={1}, max={2:.4f}, avg={3:.4f}, '
-                'min={4:.4f}, std={5:.4f}'.format(
-                    self._max_iter, test_scores.size, test_scores.max(),
-                    test_scores.mean(), test_scores.min(), test_scores.std()))
+                "[TEST] Iter={0}, #tests={1}, max={2:.4f}, avg={3:.4f}, "
+                "min={4:.4f}, std={5:.4f}".format(
+                    self._max_iter,
+                    test_scores.size,
+                    test_scores.max(),
+                    test_scores.mean(),
+                    test_scores.min(),
+                    test_scores.std(),
+                )
+            )
             mean_test_score = test_scores.mean()
             save_model(
                 model_dir=self._log_dir,
-                model_name='final',
-                params=best_params,
+                model_name="final",
+                nNodes=len(best_wMat),
+                wMat=best_wMat,
+                aVec=best_aVec,
                 obs_params=self.sim_mgr.obs_params,
                 best=mean_test_score > best_score,
             )
             best_score = max(best_score, mean_test_score)
-            if isinstance(self.solver, QualityDiversityMethod):
-                save_lattices(
-                    log_dir=self._log_dir,
-                    file_name='qd_lattices',
-                    fitness_lattice=self.solver.fitness_lattice,
-                    params_lattice=self.solver.params_lattice,
-                    occupancy_lattice=self.solver.occupancy_lattice,
-                )
-            self._logger.info(
-                'Training done, best_score={0:.4f}'.format(best_score))
+            self._logger.info("Training done, best_score={0:.4f}".format(best_score))
 
             return best_score

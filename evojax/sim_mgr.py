@@ -32,12 +32,14 @@ from evojax.util import create_logger
 
 
 @partial(jax.jit, static_argnums=(1, 2, 3, 4, 5))
-def get_task_reset_keys(key: jnp.ndarray,
-                        test: bool,
-                        pop_size: int,
-                        n_tests: int,
-                        n_repeats: int,
-                        ma_training: bool) -> Tuple[jnp.ndarray, jnp.ndarray]:
+def get_task_reset_keys(
+    key: jnp.ndarray,
+    test: bool,
+    pop_size: int,
+    n_tests: int,
+    n_repeats: int,
+    ma_training: bool,
+) -> Tuple[jnp.ndarray, jnp.ndarray]:
     key, subkey = random.split(key=key)
     if ma_training:
         reset_keys = random.split(subkey, n_repeats)
@@ -57,7 +59,8 @@ def split_params_for_pmap(param: jnp.ndarray) -> jnp.ndarray:
 
 @jax.jit
 def split_states_for_pmap(
-        state: Union[TaskState, PolicyState]) -> Union[TaskState, PolicyState]:
+    state: Union[TaskState, PolicyState]
+) -> Union[TaskState, PolicyState]:
     return tree_map(split_params_for_pmap, state)
 
 
@@ -71,15 +74,16 @@ def reshape_data_from_pmap(data: jnp.ndarray) -> jnp.ndarray:
 @jax.jit
 def merge_state_from_pmap(state: TaskState) -> TaskState:
     return jax.tree_map(
-        lambda x: x.reshape((x.shape[0] * x.shape[1], *x.shape[2:])), state)
+        lambda x: x.reshape((x.shape[0] * x.shape[1], *x.shape[2:])), state
+    )
 
 
 @partial(jax.jit, static_argnums=(1, 2))
-def duplicate_params(params: jnp.ndarray,
-                     repeats: int,
-                     ma_training: bool) -> jnp.ndarray:
+def duplicate_params(
+    params: jnp.ndarray, repeats: int, ma_training: bool
+) -> jnp.ndarray:
     if ma_training:
-        return jnp.tile(params, (repeats, ) + (1,) * (params.ndim - 1))
+        return jnp.tile(params, (repeats,) + (1,) * (params.ndim - 1))
     else:
         return jnp.repeat(params, repeats=repeats, axis=0)
 
@@ -104,18 +108,20 @@ def all_done(masks):
 class SimManager(object):
     """Simulation manager."""
 
-    def __init__(self,
-                 n_repeats: int,
-                 test_n_repeats: int,
-                 pop_size: int,
-                 n_evaluations: int,
-                 policy_net: PolicyNetwork,
-                 train_vec_task: VectorizedTask,
-                 valid_vec_task: VectorizedTask,
-                 seed: int = 0,
-                 obs_normalizer: ObsNormalizer = None,
-                 use_for_loop: bool = False,
-                 logger: logging.Logger = None):
+    def __init__(
+        self,
+        n_repeats: int,
+        test_n_repeats: int,
+        pop_size: int,
+        n_evaluations: int,
+        policy_net: PolicyNetwork,
+        train_vec_task: VectorizedTask,
+        valid_vec_task: VectorizedTask,
+        seed: int = 0,
+        obs_normalizer: ObsNormalizer = None,
+        use_for_loop: bool = False,
+        logger: logging.Logger = None,
+    ):
         """Initialization function.
 
         Args:
@@ -132,12 +138,12 @@ class SimManager(object):
         """
 
         if logger is None:
-            self._logger = create_logger(name='SimManager')
+            self._logger = create_logger(name="SimManager")
         else:
             self._logger = logger
 
         self._use_for_loop = use_for_loop
-        self._logger.info('use_for_loop={}'.format(self._use_for_loop))
+        self._logger.info("use_for_loop={}".format(self._use_for_loop))
         self._key = random.PRNGKey(seed=seed)
         self._n_repeats = n_repeats
         self._test_n_repeats = test_n_repeats
@@ -156,64 +162,102 @@ class SimManager(object):
         self._num_device = jax.local_device_count()
         if self._pop_size % self._num_device != 0:
             raise ValueError(
-                'pop_size must be multiples of GPU/TPUs: '
-                'pop_size={}, #devices={}'.format(
-                    self._pop_size, self._num_device))
+                "pop_size must be multiples of GPU/TPUs: "
+                "pop_size={}, #devices={}".format(self._pop_size, self._num_device)
+            )
         if self._n_evaluations % self._num_device != 0:
             raise ValueError(
-                'n_evaluations must be multiples of GPU/TPUs: '
-                'n_evaluations={}, #devices={}'.format(
-                    self._n_evaluations, self._num_device))
+                "n_evaluations must be multiples of GPU/TPUs: "
+                "n_evaluations={}, #devices={}".format(
+                    self._n_evaluations, self._num_device
+                )
+            )
 
         def step_once(carry, input_data, task):
-            (task_state, policy_state, params, obs_params,
-             accumulated_reward, valid_mask) = carry
-            if task.multi_agent_training:
-                num_tasks, num_agents = task_state.obs.shape[:2]
-                task_state = task_state.replace(
-                    obs=task_state.obs.reshape((-1, *task_state.obs.shape[2:])))
+            (
+                task_state,
+                policy_state,
+                nNodes,
+                wMat,
+                aVec,
+                obs_params,
+                accumulated_reward,
+                valid_mask,
+            ) = carry
             org_obs = task_state.obs
             normed_obs = self.obs_normalizer.normalize_obs(org_obs, obs_params)
             task_state = task_state.replace(obs=normed_obs)
             actions, policy_state = policy_net.get_actions(
-                task_state, params, policy_state)
-            if task.multi_agent_training:
-                task_state = task_state.replace(
-                    obs=task_state.obs.reshape(
-                        (num_tasks, num_agents, *task_state.obs.shape[1:])))
-                actions = actions.reshape(
-                    (num_tasks, num_agents, *actions.shape[1:]))
+                task_state, nNodes, wMat, aVec, policy_state
+            )
+
             task_state, reward, done = task.step(task_state, actions)
-            if task.multi_agent_training:
-                reward = reward.ravel()
-                done = jnp.repeat(done, num_agents, axis=0)
+
             accumulated_reward = accumulated_reward + reward * valid_mask
             valid_mask = valid_mask * (1 - done.ravel())
-            return ((task_state, policy_state, params, obs_params,
-                     accumulated_reward, valid_mask),
-                    (org_obs, valid_mask))
+            return (
+                (
+                    task_state,
+                    policy_state,
+                    nNodes,
+                    wMat,
+                    aVec,
+                    obs_params,
+                    accumulated_reward,
+                    valid_mask,
+                ),
+                (org_obs, valid_mask),
+            )
 
-        def rollout(task_states, policy_states, params, obs_params,
-                    step_once_fn, max_steps):
-            accumulated_rewards = jnp.zeros(params.shape[0])
-            valid_masks = jnp.ones(params.shape[0])
-            ((task_states, policy_states, params, obs_params,
-              accumulated_rewards, valid_masks),
-             (obs_set, obs_mask)) = jax.lax.scan(
+        def rollout(
+            task_states,
+            policy_states,
+            nNodes,
+            wMat,
+            aVec,
+            obs_params,
+            step_once_fn,
+            max_steps,
+        ):
+            accumulated_rewards = jnp.zeros(nNodes.shape[0])
+            valid_masks = jnp.ones(nNodes.shape[0])
+            (
+                (
+                    task_states,
+                    policy_states,
+                    nNodes,
+                    wMat,
+                    aVec,
+                    obs_params,
+                    accumulated_rewards,
+                    valid_masks,
+                ),
+                (obs_set, obs_mask),
+            ) = jax.lax.scan(
                 step_once_fn,
-                (task_states, policy_states, params, obs_params,
-                 accumulated_rewards, valid_masks), (), max_steps)
+                (
+                    task_states,
+                    policy_states,
+                    nNodes,
+                    wMat,
+                    aVec,
+                    obs_params,
+                    accumulated_rewards,
+                    valid_masks,
+                ),
+                (),
+                max_steps,
+            )
             return accumulated_rewards, obs_set, obs_mask, task_states
 
         self._policy_reset_fn = jax.jit(policy_net.reset)
         self._policy_act_fn = jax.jit(policy_net.get_actions)
 
         if (
-                hasattr(train_vec_task, 'bd_extractor') and
-                train_vec_task.bd_extractor is not None
+            hasattr(train_vec_task, "bd_extractor")
+            and train_vec_task.bd_extractor is not None
         ):
-            self._bd_summarize_fn = jax.jit(
-                train_vec_task.bd_extractor.summarize)
+            self._bd_summarize_fn = jax.jit(train_vec_task.bd_extractor.summarize)
         else:
             self._bd_summarize_fn = lambda x: x
 
@@ -224,10 +268,12 @@ class SimManager(object):
         self._train_rollout_fn = partial(
             rollout,
             step_once_fn=partial(step_once, task=train_vec_task),
-            max_steps=train_vec_task.max_steps)
+            max_steps=train_vec_task.max_steps,
+        )
         if self._num_device > 1:
-            self._train_rollout_fn = jax.jit(jax.pmap(
-                self._train_rollout_fn, in_axes=(0, 0, 0, None)))
+            self._train_rollout_fn = jax.jit(
+                jax.pmap(self._train_rollout_fn, in_axes=(0, 0, 0, None))
+            )
 
         # Set up validation functions.
         self._valid_reset_fn = valid_vec_task.reset
@@ -236,14 +282,16 @@ class SimManager(object):
         self._valid_rollout_fn = partial(
             rollout,
             step_once_fn=partial(step_once, task=valid_vec_task),
-            max_steps=valid_vec_task.max_steps)
-        if self._num_device > 1:
-            self._valid_rollout_fn = jax.jit(jax.pmap(
-                self._valid_rollout_fn, in_axes=(0, 0, 0, None)))
+            max_steps=valid_vec_task.max_steps,
+        )
 
-    def eval_params(self,
-                    params: jnp.ndarray,
-                    test: bool) -> Tuple[jnp.ndarray, TaskState]:
+    def eval_params(
+        self,
+        nNodes: jnp.ndarray,
+        wMat: jnp.ndarray,
+        aVec: jnp.ndarray,
+        test: bool,
+    ) -> Tuple[jnp.ndarray, TaskState]:
         """Evaluate population parameters or test the best parameter.
 
         Args:
@@ -253,13 +301,17 @@ class SimManager(object):
             An array of fitness scores.
         """
         if self._use_for_loop:
-            return self._for_loop_eval(params, test)
+            return self._for_loop_eval(nNodes, wMat, aVec, test)
         else:
-            return self._scan_loop_eval(params, test)
+            return self._scan_loop_eval(nNodes, wMat, aVec, test)
 
-    def _for_loop_eval(self,
-                       params: jnp.ndarray,
-                       test: bool) -> Tuple[jnp.ndarray, TaskState]:
+    def _for_loop_eval(
+        self,
+        nNodes: jnp.ndarray,
+        wMat: jnp.ndarray,
+        aVec: jnp.ndarray,
+        test: bool,
+    ) -> Tuple[jnp.ndarray, TaskState]:
         """Rollout using for loop (no multi-device or ma_training yet)."""
         policy_reset_func = self._policy_reset_fn
         policy_act_func = self._policy_act_fn
@@ -268,55 +320,75 @@ class SimManager(object):
             task_reset_func = self._valid_reset_fn
             task_step_func = self._valid_step_fn
             task_max_steps = self._valid_max_steps
-            params = duplicate_params(
-                params[None, :], self._n_evaluations, False)
+            nNodes = duplicate_params(nNodes[None, :], self._n_evaluations, False)
+            wMat = duplicate_params(wMat[None, :], self._n_evaluations, False)
+            aVec = duplicate_params(aVec[None, :], self._n_evaluations, False)
         else:
             n_repeats = self._n_repeats
             task_reset_func = self._train_reset_fn
             task_step_func = self._train_step_fn
             task_max_steps = self._train_max_steps
 
-        params = duplicate_params(params, n_repeats, self._ma_training)
+        nNodes = duplicate_params(nNodes, n_repeats, self._ma_training)
+        wMat = duplicate_params(wMat, n_repeats, self._ma_training)
+        aVec = duplicate_params(aVec, n_repeats, self._ma_training)
 
         # Start rollout.
         self._key, reset_keys = get_task_reset_keys(
-            self._key, test, self._pop_size, self._n_evaluations, n_repeats,
-            self._ma_training)
+            self._key,
+            test,
+            self._pop_size,
+            self._n_evaluations,
+            n_repeats,
+            self._ma_training,
+        )
         task_state = task_reset_func(reset_keys)
         policy_state = policy_reset_func(task_state)
-        scores = jnp.zeros(params.shape[0])
-        valid_mask = jnp.ones(params.shape[0])
+        scores = jnp.zeros(nNodes.shape[0])
+        valid_mask = jnp.ones(nNodes.shape[0])
         start_time = time.perf_counter()
         rollout_steps = 0
         sim_steps = 0
         for i in range(task_max_steps):
             actions, policy_state = policy_act_func(
-                task_state, params, policy_state)
+                task_state, nNodes, wMat, aVec, policy_state
+            )
             task_state, reward, done = task_step_func(task_state, actions)
-            scores, valid_mask = update_score_and_mask(
-                scores, reward, valid_mask, done)
+            scores, valid_mask = update_score_and_mask(scores, reward, valid_mask, done)
             rollout_steps += 1
             sim_steps = sim_steps + valid_mask
             if all_done(valid_mask):
                 break
         time_cost = time.perf_counter() - start_time
-        self._logger.debug('{} steps/s, mean.steps={}'.format(
-            int(rollout_steps * task_state.obs.shape[0] / time_cost),
-            sim_steps.sum() / task_state.obs.shape[0]))
+        self._logger.debug(
+            "{} steps/s, mean.steps={}".format(
+                int(rollout_steps * task_state.obs.shape[0] / time_cost),
+                sim_steps.sum() / task_state.obs.shape[0],
+            )
+        )
 
         return report_score(scores, n_repeats), task_state
 
-    def _scan_loop_eval(self,
-                        params: jnp.ndarray,
-                        test: bool) -> Tuple[jnp.ndarray, TaskState]:
+    def _scan_loop_eval(
+        self,
+        nNodes: jnp.ndarray,
+        wMat: jnp.ndarray,
+        aVec: jnp.ndarray,
+        test: bool,
+    ) -> Tuple[jnp.ndarray, TaskState]:
         """Rollout using jax.lax.scan."""
         policy_reset_func = self._policy_reset_fn
         if test:
             n_repeats = self._test_n_repeats
             task_reset_func = self._valid_reset_fn
             rollout_func = self._valid_rollout_fn
-            params = duplicate_params(
-                params[None, :], self._n_evaluations, False)
+            nNodes = duplicate_params(
+                nNodes[None, :] if not isinstance(nNodes, int) else nNodes,
+                self._n_evaluations,
+                False,
+            )
+            wMat = duplicate_params(wMat[None, :], self._n_evaluations, False)
+            aVec = duplicate_params(aVec[None, :], self._n_evaluations, False)
         else:
             n_repeats = self._n_repeats
             task_reset_func = self._train_reset_fn
@@ -337,48 +409,44 @@ class SimManager(object):
         #   b1, b2, ..., bn  (individual 2 params)
         #   b1, b2, ..., bn  (individual 2 params)
         #   b1, b2, ..., bn  (individual 2 params)
-        params = duplicate_params(params, n_repeats, self._ma_training)
 
+        nNodes = duplicate_params(nNodes, n_repeats, self._ma_training)
+        wMat = duplicate_params(wMat, n_repeats, self._ma_training)
+        aVec = duplicate_params(aVec, n_repeats, self._ma_training)
         self._key, reset_keys = get_task_reset_keys(
-            self._key, test, self._pop_size, self._n_evaluations, n_repeats,
-            self._ma_training)
+            self._key,
+            test,
+            self._pop_size,
+            self._n_evaluations,
+            n_repeats,
+            self._ma_training,
+        )
 
         # Reset the tasks and the policy.
         task_state = task_reset_func(reset_keys)
         policy_state = policy_reset_func(task_state)
-        if self._num_device > 1:
-            params = split_params_for_pmap(params)
-            task_state = split_states_for_pmap(task_state)
-            policy_state = split_states_for_pmap(policy_state)
 
         # Do the rollouts.
         scores, all_obs, masks, final_states = rollout_func(
-            task_state, policy_state, params, self.obs_params)
-        if self._num_device > 1:
-            all_obs = reshape_data_from_pmap(all_obs)
-            masks = reshape_data_from_pmap(masks)
-            final_states = merge_state_from_pmap(final_states)
+            task_state,
+            policy_state,
+            nNodes,
+            wMat,
+            aVec,
+            self.obs_params,
+        )
 
         if not test and not self.obs_normalizer.is_dummy:
             self.obs_params = self.obs_normalizer.update_normalization_params(
-                obs_buffer=all_obs, obs_mask=masks, obs_params=self.obs_params)
+                obs_buffer=all_obs, obs_mask=masks, obs_params=self.obs_params
+            )
 
-        if self._ma_training:
-            if not test:
-                # In training, each agent has different parameters.
-                scores = jnp.mean(
-                    scores.ravel().reshape((n_repeats, -1)), axis=0)
-            else:
-                # In tests, they share the same parameters.
-                scores = jnp.mean(
-                    scores.ravel().reshape((n_repeats, -1)), axis=1)
-        else:
-            scores = jnp.mean(scores.ravel().reshape((-1, n_repeats)), axis=-1)
+        scores = jnp.mean(scores.ravel().reshape((-1, n_repeats)), axis=-1)
 
         # Note: QD methods do not support ma_training for now.
-        if not self._ma_training:
-            final_states = tree_map(
-                lambda x: x.reshape((scores.shape[0], n_repeats, *x.shape[1:])),
-                final_states)
+        final_states = tree_map(
+            lambda x: x.reshape((scores.shape[0], n_repeats, *x.shape[1:])),
+            final_states,
+        )
 
         return scores, self._bd_summarize_fn(final_states)

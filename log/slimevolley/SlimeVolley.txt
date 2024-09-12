@@ -6,3 +6,524 @@ SlimeVolley: 2024-09-11 10:31:22,576 [INFO] EvoJAX SlimeVolley
 SlimeVolley: 2024-09-11 10:31:22,576 [INFO] ==============================
 SlimeVolley: 2024-09-11 10:31:23,565 [INFO] use_for_loop=False
 SlimeVolley: 2024-09-11 10:31:23,577 [INFO] Start to train for 500 iterations.
+SlimeVolley: 2024-09-11 12:39:42,465 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 12:39:42,465 [INFO] ==============================
+SlimeVolley: 2024-09-11 12:39:42,548 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 12:39:42,579 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 12:40:23,022 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 12:40:23,022 [INFO] ==============================
+SlimeVolley: 2024-09-11 12:40:23,103 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 12:40:23,128 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 12:44:25,506 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 12:44:25,506 [INFO] ==============================
+SlimeVolley: 2024-09-11 12:44:25,595 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 12:44:25,632 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 12:45:26,541 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 12:45:26,541 [INFO] ==============================
+SlimeVolley: 2024-09-11 12:45:26,632 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 12:45:26,661 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 12:45:41,771 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 12:45:41,771 [INFO] ==============================
+SlimeVolley: 2024-09-11 12:45:41,858 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 12:45:41,884 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 13:30:01,611 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 13:30:01,611 [INFO] ==============================
+SlimeVolley: 2024-09-11 13:30:01,721 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 13:30:01,758 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 13:31:31,197 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 13:31:31,197 [INFO] ==============================
+SlimeVolley: 2024-09-11 13:31:31,293 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 13:31:31,321 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 13:33:13,901 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 13:33:13,901 [INFO] ==============================
+SlimeVolley: 2024-09-11 13:33:14,000 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 13:33:14,037 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 13:50:08,235 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 13:50:08,235 [INFO] ==============================
+SlimeVolley: 2024-09-11 13:50:08,323 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 13:50:08,349 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 13:59:05,468 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 13:59:05,469 [INFO] ==============================
+SlimeVolley: 2024-09-11 13:59:05,589 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 13:59:05,629 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 14:02:18,644 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 14:02:18,644 [INFO] ==============================
+SlimeVolley: 2024-09-11 14:02:18,756 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 14:02:18,795 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 14:02:31,442 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 14:02:31,442 [INFO] ==============================
+SlimeVolley: 2024-09-11 14:02:31,539 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 14:02:31,576 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 14:04:58,665 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 14:04:58,665 [INFO] ==============================
+SlimeVolley: 2024-09-11 14:04:58,765 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 14:04:58,797 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 14:19:04,744 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 14:19:04,745 [INFO] ==============================
+SlimeVolley: 2024-09-11 14:19:04,845 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 14:19:04,882 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 14:33:05,586 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 14:33:05,586 [INFO] ==============================
+SlimeVolley: 2024-09-11 14:33:05,684 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 14:33:05,719 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 14:34:10,345 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 14:34:10,345 [INFO] ==============================
+SlimeVolley: 2024-09-11 14:34:10,459 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 14:34:10,492 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 14:35:18,149 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 14:35:18,149 [INFO] ==============================
+SlimeVolley: 2024-09-11 14:35:18,237 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 14:35:18,269 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 14:44:24,680 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 14:44:24,680 [INFO] ==============================
+SlimeVolley: 2024-09-11 14:44:24,767 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 14:44:24,801 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 14:45:08,595 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 14:45:08,596 [INFO] ==============================
+SlimeVolley: 2024-09-11 14:45:08,700 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 14:45:08,738 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 14:45:35,283 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 14:45:35,283 [INFO] ==============================
+SlimeVolley: 2024-09-11 14:45:35,381 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 14:45:35,417 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 14:46:53,621 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 14:46:53,621 [INFO] ==============================
+SlimeVolley: 2024-09-11 14:46:53,717 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 14:46:53,753 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 14:58:05,189 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 14:58:05,189 [INFO] ==============================
+SlimeVolley: 2024-09-11 14:58:05,288 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 14:58:05,320 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 14:59:43,100 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 14:59:43,100 [INFO] ==============================
+SlimeVolley: 2024-09-11 14:59:43,192 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 14:59:43,231 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 15:04:26,827 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 15:04:26,828 [INFO] ==============================
+SlimeVolley: 2024-09-11 15:04:26,922 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 15:04:26,956 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 15:05:42,649 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 15:05:42,649 [INFO] ==============================
+SlimeVolley: 2024-09-11 15:05:42,758 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 15:05:42,793 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 15:06:33,238 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 15:06:33,238 [INFO] ==============================
+SlimeVolley: 2024-09-11 15:06:33,337 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 15:06:33,372 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 15:18:10,846 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 15:18:10,846 [INFO] ==============================
+SlimeVolley: 2024-09-11 15:18:11,055 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 15:18:11,088 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 15:19:04,113 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 15:19:04,113 [INFO] ==============================
+SlimeVolley: 2024-09-11 15:19:04,212 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 15:19:04,249 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 15:19:29,929 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 15:19:29,929 [INFO] ==============================
+SlimeVolley: 2024-09-11 15:19:30,027 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 15:19:30,060 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 15:21:12,512 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 15:21:12,512 [INFO] ==============================
+SlimeVolley: 2024-09-11 15:21:12,613 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 15:21:12,648 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 15:23:43,184 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 15:23:43,185 [INFO] ==============================
+SlimeVolley: 2024-09-11 15:23:43,291 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 15:23:43,327 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 15:27:21,150 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 15:27:21,150 [INFO] ==============================
+SlimeVolley: 2024-09-11 15:27:21,245 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 15:27:21,282 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 15:27:25,583 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 15:27:25,583 [INFO] ==============================
+SlimeVolley: 2024-09-11 15:27:25,685 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 15:27:25,719 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 15:33:14,558 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 15:33:14,558 [INFO] ==============================
+SlimeVolley: 2024-09-11 15:33:14,669 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 15:33:14,705 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 15:33:27,209 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 15:33:27,209 [INFO] ==============================
+SlimeVolley: 2024-09-11 15:33:27,306 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 15:33:27,343 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 15:57:59,188 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 15:57:59,188 [INFO] ==============================
+SlimeVolley: 2024-09-11 15:57:59,303 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 15:57:59,340 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 15:58:20,137 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 15:58:20,137 [INFO] ==============================
+SlimeVolley: 2024-09-11 15:58:20,269 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 15:58:20,315 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 16:04:51,813 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 16:04:51,813 [INFO] ==============================
+SlimeVolley: 2024-09-11 16:04:51,900 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 16:04:51,928 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 16:26:02,237 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 16:26:02,237 [INFO] ==============================
+SlimeVolley: 2024-09-11 16:26:02,345 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 16:26:02,377 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 16:52:52,336 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 16:52:52,336 [INFO] ==============================
+SlimeVolley: 2024-09-11 16:52:52,440 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 16:52:52,474 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 17:05:04,469 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 17:05:04,469 [INFO] ==============================
+SlimeVolley: 2024-09-11 17:05:04,736 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 17:05:04,787 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 17:08:22,143 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 17:08:22,143 [INFO] ==============================
+SlimeVolley: 2024-09-11 17:08:22,257 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 17:08:22,292 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 17:10:07,653 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 17:10:07,653 [INFO] ==============================
+SlimeVolley: 2024-09-11 17:10:07,795 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 17:10:07,841 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 17:16:53,653 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 17:16:53,653 [INFO] ==============================
+SlimeVolley: 2024-09-11 17:16:53,746 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 17:16:53,783 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 17:30:05,944 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 17:30:05,944 [INFO] ==============================
+SlimeVolley: 2024-09-11 17:30:06,051 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 17:30:06,088 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 17:38:07,846 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 17:38:07,846 [INFO] ==============================
+SlimeVolley: 2024-09-11 17:38:07,929 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 17:38:07,957 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 17:40:53,193 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 17:40:53,193 [INFO] ==============================
+SlimeVolley: 2024-09-11 17:40:53,274 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 17:40:53,300 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 17:43:51,422 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 17:43:51,422 [INFO] ==============================
+SlimeVolley: 2024-09-11 17:43:51,504 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 17:43:51,529 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 17:46:39,133 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 17:46:39,133 [INFO] ==============================
+SlimeVolley: 2024-09-11 17:46:39,214 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 17:46:39,242 [INFO] Start to train for 8 iterations.
+SlimeVolley: 2024-09-11 17:47:02,083 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 17:47:02,083 [INFO] ==============================
+SlimeVolley: 2024-09-11 17:47:02,163 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 17:47:02,188 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 17:51:28,894 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 17:51:28,895 [INFO] ==============================
+SlimeVolley: 2024-09-11 17:51:28,982 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 17:51:29,010 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 17:55:00,990 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 17:55:00,991 [INFO] ==============================
+SlimeVolley: 2024-09-11 17:55:01,069 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 17:55:01,095 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 18:00:58,635 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 18:00:58,635 [INFO] ==============================
+SlimeVolley: 2024-09-11 18:00:58,717 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 18:00:58,745 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 18:08:34,571 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 18:08:34,571 [INFO] ==============================
+SlimeVolley: 2024-09-11 18:08:34,649 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 18:08:34,676 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 18:14:22,511 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 18:14:22,511 [INFO] ==============================
+SlimeVolley: 2024-09-11 18:14:22,613 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 18:14:22,644 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 18:18:49,335 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 18:18:49,335 [INFO] ==============================
+SlimeVolley: 2024-09-11 18:18:49,416 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 18:18:49,441 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 18:21:09,952 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 18:21:09,952 [INFO] ==============================
+SlimeVolley: 2024-09-11 18:21:10,034 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 18:21:10,060 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 18:56:59,451 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 18:56:59,451 [INFO] ==============================
+SlimeVolley: 2024-09-11 18:56:59,530 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 18:56:59,555 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 18:59:04,281 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 18:59:04,281 [INFO] ==============================
+SlimeVolley: 2024-09-11 18:59:04,377 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 18:59:04,404 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 19:10:09,054 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 19:10:09,055 [INFO] ==============================
+SlimeVolley: 2024-09-11 19:10:09,134 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 19:10:09,162 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 19:18:02,154 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 19:18:02,154 [INFO] ==============================
+SlimeVolley: 2024-09-11 19:18:02,230 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 19:18:02,254 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 19:24:35,435 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 19:24:35,435 [INFO] ==============================
+SlimeVolley: 2024-09-11 19:24:35,547 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 19:24:35,588 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 19:32:39,311 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 19:32:39,311 [INFO] ==============================
+SlimeVolley: 2024-09-11 19:32:39,392 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 19:32:39,417 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 19:33:42,562 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 19:33:42,562 [INFO] ==============================
+SlimeVolley: 2024-09-11 19:33:42,642 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 19:33:42,670 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 19:34:57,479 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 19:34:57,479 [INFO] ==============================
+SlimeVolley: 2024-09-11 19:34:57,557 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 19:34:57,585 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 19:35:35,700 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 19:35:35,700 [INFO] ==============================
+SlimeVolley: 2024-09-11 19:35:35,779 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 19:35:35,807 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 19:35:57,472 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 19:35:57,472 [INFO] ==============================
+SlimeVolley: 2024-09-11 19:35:57,552 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 19:35:57,580 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 19:37:03,238 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 19:37:03,238 [INFO] ==============================
+SlimeVolley: 2024-09-11 19:37:03,318 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 19:37:03,346 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 19:37:33,592 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 19:37:33,593 [INFO] ==============================
+SlimeVolley: 2024-09-11 19:37:33,671 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 19:37:33,700 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 19:37:50,298 [INFO] [TEST] Iter=1, #tests=100, max=-4.0000, avg=-4.8700, min=-5.0000, std=0.3363
+SlimeVolley: 2024-09-11 19:37:50,305 [INFO] Training done, best_score=-4.8700
+SlimeVolley: 2024-09-11 19:47:54,657 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 19:47:54,657 [INFO] ==============================
+SlimeVolley: 2024-09-11 19:47:54,737 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 19:47:54,764 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 19:48:11,596 [INFO] [TEST] Iter=1, #tests=100, max=-4.0000, avg=-4.8700, min=-5.0000, std=0.3363
+SlimeVolley: 2024-09-11 19:48:11,604 [INFO] Training done, best_score=-4.8700
+SlimeVolley: 2024-09-11 19:51:16,778 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 19:51:16,778 [INFO] ==============================
+SlimeVolley: 2024-09-11 19:51:16,854 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 19:51:16,879 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 19:51:51,814 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 19:51:51,814 [INFO] ==============================
+SlimeVolley: 2024-09-11 19:51:51,890 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 19:51:51,916 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 19:52:11,144 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 19:52:11,144 [INFO] ==============================
+SlimeVolley: 2024-09-11 19:52:11,224 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 19:52:11,250 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 19:52:21,136 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 19:52:21,136 [INFO] ==============================
+SlimeVolley: 2024-09-11 19:52:21,211 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 19:52:21,237 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 21:33:01,514 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 21:33:01,514 [INFO] ==============================
+SlimeVolley: 2024-09-11 21:33:01,596 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 21:33:01,624 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 21:33:38,060 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 21:33:38,060 [INFO] ==============================
+SlimeVolley: 2024-09-11 21:33:38,137 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 21:33:38,164 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 21:35:43,280 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 21:35:43,280 [INFO] ==============================
+SlimeVolley: 2024-09-11 21:35:43,363 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 21:35:43,391 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 21:36:50,369 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 21:36:50,369 [INFO] ==============================
+SlimeVolley: 2024-09-11 21:36:50,451 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 21:36:50,479 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 21:37:10,252 [INFO] [TEST] Iter=1, #tests=100, max=-4.0000, avg=-4.8700, min=-5.0000, std=0.3363
+SlimeVolley: 2024-09-11 21:37:10,264 [INFO] Training done, best_score=-4.8700
+SlimeVolley: 2024-09-11 21:37:10,266 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-11 21:37:10,266 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-11 21:42:59,260 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 21:42:59,261 [INFO] ==============================
+SlimeVolley: 2024-09-11 21:42:59,338 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 21:42:59,369 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 21:44:17,240 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 21:44:17,240 [INFO] ==============================
+SlimeVolley: 2024-09-11 21:44:17,319 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 21:44:17,346 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 21:50:25,547 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 21:50:25,547 [INFO] ==============================
+SlimeVolley: 2024-09-11 21:50:25,628 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 21:50:25,655 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 21:51:13,349 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 21:51:13,349 [INFO] ==============================
+SlimeVolley: 2024-09-11 21:51:13,439 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 21:51:13,470 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 21:52:05,008 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 21:52:05,008 [INFO] ==============================
+SlimeVolley: 2024-09-11 21:52:05,085 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 21:52:05,111 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 21:52:31,887 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 21:52:31,887 [INFO] ==============================
+SlimeVolley: 2024-09-11 21:52:31,965 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 21:52:31,994 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 21:52:51,464 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 21:52:51,464 [INFO] ==============================
+SlimeVolley: 2024-09-11 21:52:51,543 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 21:52:51,572 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 21:53:12,801 [INFO] [TEST] Iter=1, #tests=100, max=-4.0000, avg=-4.8700, min=-5.0000, std=0.3363
+SlimeVolley: 2024-09-11 21:53:12,812 [INFO] Training done, best_score=-4.8700
+SlimeVolley: 2024-09-11 21:53:12,813 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-11 21:53:12,813 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-11 21:56:04,221 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 21:56:04,221 [INFO] ==============================
+SlimeVolley: 2024-09-11 21:56:04,308 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 21:56:04,339 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 21:56:24,996 [INFO] [TEST] Iter=1, #tests=100, max=-4.0000, avg=-4.8700, min=-5.0000, std=0.3363
+SlimeVolley: 2024-09-11 21:57:07,376 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 21:57:07,376 [INFO] ==============================
+SlimeVolley: 2024-09-11 21:57:07,455 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 21:57:07,480 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 21:57:26,182 [INFO] [TEST] Iter=1, #tests=100, max=-4.0000, avg=-4.8700, min=-5.0000, std=0.3363
+SlimeVolley: 2024-09-11 21:57:26,193 [INFO] Training done, best_score=-4.8700
+SlimeVolley: 2024-09-11 21:57:26,195 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-11 21:57:26,195 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-11 21:58:15,941 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 21:58:15,941 [INFO] ==============================
+SlimeVolley: 2024-09-11 21:58:16,022 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 21:58:16,050 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 21:58:43,050 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 21:58:43,050 [INFO] ==============================
+SlimeVolley: 2024-09-11 21:58:43,127 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 21:58:43,154 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 21:59:02,553 [INFO] [TEST] Iter=1, #tests=100, max=-4.0000, avg=-4.8700, min=-5.0000, std=0.3363
+SlimeVolley: 2024-09-11 21:59:02,562 [INFO] Training done, best_score=-4.8700
+SlimeVolley: 2024-09-11 21:59:02,564 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-11 21:59:02,564 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-11 22:00:59,806 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 22:00:59,806 [INFO] ==============================
+SlimeVolley: 2024-09-11 22:00:59,888 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 22:00:59,912 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 22:01:16,492 [INFO] [TEST] Iter=1, #tests=100, max=-4.0000, avg=-4.8700, min=-5.0000, std=0.3363
+SlimeVolley: 2024-09-11 22:01:16,501 [INFO] Training done, best_score=-4.8700
+SlimeVolley: 2024-09-11 22:01:16,502 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-11 22:01:16,502 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-11 22:11:03,229 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 22:11:03,229 [INFO] ==============================
+SlimeVolley: 2024-09-11 22:11:03,323 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 22:11:03,358 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 22:11:20,589 [INFO] [TEST] Iter=1, #tests=100, max=-4.0000, avg=-4.8700, min=-5.0000, std=0.3363
+SlimeVolley: 2024-09-11 22:11:20,597 [INFO] Training done, best_score=-4.8700
+SlimeVolley: 2024-09-11 22:11:20,598 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-11 22:11:20,598 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-11 22:15:42,787 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 22:15:42,787 [INFO] ==============================
+SlimeVolley: 2024-09-11 22:15:42,873 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 22:15:42,904 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 22:16:00,535 [INFO] [TEST] Iter=1, #tests=100, max=-4.0000, avg=-4.8700, min=-5.0000, std=0.3363
+SlimeVolley: 2024-09-11 22:16:00,544 [INFO] Training done, best_score=-4.8700
+SlimeVolley: 2024-09-11 22:16:00,545 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-11 22:16:00,545 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-11 22:16:30,145 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 22:16:30,146 [INFO] ==============================
+SlimeVolley: 2024-09-11 22:16:30,246 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 22:16:30,287 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 22:16:48,112 [INFO] [TEST] Iter=1, #tests=100, max=-4.0000, avg=-4.8700, min=-5.0000, std=0.3363
+SlimeVolley: 2024-09-11 22:16:48,120 [INFO] Training done, best_score=-4.8700
+SlimeVolley: 2024-09-11 22:16:48,121 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-11 22:16:48,121 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-11 22:17:19,211 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 22:17:19,211 [INFO] ==============================
+SlimeVolley: 2024-09-11 22:17:19,310 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 22:17:19,344 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 22:17:37,841 [INFO] [TEST] Iter=1, #tests=100, max=-4.0000, avg=-4.8700, min=-5.0000, std=0.3363
+SlimeVolley: 2024-09-11 22:17:37,849 [INFO] Training done, best_score=-4.8700
+SlimeVolley: 2024-09-11 22:17:37,850 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-11 22:17:37,850 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-11 22:18:21,231 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 22:18:21,231 [INFO] ==============================
+SlimeVolley: 2024-09-11 22:18:21,367 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 22:18:21,437 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 22:18:40,221 [INFO] [TEST] Iter=1, #tests=100, max=-4.0000, avg=-4.8700, min=-5.0000, std=0.3363
+SlimeVolley: 2024-09-11 22:18:40,229 [INFO] Training done, best_score=-4.8700
+SlimeVolley: 2024-09-11 22:18:40,231 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-11 22:18:40,231 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-11 22:18:49,189 [INFO] [TEST] #tests=100, max=-3.0000, avg=-4.8800, min=-5.0000, std=0.3816
+SlimeVolley: 2024-09-11 22:19:52,888 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 22:19:52,888 [INFO] ==============================
+SlimeVolley: 2024-09-11 22:19:52,998 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 22:19:53,037 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 22:20:11,051 [INFO] [TEST] Iter=1, #tests=100, max=-4.0000, avg=-4.8700, min=-5.0000, std=0.3363
+SlimeVolley: 2024-09-11 22:20:11,061 [INFO] Training done, best_score=-4.8700
+SlimeVolley: 2024-09-11 22:20:11,062 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-11 22:20:11,062 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-11 22:20:20,465 [INFO] [TEST] #tests=100, max=-3.0000, avg=-4.8800, min=-5.0000, std=0.3816
+SlimeVolley: 2024-09-11 22:21:59,268 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 22:21:59,268 [INFO] ==============================
+SlimeVolley: 2024-09-11 22:21:59,409 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 22:21:59,444 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 22:22:18,649 [INFO] [TEST] Iter=1, #tests=100, max=-4.0000, avg=-4.8700, min=-5.0000, std=0.3363
+SlimeVolley: 2024-09-11 22:22:18,658 [INFO] Training done, best_score=-4.8700
+SlimeVolley: 2024-09-11 22:22:18,659 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-11 22:22:18,659 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-11 22:22:28,647 [INFO] [TEST] #tests=100, max=-3.0000, avg=-4.8800, min=-5.0000, std=0.3816
+SlimeVolley: 2024-09-11 22:30:10,079 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 22:30:10,080 [INFO] ==============================
+SlimeVolley: 2024-09-11 22:30:10,182 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 22:30:10,219 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 22:30:27,412 [INFO] [TEST] Iter=1, #tests=100, max=-4.0000, avg=-4.8700, min=-5.0000, std=0.3363
+SlimeVolley: 2024-09-11 22:30:27,421 [INFO] Training done, best_score=-4.8700
+SlimeVolley: 2024-09-11 22:30:27,422 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-11 22:30:27,422 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-11 22:30:35,927 [INFO] [TEST] #tests=100, max=-3.0000, avg=-4.8800, min=-5.0000, std=0.3816
+SlimeVolley: 2024-09-11 22:32:18,338 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 22:32:18,338 [INFO] ==============================
+SlimeVolley: 2024-09-11 22:32:18,435 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 22:32:18,469 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 22:32:39,326 [INFO] [TEST] Iter=1, #tests=100, max=-4.0000, avg=-4.8700, min=-5.0000, std=0.3363
+SlimeVolley: 2024-09-11 22:32:39,335 [INFO] Training done, best_score=-4.8700
+SlimeVolley: 2024-09-11 22:32:39,336 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-11 22:32:39,336 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-11 22:32:48,982 [INFO] [TEST] #tests=100, max=-3.0000, avg=-4.8800, min=-5.0000, std=0.3816
+SlimeVolley: 2024-09-11 22:36:57,027 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 22:36:57,028 [INFO] ==============================
+SlimeVolley: 2024-09-11 22:36:57,140 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 22:36:57,174 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 22:37:15,005 [INFO] [TEST] Iter=1, #tests=100, max=-4.0000, avg=-4.8700, min=-5.0000, std=0.3363
+SlimeVolley: 2024-09-11 22:37:15,014 [INFO] Training done, best_score=-4.8700
+SlimeVolley: 2024-09-11 22:37:15,015 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-11 22:37:15,015 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-11 22:37:23,403 [INFO] [TEST] #tests=100, max=-3.0000, avg=-4.8800, min=-5.0000, std=0.3816
+SlimeVolley: 2024-09-11 22:39:55,679 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 22:39:55,679 [INFO] ==============================
+SlimeVolley: 2024-09-11 22:39:55,801 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 22:39:55,835 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 22:40:48,810 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 22:40:48,810 [INFO] ==============================
+SlimeVolley: 2024-09-11 22:40:48,943 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 22:40:48,985 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 22:41:07,723 [INFO] [TEST] Iter=1, #tests=100, max=-4.0000, avg=-4.8700, min=-5.0000, std=0.3363
+SlimeVolley: 2024-09-11 22:41:07,732 [INFO] Training done, best_score=-4.8700
+SlimeVolley: 2024-09-11 22:41:07,733 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-11 22:41:07,733 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-11 22:41:16,683 [INFO] [TEST] #tests=100, max=-3.0000, avg=-4.8800, min=-5.0000, std=0.3816
+SlimeVolley: 2024-09-11 22:42:52,179 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 22:42:52,179 [INFO] ==============================
+SlimeVolley: 2024-09-11 22:42:52,273 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 22:42:52,308 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 22:43:09,676 [INFO] [TEST] Iter=1, #tests=100, max=-4.0000, avg=-4.8700, min=-5.0000, std=0.3363
+SlimeVolley: 2024-09-11 22:43:09,684 [INFO] Training done, best_score=-4.8700
+SlimeVolley: 2024-09-11 22:43:09,685 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-11 22:43:09,685 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-11 22:43:18,273 [INFO] [TEST] #tests=100, max=-3.0000, avg=-4.8800, min=-5.0000, std=0.3816
+SlimeVolley: 2024-09-11 22:43:33,365 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 22:43:33,365 [INFO] ==============================
+SlimeVolley: 2024-09-11 22:43:33,476 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 22:43:33,513 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 22:43:53,091 [INFO] [TEST] Iter=1, #tests=100, max=-4.0000, avg=-4.8700, min=-5.0000, std=0.3363
+SlimeVolley: 2024-09-11 22:43:53,102 [INFO] Training done, best_score=-4.8700
+SlimeVolley: 2024-09-11 22:43:53,103 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-11 22:43:53,104 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-11 22:44:06,340 [INFO] [TEST] #tests=100, max=-3.0000, avg=-4.8800, min=-5.0000, std=0.3816
+SlimeVolley: 2024-09-11 22:45:13,638 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 22:45:13,638 [INFO] ==============================
+SlimeVolley: 2024-09-11 22:45:13,735 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 22:45:13,771 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 22:45:33,388 [INFO] [TEST] Iter=1, #tests=100, max=-4.0000, avg=-4.8700, min=-5.0000, std=0.3363
+SlimeVolley: 2024-09-11 22:45:33,401 [INFO] Training done, best_score=-4.8700
+SlimeVolley: 2024-09-11 22:45:33,403 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-11 22:45:33,403 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-11 22:45:45,935 [INFO] [TEST] #tests=100, max=-3.0000, avg=-4.8800, min=-5.0000, std=0.3816
+SlimeVolley: 2024-09-11 22:46:18,475 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 22:46:18,475 [INFO] ==============================
+SlimeVolley: 2024-09-11 22:46:18,607 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 22:46:18,644 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 22:46:29,529 [INFO] [TEST] Iter=1, #tests=1, max=-5.0000, avg=-5.0000, min=-5.0000, std=0.0000
+SlimeVolley: 2024-09-11 22:46:29,540 [INFO] Training done, best_score=-5.0000
+SlimeVolley: 2024-09-11 22:46:29,541 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-11 22:46:29,542 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-11 22:46:29,560 [INFO] [TEST] #tests=1, max=-5.0000, avg=-5.0000, min=-5.0000, std=0.0000
+SlimeVolley: 2024-09-11 22:46:54,592 [INFO] GIF saved to ./log/slimevolley/slimevolley.gif.
