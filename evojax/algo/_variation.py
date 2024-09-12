@@ -4,18 +4,21 @@ import jax.random as random
 from evojax.algo.utils import *
 
 
-def evolvePop(self):
+def evolvePop(self, key):
     """Evolves new population from existing species.
     Wrapper which calls 'recombine' on every species and combines all offspring into a new population. When speciation is not used, the entire population is treated as a single species.
     """
     newPop = []
     for i in range(len(self.species)):
-        children, self.innov = self.recombine(self.species[i], self.innov, self.gen)
+        children, self.innov, key = self.recombine(
+            self.species[i], self.innov, self.gen, key
+        )
         newPop.append(children)
     self.pop = [ind for species in newPop for ind in species]
+    return key
 
 
-def recombine(self, species, innov, gen):
+def recombine(self, species, innov, gen, key):
     """Creates next generation of child solutions from a species
 
     Procedure:
@@ -37,7 +40,7 @@ def recombine(self, species, innov, gen):
                   [3,:] == New Node?
                   [4,:] == Generation evolved
         gen     - (int) - current generation
-
+        key     - (jax.random.PRNGKey) - random number generator
     Returns:
         children - [Ind]      - newly created population
         innov   - (jnp.array)  - updated innovation record
@@ -64,8 +67,8 @@ def recombine(self, species, innov, gen):
     # Get parent pairs via tournament selection
     # -- As individuals are sorted by fitness, index comparison is
     # enough. In the case of ties the first individual wins
-    key = random.PRNGKey(0)  # You might want to pass this as an argument
-    parentA = random.randint(key, (nOffspring, p["select_tournSize"]), 0, len(pop))
+    key, subkey = random.split(key)
+    parentA = random.randint(subkey, (nOffspring, p["select_tournSize"]), 0, len(pop))
     key, subkey = random.split(key)
     parentB = random.randint(subkey, (nOffspring, p["select_tournSize"]), 0, len(pop))
     parents = jnp.vstack((jnp.min(parentA, axis=1), jnp.min(parentB, axis=1)))
@@ -76,14 +79,14 @@ def recombine(self, species, innov, gen):
         key, subkey = random.split(key)
         if random.uniform(subkey) > p["prob_crossover"]:
             # Mutation only: take only highest fit parent
-            child, innov = pop[parents[0, i]].createChild(p, innov, gen)
+            child, innov, key = pop[parents[0, i]].createChild(p, innov, key, gen=gen)
         else:
             # Crossover
-            child, innov = pop[parents[0, i]].createChild(
-                p, innov, gen, mate=pop[parents[1, i]]
+            child, innov, key = pop[parents[0, i]].createChild(
+                p, innov, key, gen=gen, mate=pop[parents[1, i]]
             )
 
         child.express()
         children.append(child)
 
-    return children, innov
+    return children, innov, key

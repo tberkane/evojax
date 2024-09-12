@@ -443,20 +443,6 @@ def getObsArray(rs: Observation):
     # scale inputs to be in the order
     # of magnitude of 10 for neural network. (legacy)
     scaleFactor = 10.0
-    # Debug prints to show the shape of each element
-    # print("rs.x:", jnp.shape(rs.x), rs.x)
-    # print("rs.y:", jnp.shape(rs.y), rs.y)
-    # print("rs.vx:", jnp.shape(rs.vx), rs.vx)
-    # print("rs.vy:", jnp.shape(rs.vy), rs.vy)
-    # print("rs.bx:", jnp.shape(rs.bx), rs.bx)
-    # print("rs.by:", jnp.shape(rs.by), rs.by)
-    # print("rs.bvx:", jnp.shape(rs.bvx), rs.bvx)
-    # print("rs.bvy:", jnp.shape(rs.bvy), rs.bvy)
-    # print("rs.ox:", jnp.shape(rs.ox), rs.ox)
-    # print("rs.oy:", jnp.shape(rs.oy), rs.oy)
-    # print("rs.ovx:", jnp.shape(rs.ovx), rs.ovx)
-    # print("rs.ovy:", jnp.shape(rs.ovy), rs.ovy)
-    # print("AAAAAAAAAAAAAAAAAAA")
     result = (
         jnp.array(
             [
@@ -714,10 +700,6 @@ class Agent:
             forward = jnp.where(action[:, 0] > 0, 1, forward)
             backward = jnp.where(action[:, 1] > 0, 1, backward)
             jump = jnp.where(action[:, 2] > 0, 1, jump)
-        # print("action:", action)
-        # print("forward:", forward)
-        # print("backward:", backward)
-        # print("jump:", jump)
         new_desired_vx = jnp.float32(0.0)
         new_desired_vy = jnp.float32(0.0)
 
@@ -727,7 +709,6 @@ class Agent:
         new_desired_vx = jnp.where(
             backward & (1 - forward), PLAYER_SPEED_X, new_desired_vx
         )
-        # print("new_desired_vx:", new_desired_vx)
         new_desired_vy = jnp.where(jump, PLAYER_SPEED_Y, new_desired_vy)
 
         p = self.p
@@ -745,10 +726,7 @@ class Agent:
 
     def move(self):
         p = self.p
-        # print("Before move - p.x:", p.x)
-        # print("Before move - p.vx:", p.vx)
         new_x = p.x + p.vx * TIMESTEP
-        # print("After move calculation - new_x:", new_x)
         self.p = AgentState(
             p.direction,
             new_x,
@@ -760,17 +738,13 @@ class Agent:
             p.desired_vy,
             p.life,
         )
-        # print("After move - self.p.x:", self.p.x)
-        # print("After move - self.p.vx:", self.p.vx)
 
     def update(self):
         p = self.p
         new_vy = p.vy + GRAVITY * TIMESTEP
 
         new_vy = jnp.where(p.y <= REF_U + NUDGE * TIMESTEP, p.desired_vy, new_vy)
-        # print("1 p.desired_vx:", p.desired_vx)
         new_vx = p.desired_vx * p.direction
-        # print("2 new_vx:", new_vx)
         self.p = AgentState(
             p.direction,
             p.x,
@@ -795,13 +769,10 @@ class Agent:
         new_vy = jnp.where(p.y <= REF_U, 0, new_vy)
 
         # stay in their own half:
-        # print("3 p.vx:", p.vx)
         new_vx = p.vx
-        # print("4 new_vx:", new_vx)
         new_x = p.x
 
         new_vx = jnp.where(p.x * p.direction <= (REF_WALL_WIDTH / 2 + p.r), 0, new_vx)
-        # print("5 new_vx:", new_vx)
         new_x = jnp.where(
             p.x * p.direction <= (REF_WALL_WIDTH / 2 + p.r),
             p.direction * (REF_WALL_WIDTH / 2 + p.r),
@@ -809,7 +780,6 @@ class Agent:
         )
 
         new_vx = jnp.where(p.x * p.direction >= (REF_W / 2 - p.r), 0, new_vx)
-        # print("6 new_vx:", new_vx)
         new_x = jnp.where(
             p.x * p.direction >= (REF_W / 2 - p.r),
             p.direction * (REF_W / 2 - p.r),
@@ -983,7 +953,6 @@ class Game:
         self.setGameState(gameState)
 
     def setGameState(self, gameState):
-        # print("setGameState")
         self.ball = Particle(gameState.ball, c=BALL_COLOR)
         self.agent_left = Agent(gameState.agent_left, c=AGENT_LEFT_COLOR)
         self.agent_right = Agent(gameState.agent_right, c=AGENT_RIGHT_COLOR)
@@ -1036,14 +1005,8 @@ class Game:
 
     def step(self):
         """main game loop"""
-        # print("self.agent_left.p.vx", self.agent_left.p.vx)
-        # print("self.agent_right.p.vx", self.agent_right.p.vx)
-        # print("LEFT")
         self.agent_left.update()
-        # print("RIGHT")
         self.agent_right.update()
-        # print("self.agent_left.p.vx", self.agent_left.p.vx)
-        # print("self.agent_right.p.vx", self.agent_right.p.vx)
         self.ball.applyAcceleration(0, GRAVITY)
         self.ball.limitSpeed(MAX_BALL_SPEED)
         self.ball.move()
@@ -1237,8 +1200,6 @@ class SlimeVolley(VectorizedTask):
     def step(
         self, state: State, action: jnp.ndarray
     ) -> Tuple[State, jnp.ndarray, jnp.ndarray]:
-        # print("state", state)
-        # print("action", action)
         return self._step_fn(state, action)
 
     @staticmethod

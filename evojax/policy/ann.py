@@ -18,7 +18,6 @@ from typing import Tuple
 
 import jax
 import jax.numpy as jnp
-from jax import random
 from flax import linen as nn
 
 from evojax.policy.base import PolicyNetwork
@@ -127,34 +126,33 @@ def getLayer(wMat):
     nNode = jnp.shape(wMat)[0]
     layer = jnp.zeros((nNode))
 
-    def loop_body(_, state):
-        layer, prevOrder = state
-        srcLayer = jnp.zeros((nNode))
-        for curr in range(nNode):
-            srcLayer = srcLayer.at[curr].set(jnp.max(layer * wMat[:, curr]) + 1)
-        return layer, srcLayer
+    def loop_body(carry):
+        layer, prevOrder = carry
+        srcLayer = jnp.max(layer[:, None] * wMat, axis=0) + 1
+        return (srcLayer, layer)
 
-    def cond_fn(state):
-        layer, prevOrder = state
+    def cond_fn(carry):
+        layer, prevOrder = carry
         return jnp.any(prevOrder != layer)
 
     layer, _ = jax.lax.while_loop(cond_fn, loop_body, (layer, jnp.zeros_like(layer)))
     return layer - 1
 
 
-def act(weights, aVec, inPattern):
-    nNodes = weights.shape[0]
+def act(weights, aVec, inPattern, nNodes):
+    nNodes_temp = weights.shape[0]
 
     def activation_step(i, nodeAct):
         rawAct = jnp.dot(nodeAct, weights[:, i])
         return nodeAct.at[i].set(applyAct(aVec[i], rawAct))
 
-    nodeAct = jnp.zeros((nNodes,))
+    nodeAct = jnp.zeros((nNodes_temp,))
     nodeAct = jax.lax.dynamic_update_slice(nodeAct, inPattern, (1,))
 
-    nodeAct = jax.lax.fori_loop(12 + 1, nNodes, activation_step, nodeAct)
+    nodeAct = jax.lax.fori_loop(12 + 1, nNodes_temp, activation_step, nodeAct)
 
-    return nodeAct[-3:]
+    # return nodeAct[-3 - nNodes : -nNodes]
+    return jax.lax.dynamic_slice(nodeAct, (-3 - nNodes,), (3,))
 
 
 def applyAct(actId, x):
@@ -194,15 +192,19 @@ class ANNPolicy(PolicyNetwork):
     ) -> Tuple[jnp.ndarray, PolicyState]:
         outputs = []
         if len(nNodes.shape) == 0:
-            output = act(weights, aVec, t_states.obs[0])
+            truncated_weights = weights
+            truncated_aVec = aVec
+            output = act(truncated_weights, truncated_aVec, t_states.obs[0], nNodes)
             output = nn.softmax(output, axis=-1)
             outputs.append(output)
             outputs = jnp.stack(outputs, axis=0)
         elif len(nNodes.shape) == 1:
             for i in range(nNodes.shape[0]):
-                weights_i = weights[i]
-                aVec_i = aVec[i]
-                output = act(weights_i, aVec_i, t_states.obs[i])
+                truncated_weights = weights[i]
+                truncated_aVec = aVec[i]
+                output = act(
+                    truncated_weights, truncated_aVec, t_states.obs[i], nNodes[i]
+                )
                 output = nn.softmax(output, axis=-1)
                 outputs.append(output)
             outputs = jnp.stack(outputs, axis=0)
@@ -210,9 +212,11 @@ class ANNPolicy(PolicyNetwork):
             for i in range(nNodes.shape[0]):
                 outputs_i = []
                 for j in range(nNodes.shape[1]):
-                    weights_ij = weights[i, j]
-                    aVec_ij = aVec[i, j]
-                    output = act(weights_ij, aVec_ij, t_states.obs[j])
+                    truncated_weights = weights[i, j]
+                    truncated_aVec = aVec[i, j]
+                    output = act(
+                        truncated_weights, truncated_aVec, t_states.obs[j], nNodes[i, j]
+                    )
                     output = nn.softmax(output, axis=-1)
                     outputs_i.append(output)
                 outputs.append(jnp.stack(outputs_i, axis=0))

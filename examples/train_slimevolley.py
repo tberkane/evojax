@@ -53,25 +53,23 @@ from hyp import hyp
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--pop-size", type=int, default=32, help="ES population size.")
+    parser.add_argument("--pop-size", type=int, default=8, help="ES population size.")
     parser.add_argument(
-        "--num-tests", type=int, default=1, help="Number of test rollouts."
+        "--num-tests", type=int, default=10, help="Number of test rollouts."
     )
     parser.add_argument(
         "--n-repeats", type=int, default=2, help="Training repetitions."
     )
     parser.add_argument(
-        "--max-iter", type=int, default=1, help="Max training iterations."
+        "--max-iter", type=int, default=2000, help="Max training iterations."
     )
     parser.add_argument("--test-interval", type=int, default=50, help="Test interval.")
-    parser.add_argument(
-        "--log-interval", type=int, default=10, help="Logging interval."
-    )
+    parser.add_argument("--log-interval", type=int, default=1, help="Logging interval.")
     parser.add_argument(
         "--seed", type=int, default=123, help="Random seed for training."
     )
     parser.add_argument("--gpu-id", type=str, help="GPU(s) to use.")
-    parser.add_argument("--debug", action="store_true", help="Debug mode.")
+    parser.add_argument("--deb", action="store_true", help="Debug mode.")
     config, _ = parser.parse_known_args()
     return config
 
@@ -80,11 +78,11 @@ def main(config):
     log_dir = "./log/slimevolley"
     if not os.path.exists(log_dir):
         os.makedirs(log_dir, exist_ok=True)
-    logger = util.create_logger(name="SlimeVolley", log_dir=log_dir, debug=config.debug)
+    logger = util.create_logger(name="SlimeVolley", log_dir=log_dir, debug=config.deb)
     logger.info("EvoJAX SlimeVolley")
     logger.info("=" * 30)
 
-    max_steps = 3000
+    max_steps = 300
     train_task = SlimeVolley(test=False, max_steps=max_steps)
     test_task = SlimeVolley(test=True, max_steps=max_steps)
     policy = ANNPolicy()
@@ -102,6 +100,8 @@ def main(config):
     hyp["ann_initAct"] = activations[0]
     hyp["ann_absWCap"] = 2.0
     hyp["ann_mutSigma"] = 0.4
+    hyp["ann_actRange"] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    hyp["popSize"] = config.pop_size
 
     solver = NEAT(hyp)
     # Train.

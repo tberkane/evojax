@@ -143,7 +143,6 @@ class SimManager(object):
             self._logger = logger
 
         self._use_for_loop = use_for_loop
-        self._logger.info("use_for_loop={}".format(self._use_for_loop))
         self._key = random.PRNGKey(seed=seed)
         self._n_repeats = n_repeats
         self._test_n_repeats = test_n_repeats
@@ -270,10 +269,6 @@ class SimManager(object):
             step_once_fn=partial(step_once, task=train_vec_task),
             max_steps=train_vec_task.max_steps,
         )
-        if self._num_device > 1:
-            self._train_rollout_fn = jax.jit(
-                jax.pmap(self._train_rollout_fn, in_axes=(0, 0, 0, None))
-            )
 
         # Set up validation functions.
         self._valid_reset_fn = valid_vec_task.reset
@@ -435,6 +430,7 @@ class SimManager(object):
             aVec,
             self.obs_params,
         )
+        # print(wMat)
 
         if not test and not self.obs_normalizer.is_dummy:
             self.obs_params = self.obs_normalizer.update_normalization_params(

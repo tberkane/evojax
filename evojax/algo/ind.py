@@ -69,7 +69,7 @@ class Ind:
         else:
             return False
 
-    def createChild(self, p, innov, gen=0, mate=None):
+    def createChild(self, p, innov, key, gen=0, mate=None):
         """Create new individual with this individual as a parent
 
           Args:
@@ -91,16 +91,16 @@ class Ind:
 
         """
         if mate is not None:
-            child = self.crossover(mate)
+            child, key = self.crossover(mate, key)
         else:
             child = Ind(self.conn, self.node)
 
-        child, innov = child.mutate(p, innov, gen)
-        return child, innov
+        child, innov, key = child.mutate(p, key, innov, gen)
+        return child, innov, key
 
     # -- Canonical NEAT recombination operators ------------------------------ -- #
 
-    def crossover(self, mate):
+    def crossover(self, mate, key):
         """Combine genes of two individuals to produce new individual
 
           Procedure:
@@ -136,13 +136,13 @@ class Ind:
 
         # Replace weights with parentB weights with some probability
         bProb = 0.5
-        key = random.PRNGKey(0)
-        bGenes = random.uniform(key, shape=(1, len(matching))) < bProb
+        key, subkey = random.split(key)
+        bGenes = random.uniform(subkey, shape=(1, len(matching))) < bProb
         child.conn = child.conn.at[3, IA[bGenes[0]]].set(parentB.conn[3, IB[bGenes[0]]])
 
-        return child
+        return child, key
 
-    def mutate(self, p, innov=None, gen=None):
+    def mutate(self, p, key, innov=None, gen=None):
         """Randomly alter topology and weights of individual
 
         Args:
@@ -178,13 +178,14 @@ class Ind:
         connG = self.conn
         nodeG = self.node
 
-        key = random.PRNGKey(0)
-
         # - Re-enable connections
         disabled = jnp.where(connG[4, :] == 0)[0]
-        key, subkey = random.split(key)
-        reenabled = random.uniform(subkey, shape=(1, len(disabled))) < p["prob_enable"]
-        connG = connG.at[4, disabled].set(reenabled)
+        if len(disabled) > 0:
+            key, subkey = random.split(key)
+            reenabled = (
+                random.uniform(subkey, shape=(len(disabled),)) < p["prob_enable"]
+            )
+            connG = connG.at[4, disabled].set(reenabled)
 
         # - Weight mutation
         key, subkey = random.split(key)
@@ -201,17 +202,20 @@ class Ind:
         )
 
         key, subkey = random.split(key)
-        if (random.uniform(subkey) < p["prob_addNode"]) and jnp.any(connG[4, :] == 1):
-            connG, nodeG, innov = self.mutAddNode(connG, nodeG, innov, gen, p, key)
+        r = random.uniform(subkey)
+        if (r < p["prob_addNode"]) and jnp.any(connG[4, :] == 1):
+            # print("mutAddNode")
+            connG, nodeG, innov, key = self.mutAddNode(connG, nodeG, innov, gen, p, key)
 
         key, subkey = random.split(key)
         if random.uniform(subkey) < p["prob_addConn"]:
-            connG, innov = self.mutAddConn(connG, nodeG, innov, gen, p, key)
+            # print("mutAddConn")
+            connG, innov, key = self.mutAddConn(connG, nodeG, innov, gen, p, key)
 
         child = Ind(connG, nodeG)
         child.birth = gen
 
-        return child, innov
+        return child, innov, key
 
     def mutAddNode(self, connG, nodeG, innov, gen, p, key):
         """Add new node to genome
@@ -238,7 +242,6 @@ class Ind:
                      [4,:] == Generation evolved
           gen      - (int) - current generation
           p        - (dict)     - algorithm hyperparameters (see p/hypkey.txt)
-          key      - (PRNGKey)  - random number generator key
 
 
         Returns:
@@ -299,7 +302,7 @@ class Ind:
         nodeG = jnp.hstack((nodeG, newNode))
         connG = jnp.hstack((connG, newConns))
 
-        return connG, nodeG, innov
+        return connG, nodeG, innov, key
 
     def mutAddConn(self, connG, nodeG, innov, gen, p, key):
         """Add new connection to genome.
@@ -332,7 +335,6 @@ class Ind:
                      [4,:] == Generation evolved
           gen      - (int)      - current generation
           p        - (dict)     - algorithm hyperparameters (see p/hypkey.txt)
-          key      - (PRNGKey)  - random number generator key
 
 
         Returns:
@@ -345,11 +347,17 @@ class Ind:
         else:
             newConnId = innov[0, -1] + 1
 
-        nIns = jnp.sum(nodeG[1, :] == 1) + jnp.sum(nodeG[1, :] == 4)
-        nOuts = jnp.sum(nodeG[1, :] == 2)
+        nIns = jnp.sum(nodeG[1, :] == 1) + jnp.sum(
+            nodeG[1, :] == 4
+        )  # 12 inputs + 1 bias
+        nOuts = jnp.sum(nodeG[1, :] == 2)  # 3 outputs
         order, wMat = getNodeOrder(nodeG, connG)  # Topological Sort of Network
+
         hMat = wMat[nIns:-nOuts, nIns:-nOuts]
-        hLay = getLayer(hMat) + 1
+        if len(hMat) > 0:
+            hLay = getLayer(hMat) + 1
+        else:
+            hLay = jnp.array([])
 
         # To avoid recurrent connections nodes are sorted into layers, and connections are only allowed from lower to higher layers
         if len(hLay) > 0:
@@ -359,7 +367,8 @@ class Ind:
         L = jnp.concatenate([jnp.zeros(nIns), hLay, jnp.full((nOuts), lastLayer)])
         nodeKey = jnp.column_stack((nodeG[0, order], L))  # Assign Layers
 
-        sources = random.permutation(key, len(nodeKey))
+        key, subkey = random.split(key)
+        sources = random.permutation(subkey, len(nodeKey))
         for src in sources:
             srcLayer = nodeKey[src, 1]
             dest = jnp.where(nodeKey[:, 1] > srcLayer)[0]
@@ -398,4 +407,4 @@ class Ind:
                     innov = jnp.hstack((innov, newInnov[:, None]))
                 break
 
-        return connG, innov
+        return connG, innov, key

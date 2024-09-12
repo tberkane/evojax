@@ -527,3 +527,1225 @@ SlimeVolley: 2024-09-11 22:46:29,541 [INFO] Loaded model parameters from ./log/s
 SlimeVolley: 2024-09-11 22:46:29,542 [INFO] Start to test the parameters.
 SlimeVolley: 2024-09-11 22:46:29,560 [INFO] [TEST] #tests=1, max=-5.0000, avg=-5.0000, min=-5.0000, std=0.0000
 SlimeVolley: 2024-09-11 22:46:54,592 [INFO] GIF saved to ./log/slimevolley/slimevolley.gif.
+SlimeVolley: 2024-09-11 22:50:28,282 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-11 22:50:28,282 [INFO] ==============================
+SlimeVolley: 2024-09-11 22:50:28,378 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-11 22:50:28,415 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-11 22:50:38,292 [INFO] [TEST] Iter=1, #tests=1, max=-5.0000, avg=-5.0000, min=-5.0000, std=0.0000
+SlimeVolley: 2024-09-11 22:50:38,303 [INFO] Training done, best_score=-5.0000
+SlimeVolley: 2024-09-11 22:50:38,304 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-11 22:50:38,304 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-11 22:50:38,317 [INFO] [TEST] #tests=1, max=-5.0000, avg=-5.0000, min=-5.0000, std=0.0000
+SlimeVolley: 2024-09-11 22:50:58,233 [INFO] GIF saved to ./log/slimevolley/slimevolley.gif.
+SlimeVolley: 2024-09-12 09:37:33,011 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 09:37:33,011 [INFO] ==============================
+SlimeVolley: 2024-09-12 09:37:33,208 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 09:37:33,239 [INFO] Start to train for 1 iterations.
+SlimeVolley: 2024-09-12 09:37:42,670 [INFO] [TEST] Iter=1, #tests=1, max=-5.0000, avg=-5.0000, min=-5.0000, std=0.0000
+SlimeVolley: 2024-09-12 09:37:42,679 [INFO] Training done, best_score=-5.0000
+SlimeVolley: 2024-09-12 09:37:42,681 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-12 09:37:42,681 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-12 09:37:42,694 [INFO] [TEST] #tests=1, max=-5.0000, avg=-5.0000, min=-5.0000, std=0.0000
+SlimeVolley: 2024-09-12 09:38:03,188 [INFO] GIF saved to ./log/slimevolley/slimevolley.gif.
+SlimeVolley: 2024-09-12 09:38:08,366 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 09:38:08,366 [INFO] ==============================
+SlimeVolley: 2024-09-12 09:38:08,456 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 09:38:08,484 [INFO] Start to train for 10 iterations.
+SlimeVolley: 2024-09-12 09:38:37,253 [INFO] [TEST] Iter=10, #tests=10, max=-4.0000, avg=-4.9000, min=-5.0000, std=0.3000
+SlimeVolley: 2024-09-12 09:38:37,254 [INFO] Training done, best_score=-4.9000
+SlimeVolley: 2024-09-12 09:38:37,255 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-12 09:38:37,255 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-12 09:38:37,356 [INFO] [TEST] #tests=10, max=-4.0000, avg=-4.8000, min=-5.0000, std=0.4000
+SlimeVolley: 2024-09-12 09:38:58,393 [INFO] GIF saved to ./log/slimevolley/slimevolley.gif.
+SlimeVolley: 2024-09-12 09:39:19,243 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 09:39:19,243 [INFO] ==============================
+SlimeVolley: 2024-09-12 09:39:19,340 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 09:39:19,372 [INFO] Start to train for 100 iterations.
+SlimeVolley: 2024-09-12 09:39:50,367 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, min=-25.0000, std=0.0000
+SlimeVolley: 2024-09-12 09:40:08,276 [INFO] Iter=20, size=32, max=-33.5000, avg=-33.5000, min=-33.5000, std=0.0000
+SlimeVolley: 2024-09-12 09:40:26,398 [INFO] Iter=30, size=32, max=-34.5000, avg=-34.5000, min=-34.5000, std=0.0000
+SlimeVolley: 2024-09-12 09:40:44,247 [INFO] Iter=40, size=32, max=-34.0000, avg=-34.0000, min=-34.0000, std=0.0000
+SlimeVolley: 2024-09-12 09:41:01,557 [INFO] Iter=50, size=32, max=-32.0000, avg=-32.0000, min=-32.0000, std=0.0000
+SlimeVolley: 2024-09-12 09:45:23,375 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 09:45:23,376 [INFO] ==============================
+SlimeVolley: 2024-09-12 09:45:23,455 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 09:45:23,480 [INFO] Start to train for 100 iterations.
+SlimeVolley: 2024-09-12 09:45:47,504 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, min=-25.0000, std=0.0000
+SlimeVolley: 2024-09-12 09:46:04,045 [INFO] Iter=20, size=32, max=-33.5000, avg=-33.5000, min=-33.5000, std=0.0000
+SlimeVolley: 2024-09-12 09:46:20,275 [INFO] Iter=30, size=32, max=-34.5000, avg=-34.5000, min=-34.5000, std=0.0000
+SlimeVolley: 2024-09-12 09:46:37,496 [INFO] Iter=40, size=32, max=-34.0000, avg=-34.0000, min=-34.0000, std=0.0000
+SlimeVolley: 2024-09-12 09:46:55,698 [INFO] Iter=50, size=32, max=-32.0000, avg=-32.0000, min=-32.0000, std=0.0000
+SlimeVolley: 2024-09-12 09:47:06,691 [INFO] [TEST] Iter=50, #tests=100, max=-3.0000, avg=-4.8900, min=-5.0000, std=0.3434
+SlimeVolley: 2024-09-12 09:47:32,559 [INFO] Iter=60, size=32, max=-33.0000, avg=-33.0000, min=-33.0000, std=0.0000
+SlimeVolley: 2024-09-12 09:47:52,123 [INFO] Iter=70, size=32, max=-32.5000, avg=-32.5000, min=-32.5000, std=0.0000
+SlimeVolley: 2024-09-12 09:48:12,160 [INFO] Iter=80, size=32, max=-33.0000, avg=-33.0000, min=-33.0000, std=0.0000
+SlimeVolley: 2024-09-12 09:48:32,970 [INFO] Iter=90, size=32, max=-34.0000, avg=-34.0000, min=-34.0000, std=0.0000
+SlimeVolley: 2024-09-12 09:49:01,259 [INFO] [TEST] Iter=100, #tests=100, max=-4.0000, avg=-4.9400, min=-5.0000, std=0.2375
+SlimeVolley: 2024-09-12 09:49:01,260 [INFO] Training done, best_score=-4.8900
+SlimeVolley: 2024-09-12 09:49:01,261 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-12 09:49:01,261 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-12 09:49:11,889 [INFO] [TEST] #tests=100, max=-4.0000, avg=-4.9600, min=-5.0000, std=0.1960
+SlimeVolley: 2024-09-12 09:49:36,132 [INFO] GIF saved to ./log/slimevolley/slimevolley.gif.
+SlimeVolley: 2024-09-12 10:12:50,578 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 10:12:50,578 [INFO] ==============================
+SlimeVolley: 2024-09-12 10:12:50,684 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 10:12:50,721 [INFO] Start to train for 100 iterations.
+SlimeVolley: 2024-09-12 10:13:18,834 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, min=-25.0000, std=0.0000
+SlimeVolley: 2024-09-12 10:13:36,975 [INFO] Iter=20, size=32, max=-33.5000, avg=-33.5000, min=-33.5000, std=0.0000
+SlimeVolley: 2024-09-12 10:13:55,376 [INFO] Iter=30, size=32, max=-34.5000, avg=-34.5000, min=-34.5000, std=0.0000
+SlimeVolley: 2024-09-12 10:14:14,237 [INFO] Iter=40, size=32, max=-34.0000, avg=-34.0000, min=-34.0000, std=0.0000
+SlimeVolley: 2024-09-12 10:14:25,781 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 10:14:25,781 [INFO] ==============================
+SlimeVolley: 2024-09-12 10:14:25,891 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 10:14:25,928 [INFO] Start to train for 100 iterations.
+SlimeVolley: 2024-09-12 10:14:55,428 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, min=-25.0000, std=0.0000
+SlimeVolley: 2024-09-12 10:15:18,779 [INFO] Iter=20, size=32, max=-33.5000, avg=-33.5000, min=-33.5000, std=0.0000
+SlimeVolley: 2024-09-12 10:15:41,241 [INFO] Iter=30, size=32, max=-34.5000, avg=-34.5000, min=-34.5000, std=0.0000
+SlimeVolley: 2024-09-12 10:18:30,488 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 10:18:30,489 [INFO] ==============================
+SlimeVolley: 2024-09-12 10:18:30,594 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 10:18:30,627 [INFO] Start to train for 100 iterations.
+SlimeVolley: 2024-09-12 10:18:57,374 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, min=-25.0000, std=0.0000
+SlimeVolley: 2024-09-12 10:19:15,435 [INFO] Iter=20, size=32, max=-33.5000, avg=-33.5000, min=-33.5000, std=0.0000
+SlimeVolley: 2024-09-12 10:20:12,941 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 10:20:12,942 [INFO] ==============================
+SlimeVolley: 2024-09-12 10:20:13,038 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 10:20:13,079 [INFO] Start to train for 100 iterations.
+SlimeVolley: 2024-09-12 10:23:45,230 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 10:23:45,230 [INFO] ==============================
+SlimeVolley: 2024-09-12 10:23:45,329 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 10:23:45,370 [INFO] Start to train for 100 iterations.
+SlimeVolley: 2024-09-12 10:28:06,919 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 10:28:06,919 [INFO] ==============================
+SlimeVolley: 2024-09-12 10:28:07,035 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 10:28:07,074 [INFO] Start to train for 100 iterations.
+SlimeVolley: 2024-09-12 10:28:39,711 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 10:28:39,711 [INFO] ==============================
+SlimeVolley: 2024-09-12 10:28:39,828 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 10:28:39,862 [INFO] Start to train for 100 iterations.
+SlimeVolley: 2024-09-12 10:29:01,766 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 10:29:01,766 [INFO] ==============================
+SlimeVolley: 2024-09-12 10:29:01,895 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 10:29:01,932 [INFO] Start to train for 100 iterations.
+SlimeVolley: 2024-09-12 10:29:28,837 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, min=-25.0000, std=0.0000
+SlimeVolley: 2024-09-12 10:29:46,640 [INFO] Iter=20, size=32, max=-33.5000, avg=-33.5000, min=-33.5000, std=0.0000
+SlimeVolley: 2024-09-12 10:30:10,272 [INFO] Iter=30, size=32, max=-34.5000, avg=-34.5000, min=-34.5000, std=0.0000
+SlimeVolley: 2024-09-12 10:30:25,609 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 10:30:25,610 [INFO] ==============================
+SlimeVolley: 2024-09-12 10:30:25,709 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 10:30:25,754 [INFO] Start to train for 100 iterations.
+SlimeVolley: 2024-09-12 10:30:44,950 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 10:30:44,950 [INFO] ==============================
+SlimeVolley: 2024-09-12 10:30:45,060 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 10:30:45,098 [INFO] Start to train for 100 iterations.
+SlimeVolley: 2024-09-12 10:47:14,458 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 10:47:14,458 [INFO] ==============================
+SlimeVolley: 2024-09-12 10:47:14,561 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 10:47:14,599 [INFO] Start to train for 100 iterations.
+SlimeVolley: 2024-09-12 10:49:46,623 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 10:49:46,623 [INFO] ==============================
+SlimeVolley: 2024-09-12 10:49:46,721 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 10:49:46,756 [INFO] Start to train for 100 iterations.
+SlimeVolley: 2024-09-12 10:50:12,505 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, min=-25.0000, std=0.0000
+SlimeVolley: 2024-09-12 10:50:29,223 [INFO] Iter=20, size=32, max=-33.5000, avg=-33.5000, min=-33.5000, std=0.0000
+SlimeVolley: 2024-09-12 10:50:45,800 [INFO] Iter=30, size=32, max=-34.5000, avg=-34.5000, min=-34.5000, std=0.0000
+SlimeVolley: 2024-09-12 10:51:02,435 [INFO] Iter=40, size=32, max=-34.0000, avg=-34.0000, min=-34.0000, std=0.0000
+SlimeVolley: 2024-09-12 10:57:40,793 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 10:57:40,793 [INFO] ==============================
+SlimeVolley: 2024-09-12 10:57:40,890 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 10:57:40,923 [INFO] Start to train for 100 iterations.
+SlimeVolley: 2024-09-12 10:57:55,336 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 10:57:55,337 [INFO] ==============================
+SlimeVolley: 2024-09-12 10:57:55,436 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 10:57:55,474 [INFO] Start to train for 100 iterations.
+SlimeVolley: 2024-09-12 11:00:25,786 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 11:00:25,786 [INFO] ==============================
+SlimeVolley: 2024-09-12 11:00:25,896 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 11:00:25,956 [INFO] Start to train for 100 iterations.
+SlimeVolley: 2024-09-12 11:00:55,912 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 11:00:55,912 [INFO] ==============================
+SlimeVolley: 2024-09-12 11:00:56,010 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 11:00:56,045 [INFO] Start to train for 100 iterations.
+SlimeVolley: 2024-09-12 11:05:23,338 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 11:05:23,338 [INFO] ==============================
+SlimeVolley: 2024-09-12 11:05:23,438 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 11:05:23,476 [INFO] Start to train for 100 iterations.
+SlimeVolley: 2024-09-12 11:25:17,278 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 11:25:17,279 [INFO] ==============================
+SlimeVolley: 2024-09-12 11:25:17,380 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 11:25:17,419 [INFO] Start to train for 100 iterations.
+SlimeVolley: 2024-09-12 11:25:42,951 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, min=-25.0000, std=0.0000
+SlimeVolley: 2024-09-12 11:25:59,898 [INFO] Iter=20, size=32, max=-33.5000, avg=-33.5000, min=-33.5000, std=0.0000
+SlimeVolley: 2024-09-12 11:29:08,226 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 11:29:08,226 [INFO] ==============================
+SlimeVolley: 2024-09-12 11:29:08,322 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 11:29:08,359 [INFO] Start to train for 100 iterations.
+SlimeVolley: 2024-09-12 11:30:37,373 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 11:30:37,374 [INFO] ==============================
+SlimeVolley: 2024-09-12 11:30:37,470 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 11:30:37,506 [INFO] Start to train for 100 iterations.
+SlimeVolley: 2024-09-12 11:31:07,751 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 11:31:07,751 [INFO] ==============================
+SlimeVolley: 2024-09-12 11:31:07,847 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 11:31:07,883 [INFO] Start to train for 100 iterations.
+SlimeVolley: 2024-09-12 11:32:51,459 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 11:32:51,459 [INFO] ==============================
+SlimeVolley: 2024-09-12 11:32:51,566 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 11:32:51,600 [INFO] Start to train for 100 iterations.
+SlimeVolley: 2024-09-12 11:35:26,806 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 11:35:26,806 [INFO] ==============================
+SlimeVolley: 2024-09-12 11:35:26,961 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 11:35:26,972 [INFO] Start to train for 100 iterations.
+SlimeVolley: 2024-09-12 11:50:20,383 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 11:50:20,383 [INFO] ==============================
+SlimeVolley: 2024-09-12 11:50:20,511 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 11:50:20,522 [INFO] Start to train for 100 iterations.
+SlimeVolley: 2024-09-12 11:50:49,229 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 11:50:49,229 [INFO] ==============================
+SlimeVolley: 2024-09-12 11:50:49,350 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 11:50:49,361 [INFO] Start to train for 100 iterations.
+SlimeVolley: 2024-09-12 11:51:16,325 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, min=-25.0000, std=0.0000
+SlimeVolley: 2024-09-12 11:51:33,259 [INFO] Iter=20, size=32, max=-33.5000, avg=-33.5000, min=-33.5000, std=0.0000
+SlimeVolley: 2024-09-12 11:53:49,569 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 11:53:49,569 [INFO] ==============================
+SlimeVolley: 2024-09-12 11:53:49,687 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 11:53:49,698 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 11:54:16,169 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, min=-25.0000, std=0.0000
+SlimeVolley: 2024-09-12 11:54:33,448 [INFO] Iter=20, size=32, max=-33.5000, avg=-33.5000, min=-33.5000, std=0.0000
+SlimeVolley: 2024-09-12 11:54:50,328 [INFO] Iter=30, size=32, max=-34.5000, avg=-34.5000, min=-34.5000, std=0.0000
+SlimeVolley: 2024-09-12 11:55:08,004 [INFO] Iter=40, size=32, max=-34.0000, avg=-34.0000, min=-34.0000, std=0.0000
+SlimeVolley: 2024-09-12 11:55:26,042 [INFO] Iter=50, size=32, max=-32.0000, avg=-32.0000, min=-32.0000, std=0.0000
+SlimeVolley: 2024-09-12 11:55:36,339 [INFO] [TEST] Iter=50, #tests=100, max=-3.0000, avg=-4.8900, min=-5.0000, std=0.3434
+SlimeVolley: 2024-09-12 11:55:59,365 [INFO] Iter=60, size=32, max=-33.0000, avg=-33.0000, min=-33.0000, std=0.0000
+SlimeVolley: 2024-09-12 11:56:16,845 [INFO] Iter=70, size=32, max=-32.5000, avg=-32.5000, min=-32.5000, std=0.0000
+SlimeVolley: 2024-09-12 11:56:34,672 [INFO] Iter=80, size=32, max=-33.0000, avg=-33.0000, min=-33.0000, std=0.0000
+SlimeVolley: 2024-09-12 11:56:52,214 [INFO] Iter=90, size=32, max=-34.0000, avg=-34.0000, min=-34.0000, std=0.0000
+SlimeVolley: 2024-09-12 11:57:10,189 [INFO] Iter=100, size=32, max=-34.0000, avg=-34.0000, min=-34.0000, std=0.0000
+SlimeVolley: 2024-09-12 11:57:19,369 [INFO] [TEST] Iter=100, #tests=100, max=-4.0000, avg=-4.9600, min=-5.0000, std=0.1960
+SlimeVolley: 2024-09-12 12:09:44,890 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 12:09:44,890 [INFO] ==============================
+SlimeVolley: 2024-09-12 12:09:45,008 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 12:09:45,019 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 12:10:11,366 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, min=-25.0000, std=0.0000
+SlimeVolley: 2024-09-12 12:10:28,510 [INFO] Iter=20, size=32, max=-33.5000, avg=-33.5000, min=-33.5000, std=0.0000
+SlimeVolley: 2024-09-12 12:10:45,284 [INFO] Iter=30, size=32, max=-34.5000, avg=-34.5000, min=-34.5000, std=0.0000
+SlimeVolley: 2024-09-12 12:11:01,845 [INFO] Iter=40, size=32, max=-34.0000, avg=-34.0000, min=-34.0000, std=0.0000
+SlimeVolley: 2024-09-12 12:11:18,868 [INFO] Iter=50, size=32, max=-32.0000, avg=-32.0000, min=-32.0000, std=0.0000
+SlimeVolley: 2024-09-12 12:11:29,777 [INFO] [TEST] Iter=50, #tests=100, max=-3.0000, avg=-4.8900, min=-5.0000, std=0.3434
+SlimeVolley: 2024-09-12 12:11:55,649 [INFO] Iter=60, size=32, max=-33.0000, avg=-33.0000, min=-33.0000, std=0.0000
+SlimeVolley: 2024-09-12 12:12:16,742 [INFO] Iter=70, size=32, max=-32.5000, avg=-32.5000, min=-32.5000, std=0.0000
+SlimeVolley: 2024-09-12 12:12:36,636 [INFO] Iter=80, size=32, max=-33.0000, avg=-33.0000, min=-33.0000, std=0.0000
+SlimeVolley: 2024-09-12 12:12:55,610 [INFO] Iter=90, size=32, max=-34.0000, avg=-34.0000, min=-34.0000, std=0.0000
+SlimeVolley: 2024-09-12 12:13:14,554 [INFO] Iter=100, size=32, max=-34.0000, avg=-34.0000, min=-34.0000, std=0.0000
+SlimeVolley: 2024-09-12 12:13:24,588 [INFO] [TEST] Iter=100, #tests=100, max=-4.0000, avg=-4.9600, min=-5.0000, std=0.1960
+SlimeVolley: 2024-09-12 12:13:48,561 [INFO] Iter=110, size=32, max=-33.0000, avg=-33.0000, min=-33.0000, std=0.0000
+SlimeVolley: 2024-09-12 12:14:08,509 [INFO] Iter=120, size=32, max=-34.0000, avg=-34.0000, min=-34.0000, std=0.0000
+SlimeVolley: 2024-09-12 12:14:28,586 [INFO] Iter=130, size=32, max=-38.0000, avg=-38.0000, min=-38.0000, std=0.0000
+SlimeVolley: 2024-09-12 12:14:49,256 [INFO] Iter=140, size=32, max=-37.0000, avg=-37.0000, min=-37.0000, std=0.0000
+SlimeVolley: 2024-09-12 12:15:03,131 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 12:15:03,131 [INFO] ==============================
+SlimeVolley: 2024-09-12 12:15:03,254 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 12:15:03,266 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 12:15:12,197 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 12:15:12,197 [INFO] ==============================
+SlimeVolley: 2024-09-12 12:15:12,312 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 12:15:12,323 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 12:15:42,384 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, min=-25.0000, std=0.0000
+SlimeVolley: 2024-09-12 12:16:02,791 [INFO] Iter=20, size=32, max=-33.5000, avg=-33.5000, min=-33.5000, std=0.0000
+SlimeVolley: 2024-09-12 12:16:22,162 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 12:16:22,162 [INFO] ==============================
+SlimeVolley: 2024-09-12 12:16:22,320 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 12:16:22,348 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 12:16:53,365 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, min=-25.0000, std=0.0000
+SlimeVolley: 2024-09-12 12:17:14,364 [INFO] Iter=20, size=32, max=-33.5000, avg=-33.5000, min=-33.5000, std=0.0000
+SlimeVolley: 2024-09-12 12:17:28,229 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 12:17:28,229 [INFO] ==============================
+SlimeVolley: 2024-09-12 12:17:28,350 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 12:17:28,361 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 12:17:58,743 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, min=-25.0000, std=0.0000
+SlimeVolley: 2024-09-12 12:18:17,933 [INFO] Iter=20, size=32, max=-33.5000, avg=-33.5000, min=-33.5000, std=0.0000
+SlimeVolley: 2024-09-12 12:18:37,093 [INFO] Iter=30, size=32, max=-34.5000, avg=-34.5000, min=-34.5000, std=0.0000
+SlimeVolley: 2024-09-12 12:18:55,704 [INFO] Iter=40, size=32, max=-34.0000, avg=-34.0000, min=-34.0000, std=0.0000
+SlimeVolley: 2024-09-12 12:19:14,563 [INFO] Iter=50, size=32, max=-32.0000, avg=-32.0000, min=-32.0000, std=0.0000
+SlimeVolley: 2024-09-12 12:19:25,578 [INFO] [TEST] Iter=50, #tests=100, max=-3.0000, avg=-4.8900, min=-5.0000, std=0.3434
+SlimeVolley: 2024-09-12 12:19:49,211 [INFO] Iter=60, size=32, max=-33.0000, avg=-33.0000, min=-33.0000, std=0.0000
+SlimeVolley: 2024-09-12 12:20:08,132 [INFO] Iter=70, size=32, max=-32.5000, avg=-32.5000, min=-32.5000, std=0.0000
+SlimeVolley: 2024-09-12 12:20:26,339 [INFO] Iter=80, size=32, max=-33.0000, avg=-33.0000, min=-33.0000, std=0.0000
+SlimeVolley: 2024-09-12 12:20:45,222 [INFO] Iter=90, size=32, max=-34.0000, avg=-34.0000, min=-34.0000, std=0.0000
+SlimeVolley: 2024-09-12 12:32:34,929 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 12:32:34,929 [INFO] ==============================
+SlimeVolley: 2024-09-12 12:32:35,038 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 12:32:35,048 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 12:33:01,839 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, min=-25.0000, std=0.0000
+SlimeVolley: 2024-09-12 12:33:19,341 [INFO] Iter=20, size=32, max=-33.5000, avg=-33.5000, min=-33.5000, std=0.0000
+SlimeVolley: 2024-09-12 12:34:05,471 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 12:34:05,471 [INFO] ==============================
+SlimeVolley: 2024-09-12 12:34:05,593 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 12:34:05,605 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 12:34:33,962 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, min=-25.0000, std=0.0000
+SlimeVolley: 2024-09-12 12:34:52,634 [INFO] Iter=20, size=32, max=-33.5000, avg=-33.5000, min=-33.5000, std=0.0000
+SlimeVolley: 2024-09-12 12:35:12,245 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 12:35:12,245 [INFO] ==============================
+SlimeVolley: 2024-09-12 12:35:12,381 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 12:35:12,390 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 12:35:47,497 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, min=-25.0000, std=0.0000
+SlimeVolley: 2024-09-12 12:36:09,682 [INFO] Iter=20, size=32, max=-33.5000, avg=-33.5000, min=-33.5000, std=0.0000
+SlimeVolley: 2024-09-12 12:36:33,205 [INFO] Iter=30, size=32, max=-34.5000, avg=-34.5000, min=-34.5000, std=0.0000
+SlimeVolley: 2024-09-12 12:36:47,203 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 12:36:47,203 [INFO] ==============================
+SlimeVolley: 2024-09-12 12:36:47,337 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 12:36:47,348 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 12:37:22,413 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, min=-25.0000, std=0.0000
+SlimeVolley: 2024-09-12 12:37:46,437 [INFO] Iter=20, size=32, max=-33.5000, avg=-33.5000, min=-33.5000, std=0.0000
+SlimeVolley: 2024-09-12 12:38:11,764 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 12:38:11,764 [INFO] ==============================
+SlimeVolley: 2024-09-12 12:38:11,888 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 12:38:11,899 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 12:38:47,106 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, min=-25.0000, std=0.0000
+SlimeVolley: 2024-09-12 12:55:29,893 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 12:55:29,893 [INFO] ==============================
+SlimeVolley: 2024-09-12 12:55:30,098 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 12:55:30,109 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 12:56:28,259 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 12:56:28,259 [INFO] ==============================
+SlimeVolley: 2024-09-12 12:56:28,398 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 12:56:28,411 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 12:57:24,037 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 12:57:24,037 [INFO] ==============================
+SlimeVolley: 2024-09-12 12:57:24,220 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 12:57:24,231 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 13:09:49,374 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 13:09:49,375 [INFO] ==============================
+SlimeVolley: 2024-09-12 13:09:49,469 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 13:09:49,478 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 13:11:38,967 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 13:11:38,967 [INFO] ==============================
+SlimeVolley: 2024-09-12 13:11:39,059 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 13:11:39,067 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 13:13:19,448 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 13:13:19,448 [INFO] ==============================
+SlimeVolley: 2024-09-12 13:13:19,544 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 13:13:19,553 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 13:14:03,422 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 13:14:03,422 [INFO] ==============================
+SlimeVolley: 2024-09-12 13:14:03,534 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 13:14:03,544 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 13:15:39,966 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 13:15:39,966 [INFO] ==============================
+SlimeVolley: 2024-09-12 13:15:40,063 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 13:15:40,073 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 13:17:23,593 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 13:17:23,593 [INFO] ==============================
+SlimeVolley: 2024-09-12 13:17:23,695 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 13:17:23,705 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 13:23:04,389 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 13:23:04,389 [INFO] ==============================
+SlimeVolley: 2024-09-12 13:23:04,486 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 13:23:04,495 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 13:26:08,630 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 13:26:08,630 [INFO] ==============================
+SlimeVolley: 2024-09-12 13:26:08,725 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 13:26:08,734 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 13:27:09,053 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 13:27:09,053 [INFO] ==============================
+SlimeVolley: 2024-09-12 13:27:09,145 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 13:27:09,154 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 13:28:39,409 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 13:28:39,409 [INFO] ==============================
+SlimeVolley: 2024-09-12 13:28:39,500 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 13:28:39,508 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 13:29:35,562 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 13:29:35,562 [INFO] ==============================
+SlimeVolley: 2024-09-12 13:29:35,662 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 13:29:35,670 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 13:37:16,511 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 13:37:16,511 [INFO] ==============================
+SlimeVolley: 2024-09-12 13:37:16,626 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 13:37:16,635 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 13:45:19,487 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 13:45:19,487 [INFO] ==============================
+SlimeVolley: 2024-09-12 13:45:19,605 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 13:45:19,618 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 14:04:55,481 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 14:04:55,481 [INFO] ==============================
+SlimeVolley: 2024-09-12 14:04:55,602 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 14:04:55,614 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 14:21:59,396 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 14:21:59,396 [INFO] ==============================
+SlimeVolley: 2024-09-12 14:21:59,505 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 14:21:59,516 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 14:23:36,030 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 14:23:36,030 [INFO] ==============================
+SlimeVolley: 2024-09-12 14:23:36,173 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 14:23:36,183 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 14:24:15,431 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 14:24:15,431 [INFO] ==============================
+SlimeVolley: 2024-09-12 14:24:15,553 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 14:24:15,568 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 14:25:20,789 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 14:25:20,789 [INFO] ==============================
+SlimeVolley: 2024-09-12 14:25:20,907 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 14:25:20,919 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 14:26:01,065 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, min=-25.0000, std=0.0000
+SlimeVolley: 2024-09-12 14:27:25,270 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 14:27:25,271 [INFO] ==============================
+SlimeVolley: 2024-09-12 14:27:25,398 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 14:27:25,410 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 14:29:02,894 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 14:29:02,895 [INFO] ==============================
+SlimeVolley: 2024-09-12 14:29:03,015 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 14:29:03,026 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 14:35:59,842 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 14:35:59,843 [INFO] ==============================
+SlimeVolley: 2024-09-12 14:35:59,961 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 14:35:59,972 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 14:36:41,179 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, min=-25.0000, std=0.0000
+SlimeVolley: 2024-09-12 14:37:02,234 [INFO] Iter=20, size=32, max=-33.5000, avg=-33.5000, min=-33.5000, std=0.0000
+SlimeVolley: 2024-09-12 14:37:28,039 [INFO] Iter=30, size=32, max=-34.5000, avg=-34.5000, min=-34.5000, std=0.0000
+SlimeVolley: 2024-09-12 14:38:00,693 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 14:38:00,694 [INFO] ==============================
+SlimeVolley: 2024-09-12 14:38:00,845 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 14:38:00,856 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 14:38:49,709 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, min=-25.0000, std=0.0000
+SlimeVolley: 2024-09-12 14:39:14,831 [INFO] Iter=20, size=32, max=-33.5000, avg=-33.5000, min=-33.5000, std=0.0000
+SlimeVolley: 2024-09-12 14:39:38,874 [INFO] Iter=30, size=32, max=-34.5000, avg=-34.5000, min=-34.5000, std=0.0000
+SlimeVolley: 2024-09-12 14:40:03,234 [INFO] Iter=40, size=32, max=-34.0000, avg=-34.0000, min=-34.0000, std=0.0000
+SlimeVolley: 2024-09-12 14:40:27,964 [INFO] Iter=50, size=32, max=-32.0000, avg=-32.0000, min=-32.0000, std=0.0000
+SlimeVolley: 2024-09-12 14:40:41,366 [INFO] [TEST] Iter=50, #tests=100, max=-3.0000, avg=-4.8900, min=-5.0000, std=0.3434
+SlimeVolley: 2024-09-12 14:41:16,773 [INFO] Iter=60, size=32, max=-33.0000, avg=-33.0000, min=-33.0000, std=0.0000
+SlimeVolley: 2024-09-12 14:41:43,631 [INFO] Iter=70, size=32, max=-32.5000, avg=-32.5000, min=-32.5000, std=0.0000
+SlimeVolley: 2024-09-12 14:42:08,501 [INFO] Iter=80, size=32, max=-33.0000, avg=-33.0000, min=-33.0000, std=0.0000
+SlimeVolley: 2024-09-12 14:42:31,969 [INFO] Iter=90, size=32, max=-34.0000, avg=-34.0000, min=-34.0000, std=0.0000
+SlimeVolley: 2024-09-12 14:42:54,273 [INFO] Iter=100, size=32, max=-34.0000, avg=-34.0000, min=-34.0000, std=0.0000
+SlimeVolley: 2024-09-12 14:43:06,283 [INFO] [TEST] Iter=100, #tests=100, max=-4.0000, avg=-4.9600, min=-5.0000, std=0.1960
+SlimeVolley: 2024-09-12 14:43:53,673 [INFO] Iter=110, size=32, max=-33.0000, avg=-33.0000, min=-33.0000, std=0.0000
+SlimeVolley: 2024-09-12 14:46:31,757 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 14:46:31,757 [INFO] ==============================
+SlimeVolley: 2024-09-12 14:46:31,866 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 14:46:31,876 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 14:47:11,603 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, min=-25.0000, std=0.0000
+SlimeVolley: 2024-09-12 14:47:31,602 [INFO] Iter=20, size=32, max=-33.5000, avg=-33.5000, min=-33.5000, std=0.0000
+SlimeVolley: 2024-09-12 14:48:35,967 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 14:48:35,967 [INFO] ==============================
+SlimeVolley: 2024-09-12 14:48:36,086 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 14:48:36,097 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 14:51:25,988 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 14:51:25,988 [INFO] ==============================
+SlimeVolley: 2024-09-12 14:51:26,079 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 14:51:26,088 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 14:56:12,941 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 14:56:12,942 [INFO] ==============================
+SlimeVolley: 2024-09-12 14:56:13,035 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 14:56:13,043 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 14:58:59,265 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 14:58:59,265 [INFO] ==============================
+SlimeVolley: 2024-09-12 14:58:59,362 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 14:58:59,371 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 15:02:49,242 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 15:02:49,242 [INFO] ==============================
+SlimeVolley: 2024-09-12 15:02:49,342 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 15:02:49,350 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 15:03:30,387 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, min=-25.0000, std=0.0000
+SlimeVolley: 2024-09-12 15:03:51,884 [INFO] Iter=20, size=32, max=-33.5000, avg=-33.5000, min=-33.5000, std=0.0000
+SlimeVolley: 2024-09-12 15:04:12,789 [INFO] Iter=30, size=32, max=-34.5000, avg=-34.5000, min=-34.5000, std=0.0000
+SlimeVolley: 2024-09-12 15:04:33,915 [INFO] Iter=40, size=32, max=-34.0000, avg=-34.0000, min=-34.0000, std=0.0000
+SlimeVolley: 2024-09-12 15:04:54,038 [INFO] Iter=50, size=32, max=-32.0000, avg=-32.0000, min=-32.0000, std=0.0000
+SlimeVolley: 2024-09-12 15:07:49,165 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 15:07:49,165 [INFO] ==============================
+SlimeVolley: 2024-09-12 15:07:49,258 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 15:07:49,266 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 15:08:24,348 [INFO] Iter=10, size=32, max=-3.0000, avg=-3.0000, min=-3.0000, std=0.0000
+SlimeVolley: 2024-09-12 15:08:40,176 [INFO] Iter=20, size=32, max=-4.0000, avg=-4.0000, min=-4.0000, std=0.0000
+SlimeVolley: 2024-09-12 15:08:47,544 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 15:08:47,544 [INFO] ==============================
+SlimeVolley: 2024-09-12 15:08:47,653 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 15:08:47,662 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 15:09:14,261 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 15:09:14,261 [INFO] ==============================
+SlimeVolley: 2024-09-12 15:09:14,356 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 15:09:14,365 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 15:09:31,569 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 15:09:31,569 [INFO] ==============================
+SlimeVolley: 2024-09-12 15:09:31,667 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 15:09:31,677 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 15:10:12,747 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, min=-25.0000, std=0.0000
+SlimeVolley: 2024-09-12 15:10:32,858 [INFO] Iter=20, size=32, max=-33.5000, avg=-33.5000, min=-33.5000, std=0.0000
+SlimeVolley: 2024-09-12 15:46:19,602 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 15:46:19,603 [INFO] ==============================
+SlimeVolley: 2024-09-12 15:46:19,701 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 15:46:19,709 [INFO] Start to train for 200 iterations.
+SlimeVolley: 2024-09-12 15:56:30,856 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 15:56:30,856 [INFO] ==============================
+SlimeVolley: 2024-09-12 15:56:30,967 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 15:56:30,975 [INFO] Start to train for 2000 iterations.
+SlimeVolley: 2024-09-12 15:57:11,540 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, min=-25.0000, std=0.0000
+SlimeVolley: 2024-09-12 15:57:33,556 [INFO] Iter=20, size=32, max=-33.5000, avg=-33.5000, min=-33.5000, std=0.0000
+SlimeVolley: 2024-09-12 15:57:55,131 [INFO] Iter=30, size=32, max=-34.5000, avg=-34.5000, min=-34.5000, std=0.0000
+SlimeVolley: 2024-09-12 15:58:15,658 [INFO] Iter=40, size=32, max=-34.0000, avg=-34.0000, min=-34.0000, std=0.0000
+SlimeVolley: 2024-09-12 15:58:38,503 [INFO] Iter=50, size=32, max=-32.0000, avg=-32.0000, min=-32.0000, std=0.0000
+SlimeVolley: 2024-09-12 15:58:41,404 [INFO] [TEST] Iter=50, #tests=10, max=-4.0000, avg=-4.8000, min=-5.0000, std=0.4000
+SlimeVolley: 2024-09-12 15:59:04,149 [INFO] Iter=60, size=32, max=-33.0000, avg=-33.0000, min=-33.0000, std=0.0000
+SlimeVolley: 2024-09-12 15:59:28,137 [INFO] Iter=70, size=32, max=-32.5000, avg=-32.5000, min=-32.5000, std=0.0000
+SlimeVolley: 2024-09-12 15:59:52,756 [INFO] Iter=80, size=32, max=-33.0000, avg=-33.0000, min=-33.0000, std=0.0000
+SlimeVolley: 2024-09-12 16:00:16,910 [INFO] Iter=90, size=32, max=-34.0000, avg=-34.0000, min=-34.0000, std=0.0000
+SlimeVolley: 2024-09-12 16:00:42,348 [INFO] Iter=100, size=32, max=-34.0000, avg=-34.0000, min=-34.0000, std=0.0000
+SlimeVolley: 2024-09-12 16:00:42,527 [INFO] [TEST] Iter=100, #tests=10, max=-5.0000, avg=-5.0000, min=-5.0000, std=0.0000
+SlimeVolley: 2024-09-12 16:01:08,312 [INFO] Iter=110, size=32, max=-33.0000, avg=-33.0000, min=-33.0000, std=0.0000
+SlimeVolley: 2024-09-12 16:01:31,767 [INFO] Iter=120, size=32, max=-34.0000, avg=-34.0000, min=-34.0000, std=0.0000
+SlimeVolley: 2024-09-12 16:01:53,872 [INFO] Iter=130, size=32, max=-38.0000, avg=-38.0000, min=-38.0000, std=0.0000
+SlimeVolley: 2024-09-12 16:02:16,099 [INFO] Iter=140, size=32, max=-37.0000, avg=-37.0000, min=-37.0000, std=0.0000
+SlimeVolley: 2024-09-12 16:02:37,802 [INFO] Iter=150, size=32, max=-31.0000, avg=-31.0000, min=-31.0000, std=0.0000
+SlimeVolley: 2024-09-12 16:02:37,893 [INFO] [TEST] Iter=150, #tests=10, max=-4.0000, avg=-4.9000, min=-5.0000, std=0.3000
+SlimeVolley: 2024-09-12 16:03:05,883 [INFO] Iter=160, size=32, max=-36.5000, avg=-36.5000, min=-36.5000, std=0.0000
+SlimeVolley: 2024-09-12 16:03:28,154 [INFO] Iter=170, size=32, max=-36.0000, avg=-36.0000, min=-36.0000, std=0.0000
+SlimeVolley: 2024-09-12 16:03:50,644 [INFO] Iter=180, size=32, max=-34.0000, avg=-34.0000, min=-34.0000, std=0.0000
+SlimeVolley: 2024-09-12 16:04:14,195 [INFO] Iter=190, size=32, max=-33.5000, avg=-33.5000, min=-33.5000, std=0.0000
+SlimeVolley: 2024-09-12 16:04:37,947 [INFO] Iter=200, size=32, max=-26.5000, avg=-26.5000, min=-26.5000, std=0.0000
+SlimeVolley: 2024-09-12 16:04:38,049 [INFO] [TEST] Iter=200, #tests=10, max=-4.0000, avg=-4.9000, min=-5.0000, std=0.3000
+SlimeVolley: 2024-09-12 16:05:04,530 [INFO] Iter=210, size=32, max=-36.5000, avg=-36.5000, min=-36.5000, std=0.0000
+SlimeVolley: 2024-09-12 16:05:30,993 [INFO] Iter=220, size=32, max=-37.0000, avg=-37.0000, min=-37.0000, std=0.0000
+SlimeVolley: 2024-09-12 16:05:56,761 [INFO] Iter=230, size=32, max=-34.5000, avg=-34.5000, min=-34.5000, std=0.0000
+SlimeVolley: 2024-09-12 16:06:20,864 [INFO] Iter=240, size=32, max=-35.5000, avg=-35.5000, min=-35.5000, std=0.0000
+SlimeVolley: 2024-09-12 16:06:45,655 [INFO] Iter=250, size=32, max=-37.5000, avg=-37.5000, min=-37.5000, std=0.0000
+SlimeVolley: 2024-09-12 16:06:45,812 [INFO] [TEST] Iter=250, #tests=10, max=-5.0000, avg=-5.0000, min=-5.0000, std=0.0000
+SlimeVolley: 2024-09-12 16:07:11,797 [INFO] Iter=260, size=32, max=-34.5000, avg=-34.5000, min=-34.5000, std=0.0000
+SlimeVolley: 2024-09-12 16:07:37,514 [INFO] Iter=270, size=32, max=-35.0000, avg=-35.0000, min=-35.0000, std=0.0000
+SlimeVolley: 2024-09-12 16:08:03,412 [INFO] Iter=280, size=32, max=-29.5000, avg=-29.5000, min=-29.5000, std=0.0000
+SlimeVolley: 2024-09-12 16:08:29,946 [INFO] Iter=290, size=32, max=-31.0000, avg=-31.0000, min=-31.0000, std=0.0000
+SlimeVolley: 2024-09-12 16:08:57,036 [INFO] Iter=300, size=32, max=-37.5000, avg=-37.5000, min=-37.5000, std=0.0000
+SlimeVolley: 2024-09-12 16:08:57,141 [INFO] [TEST] Iter=300, #tests=10, max=-4.0000, avg=-4.9000, min=-5.0000, std=0.3000
+SlimeVolley: 2024-09-12 16:09:21,601 [INFO] Iter=310, size=32, max=-34.5000, avg=-34.5000, min=-34.5000, std=0.0000
+SlimeVolley: 2024-09-12 16:09:46,984 [INFO] Iter=320, size=32, max=-32.5000, avg=-32.5000, min=-32.5000, std=0.0000
+SlimeVolley: 2024-09-12 16:10:12,694 [INFO] Iter=330, size=32, max=-37.0000, avg=-37.0000, min=-37.0000, std=0.0000
+SlimeVolley: 2024-09-12 16:10:40,540 [INFO] Iter=340, size=32, max=-30.5000, avg=-30.5000, min=-30.5000, std=0.0000
+SlimeVolley: 2024-09-12 16:11:07,798 [INFO] Iter=350, size=32, max=-32.5000, avg=-32.5000, min=-32.5000, std=0.0000
+SlimeVolley: 2024-09-12 16:11:07,916 [INFO] [TEST] Iter=350, #tests=10, max=-4.0000, avg=-4.8000, min=-5.0000, std=0.4000
+SlimeVolley: 2024-09-12 16:11:35,461 [INFO] Iter=360, size=32, max=-33.0000, avg=-33.0000, min=-33.0000, std=0.0000
+SlimeVolley: 2024-09-12 16:12:02,926 [INFO] Iter=370, size=32, max=-33.5000, avg=-33.5000, min=-33.5000, std=0.0000
+SlimeVolley: 2024-09-12 16:12:06,074 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 16:12:06,074 [INFO] ==============================
+SlimeVolley: 2024-09-12 16:12:06,201 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 16:12:06,212 [INFO] Start to train for 2000 iterations.
+SlimeVolley: 2024-09-12 16:13:01,772 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, min=-25.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.03
+wMat: shape=(32, 17, 17), min=nan, max=nan, avg=nan
+aVec: shape=(32, 17), min=0.0000, max=6.0000, avg=0.9522
+SlimeVolley: 2024-09-12 16:13:28,713 [INFO] Iter=20, size=32, max=-33.5000, avg=-33.5000, min=-33.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.03
+wMat: shape=(32, 17, 17), min=nan, max=nan, avg=nan
+aVec: shape=(32, 17), min=0.0000, max=1.0000, avg=0.9430
+SlimeVolley: 2024-09-12 16:13:54,729 [INFO] Iter=30, size=32, max=-34.5000, avg=-34.5000, min=-34.5000, std=0.0000
+nNodes: min=16, max=16, avg=16.00
+wMat: shape=(32, 16, 16), min=-2.0000, max=2.0000, avg=0.0017
+aVec: shape=(32, 16), min=1.0000, max=1.0000, avg=1.0000
+SlimeVolley: 2024-09-12 16:14:19,367 [INFO] Iter=40, size=32, max=-34.0000, avg=-34.0000, min=-34.0000, std=0.0000
+nNodes: min=16, max=16, avg=16.00
+wMat: shape=(32, 16, 16), min=-2.0000, max=2.0000, avg=0.0018
+aVec: shape=(32, 16), min=1.0000, max=1.0000, avg=1.0000
+SlimeVolley: 2024-09-12 16:14:45,960 [INFO] Iter=50, size=32, max=-32.0000, avg=-32.0000, min=-32.0000, std=0.0000
+nNodes: min=16, max=16, avg=16.00
+wMat: shape=(32, 16, 16), min=-2.0000, max=2.0000, avg=-0.0030
+aVec: shape=(32, 16), min=1.0000, max=1.0000, avg=1.0000
+SlimeVolley: 2024-09-12 16:14:49,014 [INFO] [TEST] Iter=50, #tests=10, max=-4.0000, avg=-4.8000, min=-5.0000, std=0.4000
+SlimeVolley: 2024-09-12 16:15:13,065 [INFO] Iter=60, size=32, max=-33.0000, avg=-33.0000, min=-33.0000, std=0.0000
+nNodes: min=16, max=16, avg=16.00
+wMat: shape=(32, 16, 16), min=-2.0000, max=2.0000, avg=0.0019
+aVec: shape=(32, 16), min=1.0000, max=1.0000, avg=1.0000
+SlimeVolley: 2024-09-12 16:15:38,635 [INFO] Iter=70, size=32, max=-32.5000, avg=-32.5000, min=-32.5000, std=0.0000
+nNodes: min=16, max=16, avg=16.00
+wMat: shape=(32, 16, 16), min=-2.0000, max=2.0000, avg=-0.0038
+aVec: shape=(32, 16), min=1.0000, max=1.0000, avg=1.0000
+SlimeVolley: 2024-09-12 16:16:05,473 [INFO] Iter=80, size=32, max=-33.0000, avg=-33.0000, min=-33.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.03
+wMat: shape=(32, 17, 17), min=nan, max=nan, avg=nan
+aVec: shape=(32, 17), min=0.0000, max=3.0000, avg=0.9467
+SlimeVolley: 2024-09-12 16:16:31,081 [INFO] Iter=90, size=32, max=-34.0000, avg=-34.0000, min=-34.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.06
+wMat: shape=(32, 17, 17), min=nan, max=nan, avg=nan
+aVec: shape=(32, 17), min=0.0000, max=3.0000, avg=0.9522
+SlimeVolley: 2024-09-12 16:16:55,274 [INFO] Iter=100, size=32, max=-34.0000, avg=-34.0000, min=-34.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.03
+wMat: shape=(32, 17, 17), min=nan, max=nan, avg=nan
+aVec: shape=(32, 17), min=0.0000, max=7.0000, avg=0.9540
+SlimeVolley: 2024-09-12 16:16:55,382 [INFO] [TEST] Iter=100, #tests=10, max=-5.0000, avg=-5.0000, min=-5.0000, std=0.0000
+SlimeVolley: 2024-09-12 16:17:20,252 [INFO] Iter=110, size=32, max=-33.0000, avg=-33.0000, min=-33.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.03
+wMat: shape=(32, 17, 17), min=nan, max=nan, avg=nan
+aVec: shape=(32, 17), min=0.0000, max=7.0000, avg=0.9540
+SlimeVolley: 2024-09-12 16:17:45,671 [INFO] Iter=120, size=32, max=-34.0000, avg=-34.0000, min=-34.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.03
+wMat: shape=(32, 17, 17), min=nan, max=nan, avg=nan
+aVec: shape=(32, 17), min=0.0000, max=2.0000, avg=0.9449
+SlimeVolley: 2024-09-12 16:18:10,791 [INFO] Iter=130, size=32, max=-38.0000, avg=-38.0000, min=-38.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.03
+wMat: shape=(32, 17, 17), min=nan, max=nan, avg=nan
+aVec: shape=(32, 17), min=0.0000, max=1.0000, avg=0.9430
+SlimeVolley: 2024-09-12 16:18:35,314 [INFO] Iter=140, size=32, max=-37.0000, avg=-37.0000, min=-37.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.03
+wMat: shape=(32, 17, 17), min=nan, max=nan, avg=nan
+aVec: shape=(32, 17), min=0.0000, max=8.0000, avg=0.9559
+SlimeVolley: 2024-09-12 16:18:59,098 [INFO] Iter=150, size=32, max=-31.0000, avg=-31.0000, min=-31.0000, std=0.0000
+nNodes: min=16, max=16, avg=16.00
+wMat: shape=(32, 16, 16), min=-2.0000, max=2.0000, avg=-0.0123
+aVec: shape=(32, 16), min=1.0000, max=1.0000, avg=1.0000
+SlimeVolley: 2024-09-12 16:18:59,203 [INFO] [TEST] Iter=150, #tests=10, max=-4.0000, avg=-4.9000, min=-5.0000, std=0.3000
+SlimeVolley: 2024-09-12 16:19:24,998 [INFO] Iter=160, size=32, max=-36.5000, avg=-36.5000, min=-36.5000, std=0.0000
+nNodes: min=16, max=16, avg=16.00
+wMat: shape=(32, 16, 16), min=-2.0000, max=2.0000, avg=-0.0064
+aVec: shape=(32, 16), min=1.0000, max=1.0000, avg=1.0000
+SlimeVolley: 2024-09-12 16:19:48,273 [INFO] Iter=170, size=32, max=-36.0000, avg=-36.0000, min=-36.0000, std=0.0000
+nNodes: min=16, max=16, avg=16.00
+wMat: shape=(32, 16, 16), min=-2.0000, max=2.0000, avg=-0.0168
+aVec: shape=(32, 16), min=1.0000, max=1.0000, avg=1.0000
+SlimeVolley: 2024-09-12 16:20:12,218 [INFO] Iter=180, size=32, max=-34.0000, avg=-34.0000, min=-34.0000, std=0.0000
+nNodes: min=16, max=16, avg=16.00
+wMat: shape=(32, 16, 16), min=-2.0000, max=2.0000, avg=-0.0132
+aVec: shape=(32, 16), min=1.0000, max=1.0000, avg=1.0000
+SlimeVolley: 2024-09-12 16:20:38,213 [INFO] Iter=190, size=32, max=-33.5000, avg=-33.5000, min=-33.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.06
+wMat: shape=(32, 17, 17), min=nan, max=nan, avg=nan
+aVec: shape=(32, 17), min=0.0000, max=3.0000, avg=0.9485
+SlimeVolley: 2024-09-12 16:21:03,062 [INFO] Iter=200, size=32, max=-26.5000, avg=-26.5000, min=-26.5000, std=0.0000
+nNodes: min=16, max=16, avg=16.00
+wMat: shape=(32, 16, 16), min=-2.0000, max=2.0000, avg=-0.0165
+aVec: shape=(32, 16), min=1.0000, max=1.0000, avg=1.0000
+SlimeVolley: 2024-09-12 16:21:03,183 [INFO] [TEST] Iter=200, #tests=10, max=-4.0000, avg=-4.9000, min=-5.0000, std=0.3000
+SlimeVolley: 2024-09-12 16:21:32,427 [INFO] Iter=210, size=32, max=-36.5000, avg=-36.5000, min=-36.5000, std=0.0000
+nNodes: min=16, max=16, avg=16.00
+wMat: shape=(32, 16, 16), min=-2.0000, max=2.0000, avg=-0.0173
+aVec: shape=(32, 16), min=1.0000, max=1.0000, avg=1.0000
+SlimeVolley: 2024-09-12 16:22:00,078 [INFO] Iter=220, size=32, max=-37.0000, avg=-37.0000, min=-37.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.03
+wMat: shape=(32, 17, 17), min=nan, max=nan, avg=nan
+aVec: shape=(32, 17), min=0.0000, max=8.0000, avg=0.9559
+SlimeVolley: 2024-09-12 16:22:27,172 [INFO] Iter=230, size=32, max=-34.5000, avg=-34.5000, min=-34.5000, std=0.0000
+nNodes: min=16, max=16, avg=16.00
+wMat: shape=(32, 16, 16), min=-2.0000, max=2.0000, avg=-0.0121
+aVec: shape=(32, 16), min=1.0000, max=1.0000, avg=1.0000
+SlimeVolley: 2024-09-12 16:22:51,392 [INFO] Iter=240, size=32, max=-35.5000, avg=-35.5000, min=-35.5000, std=0.0000
+nNodes: min=16, max=16, avg=16.00
+wMat: shape=(32, 16, 16), min=-2.0000, max=2.0000, avg=-0.0141
+aVec: shape=(32, 16), min=1.0000, max=1.0000, avg=1.0000
+SlimeVolley: 2024-09-12 16:23:16,414 [INFO] Iter=250, size=32, max=-37.5000, avg=-37.5000, min=-37.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.06
+wMat: shape=(32, 17, 17), min=nan, max=nan, avg=nan
+aVec: shape=(32, 17), min=0.0000, max=10.0000, avg=0.9688
+SlimeVolley: 2024-09-12 16:23:16,526 [INFO] [TEST] Iter=250, #tests=10, max=-5.0000, avg=-5.0000, min=-5.0000, std=0.0000
+SlimeVolley: 2024-09-12 16:23:42,799 [INFO] Iter=260, size=32, max=-34.5000, avg=-34.5000, min=-34.5000, std=0.0000
+nNodes: min=16, max=16, avg=16.00
+wMat: shape=(32, 16, 16), min=-2.0000, max=2.0000, avg=-0.0171
+aVec: shape=(32, 16), min=1.0000, max=1.0000, avg=1.0000
+SlimeVolley: 2024-09-12 16:24:07,953 [INFO] Iter=270, size=32, max=-35.0000, avg=-35.0000, min=-35.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.03
+wMat: shape=(32, 17, 17), min=nan, max=nan, avg=nan
+aVec: shape=(32, 17), min=0.0000, max=10.0000, avg=0.9596
+SlimeVolley: 2024-09-12 16:24:33,560 [INFO] Iter=280, size=32, max=-29.5000, avg=-29.5000, min=-29.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.06
+wMat: shape=(32, 17, 17), min=nan, max=nan, avg=nan
+aVec: shape=(32, 17), min=0.0000, max=2.0000, avg=0.9467
+SlimeVolley: 2024-09-12 16:24:58,663 [INFO] Iter=290, size=32, max=-31.0000, avg=-31.0000, min=-31.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.09
+wMat: shape=(32, 17, 17), min=nan, max=nan, avg=nan
+aVec: shape=(32, 17), min=0.0000, max=7.0000, avg=0.9632
+SlimeVolley: 2024-09-12 16:25:25,114 [INFO] Iter=300, size=32, max=-37.5000, avg=-37.5000, min=-37.5000, std=0.0000
+nNodes: min=16, max=16, avg=16.00
+wMat: shape=(32, 16, 16), min=-2.0000, max=2.0000, avg=-0.0097
+aVec: shape=(32, 16), min=1.0000, max=1.0000, avg=1.0000
+SlimeVolley: 2024-09-12 16:25:25,243 [INFO] [TEST] Iter=300, #tests=10, max=-4.0000, avg=-4.9000, min=-5.0000, std=0.3000
+SlimeVolley: 2024-09-12 16:25:48,306 [INFO] Iter=310, size=32, max=-34.5000, avg=-34.5000, min=-34.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.06
+wMat: shape=(32, 17, 17), min=nan, max=nan, avg=nan
+aVec: shape=(32, 17), min=0.0000, max=7.0000, avg=0.9632
+SlimeVolley: 2024-09-12 16:26:14,520 [INFO] Iter=320, size=32, max=-32.5000, avg=-32.5000, min=-32.5000, std=0.0000
+nNodes: min=16, max=16, avg=16.00
+wMat: shape=(32, 16, 16), min=-2.0000, max=2.0000, avg=-0.0118
+aVec: shape=(32, 16), min=1.0000, max=1.0000, avg=1.0000
+SlimeVolley: 2024-09-12 16:26:38,987 [INFO] Iter=330, size=32, max=-37.0000, avg=-37.0000, min=-37.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.03
+wMat: shape=(32, 17, 17), min=nan, max=nan, avg=nan
+aVec: shape=(32, 17), min=0.0000, max=7.0000, avg=0.9540
+SlimeVolley: 2024-09-12 16:27:07,437 [INFO] Iter=340, size=32, max=-30.5000, avg=-30.5000, min=-30.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.06
+wMat: shape=(32, 17, 17), min=nan, max=nan, avg=nan
+aVec: shape=(32, 17), min=0.0000, max=6.0000, avg=0.9559
+SlimeVolley: 2024-09-12 16:27:33,133 [INFO] Iter=350, size=32, max=-32.5000, avg=-32.5000, min=-32.5000, std=0.0000
+nNodes: min=16, max=16, avg=16.00
+wMat: shape=(32, 16, 16), min=-2.0000, max=2.0000, avg=-0.0062
+aVec: shape=(32, 16), min=1.0000, max=1.0000, avg=1.0000
+SlimeVolley: 2024-09-12 16:27:33,237 [INFO] [TEST] Iter=350, #tests=10, max=-4.0000, avg=-4.8000, min=-5.0000, std=0.4000
+SlimeVolley: 2024-09-12 16:27:59,747 [INFO] Iter=360, size=32, max=-33.0000, avg=-33.0000, min=-33.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.06
+wMat: shape=(32, 17, 17), min=nan, max=nan, avg=nan
+aVec: shape=(32, 17), min=0.0000, max=7.0000, avg=0.9577
+SlimeVolley: 2024-09-12 16:28:29,186 [INFO] Iter=370, size=32, max=-33.5000, avg=-33.5000, min=-33.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.03
+wMat: shape=(32, 17, 17), min=nan, max=nan, avg=nan
+aVec: shape=(32, 17), min=0.0000, max=4.0000, avg=0.9485
+SlimeVolley: 2024-09-12 16:28:56,193 [INFO] Iter=380, size=32, max=-36.5000, avg=-36.5000, min=-36.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.03
+wMat: shape=(32, 17, 17), min=nan, max=nan, avg=nan
+aVec: shape=(32, 17), min=0.0000, max=2.0000, avg=0.9449
+SlimeVolley: 2024-09-12 16:29:22,316 [INFO] Iter=390, size=32, max=-32.0000, avg=-32.0000, min=-32.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.06
+wMat: shape=(32, 17, 17), min=nan, max=nan, avg=nan
+aVec: shape=(32, 17), min=0.0000, max=7.0000, avg=0.9577
+SlimeVolley: 2024-09-12 16:29:49,217 [INFO] Iter=400, size=32, max=-34.0000, avg=-34.0000, min=-34.0000, std=0.0000
+nNodes: min=16, max=16, avg=16.00
+wMat: shape=(32, 16, 16), min=-2.0000, max=2.0000, avg=-0.0199
+aVec: shape=(32, 16), min=1.0000, max=1.0000, avg=1.0000
+SlimeVolley: 2024-09-12 16:29:49,318 [INFO] [TEST] Iter=400, #tests=10, max=-4.0000, avg=-4.9000, min=-5.0000, std=0.3000
+SlimeVolley: 2024-09-12 16:30:15,407 [INFO] Iter=410, size=32, max=-34.5000, avg=-34.5000, min=-34.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.03
+wMat: shape=(32, 17, 17), min=nan, max=nan, avg=nan
+aVec: shape=(32, 17), min=0.0000, max=7.0000, avg=0.9540
+SlimeVolley: 2024-09-12 16:30:41,499 [INFO] Iter=420, size=32, max=-32.5000, avg=-32.5000, min=-32.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.03
+wMat: shape=(32, 17, 17), min=nan, max=nan, avg=nan
+aVec: shape=(32, 17), min=0.0000, max=1.0000, avg=0.9430
+SlimeVolley: 2024-09-12 16:31:06,867 [INFO] Iter=430, size=32, max=-35.5000, avg=-35.5000, min=-35.5000, std=0.0000
+nNodes: min=16, max=16, avg=16.00
+wMat: shape=(32, 16, 16), min=-2.0000, max=2.0000, avg=0.0027
+aVec: shape=(32, 16), min=1.0000, max=1.0000, avg=1.0000
+SlimeVolley: 2024-09-12 16:31:33,250 [INFO] Iter=440, size=32, max=-29.5000, avg=-29.5000, min=-29.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.03
+wMat: shape=(32, 17, 17), min=nan, max=nan, avg=nan
+aVec: shape=(32, 17), min=0.0000, max=3.0000, avg=0.9467
+SlimeVolley: 2024-09-12 16:31:59,150 [INFO] Iter=450, size=32, max=-33.0000, avg=-33.0000, min=-33.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.03
+wMat: shape=(32, 17, 17), min=nan, max=nan, avg=nan
+aVec: shape=(32, 17), min=0.0000, max=5.0000, avg=0.9504
+SlimeVolley: 2024-09-12 16:31:59,258 [INFO] [TEST] Iter=450, #tests=10, max=-3.0000, avg=-4.7000, min=-5.0000, std=0.6403
+SlimeVolley: 2024-09-12 16:32:24,190 [INFO] Iter=460, size=32, max=-34.0000, avg=-34.0000, min=-34.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.03
+wMat: shape=(32, 17, 17), min=nan, max=nan, avg=nan
+aVec: shape=(32, 17), min=0.0000, max=5.0000, avg=0.9504
+SlimeVolley: 2024-09-12 16:32:53,111 [INFO] Iter=470, size=32, max=-33.0000, avg=-33.0000, min=-33.0000, std=0.0000
+nNodes: min=16, max=16, avg=16.00
+wMat: shape=(32, 16, 16), min=-2.0000, max=2.0000, avg=-0.0253
+aVec: shape=(32, 16), min=1.0000, max=1.0000, avg=1.0000
+SlimeVolley: 2024-09-12 16:33:25,802 [INFO] Iter=480, size=32, max=-31.0000, avg=-31.0000, min=-31.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.03
+wMat: shape=(32, 17, 17), min=nan, max=nan, avg=nan
+aVec: shape=(32, 17), min=0.0000, max=8.0000, avg=0.9559
+SlimeVolley: 2024-09-12 16:33:52,593 [INFO] Iter=490, size=32, max=-33.0000, avg=-33.0000, min=-33.0000, std=0.0000
+nNodes: min=16, max=16, avg=16.00
+wMat: shape=(32, 16, 16), min=-2.0000, max=2.0000, avg=-0.0137
+aVec: shape=(32, 16), min=1.0000, max=1.0000, avg=1.0000
+SlimeVolley: 2024-09-12 16:35:10,239 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 16:35:10,239 [INFO] ==============================
+SlimeVolley: 2024-09-12 16:35:10,373 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 16:35:10,386 [INFO] Start to train for 2000 iterations.
+SlimeVolley: 2024-09-12 16:36:04,216 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, min=-25.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.03
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0144
+aVec: shape=(32, 17), min=0.0000, max=6.0000, avg=0.9522
+SlimeVolley: 2024-09-12 16:36:32,780 [INFO] Iter=20, size=32, max=-33.5000, avg=-33.5000, min=-33.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.03
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=0.0049
+aVec: shape=(32, 17), min=0.0000, max=1.0000, avg=0.9430
+SlimeVolley: 2024-09-12 16:37:02,004 [INFO] Iter=30, size=32, max=-34.5000, avg=-34.5000, min=-34.5000, std=0.0000
+nNodes: min=16, max=16, avg=16.00
+wMat: shape=(32, 16, 16), min=-2.0000, max=2.0000, avg=0.0017
+aVec: shape=(32, 16), min=1.0000, max=1.0000, avg=1.0000
+SlimeVolley: 2024-09-12 16:37:32,392 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 16:37:32,392 [INFO] ==============================
+SlimeVolley: 2024-09-12 16:37:32,529 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 16:37:32,541 [INFO] Start to train for 2000 iterations.
+SlimeVolley: 2024-09-12 16:38:26,686 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, median=-25.0000, min=-25.0000, std=0.0000
+nNodes: min=16, max=16.0, avg=17.00, median=16.03
+wMat: shape=(32, 17, 17), min=-2.0000, max=0.0000, avg=2.0000, median=-0.0144
+aVec: shape=(32, 17), min=0.0000, max=1.0000, avg=6.0000, median=0.9522
+SlimeVolley: 2024-09-12 16:38:53,435 [INFO] Iter=20, size=32, max=-33.5000, avg=-33.5000, median=-33.5000, min=-33.5000, std=0.0000
+nNodes: min=16, max=16.0, avg=17.00, median=16.03
+wMat: shape=(32, 17, 17), min=-2.0000, max=0.0000, avg=2.0000, median=0.0049
+aVec: shape=(32, 17), min=0.0000, max=1.0000, avg=1.0000, median=0.9430
+SlimeVolley: 2024-09-12 16:39:21,928 [INFO] Iter=30, size=32, max=-34.5000, avg=-34.5000, median=-34.5000, min=-34.5000, std=0.0000
+nNodes: min=16, max=16.0, avg=16.00, median=16.00
+wMat: shape=(32, 16, 16), min=-2.0000, max=0.0000, avg=2.0000, median=0.0017
+aVec: shape=(32, 16), min=1.0000, max=1.0000, avg=1.0000, median=1.0000
+SlimeVolley: 2024-09-12 16:39:48,805 [INFO] Iter=40, size=32, max=-34.0000, avg=-34.0000, median=-34.0000, min=-34.0000, std=0.0000
+nNodes: min=16, max=16.0, avg=16.00, median=16.00
+wMat: shape=(32, 16, 16), min=-2.0000, max=0.0000, avg=2.0000, median=0.0018
+aVec: shape=(32, 16), min=1.0000, max=1.0000, avg=1.0000, median=1.0000
+SlimeVolley: 2024-09-12 16:40:15,310 [INFO] Iter=50, size=32, max=-32.0000, avg=-32.0000, median=-32.0000, min=-32.0000, std=0.0000
+nNodes: min=16, max=16.0, avg=16.00, median=16.00
+wMat: shape=(32, 16, 16), min=-2.0000, max=0.0000, avg=2.0000, median=-0.0030
+aVec: shape=(32, 16), min=1.0000, max=1.0000, avg=1.0000, median=1.0000
+SlimeVolley: 2024-09-12 16:40:22,593 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 16:40:22,593 [INFO] ==============================
+SlimeVolley: 2024-09-12 16:40:22,768 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 16:40:22,784 [INFO] Start to train for 2000 iterations.
+SlimeVolley: 2024-09-12 16:41:26,170 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, median=-25.0000, min=-25.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.03, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0144, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=6.0000, avg=0.9522, median=1.0000
+SlimeVolley: 2024-09-12 16:41:54,314 [INFO] Iter=20, size=32, max=-33.5000, avg=-33.5000, median=-33.5000, min=-33.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.03, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=0.0049, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=1.0000, avg=0.9430, median=1.0000
+SlimeVolley: 2024-09-12 16:42:21,376 [INFO] Iter=30, size=32, max=-34.5000, avg=-34.5000, median=-34.5000, min=-34.5000, std=0.0000
+nNodes: min=16, max=16, avg=16.00, median=16.00
+wMat: shape=(32, 16, 16), min=-2.0000, max=2.0000, avg=0.0017, median=0.0000
+aVec: shape=(32, 16), min=1.0000, max=1.0000, avg=1.0000, median=1.0000
+SlimeVolley: 2024-09-12 16:42:46,975 [INFO] Iter=40, size=32, max=-34.0000, avg=-34.0000, median=-34.0000, min=-34.0000, std=0.0000
+nNodes: min=16, max=16, avg=16.00, median=16.00
+wMat: shape=(32, 16, 16), min=-2.0000, max=2.0000, avg=0.0018, median=0.0000
+aVec: shape=(32, 16), min=1.0000, max=1.0000, avg=1.0000, median=1.0000
+SlimeVolley: 2024-09-12 16:43:14,640 [INFO] Iter=50, size=32, max=-32.0000, avg=-32.0000, median=-32.0000, min=-32.0000, std=0.0000
+nNodes: min=16, max=16, avg=16.00, median=16.00
+wMat: shape=(32, 16, 16), min=-2.0000, max=2.0000, avg=-0.0030, median=0.0000
+aVec: shape=(32, 16), min=1.0000, max=1.0000, avg=1.0000, median=1.0000
+SlimeVolley: 2024-09-12 16:43:17,987 [INFO] [TEST] Iter=50, #tests=10, max=-4.0000, avg=-4.8000, min=-5.0000, std=0.4000
+SlimeVolley: 2024-09-12 16:43:45,226 [INFO] Iter=60, size=32, max=-33.0000, avg=-33.0000, median=-33.0000, min=-33.0000, std=0.0000
+nNodes: min=16, max=16, avg=16.00, median=16.00
+wMat: shape=(32, 16, 16), min=-2.0000, max=2.0000, avg=0.0019, median=0.0000
+aVec: shape=(32, 16), min=1.0000, max=1.0000, avg=1.0000, median=1.0000
+SlimeVolley: 2024-09-12 16:44:11,483 [INFO] Iter=70, size=32, max=-32.5000, avg=-32.5000, median=-32.5000, min=-32.5000, std=0.0000
+nNodes: min=16, max=16, avg=16.00, median=16.00
+wMat: shape=(32, 16, 16), min=-2.0000, max=2.0000, avg=-0.0038, median=0.0000
+aVec: shape=(32, 16), min=1.0000, max=1.0000, avg=1.0000, median=1.0000
+SlimeVolley: 2024-09-12 16:44:38,167 [INFO] Iter=80, size=32, max=-33.0000, avg=-33.0000, median=-33.0000, min=-33.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.03, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=0.0052, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=3.0000, avg=0.9467, median=1.0000
+SlimeVolley: 2024-09-12 16:45:06,749 [INFO] Iter=90, size=32, max=-34.0000, avg=-34.0000, median=-34.0000, min=-34.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.06, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=0.0050, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=3.0000, avg=0.9522, median=1.0000
+SlimeVolley: 2024-09-12 16:45:32,576 [INFO] Iter=100, size=32, max=-34.0000, avg=-34.0000, median=-34.0000, min=-34.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.03, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=0.0043, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=7.0000, avg=0.9540, median=1.0000
+SlimeVolley: 2024-09-12 16:45:32,674 [INFO] [TEST] Iter=100, #tests=10, max=-5.0000, avg=-5.0000, min=-5.0000, std=0.0000
+SlimeVolley: 2024-09-12 16:45:57,556 [INFO] Iter=110, size=32, max=-33.0000, avg=-33.0000, median=-33.0000, min=-33.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.03, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0007, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=7.0000, avg=0.9540, median=1.0000
+SlimeVolley: 2024-09-12 16:46:23,957 [INFO] Iter=120, size=32, max=-34.0000, avg=-34.0000, median=-34.0000, min=-34.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.03, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0190, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=2.0000, avg=0.9449, median=1.0000
+SlimeVolley: 2024-09-12 16:46:49,501 [INFO] Iter=130, size=32, max=-38.0000, avg=-38.0000, median=-38.0000, min=-38.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.03, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0150, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=1.0000, avg=0.9430, median=1.0000
+SlimeVolley: 2024-09-12 16:47:15,392 [INFO] Iter=140, size=32, max=-37.0000, avg=-37.0000, median=-37.0000, min=-37.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.03, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0068, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=8.0000, avg=0.9559, median=1.0000
+SlimeVolley: 2024-09-12 16:47:40,007 [INFO] Iter=150, size=32, max=-31.0000, avg=-31.0000, median=-31.0000, min=-31.0000, std=0.0000
+nNodes: min=16, max=16, avg=16.00, median=16.00
+wMat: shape=(32, 16, 16), min=-2.0000, max=2.0000, avg=-0.0123, median=0.0000
+aVec: shape=(32, 16), min=1.0000, max=1.0000, avg=1.0000, median=1.0000
+SlimeVolley: 2024-09-12 16:47:40,124 [INFO] [TEST] Iter=150, #tests=10, max=-4.0000, avg=-4.9000, min=-5.0000, std=0.3000
+SlimeVolley: 2024-09-12 16:48:51,372 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 16:48:51,372 [INFO] ==============================
+SlimeVolley: 2024-09-12 16:48:51,507 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 16:48:51,520 [INFO] Start to train for 2000 iterations.
+SlimeVolley: 2024-09-12 16:50:27,439 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, median=-25.0000, min=-25.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0214, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=10.0000, avg=1.0404, median=1.0000
+SlimeVolley: 2024-09-12 16:51:31,282 [INFO] Iter=20, size=32, max=-33.5000, avg=-33.5000, median=-33.5000, min=-33.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.34, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=0.0050, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=8.0000, avg=1.0331, median=1.0000
+SlimeVolley: 2024-09-12 16:52:29,223 [INFO] Iter=30, size=32, max=-34.5000, avg=-34.5000, median=-34.5000, min=-34.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.34, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0185, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=9.0000, avg=1.0643, median=1.0000
+SlimeVolley: 2024-09-12 17:04:44,962 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 17:04:44,962 [INFO] ==============================
+SlimeVolley: 2024-09-12 17:04:45,059 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 17:04:45,068 [INFO] Start to train for 2000 iterations.
+SlimeVolley: 2024-09-12 17:05:59,042 [INFO] Iter=10, size=32, max=-25.0000, avg=-25.0000, median=-25.0000, min=-25.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0160, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=9.0000, avg=1.0055, median=1.0000
+SlimeVolley: 2024-09-12 17:06:46,042 [INFO] Iter=20, size=32, max=-33.5000, avg=-33.5000, median=-33.5000, min=-33.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.34, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0030, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=10.0000, avg=1.0496, median=1.0000
+SlimeVolley: 2024-09-12 17:07:34,721 [INFO] Iter=30, size=32, max=-34.5000, avg=-34.5000, median=-34.5000, min=-34.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.28, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0161, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=9.0000, avg=1.0221, median=1.0000
+SlimeVolley: 2024-09-12 17:08:22,411 [INFO] Iter=40, size=32, max=-34.0000, avg=-34.0000, median=-34.0000, min=-34.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.16, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0014, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=7.0000, avg=0.9982, median=1.0000
+SlimeVolley: 2024-09-12 17:09:10,158 [INFO] Iter=50, size=32, max=-32.0000, avg=-32.0000, median=-32.0000, min=-32.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.34, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0093, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=9.0000, avg=1.0515, median=1.0000
+SlimeVolley: 2024-09-12 17:09:13,266 [INFO] [TEST] Iter=50, #tests=10, max=-4.0000, avg=-4.8000, min=-5.0000, std=0.4000
+SlimeVolley: 2024-09-12 17:10:13,234 [INFO] Iter=60, size=32, max=-33.0000, avg=-33.0000, median=-33.0000, min=-33.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.22, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0194, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=9.0000, avg=0.9945, median=1.0000
+SlimeVolley: 2024-09-12 17:11:04,150 [INFO] Iter=70, size=32, max=-32.5000, avg=-32.5000, median=-32.5000, min=-32.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0175, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=10.0000, avg=1.0349, median=1.0000
+SlimeVolley: 2024-09-12 17:11:55,626 [INFO] Iter=80, size=32, max=-33.0000, avg=-33.0000, median=-33.0000, min=-33.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.41, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0294, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=10.0000, avg=1.0460, median=1.0000
+SlimeVolley: 2024-09-12 17:12:57,659 [INFO] Iter=90, size=32, max=-34.0000, avg=-34.0000, median=-34.0000, min=-34.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.28, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0061, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=10.0000, avg=1.0092, median=1.0000
+SlimeVolley: 2024-09-12 17:13:48,592 [INFO] Iter=100, size=32, max=-34.0000, avg=-34.0000, median=-34.0000, min=-34.0000, std=0.0000
+nNodes: min=16, max=18, avg=16.41, median=16.00
+wMat: shape=(32, 18, 18), min=-2.0000, max=2.0000, avg=-0.0047, median=0.0000
+aVec: shape=(32, 18), min=0.0000, max=10.0000, avg=0.9913, median=1.0000
+SlimeVolley: 2024-09-12 17:13:50,657 [INFO] [TEST] Iter=100, #tests=10, max=-5.0000, avg=-5.0000, min=-5.0000, std=0.0000
+SlimeVolley: 2024-09-12 17:14:40,482 [INFO] Iter=110, size=32, max=-33.0000, avg=-33.0000, median=-33.0000, min=-33.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.28, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0130, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=10.0000, avg=1.0331, median=1.0000
+SlimeVolley: 2024-09-12 17:15:37,435 [INFO] Iter=120, size=32, max=-34.0000, avg=-34.0000, median=-34.0000, min=-34.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0024, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=9.0000, avg=1.0460, median=1.0000
+SlimeVolley: 2024-09-12 17:16:28,129 [INFO] Iter=130, size=32, max=-38.0000, avg=-38.0000, median=-38.0000, min=-38.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.22, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=0.0055, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=9.0000, avg=1.0000, median=1.0000
+SlimeVolley: 2024-09-12 17:17:18,862 [INFO] Iter=140, size=32, max=-37.0000, avg=-37.0000, median=-37.0000, min=-37.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.34, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0158, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=10.0000, avg=1.0478, median=1.0000
+SlimeVolley: 2024-09-12 17:17:40,725 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 17:17:40,725 [INFO] ==============================
+SlimeVolley: 2024-09-12 17:17:40,863 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 17:17:40,876 [INFO] Start to train for 2000 iterations.
+SlimeVolley: 2024-09-12 17:18:51,820 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 17:18:51,820 [INFO] ==============================
+SlimeVolley: 2024-09-12 17:18:51,927 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 17:18:51,938 [INFO] Start to train for 10 iterations.
+SlimeVolley: 2024-09-12 17:20:38,177 [INFO] [TEST] Iter=10, #tests=10, max=-2.0000, avg=-3.1000, min=-4.0000, std=0.8307
+SlimeVolley: 2024-09-12 17:20:38,181 [INFO] Training done, best_score=-3.1000
+SlimeVolley: 2024-09-12 17:20:38,186 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-12 17:20:38,186 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-12 17:20:38,206 [INFO] [TEST] #tests=10, max=-1.0000, avg=-2.4000, min=-4.0000, std=1.1136
+SlimeVolley: 2024-09-12 17:20:47,168 [INFO] GIF saved to ./log/slimevolley/slimevolley.gif.
+SlimeVolley: 2024-09-12 17:23:29,204 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 17:23:29,204 [INFO] ==============================
+SlimeVolley: 2024-09-12 17:23:29,436 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 17:23:29,448 [INFO] Start to train for 10 iterations.
+SlimeVolley: 2024-09-12 17:24:46,102 [INFO] [TEST] Iter=10, #tests=10, max=-2.0000, avg=-3.1000, min=-4.0000, std=0.8307
+SlimeVolley: 2024-09-12 17:24:46,103 [INFO] Training done, best_score=-3.1000
+SlimeVolley: 2024-09-12 17:24:46,105 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-12 17:24:46,105 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-12 17:24:46,120 [INFO] [TEST] #tests=10, max=-1.0000, avg=-2.4000, min=-4.0000, std=1.1136
+SlimeVolley: 2024-09-12 17:24:49,980 [INFO] GIF saved to ./log/slimevolley/slimevolley.gif.
+SlimeVolley: 2024-09-12 17:27:27,880 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 17:27:27,880 [INFO] ==============================
+SlimeVolley: 2024-09-12 17:27:27,975 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 17:27:27,983 [INFO] Start to train for 100 iterations.
+SlimeVolley: 2024-09-12 17:28:38,610 [INFO] Iter=10, size=32, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0160, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=9.0000, avg=1.0055, median=1.0000
+SlimeVolley: 2024-09-12 17:29:26,474 [INFO] Iter=20, size=32, max=-4.0000, avg=-4.0000, median=-4.0000, min=-4.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.34, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0030, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=10.0000, avg=1.0496, median=1.0000
+SlimeVolley: 2024-09-12 17:30:11,640 [INFO] Iter=30, size=32, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.28, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0161, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=9.0000, avg=1.0221, median=1.0000
+SlimeVolley: 2024-09-12 17:30:57,950 [INFO] Iter=40, size=32, max=-1.5000, avg=-1.5000, median=-1.5000, min=-1.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.16, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0014, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=7.0000, avg=0.9982, median=1.0000
+SlimeVolley: 2024-09-12 17:31:43,106 [INFO] Iter=50, size=32, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.34, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0093, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=9.0000, avg=1.0515, median=1.0000
+SlimeVolley: 2024-09-12 17:31:45,860 [INFO] [TEST] Iter=50, #tests=10, max=0.0000, avg=-2.5000, min=-5.0000, std=1.3601
+SlimeVolley: 2024-09-12 17:32:47,872 [INFO] Iter=60, size=32, max=-2.5000, avg=-2.5000, median=-2.5000, min=-2.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.22, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0194, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=9.0000, avg=0.9945, median=1.0000
+SlimeVolley: 2024-09-12 17:33:38,018 [INFO] Iter=70, size=32, max=-2.5000, avg=-2.5000, median=-2.5000, min=-2.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0175, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=10.0000, avg=1.0349, median=1.0000
+SlimeVolley: 2024-09-12 17:34:23,084 [INFO] Iter=80, size=32, max=-2.5000, avg=-2.5000, median=-2.5000, min=-2.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.41, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0294, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=10.0000, avg=1.0460, median=1.0000
+SlimeVolley: 2024-09-12 17:35:21,059 [INFO] Iter=90, size=32, max=-3.5000, avg=-3.5000, median=-3.5000, min=-3.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.28, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0061, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=10.0000, avg=1.0092, median=1.0000
+SlimeVolley: 2024-09-12 17:36:07,013 [INFO] [TEST] Iter=100, #tests=10, max=-2.0000, avg=-3.5000, min=-4.0000, std=0.8062
+SlimeVolley: 2024-09-12 17:36:07,015 [INFO] Training done, best_score=-2.5000
+SlimeVolley: 2024-09-12 17:36:07,016 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-12 17:36:07,016 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-12 17:36:07,032 [INFO] [TEST] #tests=10, max=-1.0000, avg=-3.2000, min=-5.0000, std=1.0770
+SlimeVolley: 2024-09-12 17:36:11,405 [INFO] GIF saved to ./log/slimevolley/slimevolley.gif.
+SlimeVolley: 2024-09-12 17:36:40,072 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 17:36:40,072 [INFO] ==============================
+SlimeVolley: 2024-09-12 17:36:40,174 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 17:36:40,184 [INFO] Start to train for 5 iterations.
+SlimeVolley: 2024-09-12 17:38:11,456 [INFO] [TEST] Iter=5, #tests=10, max=-2.0000, avg=-3.4000, min=-5.0000, std=1.0198
+SlimeVolley: 2024-09-12 17:38:11,457 [INFO] Training done, best_score=-3.4000
+SlimeVolley: 2024-09-12 17:38:11,458 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-12 17:38:11,458 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-12 17:38:11,475 [INFO] [TEST] #tests=10, max=-1.0000, avg=-2.4000, min=-4.0000, std=0.9165
+SlimeVolley: 2024-09-12 17:38:16,160 [INFO] GIF saved to ./log/slimevolley/slimevolley.gif.
+SlimeVolley: 2024-09-12 17:41:20,708 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 17:41:20,708 [INFO] ==============================
+SlimeVolley: 2024-09-12 17:41:20,807 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 17:41:20,815 [INFO] Start to train for 5 iterations.
+SlimeVolley: 2024-09-12 17:41:46,776 [INFO] Iter=1, size=32, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.91, median=17.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0019, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=10.0000, avg=1.2224, median=1.0000
+SlimeVolley: 2024-09-12 17:42:08,932 [INFO] Iter=2, size=32, max=-3.5000, avg=-3.5000, median=-3.5000, min=-3.5000, std=0.0000
+nNodes: min=16, max=18, avg=17.66, median=18.00
+wMat: shape=(32, 18, 18), min=-2.0000, max=2.0000, avg=0.0013, median=0.0000
+aVec: shape=(32, 18), min=0.0000, max=10.0000, avg=1.4392, median=1.0000
+SlimeVolley: 2024-09-12 17:42:30,499 [INFO] Iter=3, size=32, max=-4.0000, avg=-4.0000, median=-4.0000, min=-4.0000, std=0.0000
+nNodes: min=16, max=19, avg=17.97, median=18.00
+wMat: shape=(32, 19, 19), min=-2.0000, max=2.0000, avg=0.0048, median=0.0000
+aVec: shape=(32, 19), min=0.0000, max=10.0000, avg=1.4441, median=1.0000
+SlimeVolley: 2024-09-12 17:42:52,679 [INFO] Iter=4, size=32, max=-3.5000, avg=-3.5000, median=-3.5000, min=-3.5000, std=0.0000
+nNodes: min=16, max=20, avg=18.00, median=18.00
+wMat: shape=(32, 20, 20), min=-2.0000, max=2.0000, avg=0.0063, median=0.0000
+aVec: shape=(32, 20), min=0.0000, max=10.0000, avg=1.3563, median=1.0000
+SlimeVolley: 2024-09-12 17:42:55,602 [INFO] [TEST] Iter=5, #tests=10, max=-2.0000, avg=-3.4000, min=-5.0000, std=1.0198
+SlimeVolley: 2024-09-12 17:42:55,603 [INFO] Training done, best_score=-3.4000
+SlimeVolley: 2024-09-12 17:42:55,604 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-12 17:42:55,604 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-12 17:42:55,619 [INFO] [TEST] #tests=10, max=-1.0000, avg=-2.4000, min=-4.0000, std=0.9165
+SlimeVolley: 2024-09-12 17:42:59,371 [INFO] GIF saved to ./log/slimevolley/slimevolley.gif.
+SlimeVolley: 2024-09-12 17:49:48,791 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 17:49:48,791 [INFO] ==============================
+SlimeVolley: 2024-09-12 17:49:48,911 [INFO] use_for_loop=False
+SlimeVolley: 2024-09-12 17:49:48,923 [INFO] Start to train for 5 iterations.
+SlimeVolley: 2024-09-12 17:49:50,736 [DEBUG] solver.ask time: 1.8135s
+SlimeVolley: 2024-09-12 17:49:57,043 [DEBUG] sim_mgr.eval_params time: 6.3065s
+SlimeVolley: 2024-09-12 17:49:57,095 [DEBUG] solver.tell time: 0.0523s
+SlimeVolley: 2024-09-12 17:50:10,636 [DEBUG] solver.ask time: 13.5402s
+SlimeVolley: 2024-09-12 17:50:18,252 [DEBUG] sim_mgr.eval_params time: 7.6163s
+SlimeVolley: 2024-09-12 17:50:18,254 [DEBUG] solver.tell time: 0.0018s
+SlimeVolley: 2024-09-12 17:50:18,255 [INFO] Iter=1, size=32, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.91, median=17.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0019, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=10.0000, avg=1.2224, median=1.0000
+SlimeVolley: 2024-09-12 17:53:22,603 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 17:53:22,603 [INFO] ==============================
+SlimeVolley: 2024-09-12 17:53:22,728 [INFO] Start to train for 5 iterations.
+SlimeVolley: 2024-09-12 17:53:45,381 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 17:53:45,381 [INFO] ==============================
+SlimeVolley: 2024-09-12 17:53:45,507 [INFO] Start to train for 5 iterations.
+SlimeVolley: 2024-09-12 17:55:21,043 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 17:55:21,043 [INFO] ==============================
+SlimeVolley: 2024-09-12 17:55:21,160 [INFO] Start to train for 5 iterations.
+SlimeVolley: 2024-09-12 17:55:22,611 [INFO] solver.ask time: 1.4506s
+SlimeVolley: 2024-09-12 17:55:28,605 [INFO] sim_mgr.eval_params time: 5.9939s
+SlimeVolley: 2024-09-12 17:55:28,640 [INFO] solver.tell time: 0.0355s
+SlimeVolley: 2024-09-12 17:55:38,274 [INFO] solver.ask time: 9.6328s
+SlimeVolley: 2024-09-12 17:55:44,875 [INFO] sim_mgr.eval_params time: 6.6012s
+SlimeVolley: 2024-09-12 17:55:44,877 [INFO] solver.tell time: 0.0016s
+SlimeVolley: 2024-09-12 17:55:44,877 [INFO] Iter=1, size=32, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.91, median=17.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0019, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=10.0000, avg=1.2224, median=1.0000
+SlimeVolley: 2024-09-12 17:55:57,903 [INFO] solver.ask time: 13.0255s
+SlimeVolley: 2024-09-12 17:56:04,870 [INFO] sim_mgr.eval_params time: 6.9668s
+SlimeVolley: 2024-09-12 17:56:04,872 [INFO] solver.tell time: 0.0019s
+SlimeVolley: 2024-09-12 17:56:04,873 [INFO] Iter=2, size=32, max=-3.5000, avg=-3.5000, median=-3.5000, min=-3.5000, std=0.0000
+nNodes: min=16, max=18, avg=17.66, median=18.00
+wMat: shape=(32, 18, 18), min=-2.0000, max=2.0000, avg=0.0013, median=0.0000
+aVec: shape=(32, 18), min=0.0000, max=10.0000, avg=1.4392, median=1.0000
+SlimeVolley: 2024-09-12 17:56:18,805 [INFO] solver.ask time: 13.9328s
+SlimeVolley: 2024-09-12 17:56:26,950 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 17:56:26,950 [INFO] ==============================
+SlimeVolley: 2024-09-12 17:56:27,089 [INFO] Start to train for 2000 iterations.
+SlimeVolley: 2024-09-12 17:56:28,863 [INFO] solver.ask time: 1.7742s
+SlimeVolley: 2024-09-12 17:56:35,728 [INFO] sim_mgr.eval_params time: 6.8649s
+SlimeVolley: 2024-09-12 17:56:35,766 [INFO] solver.tell time: 0.0381s
+SlimeVolley: 2024-09-12 17:56:47,733 [INFO] solver.ask time: 11.9666s
+SlimeVolley: 2024-09-12 17:56:54,776 [INFO] sim_mgr.eval_params time: 7.0424s
+SlimeVolley: 2024-09-12 17:56:54,778 [INFO] solver.tell time: 0.0020s
+SlimeVolley: 2024-09-12 17:56:54,779 [INFO] Iter=1, size=32, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.91, median=17.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0019, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=10.0000, avg=1.2224, median=1.0000
+SlimeVolley: 2024-09-12 17:57:07,156 [INFO] solver.ask time: 12.3772s
+SlimeVolley: 2024-09-12 17:57:15,031 [INFO] sim_mgr.eval_params time: 7.8747s
+SlimeVolley: 2024-09-12 17:57:15,033 [INFO] solver.tell time: 0.0019s
+SlimeVolley: 2024-09-12 17:57:15,034 [INFO] Iter=2, size=32, max=-3.5000, avg=-3.5000, median=-3.5000, min=-3.5000, std=0.0000
+nNodes: min=16, max=18, avg=17.66, median=18.00
+wMat: shape=(32, 18, 18), min=-2.0000, max=2.0000, avg=0.0013, median=0.0000
+aVec: shape=(32, 18), min=0.0000, max=10.0000, avg=1.4392, median=1.0000
+SlimeVolley: 2024-09-12 17:57:28,292 [INFO] solver.ask time: 13.2580s
+SlimeVolley: 2024-09-12 17:57:35,064 [INFO] sim_mgr.eval_params time: 6.7718s
+SlimeVolley: 2024-09-12 17:57:35,066 [INFO] solver.tell time: 0.0020s
+SlimeVolley: 2024-09-12 17:57:35,067 [INFO] Iter=3, size=32, max=-4.0000, avg=-4.0000, median=-4.0000, min=-4.0000, std=0.0000
+nNodes: min=16, max=19, avg=17.97, median=18.00
+wMat: shape=(32, 19, 19), min=-2.0000, max=2.0000, avg=0.0048, median=0.0000
+aVec: shape=(32, 19), min=0.0000, max=10.0000, avg=1.4441, median=1.0000
+SlimeVolley: 2024-09-12 17:57:48,396 [INFO] solver.ask time: 13.3298s
+SlimeVolley: 2024-09-12 17:57:56,416 [INFO] sim_mgr.eval_params time: 8.0191s
+SlimeVolley: 2024-09-12 17:57:56,418 [INFO] solver.tell time: 0.0017s
+SlimeVolley: 2024-09-12 17:57:56,418 [INFO] Iter=4, size=32, max=-3.5000, avg=-3.5000, median=-3.5000, min=-3.5000, std=0.0000
+nNodes: min=16, max=20, avg=18.00, median=18.00
+wMat: shape=(32, 20, 20), min=-2.0000, max=2.0000, avg=0.0063, median=0.0000
+aVec: shape=(32, 20), min=0.0000, max=10.0000, avg=1.3563, median=1.0000
+SlimeVolley: 2024-09-12 17:58:06,756 [INFO] solver.ask time: 10.3373s
+SlimeVolley: 2024-09-12 17:58:06,821 [INFO] sim_mgr.eval_params time: 0.0656s
+SlimeVolley: 2024-09-12 17:58:06,823 [INFO] solver.tell time: 0.0018s
+SlimeVolley: 2024-09-12 17:58:06,824 [INFO] Iter=5, size=32, max=-3.5000, avg=-3.5000, median=-3.5000, min=-3.5000, std=0.0000
+nNodes: min=16, max=20, avg=17.81, median=18.00
+wMat: shape=(32, 20, 20), min=-2.0000, max=2.0000, avg=0.0007, median=0.0000
+aVec: shape=(32, 20), min=0.0000, max=10.0000, avg=1.3547, median=1.0000
+SlimeVolley: 2024-09-12 17:58:16,504 [INFO] solver.ask time: 9.6803s
+SlimeVolley: 2024-09-12 17:58:24,574 [INFO] sim_mgr.eval_params time: 8.0689s
+SlimeVolley: 2024-09-12 17:58:24,577 [INFO] solver.tell time: 0.0029s
+SlimeVolley: 2024-09-12 17:58:24,578 [INFO] Iter=6, size=32, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=16, max=19, avg=18.12, median=18.00
+wMat: shape=(32, 19, 19), min=-2.0000, max=2.0000, avg=-0.0012, median=0.0000
+aVec: shape=(32, 19), min=0.0000, max=10.0000, avg=1.4507, median=1.0000
+SlimeVolley: 2024-09-12 17:58:35,135 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 17:58:35,135 [INFO] ==============================
+SlimeVolley: 2024-09-12 17:59:24,026 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 17:59:24,026 [INFO] ==============================
+SlimeVolley: 2024-09-12 17:59:24,126 [INFO] Start to train for 2000 iterations.
+SlimeVolley: 2024-09-12 17:59:37,105 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 17:59:37,105 [INFO] ==============================
+SlimeVolley: 2024-09-12 17:59:37,208 [INFO] Start to train for 2000 iterations.
+SlimeVolley: 2024-09-12 17:59:38,446 [INFO] solver.ask time: 1.2384s
+SlimeVolley: 2024-09-12 17:59:41,034 [INFO] sim_mgr.eval_params time: 2.5881s
+SlimeVolley: 2024-09-12 17:59:41,068 [INFO] solver.tell time: 0.0331s
+SlimeVolley: 2024-09-12 17:59:46,830 [INFO] solver.ask time: 5.7618s
+SlimeVolley: 2024-09-12 17:59:49,204 [INFO] sim_mgr.eval_params time: 2.3737s
+SlimeVolley: 2024-09-12 17:59:49,204 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 17:59:49,205 [INFO] Iter=1, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=17, max=17, avg=17.00, median=17.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0259, median=0.0000
+aVec: shape=(8, 17), min=1.0000, max=10.0000, avg=1.1985, median=1.0000
+SlimeVolley: 2024-09-12 17:59:56,472 [INFO] solver.ask time: 7.2672s
+SlimeVolley: 2024-09-12 17:59:58,575 [INFO] sim_mgr.eval_params time: 2.1024s
+SlimeVolley: 2024-09-12 17:59:58,576 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 17:59:58,577 [INFO] Iter=2, size=8, max=-3.5000, avg=-3.5000, median=-3.5000, min=-3.5000, std=0.0000
+nNodes: min=18, max=18, avg=18.00, median=18.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0245, median=0.0000
+aVec: shape=(8, 18), min=1.0000, max=10.0000, avg=1.4028, median=1.0000
+SlimeVolley: 2024-09-12 18:00:03,850 [INFO] solver.ask time: 5.2739s
+SlimeVolley: 2024-09-12 18:00:06,336 [INFO] sim_mgr.eval_params time: 2.4851s
+SlimeVolley: 2024-09-12 18:00:06,337 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 18:00:06,337 [INFO] Iter=3, size=8, max=-4.0000, avg=-4.0000, median=-4.0000, min=-4.0000, std=0.0000
+nNodes: min=19, max=19, avg=19.00, median=19.00
+wMat: shape=(8, 19, 19), min=-2.0000, max=2.0000, avg=-0.0122, median=0.0000
+aVec: shape=(8, 19), min=1.0000, max=10.0000, avg=1.4211, median=1.0000
+SlimeVolley: 2024-09-12 18:00:11,583 [INFO] solver.ask time: 5.2462s
+SlimeVolley: 2024-09-12 18:00:14,456 [INFO] sim_mgr.eval_params time: 2.8726s
+SlimeVolley: 2024-09-12 18:00:14,457 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 18:00:14,458 [INFO] Iter=4, size=8, max=-3.5000, avg=-3.5000, median=-3.5000, min=-3.5000, std=0.0000
+nNodes: min=20, max=20, avg=20.00, median=20.00
+wMat: shape=(8, 20, 20), min=-2.0000, max=2.0000, avg=-0.0144, median=0.0000
+aVec: shape=(8, 20), min=1.0000, max=9.0000, avg=1.5000, median=1.0000
+SlimeVolley: 2024-09-12 18:00:20,968 [INFO] solver.ask time: 6.5105s
+SlimeVolley: 2024-09-12 18:00:23,189 [INFO] sim_mgr.eval_params time: 2.2203s
+SlimeVolley: 2024-09-12 18:00:23,190 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 18:00:23,190 [INFO] Iter=5, size=8, max=-3.5000, avg=-3.5000, median=-3.5000, min=-3.5000, std=0.0000
+nNodes: min=21, max=21, avg=21.00, median=21.00
+wMat: shape=(8, 21, 21), min=-2.0000, max=2.0000, avg=-0.0094, median=0.0000
+aVec: shape=(8, 21), min=1.0000, max=10.0000, avg=1.6905, median=1.0000
+SlimeVolley: 2024-09-12 18:00:29,587 [INFO] solver.ask time: 6.3963s
+SlimeVolley: 2024-09-12 18:00:32,176 [INFO] sim_mgr.eval_params time: 2.5896s
+SlimeVolley: 2024-09-12 18:00:32,177 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 18:00:32,178 [INFO] Iter=6, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=22, max=22, avg=22.00, median=22.00
+wMat: shape=(8, 22, 22), min=-2.0000, max=2.0000, avg=0.0003, median=0.0000
+aVec: shape=(8, 22), min=1.0000, max=10.0000, avg=1.7727, median=1.0000
+SlimeVolley: 2024-09-12 18:00:37,527 [INFO] solver.ask time: 5.3489s
+SlimeVolley: 2024-09-12 18:00:40,283 [INFO] sim_mgr.eval_params time: 2.7561s
+SlimeVolley: 2024-09-12 18:00:40,284 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 18:00:40,284 [INFO] Iter=7, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=23, max=23, avg=23.00, median=23.00
+wMat: shape=(8, 23, 23), min=-2.0000, max=2.0000, avg=0.0069, median=0.0000
+aVec: shape=(8, 23), min=1.0000, max=10.0000, avg=1.8478, median=1.0000
+SlimeVolley: 2024-09-12 18:00:46,884 [INFO] solver.ask time: 6.5999s
+SlimeVolley: 2024-09-12 18:00:49,262 [INFO] sim_mgr.eval_params time: 2.3773s
+SlimeVolley: 2024-09-12 18:00:49,263 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 18:00:49,263 [INFO] Iter=8, size=8, max=-2.5000, avg=-2.5000, median=-2.5000, min=-2.5000, std=0.0000
+nNodes: min=24, max=24, avg=24.00, median=24.00
+wMat: shape=(8, 24, 24), min=-2.0000, max=2.0000, avg=0.0114, median=0.0000
+aVec: shape=(8, 24), min=1.0000, max=10.0000, avg=1.9792, median=1.0000
+SlimeVolley: 2024-09-12 18:00:56,673 [INFO] solver.ask time: 7.4100s
+SlimeVolley: 2024-09-12 18:00:58,823 [INFO] sim_mgr.eval_params time: 2.1492s
+SlimeVolley: 2024-09-12 18:00:58,823 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 18:00:58,824 [INFO] Iter=9, size=8, max=-2.0000, avg=-2.0000, median=-2.0000, min=-2.0000, std=0.0000
+nNodes: min=25, max=25, avg=25.00, median=25.00
+wMat: shape=(8, 25, 25), min=-2.0000, max=2.0000, avg=0.0099, median=0.0000
+aVec: shape=(8, 25), min=1.0000, max=10.0000, avg=1.8450, median=1.0000
+SlimeVolley: 2024-09-12 18:01:05,286 [INFO] solver.ask time: 6.4617s
+SlimeVolley: 2024-09-12 18:01:07,877 [INFO] sim_mgr.eval_params time: 2.5917s
+SlimeVolley: 2024-09-12 18:01:07,878 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 18:01:07,879 [INFO] Iter=10, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=26, max=26, avg=26.00, median=26.00
+wMat: shape=(8, 26, 26), min=-2.0000, max=2.0000, avg=0.0100, median=0.0000
+aVec: shape=(8, 26), min=1.0000, max=10.0000, avg=1.9712, median=1.0000
+SlimeVolley: 2024-09-12 18:01:13,801 [INFO] solver.ask time: 5.9220s
+SlimeVolley: 2024-09-12 18:01:17,488 [INFO] sim_mgr.eval_params time: 3.6862s
+SlimeVolley: 2024-09-12 18:01:17,489 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 18:01:17,489 [INFO] Iter=11, size=8, max=-2.0000, avg=-2.0000, median=-2.0000, min=-2.0000, std=0.0000
+nNodes: min=27, max=27, avg=27.00, median=27.00
+wMat: shape=(8, 27, 27), min=-2.0000, max=2.0000, avg=0.0084, median=0.0000
+aVec: shape=(8, 27), min=1.0000, max=10.0000, avg=2.1250, median=1.0000
+SlimeVolley: 2024-09-12 18:01:24,969 [INFO] solver.ask time: 7.4800s
+SlimeVolley: 2024-09-12 18:01:27,950 [INFO] sim_mgr.eval_params time: 2.9807s
+SlimeVolley: 2024-09-12 18:01:27,951 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 18:01:27,952 [INFO] Iter=12, size=8, max=-1.0000, avg=-1.0000, median=-1.0000, min=-1.0000, std=0.0000
+nNodes: min=28, max=28, avg=28.00, median=28.00
+wMat: shape=(8, 28, 28), min=-2.0000, max=2.0000, avg=0.0105, median=0.0000
+aVec: shape=(8, 28), min=1.0000, max=10.0000, avg=2.3080, median=1.0000
+SlimeVolley: 2024-09-12 18:01:37,844 [INFO] solver.ask time: 9.8918s
+SlimeVolley: 2024-09-12 18:01:40,402 [INFO] sim_mgr.eval_params time: 2.5577s
+SlimeVolley: 2024-09-12 18:01:40,403 [INFO] solver.tell time: 0.0009s
+SlimeVolley: 2024-09-12 18:01:40,403 [INFO] Iter=13, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=29, max=29, avg=29.00, median=29.00
+wMat: shape=(8, 29, 29), min=-2.0000, max=2.0000, avg=0.0107, median=0.0000
+aVec: shape=(8, 29), min=1.0000, max=10.0000, avg=2.4224, median=1.0000
+SlimeVolley: 2024-09-12 18:01:48,154 [INFO] solver.ask time: 7.7502s
+SlimeVolley: 2024-09-12 18:01:51,108 [INFO] sim_mgr.eval_params time: 2.9539s
+SlimeVolley: 2024-09-12 18:01:51,109 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 18:01:51,109 [INFO] Iter=14, size=8, max=-3.5000, avg=-3.5000, median=-3.5000, min=-3.5000, std=0.0000
+nNodes: min=30, max=30, avg=30.00, median=30.00
+wMat: shape=(8, 30, 30), min=-2.0000, max=2.0000, avg=0.0099, median=0.0000
+aVec: shape=(8, 30), min=1.0000, max=10.0000, avg=2.7292, median=1.0000
+SlimeVolley: 2024-09-12 18:01:59,116 [INFO] solver.ask time: 8.0070s
+SlimeVolley: 2024-09-12 18:02:02,147 [INFO] sim_mgr.eval_params time: 3.0300s
+SlimeVolley: 2024-09-12 18:02:02,147 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 18:02:02,148 [INFO] Iter=15, size=8, max=-2.5000, avg=-2.5000, median=-2.5000, min=-2.5000, std=0.0000
+nNodes: min=31, max=31, avg=31.00, median=31.00
+wMat: shape=(8, 31, 31), min=-2.0000, max=2.0000, avg=0.0096, median=0.0000
+aVec: shape=(8, 31), min=1.0000, max=10.0000, avg=2.8831, median=1.0000
+SlimeVolley: 2024-09-12 18:02:10,651 [INFO] solver.ask time: 8.5031s
+SlimeVolley: 2024-09-12 18:02:12,938 [INFO] sim_mgr.eval_params time: 2.2865s
+SlimeVolley: 2024-09-12 18:02:12,939 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 18:02:12,940 [INFO] Iter=16, size=8, max=-3.5000, avg=-3.5000, median=-3.5000, min=-3.5000, std=0.0000
+nNodes: min=32, max=32, avg=32.00, median=32.00
+wMat: shape=(8, 32, 32), min=-2.0000, max=2.0000, avg=0.0091, median=0.0000
+aVec: shape=(8, 32), min=1.0000, max=10.0000, avg=2.9805, median=1.0000
+SlimeVolley: 2024-09-12 18:02:20,535 [INFO] solver.ask time: 7.5956s
+SlimeVolley: 2024-09-12 18:02:22,929 [INFO] sim_mgr.eval_params time: 2.3939s
+SlimeVolley: 2024-09-12 18:02:22,930 [INFO] solver.tell time: 0.0009s
+SlimeVolley: 2024-09-12 18:02:22,931 [INFO] Iter=17, size=8, max=-4.0000, avg=-4.0000, median=-4.0000, min=-4.0000, std=0.0000
+nNodes: min=33, max=33, avg=33.00, median=33.00
+wMat: shape=(8, 33, 33), min=-2.0000, max=2.0000, avg=0.0083, median=0.0000
+aVec: shape=(8, 33), min=1.0000, max=10.0000, avg=3.1742, median=1.0000
+SlimeVolley: 2024-09-12 18:02:30,819 [INFO] solver.ask time: 7.8873s
+SlimeVolley: 2024-09-12 18:02:34,089 [INFO] sim_mgr.eval_params time: 3.2699s
+SlimeVolley: 2024-09-12 18:02:34,090 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 18:02:34,090 [INFO] Iter=18, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=34, max=34, avg=34.00, median=34.00
+wMat: shape=(8, 34, 34), min=-2.0000, max=2.0000, avg=0.0051, median=0.0000
+aVec: shape=(8, 34), min=1.0000, max=10.0000, avg=3.1728, median=1.0000

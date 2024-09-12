@@ -38,6 +38,7 @@ class NEAT(NEAlgorithm):
         self.ann_nOutput = hyp["ann_nOutput"]
         self._best_wMat = None
         self._best_aVec = None
+        self.key = jax.random.PRNGKey(0)
 
     """ Subfunctions """
     from evojax.algo._variation import evolvePop, recombine
@@ -56,12 +57,24 @@ class NEAT(NEAlgorithm):
         else:
             self.probMoo()  # Rank population according to objectivess
             self.speciate()  # Divide population into species
-            self.evolvePop()  # Create child population
+            self.key, subkey = jax.random.split(self.key)
+            self.key = self.evolvePop(subkey)  # Create child population
+
+        # Find the maximum dimensions for wMat and aVec
+        max_nodes = max(len(ind.wMat) for ind in self.pop)
+
+        # Pad wMat and aVec for each individual
+        padded_wMat = []
+        padded_aVec = []
+        for ind in self.pop:
+            pad_width = max_nodes - len(ind.wMat)
+            padded_wMat.append(jnp.pad(ind.wMat, ((0, pad_width), (0, pad_width))))
+            padded_aVec.append(jnp.pad(ind.aVec, (0, pad_width)))
 
         return (
             jnp.array([len(ind.wMat) for ind in self.pop]),
-            jnp.array([ind.wMat for ind in self.pop]),
-            jnp.array([ind.aVec for ind in self.pop]),
+            jnp.array(padded_wMat),
+            jnp.array(padded_aVec),
         )
 
     def tell(self, fitness):
@@ -110,17 +123,15 @@ class NEAT(NEAlgorithm):
         conn = conn.at[2, :].set(jnp.repeat(outs, len(ins)))  # Destination Nodes
         conn = conn.at[3, :].set(jnp.nan)  # Weight Values
         conn = conn.at[4, :].set(1)  # Enabled?
-
         # Create population of individuals with varied weights
-        key = jax.random.PRNGKey(0)
         pop = []
         for i in range(p["popSize"]):
-            key, subkey = jax.random.split(key)
+            self.key, subkey = jax.random.split(self.key)
             newInd = Ind(conn, node)
             newInd.conn = newInd.conn.at[3, :].set(
                 (2 * (jax.random.uniform(subkey, (nConn,)) - 0.5)) * p["ann_absWCap"]
             )
-            key, subkey = jax.random.split(key)
+            self.key, subkey = jax.random.split(self.key)
             newInd.conn = newInd.conn.at[4, :].set(
                 jax.random.uniform(subkey, (nConn,)) < p["prob_initEnable"]
             )
@@ -147,8 +158,8 @@ class NEAT(NEAlgorithm):
         objVals = jnp.column_stack((meanFit, 1 / nConns))  # Maximize
 
         # Alternate between two objectives and single objective
-        key = jax.random.PRNGKey(0)
-        if self.p["alg_probMoo"] < jax.random.uniform(key):
+        self.key, subkey = jax.random.split(self.key)
+        if self.p["alg_probMoo"] < jax.random.uniform(subkey):
             rank = nsga_sort(objVals[:, [0, 1]])
         else:
             rank = rankArray(-objVals[:, 0])

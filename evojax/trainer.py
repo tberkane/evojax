@@ -155,7 +155,7 @@ class Trainer(object):
                     wMat,
                     aVec,
                 ) = self.solver.ask()
-                self._logger.debug(
+                self._logger.info(
                     "solver.ask time: {0:.4f}s".format(time.perf_counter() - start_time)
                 )
 
@@ -166,17 +166,15 @@ class Trainer(object):
                     aVec=aVec,
                     test=False,
                 )
-                self._logger.debug(
+                self._logger.info(
                     "sim_mgr.eval_params time: {0:.4f}s".format(
                         time.perf_counter() - start_time
                     )
                 )
 
                 start_time = time.perf_counter()
-                if isinstance(self.solver, QualityDiversityMethod):
-                    self.solver.observe_bd(bds)
                 self.solver.tell(fitness=scores)
-                self._logger.debug(
+                self._logger.info(
                     "solver.tell time: {0:.4f}s".format(
                         time.perf_counter() - start_time
                     )
@@ -186,23 +184,41 @@ class Trainer(object):
                     scores = np.array(scores)
                     self._logger.info(
                         "Iter={0}, size={1}, max={2:.4f}, "
-                        "avg={3:.4f}, min={4:.4f}, std={5:.4f}".format(
+                        "avg={3:.4f}, median={4:.4f}, min={5:.4f}, std={6:.4f}\n"
+                        "nNodes: min={7}, max={8}, avg={9:.2f}, median={10:.2f}\n"
+                        "wMat: shape={11}, min={12:.4f}, max={13:.4f}, avg={14:.4f}, median={15:.4f}\n"
+                        "aVec: shape={16}, min={17:.4f}, max={18:.4f}, avg={19:.4f}, median={20:.4f}".format(
                             i,
                             scores.size,
                             scores.max(),
                             scores.mean(),
+                            np.median(scores),
                             scores.min(),
                             scores.std(),
+                            np.nanmin(nNodes),
+                            np.nanmax(nNodes),
+                            np.nanmean(nNodes),
+                            np.nanmedian(nNodes),
+                            wMat.shape,
+                            np.nanmin(wMat),
+                            np.nanmax(wMat),
+                            np.nanmean(wMat),
+                            np.nanmedian(wMat),
+                            aVec.shape,
+                            np.nanmin(aVec),
+                            np.nanmax(aVec),
+                            np.nanmean(aVec),
+                            np.nanmedian(aVec),
                         )
                     )
                     self._log_scores_fn(i, scores, "train")
 
                 if i > 0 and i % self._test_interval == 0:
-                    best_params = self.solver.best_params
+                    best_wMat, best_aVec = self.solver.best_params
                     test_scores, _ = self.sim_mgr.eval_params(
-                        nNodes=nNodes,
-                        wMat=wMat,
-                        aVec=aVec,
+                        nNodes=len(best_wMat),
+                        wMat=best_wMat,
+                        aVec=best_aVec,
                         test=True,
                     )
                     self._logger.info(
@@ -221,7 +237,9 @@ class Trainer(object):
                     save_model(
                         model_dir=self._log_dir,
                         model_name="iter_{}".format(i),
-                        params=best_params,
+                        nNodes=len(best_wMat),
+                        wMat=best_wMat,
+                        aVec=best_aVec,
                         obs_params=self.sim_mgr.obs_params,
                         best=mean_test_score > best_score,
                     )
