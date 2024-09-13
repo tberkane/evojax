@@ -348,6 +348,10 @@ class SimManager(object):
             actions, policy_state = policy_act_func(
                 task_state, nNodes, wMat, aVec, policy_state
             )
+            # print((nNodes.shape))
+            # sums = jnp.sum(wMat, axis=(1, 2))
+            # print(sums)
+            # print(actions)
             task_state, reward, done = task_step_func(task_state, actions)
             scores, valid_mask = update_score_and_mask(scores, reward, valid_mask, done)
             rollout_steps += 1

@@ -66,7 +66,7 @@ def parse_args():
     parser.add_argument("--test-interval", type=int, default=50, help="Test interval.")
     parser.add_argument("--log-interval", type=int, default=1, help="Logging interval.")
     parser.add_argument(
-        "--seed", type=int, default=123, help="Random seed for training."
+        "--seed", type=int, default=124, help="Random seed for training."
     )
     parser.add_argument("--gpu-id", type=str, help="GPU(s) to use.")
     parser.add_argument("--deb", action="store_true", help="Debug mode.")
@@ -97,10 +97,10 @@ def main(config):
 
     hyp["ann_nInput"] = train_task.obs_shape[0]
     hyp["ann_nOutput"] = train_task.act_shape[0]
-    hyp["ann_initAct"] = activations[0]
+    hyp["ann_initAct"] = 0
     hyp["ann_absWCap"] = 2.0
     hyp["ann_mutSigma"] = 0.4
-    hyp["ann_actRange"] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    hyp["ann_actRange"] = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
     hyp["popSize"] = config.pop_size
 
     solver = NEAT(hyp)

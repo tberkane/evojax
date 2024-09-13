@@ -107,7 +107,7 @@ class Trainer(object):
             valid_vec_task=test_task,
             seed=seed,
             obs_normalizer=self._obs_normalizer,
-            use_for_loop=use_for_loop,
+            use_for_loop=False,
             logger=self._logger,
         )
 

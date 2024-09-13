@@ -16,9 +16,12 @@ import logging
 from typing import Sequence
 from typing import Tuple
 
+from functools import partial
 import jax
 import jax.numpy as jnp
 from flax import linen as nn
+from jax import debug
+
 
 from evojax.policy.base import PolicyNetwork
 from evojax.policy.base import PolicyState
@@ -140,19 +143,36 @@ def getLayer(wMat):
 
 
 def act(weights, aVec, inPattern, nNodes):
-    nNodes_temp = weights.shape[0]
+    """
+    JAX implementation of a feedforward neural network.
 
-    def activation_step(i, nodeAct):
+    Args:
+    weights (jnp.array): Weight matrix of shape ((N+pad_len), (N+pad_len))
+    aVec (jnp.array): 1D array of activation functions, length (N+pad_len)
+    inPattern (jnp.array): 1D input array of length 13
+    nNodes (int): Number of nodes (N)
+
+    Returns:
+    jnp.array: Output activations
+    """
+
+    # Initialize node activations
+    total_nodes = weights.shape[0]
+    nodeAct = jnp.zeros(total_nodes)
+    nodeAct = nodeAct.at[0].set(1.0)  # Bias activation
+    nodeAct = nodeAct.at[1:13].set(inPattern)  # Input pattern (12 elements)
+
+    # Propagate signal through hidden to output nodes
+    def loop_body(i, nodeAct):
         rawAct = jnp.dot(nodeAct, weights[:, i])
         return nodeAct.at[i].set(applyAct(aVec[i], rawAct))
 
-    nodeAct = jnp.zeros((nNodes_temp,))
-    nodeAct = jax.lax.dynamic_update_slice(nodeAct, inPattern, (1,))
+    nodeAct = jax.lax.fori_loop(13, total_nodes, loop_body, nodeAct)
 
-    nodeAct = jax.lax.fori_loop(12 + 1, nNodes_temp, activation_step, nodeAct)
-
-    # return nodeAct[-3 - nNodes : -nNodes]
-    return jax.lax.dynamic_slice(nodeAct, (-3 - nNodes,), (3,))
+    # Return the last nNodes activations as output
+    # return nodeAct
+    start_idx = nNodes - 3
+    return jax.lax.dynamic_slice(nodeAct, (start_idx,), (3,))
 
 
 def applyAct(actId, x):

@@ -6,7 +6,7 @@ hyp = {
     "alg_probMoo": 0.0,
     "alg_act": 5,
     "prob_addConn": 0.5,
-    "prob_addNode": 1,
+    "prob_addNode": 0.3,
     "prob_crossover": 0.8,
     "prob_enable": 0.01,
     "prob_mutAct": 0.0,
