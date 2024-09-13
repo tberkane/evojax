@@ -16200,3 +16200,2495 @@ SlimeVolley: 2024-09-12 20:54:53,808 [INFO] Iter=4, size=8, max=-3.5000, avg=-3.
 nNodes: min=16, max=18, avg=16.75, median=17.00
 wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0312, median=0.0000
 aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.2222, median=0.0000
+SlimeVolley: 2024-09-12 20:54:56,327 [INFO] solver.ask time: 2.5189s
+SlimeVolley: 2024-09-12 20:54:56,344 [INFO] sim_mgr.eval_params time: 0.0174s
+SlimeVolley: 2024-09-12 20:54:56,345 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 20:54:56,346 [INFO] Iter=5, size=8, max=-4.0000, avg=-4.0000, median=-4.0000, min=-4.0000, std=0.0000
+nNodes: min=16, max=18, avg=16.88, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0189, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=6.0000, avg=0.1875, median=0.0000
+SlimeVolley: 2024-09-12 20:54:59,028 [INFO] solver.ask time: 2.6819s
+SlimeVolley: 2024-09-12 20:54:59,053 [INFO] sim_mgr.eval_params time: 0.0250s
+SlimeVolley: 2024-09-12 20:54:59,054 [INFO] solver.tell time: 0.0010s
+SlimeVolley: 2024-09-12 20:54:59,055 [INFO] Iter=6, size=8, max=-2.5000, avg=-2.6875, median=-2.5000, min=-3.0000, std=0.2421
+nNodes: min=16, max=18, avg=16.75, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0259, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=6.0000, avg=0.1181, median=0.0000
+SlimeVolley: 2024-09-12 20:55:01,133 [INFO] solver.ask time: 2.0778s
+SlimeVolley: 2024-09-12 20:55:01,151 [INFO] sim_mgr.eval_params time: 0.0179s
+SlimeVolley: 2024-09-12 20:55:01,151 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:55:01,152 [INFO] Iter=7, size=8, max=-2.5000, avg=-2.5000, median=-2.5000, min=-2.5000, std=0.0000
+nNodes: min=16, max=18, avg=17.00, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0429, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.2361, median=0.0000
+SlimeVolley: 2024-09-12 20:55:02,498 [INFO] solver.ask time: 1.3455s
+SlimeVolley: 2024-09-12 20:55:02,516 [INFO] sim_mgr.eval_params time: 0.0182s
+SlimeVolley: 2024-09-12 20:55:02,517 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 20:55:02,517 [INFO] Iter=8, size=8, max=-3.0000, avg=-3.1250, median=-3.0000, min=-3.5000, std=0.2165
+nNodes: min=16, max=18, avg=17.12, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0408, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=5.0000, avg=0.2083, median=0.0000
+SlimeVolley: 2024-09-12 20:55:03,815 [INFO] solver.ask time: 1.2976s
+SlimeVolley: 2024-09-12 20:55:03,833 [INFO] sim_mgr.eval_params time: 0.0178s
+SlimeVolley: 2024-09-12 20:55:03,834 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:55:03,834 [INFO] Iter=9, size=8, max=-2.5000, avg=-2.5000, median=-2.5000, min=-2.5000, std=0.0000
+nNodes: min=16, max=18, avg=17.12, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0282, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.2361, median=0.0000
+SlimeVolley: 2024-09-12 20:55:05,219 [INFO] solver.ask time: 1.3843s
+SlimeVolley: 2024-09-12 20:55:05,237 [INFO] sim_mgr.eval_params time: 0.0183s
+SlimeVolley: 2024-09-12 20:55:05,238 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:55:05,239 [INFO] Iter=10, size=8, max=-2.0000, avg=-2.3750, median=-2.5000, min=-2.5000, std=0.2165
+nNodes: min=16, max=18, avg=17.00, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0267, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.2708, median=0.0000
+SlimeVolley: 2024-09-12 20:55:06,822 [INFO] solver.ask time: 1.5826s
+SlimeVolley: 2024-09-12 20:55:06,839 [INFO] sim_mgr.eval_params time: 0.0176s
+SlimeVolley: 2024-09-12 20:55:06,840 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:55:06,841 [INFO] Iter=11, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=16, max=18, avg=16.88, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0268, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.2431, median=0.0000
+SlimeVolley: 2024-09-12 20:55:08,314 [INFO] solver.ask time: 1.4733s
+SlimeVolley: 2024-09-12 20:55:08,335 [INFO] sim_mgr.eval_params time: 0.0213s
+SlimeVolley: 2024-09-12 20:55:08,336 [INFO] solver.tell time: 0.0009s
+SlimeVolley: 2024-09-12 20:55:08,337 [INFO] Iter=12, size=8, max=-2.5000, avg=-2.7500, median=-2.5000, min=-3.5000, std=0.4330
+nNodes: min=16, max=18, avg=16.88, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0193, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=7.0000, avg=0.2361, median=0.0000
+SlimeVolley: 2024-09-12 20:55:09,523 [INFO] solver.ask time: 1.1853s
+SlimeVolley: 2024-09-12 20:55:09,540 [INFO] sim_mgr.eval_params time: 0.0175s
+SlimeVolley: 2024-09-12 20:55:09,541 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:55:09,542 [INFO] Iter=13, size=8, max=-4.0000, avg=-4.0000, median=-4.0000, min=-4.0000, std=0.0000
+nNodes: min=16, max=18, avg=17.12, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0162, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=7.0000, avg=0.2847, median=0.0000
+SlimeVolley: 2024-09-12 20:55:10,583 [INFO] solver.ask time: 1.0411s
+SlimeVolley: 2024-09-12 20:55:10,600 [INFO] sim_mgr.eval_params time: 0.0169s
+SlimeVolley: 2024-09-12 20:55:10,601 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:55:10,601 [INFO] Iter=14, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0216, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=7.0000, avg=0.0515, median=0.0000
+SlimeVolley: 2024-09-12 20:55:11,292 [INFO] solver.ask time: 0.6905s
+SlimeVolley: 2024-09-12 20:55:11,311 [INFO] sim_mgr.eval_params time: 0.0186s
+SlimeVolley: 2024-09-12 20:55:11,311 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:55:11,312 [INFO] Iter=15, size=8, max=-3.5000, avg=-3.6250, median=-3.5000, min=-4.0000, std=0.2165
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0275, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=6.0000, avg=0.0809, median=0.0000
+SlimeVolley: 2024-09-12 20:55:12,251 [INFO] solver.ask time: 0.9393s
+SlimeVolley: 2024-09-12 20:55:12,268 [INFO] sim_mgr.eval_params time: 0.0169s
+SlimeVolley: 2024-09-12 20:55:12,269 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:55:12,270 [INFO] Iter=16, size=8, max=-2.5000, avg=-2.5000, median=-2.5000, min=-2.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0366, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=2.0000, avg=0.0147, median=0.0000
+SlimeVolley: 2024-09-12 20:55:13,127 [INFO] solver.ask time: 0.8569s
+SlimeVolley: 2024-09-12 20:55:13,146 [INFO] sim_mgr.eval_params time: 0.0197s
+SlimeVolley: 2024-09-12 20:55:13,147 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:55:13,148 [INFO] Iter=17, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0417, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=4.0000, avg=0.0368, median=0.0000
+SlimeVolley: 2024-09-12 20:55:13,984 [INFO] solver.ask time: 0.8364s
+SlimeVolley: 2024-09-12 20:55:14,003 [INFO] sim_mgr.eval_params time: 0.0181s
+SlimeVolley: 2024-09-12 20:55:14,003 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:55:14,004 [INFO] Iter=18, size=8, max=-4.0000, avg=-4.0000, median=-4.0000, min=-4.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0451, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=4.0000, avg=0.0588, median=0.0000
+SlimeVolley: 2024-09-12 20:55:14,809 [INFO] solver.ask time: 0.8049s
+SlimeVolley: 2024-09-12 20:55:14,829 [INFO] sim_mgr.eval_params time: 0.0195s
+SlimeVolley: 2024-09-12 20:55:14,830 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:55:14,830 [INFO] Iter=19, size=8, max=-2.5000, avg=-3.0000, median=-3.0000, min=-3.5000, std=0.5000
+nNodes: min=16, max=17, avg=16.50, median=16.50
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0434, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=8.0000, avg=0.0882, median=0.0000
+SlimeVolley: 2024-09-12 20:55:16,037 [INFO] solver.ask time: 1.2065s
+SlimeVolley: 2024-09-12 20:55:16,060 [INFO] sim_mgr.eval_params time: 0.0233s
+SlimeVolley: 2024-09-12 20:55:16,061 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:55:16,062 [INFO] Iter=20, size=8, max=-1.5000, avg=-1.8750, median=-1.5000, min=-2.5000, std=0.4841
+nNodes: min=16, max=18, avg=16.88, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0336, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=7.0000, avg=0.0764, median=0.0000
+SlimeVolley: 2024-09-12 20:55:17,462 [INFO] solver.ask time: 1.3998s
+SlimeVolley: 2024-09-12 20:55:17,481 [INFO] sim_mgr.eval_params time: 0.0186s
+SlimeVolley: 2024-09-12 20:55:17,481 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:55:17,482 [INFO] Iter=21, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.62, median=17.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0361, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=8.0000, avg=0.1176, median=0.0000
+SlimeVolley: 2024-09-12 20:55:18,777 [INFO] solver.ask time: 1.2948s
+SlimeVolley: 2024-09-12 20:55:18,794 [INFO] sim_mgr.eval_params time: 0.0168s
+SlimeVolley: 2024-09-12 20:55:18,795 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 20:55:18,795 [INFO] Iter=22, size=8, max=-2.5000, avg=-3.0000, median=-3.0000, min=-3.5000, std=0.5000
+nNodes: min=16, max=18, avg=16.62, median=16.50
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0296, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=7.0000, avg=0.1181, median=0.0000
+SlimeVolley: 2024-09-12 20:55:20,143 [INFO] solver.ask time: 1.3476s
+SlimeVolley: 2024-09-12 20:55:20,162 [INFO] sim_mgr.eval_params time: 0.0191s
+SlimeVolley: 2024-09-12 20:55:20,163 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:55:20,163 [INFO] Iter=23, size=8, max=-4.0000, avg=-4.0000, median=-4.0000, min=-4.0000, std=0.0000
+nNodes: min=16, max=18, avg=16.62, median=16.50
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0310, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=7.0000, avg=0.2014, median=0.0000
+SlimeVolley: 2024-09-12 20:55:21,205 [INFO] solver.ask time: 1.0417s
+SlimeVolley: 2024-09-12 20:55:21,224 [INFO] sim_mgr.eval_params time: 0.0192s
+SlimeVolley: 2024-09-12 20:55:21,225 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:55:21,226 [INFO] Iter=24, size=8, max=-2.5000, avg=-2.7500, median=-2.5000, min=-3.5000, std=0.4330
+nNodes: min=16, max=18, avg=16.38, median=16.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0344, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=7.0000, avg=0.1111, median=0.0000
+SlimeVolley: 2024-09-12 20:55:22,162 [INFO] solver.ask time: 0.9362s
+SlimeVolley: 2024-09-12 20:55:22,180 [INFO] sim_mgr.eval_params time: 0.0176s
+SlimeVolley: 2024-09-12 20:55:22,181 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:55:22,181 [INFO] Iter=25, size=8, max=-4.0000, avg=-4.3750, median=-4.5000, min=-4.5000, std=0.2165
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0354, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=7.0000, avg=0.0735, median=0.0000
+SlimeVolley: 2024-09-12 20:55:22,915 [INFO] solver.ask time: 0.7338s
+SlimeVolley: 2024-09-12 20:55:22,933 [INFO] sim_mgr.eval_params time: 0.0176s
+SlimeVolley: 2024-09-12 20:55:22,934 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:55:22,934 [INFO] Iter=26, size=8, max=-3.5000, avg=-3.7500, median=-3.7500, min=-4.0000, std=0.2500
+nNodes: min=16, max=18, avg=16.62, median=16.50
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0367, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=7.0000, avg=0.1458, median=0.0000
+SlimeVolley: 2024-09-12 20:55:24,195 [INFO] solver.ask time: 1.2603s
+SlimeVolley: 2024-09-12 20:55:24,218 [INFO] sim_mgr.eval_params time: 0.0227s
+SlimeVolley: 2024-09-12 20:55:24,219 [INFO] solver.tell time: 0.0010s
+SlimeVolley: 2024-09-12 20:55:24,219 [INFO] Iter=27, size=8, max=-2.5000, avg=-2.5000, median=-2.5000, min=-2.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.50, median=16.50
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0290, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=8.0000, avg=0.1397, median=0.0000
+SlimeVolley: 2024-09-12 20:55:25,808 [INFO] solver.ask time: 1.5888s
+SlimeVolley: 2024-09-12 20:55:25,828 [INFO] sim_mgr.eval_params time: 0.0198s
+SlimeVolley: 2024-09-12 20:55:25,829 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:55:25,830 [INFO] Iter=28, size=8, max=-4.0000, avg=-4.0000, median=-4.0000, min=-4.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.50, median=16.50
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0307, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=5.0000, avg=0.0882, median=0.0000
+SlimeVolley: 2024-09-12 20:55:27,550 [INFO] solver.ask time: 1.7204s
+SlimeVolley: 2024-09-12 20:55:27,569 [INFO] sim_mgr.eval_params time: 0.0184s
+SlimeVolley: 2024-09-12 20:55:27,569 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:55:27,570 [INFO] Iter=29, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=16, max=18, avg=16.62, median=16.50
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0261, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=8.0000, avg=0.1736, median=0.0000
+SlimeVolley: 2024-09-12 20:55:28,661 [INFO] solver.ask time: 1.0910s
+SlimeVolley: 2024-09-12 20:55:28,679 [INFO] sim_mgr.eval_params time: 0.0179s
+SlimeVolley: 2024-09-12 20:55:28,680 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:55:28,680 [INFO] Iter=30, size=8, max=-3.0000, avg=-3.4375, median=-3.5000, min=-3.5000, std=0.1654
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0314, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=6.0000, avg=0.0441, median=0.0000
+SlimeVolley: 2024-09-12 20:55:29,639 [INFO] solver.ask time: 0.9583s
+SlimeVolley: 2024-09-12 20:55:29,657 [INFO] sim_mgr.eval_params time: 0.0181s
+SlimeVolley: 2024-09-12 20:55:29,658 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:55:29,658 [INFO] Iter=31, size=8, max=-1.5000, avg=-1.6875, median=-1.5000, min=-2.0000, std=0.2421
+nNodes: min=16, max=18, avg=16.75, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0327, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=6.0000, avg=0.1528, median=0.0000
+SlimeVolley: 2024-09-12 20:55:30,765 [INFO] solver.ask time: 1.1061s
+SlimeVolley: 2024-09-12 20:55:30,782 [INFO] sim_mgr.eval_params time: 0.0177s
+SlimeVolley: 2024-09-12 20:55:30,783 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 20:55:30,784 [INFO] Iter=32, size=8, max=-3.0000, avg=-3.5000, median=-3.5000, min=-4.0000, std=0.5000
+nNodes: min=16, max=17, avg=16.50, median=16.50
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0256, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=5.0000, avg=0.0368, median=0.0000
+SlimeVolley: 2024-09-12 20:55:31,849 [INFO] solver.ask time: 1.0655s
+SlimeVolley: 2024-09-12 20:55:31,870 [INFO] sim_mgr.eval_params time: 0.0207s
+SlimeVolley: 2024-09-12 20:55:31,871 [INFO] solver.tell time: 0.0009s
+SlimeVolley: 2024-09-12 20:55:31,872 [INFO] Iter=33, size=8, max=-2.5000, avg=-2.6250, median=-2.5000, min=-3.5000, std=0.3307
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0189, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=6.0000, avg=0.0441, median=0.0000
+SlimeVolley: 2024-09-12 20:55:32,577 [INFO] solver.ask time: 0.7050s
+SlimeVolley: 2024-09-12 20:55:32,599 [INFO] sim_mgr.eval_params time: 0.0222s
+SlimeVolley: 2024-09-12 20:55:32,600 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:55:32,601 [INFO] Iter=34, size=8, max=-4.5000, avg=-4.5000, median=-4.5000, min=-4.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0298, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=8.0000, avg=0.0588, median=0.0000
+SlimeVolley: 2024-09-12 20:55:33,485 [INFO] solver.ask time: 0.8841s
+SlimeVolley: 2024-09-12 20:55:33,504 [INFO] sim_mgr.eval_params time: 0.0188s
+SlimeVolley: 2024-09-12 20:55:33,505 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:55:33,505 [INFO] Iter=35, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0275, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=6.0000, avg=0.0441, median=0.0000
+SlimeVolley: 2024-09-12 20:55:34,177 [INFO] solver.ask time: 0.6717s
+SlimeVolley: 2024-09-12 20:55:34,196 [INFO] sim_mgr.eval_params time: 0.0193s
+SlimeVolley: 2024-09-12 20:55:34,197 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:55:34,198 [INFO] Iter=36, size=8, max=-2.0000, avg=-2.6250, median=-3.0000, min=-3.0000, std=0.4841
+nNodes: min=16, max=17, avg=16.38, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0241, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=8.0000, avg=0.0882, median=0.0000
+SlimeVolley: 2024-09-12 20:55:35,497 [INFO] solver.ask time: 1.2997s
+SlimeVolley: 2024-09-12 20:55:35,516 [INFO] sim_mgr.eval_params time: 0.0181s
+SlimeVolley: 2024-09-12 20:55:35,517 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:55:35,517 [INFO] Iter=37, size=8, max=-4.0000, avg=-4.3125, median=-4.5000, min=-4.5000, std=0.2421
+nNodes: min=16, max=18, avg=16.88, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0101, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=5.0000, avg=0.0833, median=0.0000
+SlimeVolley: 2024-09-12 20:55:36,636 [INFO] solver.ask time: 1.1192s
+SlimeVolley: 2024-09-12 20:55:36,654 [INFO] sim_mgr.eval_params time: 0.0178s
+SlimeVolley: 2024-09-12 20:55:36,655 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:55:36,656 [INFO] Iter=38, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.38, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0113, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=7.0000, avg=0.1103, median=0.0000
+SlimeVolley: 2024-09-12 20:55:38,078 [INFO] solver.ask time: 1.4218s
+SlimeVolley: 2024-09-12 20:55:38,096 [INFO] sim_mgr.eval_params time: 0.0182s
+SlimeVolley: 2024-09-12 20:55:38,097 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:55:38,097 [INFO] Iter=39, size=8, max=-2.5000, avg=-2.9375, median=-3.0000, min=-3.0000, std=0.1654
+nNodes: min=16, max=17, avg=16.88, median=17.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0102, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=9.0000, avg=0.1618, median=0.0000
+SlimeVolley: 2024-09-12 20:55:39,415 [INFO] solver.ask time: 1.3179s
+SlimeVolley: 2024-09-12 20:55:39,437 [INFO] sim_mgr.eval_params time: 0.0220s
+SlimeVolley: 2024-09-12 20:55:39,438 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:55:39,439 [INFO] Iter=40, size=8, max=-3.5000, avg=-3.5000, median=-3.5000, min=-3.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.62, median=17.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0075, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=4.0000, avg=0.1176, median=0.0000
+SlimeVolley: 2024-09-12 20:55:41,368 [INFO] solver.ask time: 1.9291s
+SlimeVolley: 2024-09-12 20:55:41,388 [INFO] sim_mgr.eval_params time: 0.0198s
+SlimeVolley: 2024-09-12 20:55:41,389 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:55:41,390 [INFO] Iter=41, size=8, max=-2.5000, avg=-2.7500, median=-2.7500, min=-3.0000, std=0.2500
+nNodes: min=16, max=17, avg=16.50, median=16.50
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0112, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=6.0000, avg=0.0662, median=0.0000
+SlimeVolley: 2024-09-12 20:55:42,369 [INFO] solver.ask time: 0.9791s
+SlimeVolley: 2024-09-12 20:55:42,389 [INFO] sim_mgr.eval_params time: 0.0201s
+SlimeVolley: 2024-09-12 20:55:42,390 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:55:42,390 [INFO] Iter=42, size=8, max=-3.0000, avg=-3.0625, median=-3.0000, min=-3.5000, std=0.1654
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0118, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=0.0000, avg=0.0000, median=0.0000
+SlimeVolley: 2024-09-12 20:55:43,058 [INFO] solver.ask time: 0.6676s
+SlimeVolley: 2024-09-12 20:55:44,761 [INFO] sim_mgr.eval_params time: 1.7023s
+SlimeVolley: 2024-09-12 20:55:44,761 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 20:55:44,762 [INFO] Iter=43, size=8, max=-4.0000, avg=-4.0000, median=-4.0000, min=-4.0000, std=0.0000
+nNodes: min=16, max=16, avg=16.00, median=16.00
+wMat: shape=(8, 16, 16), min=-2.0000, max=2.0000, avg=-0.0301, median=0.0000
+aVec: shape=(8, 16), min=0.0000, max=0.0000, avg=0.0000, median=0.0000
+SlimeVolley: 2024-09-12 20:55:45,593 [INFO] solver.ask time: 0.8313s
+SlimeVolley: 2024-09-12 20:55:45,613 [INFO] sim_mgr.eval_params time: 0.0198s
+SlimeVolley: 2024-09-12 20:55:45,614 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:55:45,615 [INFO] Iter=44, size=8, max=-3.5000, avg=-3.6875, median=-3.5000, min=-4.0000, std=0.2421
+nNodes: min=16, max=17, avg=16.38, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0331, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=8.0000, avg=0.1250, median=0.0000
+SlimeVolley: 2024-09-12 20:55:46,527 [INFO] solver.ask time: 0.9122s
+SlimeVolley: 2024-09-12 20:55:46,545 [INFO] sim_mgr.eval_params time: 0.0181s
+SlimeVolley: 2024-09-12 20:55:46,546 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:55:46,547 [INFO] Iter=45, size=8, max=-2.0000, avg=-2.0000, median=-2.0000, min=-2.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0276, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=4.0000, avg=0.0588, median=0.0000
+SlimeVolley: 2024-09-12 20:55:47,365 [INFO] solver.ask time: 0.8181s
+SlimeVolley: 2024-09-12 20:55:47,383 [INFO] sim_mgr.eval_params time: 0.0175s
+SlimeVolley: 2024-09-12 20:55:47,383 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:55:47,384 [INFO] Iter=46, size=8, max=-2.0000, avg=-2.1250, median=-2.0000, min=-2.5000, std=0.2165
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0297, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=8.0000, avg=0.1103, median=0.0000
+SlimeVolley: 2024-09-12 20:55:48,125 [INFO] solver.ask time: 0.7408s
+SlimeVolley: 2024-09-12 20:55:48,145 [INFO] sim_mgr.eval_params time: 0.0200s
+SlimeVolley: 2024-09-12 20:55:48,146 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:55:48,146 [INFO] Iter=47, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=16, max=16, avg=16.00, median=16.00
+wMat: shape=(8, 16, 16), min=-2.0000, max=2.0000, avg=-0.0478, median=0.0000
+aVec: shape=(8, 16), min=0.0000, max=0.0000, avg=0.0000, median=0.0000
+SlimeVolley: 2024-09-12 20:55:49,334 [INFO] solver.ask time: 1.1873s
+SlimeVolley: 2024-09-12 20:55:49,356 [INFO] sim_mgr.eval_params time: 0.0226s
+SlimeVolley: 2024-09-12 20:55:49,357 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:55:49,358 [INFO] Iter=48, size=8, max=-2.0000, avg=-2.2500, median=-2.2500, min=-2.5000, std=0.2500
+nNodes: min=16, max=17, avg=16.50, median=16.50
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0402, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=6.0000, avg=0.1397, median=0.0000
+SlimeVolley: 2024-09-12 20:55:50,747 [INFO] solver.ask time: 1.3886s
+SlimeVolley: 2024-09-12 20:55:50,764 [INFO] sim_mgr.eval_params time: 0.0177s
+SlimeVolley: 2024-09-12 20:55:50,765 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 20:55:50,766 [INFO] Iter=49, size=8, max=-2.0000, avg=-2.0000, median=-2.0000, min=-2.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.50, median=16.50
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0396, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=9.0000, avg=0.1765, median=0.0000
+SlimeVolley: 2024-09-12 20:55:52,011 [INFO] solver.ask time: 1.2456s
+SlimeVolley: 2024-09-12 20:55:52,029 [INFO] sim_mgr.eval_params time: 0.0176s
+SlimeVolley: 2024-09-12 20:55:52,030 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:55:52,031 [INFO] Iter=50, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=16, max=18, avg=16.75, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0315, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.2153, median=0.0000
+SlimeVolley: 2024-09-12 20:55:54,765 [INFO] [TEST] Iter=50, #tests=10, max=-2.0000, avg=-3.4000, min=-5.0000, std=0.9165
+SlimeVolley: 2024-09-12 20:55:55,720 [INFO] solver.ask time: 0.9540s
+SlimeVolley: 2024-09-12 20:55:55,737 [INFO] sim_mgr.eval_params time: 0.0171s
+SlimeVolley: 2024-09-12 20:55:55,738 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:55:55,738 [INFO] Iter=51, size=8, max=-4.0000, avg=-4.1875, median=-4.0000, min=-4.5000, std=0.2421
+nNodes: min=16, max=17, avg=16.38, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0409, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=7.0000, avg=0.1029, median=0.0000
+SlimeVolley: 2024-09-12 20:55:56,959 [INFO] solver.ask time: 1.2207s
+SlimeVolley: 2024-09-12 20:55:56,981 [INFO] sim_mgr.eval_params time: 0.0220s
+SlimeVolley: 2024-09-12 20:55:56,982 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:55:56,983 [INFO] Iter=52, size=8, max=-3.5000, avg=-3.8750, median=-4.0000, min=-4.0000, std=0.2165
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0367, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=3.0000, avg=0.0294, median=0.0000
+SlimeVolley: 2024-09-12 20:55:58,393 [INFO] solver.ask time: 1.4097s
+SlimeVolley: 2024-09-12 20:55:58,410 [INFO] sim_mgr.eval_params time: 0.0175s
+SlimeVolley: 2024-09-12 20:55:58,411 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 20:55:58,412 [INFO] Iter=53, size=8, max=-3.0000, avg=-3.2500, median=-3.2500, min=-3.5000, std=0.2500
+nNodes: min=16, max=17, avg=16.50, median=16.50
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0378, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=9.0000, avg=0.1250, median=0.0000
+SlimeVolley: 2024-09-12 20:55:59,434 [INFO] solver.ask time: 1.0223s
+SlimeVolley: 2024-09-12 20:55:59,451 [INFO] sim_mgr.eval_params time: 0.0173s
+SlimeVolley: 2024-09-12 20:55:59,452 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:55:59,453 [INFO] Iter=54, size=8, max=-2.5000, avg=-2.5000, median=-2.5000, min=-2.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0443, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=4.0000, avg=0.0515, median=0.0000
+SlimeVolley: 2024-09-12 20:56:00,117 [INFO] solver.ask time: 0.6637s
+SlimeVolley: 2024-09-12 20:56:00,134 [INFO] sim_mgr.eval_params time: 0.0175s
+SlimeVolley: 2024-09-12 20:56:00,135 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:56:00,136 [INFO] Iter=55, size=8, max=-3.5000, avg=-3.5625, median=-3.5000, min=-4.0000, std=0.1654
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0410, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=7.0000, avg=0.0515, median=0.0000
+SlimeVolley: 2024-09-12 20:56:00,906 [INFO] solver.ask time: 0.7699s
+SlimeVolley: 2024-09-12 20:56:00,923 [INFO] sim_mgr.eval_params time: 0.0177s
+SlimeVolley: 2024-09-12 20:56:00,924 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:56:00,925 [INFO] Iter=56, size=8, max=-0.5000, avg=-0.6250, median=-0.5000, min=-1.5000, std=0.3307
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0266, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=3.0000, avg=0.0221, median=0.0000
+SlimeVolley: 2024-09-12 20:56:01,764 [INFO] solver.ask time: 0.8397s
+SlimeVolley: 2024-09-12 20:56:01,782 [INFO] sim_mgr.eval_params time: 0.0177s
+SlimeVolley: 2024-09-12 20:56:01,783 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:56:01,784 [INFO] Iter=57, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.50, median=16.50
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0232, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=7.0000, avg=0.0882, median=0.0000
+SlimeVolley: 2024-09-12 20:56:02,954 [INFO] solver.ask time: 1.1703s
+SlimeVolley: 2024-09-12 20:56:02,971 [INFO] sim_mgr.eval_params time: 0.0171s
+SlimeVolley: 2024-09-12 20:56:02,972 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:56:02,973 [INFO] Iter=58, size=8, max=-3.0000, avg=-3.1875, median=-3.0000, min=-3.5000, std=0.2421
+nNodes: min=16, max=17, avg=16.38, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0230, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=7.0000, avg=0.1029, median=0.0000
+SlimeVolley: 2024-09-12 20:56:03,693 [INFO] solver.ask time: 0.7207s
+SlimeVolley: 2024-09-12 20:56:03,713 [INFO] sim_mgr.eval_params time: 0.0196s
+SlimeVolley: 2024-09-12 20:56:03,714 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:56:03,715 [INFO] Iter=59, size=8, max=-3.5000, avg=-3.5000, median=-3.5000, min=-3.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0151, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=9.0000, avg=0.1103, median=0.0000
+SlimeVolley: 2024-09-12 20:56:05,236 [INFO] solver.ask time: 1.5216s
+SlimeVolley: 2024-09-12 20:56:05,260 [INFO] sim_mgr.eval_params time: 0.0236s
+SlimeVolley: 2024-09-12 20:56:05,261 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:56:05,262 [INFO] Iter=60, size=8, max=-3.5000, avg=-3.7500, median=-3.7500, min=-4.0000, std=0.2500
+nNodes: min=16, max=17, avg=16.50, median=16.50
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0161, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=9.0000, avg=0.1838, median=0.0000
+SlimeVolley: 2024-09-12 20:56:12,951 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 20:56:12,951 [INFO] ==============================
+SlimeVolley: 2024-09-12 20:56:13,075 [INFO] Start to train for 100 iterations.
+SlimeVolley: 2024-09-12 20:56:14,572 [INFO] solver.ask time: 1.4970s
+SlimeVolley: 2024-09-12 20:56:17,637 [INFO] sim_mgr.eval_params time: 3.0643s
+SlimeVolley: 2024-09-12 20:56:17,673 [INFO] solver.tell time: 0.0364s
+SlimeVolley: 2024-09-12 20:56:23,868 [INFO] solver.ask time: 6.1946s
+SlimeVolley: 2024-09-12 20:56:26,296 [INFO] sim_mgr.eval_params time: 2.4280s
+SlimeVolley: 2024-09-12 20:56:26,297 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:56:26,298 [INFO] Iter=1, size=8, max=-4.0000, avg=-4.0000, median=-4.0000, min=-4.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0329, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=1.0000, avg=0.0074, median=0.0000
+SlimeVolley: 2024-09-12 20:56:28,375 [INFO] solver.ask time: 2.0771s
+SlimeVolley: 2024-09-12 20:56:28,398 [INFO] sim_mgr.eval_params time: 0.0235s
+SlimeVolley: 2024-09-12 20:56:28,399 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:56:28,400 [INFO] Iter=2, size=8, max=-3.5000, avg=-3.5000, median=-3.5000, min=-3.5000, std=0.0000
+nNodes: min=16, max=16, avg=16.00, median=16.00
+wMat: shape=(8, 16, 16), min=-2.0000, max=2.0000, avg=-0.0446, median=0.0000
+aVec: shape=(8, 16), min=0.0000, max=0.0000, avg=0.0000, median=0.0000
+SlimeVolley: 2024-09-12 20:56:29,576 [INFO] solver.ask time: 1.1759s
+SlimeVolley: 2024-09-12 20:56:29,599 [INFO] sim_mgr.eval_params time: 0.0222s
+SlimeVolley: 2024-09-12 20:56:29,599 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:56:29,600 [INFO] Iter=3, size=8, max=-2.5000, avg=-3.1250, median=-3.5000, min=-3.5000, std=0.4841
+nNodes: min=16, max=17, avg=16.38, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0366, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=7.0000, avg=0.0956, median=0.0000
+SlimeVolley: 2024-09-12 20:56:32,484 [INFO] solver.ask time: 2.8839s
+SlimeVolley: 2024-09-12 20:56:34,681 [INFO] sim_mgr.eval_params time: 2.1962s
+SlimeVolley: 2024-09-12 20:56:34,681 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:56:34,682 [INFO] Iter=4, size=8, max=-3.5000, avg=-3.5000, median=-3.5000, min=-3.5000, std=0.0000
+nNodes: min=16, max=18, avg=16.75, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0312, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.2222, median=0.0000
+SlimeVolley: 2024-09-12 20:56:37,358 [INFO] solver.ask time: 2.6755s
+SlimeVolley: 2024-09-12 20:56:37,380 [INFO] sim_mgr.eval_params time: 0.0220s
+SlimeVolley: 2024-09-12 20:56:37,381 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:56:37,381 [INFO] Iter=5, size=8, max=-4.0000, avg=-4.0000, median=-4.0000, min=-4.0000, std=0.0000
+nNodes: min=16, max=18, avg=16.88, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0189, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=6.0000, avg=0.1875, median=0.0000
+SlimeVolley: 2024-09-12 20:56:40,300 [INFO] solver.ask time: 2.9183s
+SlimeVolley: 2024-09-12 20:56:40,322 [INFO] sim_mgr.eval_params time: 0.0215s
+SlimeVolley: 2024-09-12 20:56:40,322 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:56:40,323 [INFO] Iter=6, size=8, max=-2.5000, avg=-2.6875, median=-2.5000, min=-3.0000, std=0.2421
+nNodes: min=16, max=18, avg=16.75, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0259, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=6.0000, avg=0.1181, median=0.0000
+SlimeVolley: 2024-09-12 20:56:42,122 [INFO] solver.ask time: 1.7991s
+SlimeVolley: 2024-09-12 20:56:42,140 [INFO] sim_mgr.eval_params time: 0.0175s
+SlimeVolley: 2024-09-12 20:56:42,141 [INFO] solver.tell time: 0.0005s
+SlimeVolley: 2024-09-12 20:56:42,141 [INFO] Iter=7, size=8, max=-2.5000, avg=-2.5000, median=-2.5000, min=-2.5000, std=0.0000
+nNodes: min=16, max=18, avg=17.00, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0429, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.2361, median=0.0000
+SlimeVolley: 2024-09-12 20:56:43,752 [INFO] solver.ask time: 1.6109s
+SlimeVolley: 2024-09-12 20:56:43,776 [INFO] sim_mgr.eval_params time: 0.0239s
+SlimeVolley: 2024-09-12 20:56:43,777 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:56:43,778 [INFO] Iter=8, size=8, max=-3.0000, avg=-3.1250, median=-3.0000, min=-3.5000, std=0.2165
+nNodes: min=16, max=18, avg=17.12, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0408, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=5.0000, avg=0.2083, median=0.0000
+SlimeVolley: 2024-09-12 20:56:45,248 [INFO] solver.ask time: 1.4697s
+SlimeVolley: 2024-09-12 20:56:45,270 [INFO] sim_mgr.eval_params time: 0.0222s
+SlimeVolley: 2024-09-12 20:56:45,271 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:56:45,272 [INFO] Iter=9, size=8, max=-2.5000, avg=-2.5000, median=-2.5000, min=-2.5000, std=0.0000
+nNodes: min=16, max=18, avg=17.12, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0282, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.2361, median=0.0000
+SlimeVolley: 2024-09-12 20:56:46,853 [INFO] solver.ask time: 1.5808s
+SlimeVolley: 2024-09-12 20:56:46,870 [INFO] sim_mgr.eval_params time: 0.0178s
+SlimeVolley: 2024-09-12 20:56:46,871 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 20:56:46,872 [INFO] Iter=10, size=8, max=-2.0000, avg=-2.3750, median=-2.5000, min=-2.5000, std=0.2165
+nNodes: min=16, max=18, avg=17.00, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0267, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.2708, median=0.0000
+SlimeVolley: 2024-09-12 20:56:48,422 [INFO] solver.ask time: 1.5496s
+SlimeVolley: 2024-09-12 20:56:48,439 [INFO] sim_mgr.eval_params time: 0.0178s
+SlimeVolley: 2024-09-12 20:56:48,440 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 20:56:48,441 [INFO] Iter=11, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=16, max=18, avg=16.88, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0268, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.2431, median=0.0000
+SlimeVolley: 2024-09-12 20:56:49,714 [INFO] solver.ask time: 1.2728s
+SlimeVolley: 2024-09-12 20:56:49,731 [INFO] sim_mgr.eval_params time: 0.0171s
+SlimeVolley: 2024-09-12 20:56:49,732 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 20:56:49,732 [INFO] Iter=12, size=8, max=-2.5000, avg=-2.7500, median=-2.5000, min=-3.5000, std=0.4330
+nNodes: min=16, max=18, avg=16.88, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0193, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=7.0000, avg=0.2361, median=0.0000
+SlimeVolley: 2024-09-12 20:56:50,798 [INFO] solver.ask time: 1.0657s
+SlimeVolley: 2024-09-12 20:56:50,816 [INFO] sim_mgr.eval_params time: 0.0185s
+SlimeVolley: 2024-09-12 20:56:50,817 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:56:50,818 [INFO] Iter=13, size=8, max=-4.0000, avg=-4.0000, median=-4.0000, min=-4.0000, std=0.0000
+nNodes: min=16, max=18, avg=17.12, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0162, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=7.0000, avg=0.2847, median=0.0000
+SlimeVolley: 2024-09-12 20:56:51,982 [INFO] solver.ask time: 1.1645s
+SlimeVolley: 2024-09-12 20:56:52,001 [INFO] sim_mgr.eval_params time: 0.0182s
+SlimeVolley: 2024-09-12 20:56:52,002 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:56:52,002 [INFO] Iter=14, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0216, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=7.0000, avg=0.0515, median=0.0000
+SlimeVolley: 2024-09-12 20:56:52,798 [INFO] solver.ask time: 0.7958s
+SlimeVolley: 2024-09-12 20:56:52,822 [INFO] sim_mgr.eval_params time: 0.0232s
+SlimeVolley: 2024-09-12 20:56:52,823 [INFO] solver.tell time: 0.0009s
+SlimeVolley: 2024-09-12 20:56:52,823 [INFO] Iter=15, size=8, max=-3.5000, avg=-3.6250, median=-3.5000, min=-4.0000, std=0.2165
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0275, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=6.0000, avg=0.0809, median=0.0000
+SlimeVolley: 2024-09-12 20:56:54,116 [INFO] solver.ask time: 1.2924s
+SlimeVolley: 2024-09-12 20:56:54,141 [INFO] sim_mgr.eval_params time: 0.0246s
+SlimeVolley: 2024-09-12 20:56:54,142 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:56:54,142 [INFO] Iter=16, size=8, max=-2.5000, avg=-2.5000, median=-2.5000, min=-2.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0366, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=2.0000, avg=0.0147, median=0.0000
+SlimeVolley: 2024-09-12 20:56:55,590 [INFO] solver.ask time: 1.4479s
+SlimeVolley: 2024-09-12 20:56:55,615 [INFO] sim_mgr.eval_params time: 0.0247s
+SlimeVolley: 2024-09-12 20:56:55,616 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:56:55,617 [INFO] Iter=17, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0417, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=4.0000, avg=0.0368, median=0.0000
+SlimeVolley: 2024-09-12 20:56:56,482 [INFO] solver.ask time: 0.8652s
+SlimeVolley: 2024-09-12 20:56:56,502 [INFO] sim_mgr.eval_params time: 0.0196s
+SlimeVolley: 2024-09-12 20:56:56,503 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:56:56,503 [INFO] Iter=18, size=8, max=-4.0000, avg=-4.0000, median=-4.0000, min=-4.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0451, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=4.0000, avg=0.0588, median=0.0000
+SlimeVolley: 2024-09-12 20:56:57,336 [INFO] solver.ask time: 0.8324s
+SlimeVolley: 2024-09-12 20:56:57,355 [INFO] sim_mgr.eval_params time: 0.0192s
+SlimeVolley: 2024-09-12 20:56:57,356 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:56:57,357 [INFO] Iter=19, size=8, max=-2.5000, avg=-3.0000, median=-3.0000, min=-3.5000, std=0.5000
+nNodes: min=16, max=17, avg=16.50, median=16.50
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0434, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=8.0000, avg=0.0882, median=0.0000
+SlimeVolley: 2024-09-12 20:56:58,432 [INFO] solver.ask time: 1.0748s
+SlimeVolley: 2024-09-12 20:56:58,450 [INFO] sim_mgr.eval_params time: 0.0183s
+SlimeVolley: 2024-09-12 20:56:58,451 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:56:58,452 [INFO] Iter=20, size=8, max=-1.5000, avg=-1.8750, median=-1.5000, min=-2.5000, std=0.4841
+nNodes: min=16, max=18, avg=16.88, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0336, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=7.0000, avg=0.0764, median=0.0000
+SlimeVolley: 2024-09-12 20:56:59,715 [INFO] solver.ask time: 1.2630s
+SlimeVolley: 2024-09-12 20:56:59,734 [INFO] sim_mgr.eval_params time: 0.0188s
+SlimeVolley: 2024-09-12 20:56:59,734 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:56:59,735 [INFO] Iter=21, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.62, median=17.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0361, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=8.0000, avg=0.1176, median=0.0000
+SlimeVolley: 2024-09-12 20:57:01,343 [INFO] solver.ask time: 1.6079s
+SlimeVolley: 2024-09-12 20:57:01,364 [INFO] sim_mgr.eval_params time: 0.0208s
+SlimeVolley: 2024-09-12 20:57:01,365 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:57:01,365 [INFO] Iter=22, size=8, max=-2.5000, avg=-3.0000, median=-3.0000, min=-3.5000, std=0.5000
+nNodes: min=16, max=18, avg=16.62, median=16.50
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0296, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=7.0000, avg=0.1181, median=0.0000
+SlimeVolley: 2024-09-12 20:57:03,027 [INFO] solver.ask time: 1.6612s
+SlimeVolley: 2024-09-12 20:57:03,051 [INFO] sim_mgr.eval_params time: 0.0243s
+SlimeVolley: 2024-09-12 20:57:03,052 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:57:03,053 [INFO] Iter=23, size=8, max=-4.0000, avg=-4.0000, median=-4.0000, min=-4.0000, std=0.0000
+nNodes: min=16, max=18, avg=16.62, median=16.50
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0310, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=7.0000, avg=0.2014, median=0.0000
+SlimeVolley: 2024-09-12 20:57:04,202 [INFO] solver.ask time: 1.1489s
+SlimeVolley: 2024-09-12 20:57:04,220 [INFO] sim_mgr.eval_params time: 0.0178s
+SlimeVolley: 2024-09-12 20:57:04,220 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:57:04,221 [INFO] Iter=24, size=8, max=-2.5000, avg=-2.7500, median=-2.5000, min=-3.5000, std=0.4330
+nNodes: min=16, max=18, avg=16.38, median=16.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0344, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=7.0000, avg=0.1111, median=0.0000
+SlimeVolley: 2024-09-12 20:57:05,167 [INFO] solver.ask time: 0.9457s
+SlimeVolley: 2024-09-12 20:57:05,185 [INFO] sim_mgr.eval_params time: 0.0179s
+SlimeVolley: 2024-09-12 20:57:05,185 [INFO] solver.tell time: 0.0005s
+SlimeVolley: 2024-09-12 20:57:05,186 [INFO] Iter=25, size=8, max=-4.0000, avg=-4.3750, median=-4.5000, min=-4.5000, std=0.2165
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0354, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=7.0000, avg=0.0735, median=0.0000
+SlimeVolley: 2024-09-12 20:57:05,988 [INFO] solver.ask time: 0.8020s
+SlimeVolley: 2024-09-12 20:57:06,007 [INFO] sim_mgr.eval_params time: 0.0188s
+SlimeVolley: 2024-09-12 20:57:06,008 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:57:06,008 [INFO] Iter=26, size=8, max=-3.5000, avg=-3.7500, median=-3.7500, min=-4.0000, std=0.2500
+nNodes: min=16, max=18, avg=16.62, median=16.50
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0367, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=7.0000, avg=0.1458, median=0.0000
+SlimeVolley: 2024-09-12 20:57:07,264 [INFO] solver.ask time: 1.2559s
+SlimeVolley: 2024-09-12 20:57:07,283 [INFO] sim_mgr.eval_params time: 0.0186s
+SlimeVolley: 2024-09-12 20:57:07,284 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:57:07,285 [INFO] Iter=27, size=8, max=-2.5000, avg=-2.5000, median=-2.5000, min=-2.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.50, median=16.50
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0290, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=8.0000, avg=0.1397, median=0.0000
+SlimeVolley: 2024-09-12 20:57:08,758 [INFO] solver.ask time: 1.4737s
+SlimeVolley: 2024-09-12 20:57:08,777 [INFO] sim_mgr.eval_params time: 0.0188s
+SlimeVolley: 2024-09-12 20:57:08,778 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:57:08,779 [INFO] Iter=28, size=8, max=-4.0000, avg=-4.0000, median=-4.0000, min=-4.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.50, median=16.50
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0307, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=5.0000, avg=0.0882, median=0.0000
+SlimeVolley: 2024-09-12 20:57:10,608 [INFO] solver.ask time: 1.8292s
+SlimeVolley: 2024-09-12 20:57:10,631 [INFO] sim_mgr.eval_params time: 0.0232s
+SlimeVolley: 2024-09-12 20:57:10,632 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:57:10,633 [INFO] Iter=29, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=16, max=18, avg=16.62, median=16.50
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0261, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=8.0000, avg=0.1736, median=0.0000
+SlimeVolley: 2024-09-12 20:57:12,120 [INFO] solver.ask time: 1.4872s
+SlimeVolley: 2024-09-12 20:57:12,143 [INFO] sim_mgr.eval_params time: 0.0221s
+SlimeVolley: 2024-09-12 20:57:12,144 [INFO] solver.tell time: 0.0009s
+SlimeVolley: 2024-09-12 20:57:12,144 [INFO] Iter=30, size=8, max=-3.0000, avg=-3.4375, median=-3.5000, min=-3.5000, std=0.1654
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0314, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=6.0000, avg=0.0441, median=0.0000
+SlimeVolley: 2024-09-12 20:57:13,138 [INFO] solver.ask time: 0.9938s
+SlimeVolley: 2024-09-12 20:57:13,155 [INFO] sim_mgr.eval_params time: 0.0168s
+SlimeVolley: 2024-09-12 20:57:13,156 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 20:57:13,156 [INFO] Iter=31, size=8, max=-1.5000, avg=-1.6875, median=-1.5000, min=-2.0000, std=0.2421
+nNodes: min=16, max=18, avg=16.75, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0327, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=6.0000, avg=0.1528, median=0.0000
+SlimeVolley: 2024-09-12 20:57:14,266 [INFO] solver.ask time: 1.1091s
+SlimeVolley: 2024-09-12 20:57:14,283 [INFO] sim_mgr.eval_params time: 0.0175s
+SlimeVolley: 2024-09-12 20:57:14,284 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:57:14,285 [INFO] Iter=32, size=8, max=-3.0000, avg=-3.5000, median=-3.5000, min=-4.0000, std=0.5000
+nNodes: min=16, max=17, avg=16.50, median=16.50
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0256, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=5.0000, avg=0.0368, median=0.0000
+SlimeVolley: 2024-09-12 20:57:15,307 [INFO] solver.ask time: 1.0225s
+SlimeVolley: 2024-09-12 20:57:15,325 [INFO] sim_mgr.eval_params time: 0.0173s
+SlimeVolley: 2024-09-12 20:57:15,325 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:57:15,326 [INFO] Iter=33, size=8, max=-2.5000, avg=-2.6250, median=-2.5000, min=-3.5000, std=0.3307
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0189, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=6.0000, avg=0.0441, median=0.0000
+SlimeVolley: 2024-09-12 20:57:15,935 [INFO] solver.ask time: 0.6086s
+SlimeVolley: 2024-09-12 20:57:15,953 [INFO] sim_mgr.eval_params time: 0.0186s
+SlimeVolley: 2024-09-12 20:57:15,954 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:57:15,955 [INFO] Iter=34, size=8, max=-4.5000, avg=-4.5000, median=-4.5000, min=-4.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0298, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=8.0000, avg=0.0588, median=0.0000
+SlimeVolley: 2024-09-12 20:57:16,743 [INFO] solver.ask time: 0.7882s
+SlimeVolley: 2024-09-12 20:57:16,762 [INFO] sim_mgr.eval_params time: 0.0184s
+SlimeVolley: 2024-09-12 20:57:16,762 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:57:16,763 [INFO] Iter=35, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0275, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=6.0000, avg=0.0441, median=0.0000
+SlimeVolley: 2024-09-12 20:57:17,516 [INFO] solver.ask time: 0.7533s
+SlimeVolley: 2024-09-12 20:57:17,536 [INFO] sim_mgr.eval_params time: 0.0198s
+SlimeVolley: 2024-09-12 20:57:17,537 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:57:17,538 [INFO] Iter=36, size=8, max=-2.0000, avg=-2.6250, median=-3.0000, min=-3.0000, std=0.4841
+nNodes: min=16, max=17, avg=16.38, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0241, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=8.0000, avg=0.0882, median=0.0000
+SlimeVolley: 2024-09-12 20:57:18,945 [INFO] solver.ask time: 1.4074s
+SlimeVolley: 2024-09-12 20:57:18,964 [INFO] sim_mgr.eval_params time: 0.0189s
+SlimeVolley: 2024-09-12 20:57:18,965 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:57:18,966 [INFO] Iter=37, size=8, max=-4.0000, avg=-4.3125, median=-4.5000, min=-4.5000, std=0.2421
+nNodes: min=16, max=18, avg=16.88, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0101, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=5.0000, avg=0.0833, median=0.0000
+SlimeVolley: 2024-09-12 20:57:20,448 [INFO] solver.ask time: 1.4816s
+SlimeVolley: 2024-09-12 20:57:20,500 [INFO] sim_mgr.eval_params time: 0.0525s
+SlimeVolley: 2024-09-12 20:57:20,501 [INFO] solver.tell time: 0.0009s
+SlimeVolley: 2024-09-12 20:57:20,502 [INFO] Iter=38, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.38, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0113, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=7.0000, avg=0.1103, median=0.0000
+SlimeVolley: 2024-09-12 20:57:22,326 [INFO] solver.ask time: 1.8240s
+SlimeVolley: 2024-09-12 20:57:22,346 [INFO] sim_mgr.eval_params time: 0.0194s
+SlimeVolley: 2024-09-12 20:57:22,347 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:57:22,347 [INFO] Iter=39, size=8, max=-2.5000, avg=-2.9375, median=-3.0000, min=-3.0000, std=0.1654
+nNodes: min=16, max=17, avg=16.88, median=17.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0102, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=9.0000, avg=0.1618, median=0.0000
+SlimeVolley: 2024-09-12 20:57:23,643 [INFO] solver.ask time: 1.2956s
+SlimeVolley: 2024-09-12 20:57:23,661 [INFO] sim_mgr.eval_params time: 0.0175s
+SlimeVolley: 2024-09-12 20:57:23,662 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:57:23,662 [INFO] Iter=40, size=8, max=-3.5000, avg=-3.5000, median=-3.5000, min=-3.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.62, median=17.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0075, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=4.0000, avg=0.1176, median=0.0000
+SlimeVolley: 2024-09-12 20:57:25,109 [INFO] solver.ask time: 1.4467s
+SlimeVolley: 2024-09-12 20:57:25,127 [INFO] sim_mgr.eval_params time: 0.0176s
+SlimeVolley: 2024-09-12 20:57:25,127 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:57:25,128 [INFO] Iter=41, size=8, max=-2.5000, avg=-2.7500, median=-2.7500, min=-3.0000, std=0.2500
+nNodes: min=16, max=17, avg=16.50, median=16.50
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0112, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=6.0000, avg=0.0662, median=0.0000
+SlimeVolley: 2024-09-12 20:57:26,007 [INFO] solver.ask time: 0.8792s
+SlimeVolley: 2024-09-12 20:57:26,025 [INFO] sim_mgr.eval_params time: 0.0180s
+SlimeVolley: 2024-09-12 20:57:26,026 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:57:26,027 [INFO] Iter=42, size=8, max=-3.0000, avg=-3.0625, median=-3.0000, min=-3.5000, std=0.1654
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0118, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=0.0000, avg=0.0000, median=0.0000
+SlimeVolley: 2024-09-12 20:57:26,631 [INFO] solver.ask time: 0.6046s
+SlimeVolley: 2024-09-12 20:57:28,510 [INFO] sim_mgr.eval_params time: 1.8782s
+SlimeVolley: 2024-09-12 20:57:28,511 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:57:28,511 [INFO] Iter=43, size=8, max=-4.0000, avg=-4.0000, median=-4.0000, min=-4.0000, std=0.0000
+nNodes: min=16, max=16, avg=16.00, median=16.00
+wMat: shape=(8, 16, 16), min=-2.0000, max=2.0000, avg=-0.0301, median=0.0000
+aVec: shape=(8, 16), min=0.0000, max=0.0000, avg=0.0000, median=0.0000
+SlimeVolley: 2024-09-12 20:57:29,566 [INFO] solver.ask time: 1.0549s
+SlimeVolley: 2024-09-12 20:57:29,587 [INFO] sim_mgr.eval_params time: 0.0204s
+SlimeVolley: 2024-09-12 20:57:29,588 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:57:29,588 [INFO] Iter=44, size=8, max=-3.5000, avg=-3.6875, median=-3.5000, min=-4.0000, std=0.2421
+nNodes: min=16, max=17, avg=16.38, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0331, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=8.0000, avg=0.1250, median=0.0000
+SlimeVolley: 2024-09-12 20:57:30,541 [INFO] solver.ask time: 0.9526s
+SlimeVolley: 2024-09-12 20:57:30,558 [INFO] sim_mgr.eval_params time: 0.0169s
+SlimeVolley: 2024-09-12 20:57:30,559 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 20:57:30,559 [INFO] Iter=45, size=8, max=-2.0000, avg=-2.0000, median=-2.0000, min=-2.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0276, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=4.0000, avg=0.0588, median=0.0000
+SlimeVolley: 2024-09-12 20:57:31,325 [INFO] solver.ask time: 0.7661s
+SlimeVolley: 2024-09-12 20:57:31,343 [INFO] sim_mgr.eval_params time: 0.0171s
+SlimeVolley: 2024-09-12 20:57:31,344 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:57:31,344 [INFO] Iter=46, size=8, max=-2.0000, avg=-2.1250, median=-2.0000, min=-2.5000, std=0.2165
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0297, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=8.0000, avg=0.1103, median=0.0000
+SlimeVolley: 2024-09-12 20:57:32,073 [INFO] solver.ask time: 0.7285s
+SlimeVolley: 2024-09-12 20:57:32,090 [INFO] sim_mgr.eval_params time: 0.0177s
+SlimeVolley: 2024-09-12 20:57:32,091 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 20:57:32,092 [INFO] Iter=47, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=16, max=16, avg=16.00, median=16.00
+wMat: shape=(8, 16, 16), min=-2.0000, max=2.0000, avg=-0.0478, median=0.0000
+aVec: shape=(8, 16), min=0.0000, max=0.0000, avg=0.0000, median=0.0000
+SlimeVolley: 2024-09-12 20:57:33,204 [INFO] solver.ask time: 1.1118s
+SlimeVolley: 2024-09-12 20:57:33,225 [INFO] sim_mgr.eval_params time: 0.0216s
+SlimeVolley: 2024-09-12 20:57:33,226 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:57:33,227 [INFO] Iter=48, size=8, max=-2.0000, avg=-2.2500, median=-2.2500, min=-2.5000, std=0.2500
+nNodes: min=16, max=17, avg=16.50, median=16.50
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0402, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=6.0000, avg=0.1397, median=0.0000
+SlimeVolley: 2024-09-12 20:57:34,711 [INFO] solver.ask time: 1.4838s
+SlimeVolley: 2024-09-12 20:57:34,730 [INFO] sim_mgr.eval_params time: 0.0188s
+SlimeVolley: 2024-09-12 20:57:34,731 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:57:34,731 [INFO] Iter=49, size=8, max=-2.0000, avg=-2.0000, median=-2.0000, min=-2.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.50, median=16.50
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0396, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=9.0000, avg=0.1765, median=0.0000
+SlimeVolley: 2024-09-12 20:57:36,144 [INFO] solver.ask time: 1.4131s
+SlimeVolley: 2024-09-12 20:57:36,166 [INFO] sim_mgr.eval_params time: 0.0216s
+SlimeVolley: 2024-09-12 20:57:36,167 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:57:36,168 [INFO] Iter=50, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=16, max=18, avg=16.75, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0315, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.2153, median=0.0000
+SlimeVolley: 2024-09-12 20:57:39,736 [INFO] [TEST] Iter=50, #tests=10, max=-2.0000, avg=-3.4000, min=-5.0000, std=0.9165
+SlimeVolley: 2024-09-12 20:57:40,860 [INFO] solver.ask time: 1.1233s
+SlimeVolley: 2024-09-12 20:57:40,878 [INFO] sim_mgr.eval_params time: 0.0178s
+SlimeVolley: 2024-09-12 20:57:40,879 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:57:40,880 [INFO] Iter=51, size=8, max=-4.0000, avg=-4.1875, median=-4.0000, min=-4.5000, std=0.2421
+nNodes: min=16, max=17, avg=16.38, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0409, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=7.0000, avg=0.1029, median=0.0000
+SlimeVolley: 2024-09-12 20:57:42,004 [INFO] solver.ask time: 1.1239s
+SlimeVolley: 2024-09-12 20:57:42,021 [INFO] sim_mgr.eval_params time: 0.0172s
+SlimeVolley: 2024-09-12 20:57:42,022 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:57:42,023 [INFO] Iter=52, size=8, max=-3.5000, avg=-3.8750, median=-4.0000, min=-4.0000, std=0.2165
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0367, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=3.0000, avg=0.0294, median=0.0000
+SlimeVolley: 2024-09-12 20:57:43,512 [INFO] solver.ask time: 1.4894s
+SlimeVolley: 2024-09-12 20:57:43,533 [INFO] sim_mgr.eval_params time: 0.0207s
+SlimeVolley: 2024-09-12 20:57:43,534 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:57:43,534 [INFO] Iter=53, size=8, max=-3.0000, avg=-3.2500, median=-3.2500, min=-3.5000, std=0.2500
+nNodes: min=16, max=17, avg=16.50, median=16.50
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0378, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=9.0000, avg=0.1250, median=0.0000
+SlimeVolley: 2024-09-12 20:57:44,773 [INFO] solver.ask time: 1.2383s
+SlimeVolley: 2024-09-12 20:57:44,795 [INFO] sim_mgr.eval_params time: 0.0225s
+SlimeVolley: 2024-09-12 20:57:44,796 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:57:44,797 [INFO] Iter=54, size=8, max=-2.5000, avg=-2.5000, median=-2.5000, min=-2.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0443, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=4.0000, avg=0.0515, median=0.0000
+SlimeVolley: 2024-09-12 20:57:45,732 [INFO] solver.ask time: 0.9349s
+SlimeVolley: 2024-09-12 20:57:45,757 [INFO] sim_mgr.eval_params time: 0.0248s
+SlimeVolley: 2024-09-12 20:57:45,758 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:57:45,759 [INFO] Iter=55, size=8, max=-3.5000, avg=-3.5625, median=-3.5000, min=-4.0000, std=0.1654
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0410, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=7.0000, avg=0.0515, median=0.0000
+SlimeVolley: 2024-09-12 20:57:46,833 [INFO] solver.ask time: 1.0741s
+SlimeVolley: 2024-09-12 20:57:46,854 [INFO] sim_mgr.eval_params time: 0.0211s
+SlimeVolley: 2024-09-12 20:57:46,855 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:57:46,856 [INFO] Iter=56, size=8, max=-0.5000, avg=-0.6250, median=-0.5000, min=-1.5000, std=0.3307
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0266, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=3.0000, avg=0.0221, median=0.0000
+SlimeVolley: 2024-09-12 20:57:47,882 [INFO] solver.ask time: 1.0262s
+SlimeVolley: 2024-09-12 20:57:47,901 [INFO] sim_mgr.eval_params time: 0.0187s
+SlimeVolley: 2024-09-12 20:57:47,902 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:57:47,902 [INFO] Iter=57, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.50, median=16.50
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0232, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=7.0000, avg=0.0882, median=0.0000
+SlimeVolley: 2024-09-12 20:57:49,215 [INFO] solver.ask time: 1.3128s
+SlimeVolley: 2024-09-12 20:57:49,233 [INFO] sim_mgr.eval_params time: 0.0179s
+SlimeVolley: 2024-09-12 20:57:49,234 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:57:49,234 [INFO] Iter=58, size=8, max=-3.0000, avg=-3.1875, median=-3.0000, min=-3.5000, std=0.2421
+nNodes: min=16, max=17, avg=16.38, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0230, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=7.0000, avg=0.1029, median=0.0000
+SlimeVolley: 2024-09-12 20:57:49,971 [INFO] solver.ask time: 0.7365s
+SlimeVolley: 2024-09-12 20:57:49,990 [INFO] sim_mgr.eval_params time: 0.0185s
+SlimeVolley: 2024-09-12 20:57:49,990 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 20:57:49,991 [INFO] Iter=59, size=8, max=-3.5000, avg=-3.5000, median=-3.5000, min=-3.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0151, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=9.0000, avg=0.1103, median=0.0000
+SlimeVolley: 2024-09-12 20:57:51,498 [INFO] solver.ask time: 1.5070s
+SlimeVolley: 2024-09-12 20:57:51,522 [INFO] sim_mgr.eval_params time: 0.0238s
+SlimeVolley: 2024-09-12 20:57:51,523 [INFO] solver.tell time: 0.0009s
+SlimeVolley: 2024-09-12 20:57:51,524 [INFO] Iter=60, size=8, max=-3.5000, avg=-3.7500, median=-3.7500, min=-4.0000, std=0.2500
+nNodes: min=16, max=17, avg=16.50, median=16.50
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0161, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=9.0000, avg=0.1838, median=0.0000
+SlimeVolley: 2024-09-12 20:57:53,414 [INFO] solver.ask time: 1.8900s
+SlimeVolley: 2024-09-12 20:57:53,446 [INFO] sim_mgr.eval_params time: 0.0322s
+SlimeVolley: 2024-09-12 20:57:53,447 [INFO] solver.tell time: 0.0011s
+SlimeVolley: 2024-09-12 20:57:53,448 [INFO] Iter=61, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.50, median=16.50
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0153, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=7.0000, avg=0.0956, median=0.0000
+SlimeVolley: 2024-09-12 20:57:55,344 [INFO] solver.ask time: 1.8955s
+SlimeVolley: 2024-09-12 20:57:55,378 [INFO] sim_mgr.eval_params time: 0.0337s
+SlimeVolley: 2024-09-12 20:57:55,379 [INFO] solver.tell time: 0.0011s
+SlimeVolley: 2024-09-12 20:57:55,380 [INFO] Iter=62, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.50, median=16.50
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0175, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=7.0000, avg=0.0882, median=0.0000
+SlimeVolley: 2024-09-12 20:57:56,712 [INFO] solver.ask time: 1.3318s
+SlimeVolley: 2024-09-12 20:57:56,744 [INFO] sim_mgr.eval_params time: 0.0316s
+SlimeVolley: 2024-09-12 20:57:56,745 [INFO] solver.tell time: 0.0010s
+SlimeVolley: 2024-09-12 20:57:56,746 [INFO] Iter=63, size=8, max=-3.0000, avg=-3.3125, median=-3.5000, min=-3.5000, std=0.2421
+nNodes: min=16, max=17, avg=16.62, median=17.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0191, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=9.0000, avg=0.2206, median=0.0000
+SlimeVolley: 2024-09-12 20:57:58,475 [INFO] solver.ask time: 1.7290s
+SlimeVolley: 2024-09-12 20:57:58,500 [INFO] sim_mgr.eval_params time: 0.0248s
+SlimeVolley: 2024-09-12 20:57:58,501 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:57:58,502 [INFO] Iter=64, size=8, max=-2.5000, avg=-3.1250, median=-3.5000, min=-3.5000, std=0.4841
+nNodes: min=16, max=18, avg=16.75, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0189, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=5.0000, avg=0.1806, median=0.0000
+SlimeVolley: 2024-09-12 20:58:00,019 [INFO] solver.ask time: 1.5172s
+SlimeVolley: 2024-09-12 20:58:00,041 [INFO] sim_mgr.eval_params time: 0.0219s
+SlimeVolley: 2024-09-12 20:58:00,042 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:58:00,043 [INFO] Iter=65, size=8, max=-3.5000, avg=-3.8125, median=-4.0000, min=-4.0000, std=0.2421
+nNodes: min=16, max=18, avg=16.62, median=16.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0184, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=6.0000, avg=0.1736, median=0.0000
+SlimeVolley: 2024-09-12 20:58:01,458 [INFO] solver.ask time: 1.4158s
+SlimeVolley: 2024-09-12 20:58:01,478 [INFO] sim_mgr.eval_params time: 0.0190s
+SlimeVolley: 2024-09-12 20:58:01,478 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:58:01,479 [INFO] Iter=66, size=8, max=-2.5000, avg=-2.6250, median=-2.5000, min=-3.0000, std=0.2165
+nNodes: min=16, max=18, avg=17.00, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0164, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=6.0000, avg=0.2639, median=0.0000
+SlimeVolley: 2024-09-12 20:58:03,486 [INFO] solver.ask time: 2.0071s
+SlimeVolley: 2024-09-12 20:58:03,510 [INFO] sim_mgr.eval_params time: 0.0239s
+SlimeVolley: 2024-09-12 20:58:03,511 [INFO] solver.tell time: 0.0009s
+SlimeVolley: 2024-09-12 20:58:03,512 [INFO] Iter=67, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=17, max=18, avg=17.50, median=17.50
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0207, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=7.0000, avg=0.4028, median=0.0000
+SlimeVolley: 2024-09-12 20:58:05,761 [INFO] solver.ask time: 2.2484s
+SlimeVolley: 2024-09-12 20:58:05,779 [INFO] sim_mgr.eval_params time: 0.0186s
+SlimeVolley: 2024-09-12 20:58:05,780 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:58:05,781 [INFO] Iter=68, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=17, max=18, avg=17.50, median=17.50
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0128, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.3542, median=0.0000
+SlimeVolley: 2024-09-12 20:58:08,316 [INFO] solver.ask time: 2.5348s
+SlimeVolley: 2024-09-12 20:58:08,334 [INFO] sim_mgr.eval_params time: 0.0179s
+SlimeVolley: 2024-09-12 20:58:08,335 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:58:08,335 [INFO] Iter=69, size=8, max=-4.0000, avg=-4.0000, median=-4.0000, min=-4.0000, std=0.0000
+nNodes: min=17, max=18, avg=17.62, median=18.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0123, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.4306, median=0.0000
+SlimeVolley: 2024-09-12 20:58:10,099 [INFO] solver.ask time: 1.7634s
+SlimeVolley: 2024-09-12 20:58:10,117 [INFO] sim_mgr.eval_params time: 0.0184s
+SlimeVolley: 2024-09-12 20:58:10,118 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:58:10,119 [INFO] Iter=70, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=17, max=18, avg=17.38, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0133, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.3819, median=0.0000
+SlimeVolley: 2024-09-12 20:58:11,008 [INFO] solver.ask time: 0.8889s
+SlimeVolley: 2024-09-12 20:58:11,322 [INFO] sim_mgr.eval_params time: 0.3138s
+SlimeVolley: 2024-09-12 20:58:11,323 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:58:11,323 [INFO] Iter=71, size=8, max=-3.5000, avg=-3.5000, median=-3.5000, min=-3.5000, std=0.0000
+nNodes: min=17, max=17, avg=17.00, median=17.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0110, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=4.0000, avg=0.2353, median=0.0000
+SlimeVolley: 2024-09-12 20:58:12,753 [INFO] solver.ask time: 1.4294s
+SlimeVolley: 2024-09-12 20:58:12,774 [INFO] sim_mgr.eval_params time: 0.0213s
+SlimeVolley: 2024-09-12 20:58:12,775 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:58:12,776 [INFO] Iter=72, size=8, max=-3.5000, avg=-3.5000, median=-3.5000, min=-3.5000, std=0.0000
+nNodes: min=17, max=18, avg=17.38, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0137, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=4.0000, avg=0.2569, median=0.0000
+SlimeVolley: 2024-09-12 20:58:13,563 [INFO] solver.ask time: 0.7876s
+SlimeVolley: 2024-09-12 20:58:13,582 [INFO] sim_mgr.eval_params time: 0.0185s
+SlimeVolley: 2024-09-12 20:58:13,583 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 20:58:13,583 [INFO] Iter=73, size=8, max=-3.5000, avg=-3.5000, median=-3.5000, min=-3.5000, std=0.0000
+nNodes: min=17, max=18, avg=17.25, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0170, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.3264, median=0.0000
+SlimeVolley: 2024-09-12 20:58:14,730 [INFO] solver.ask time: 1.1467s
+SlimeVolley: 2024-09-12 20:58:14,748 [INFO] sim_mgr.eval_params time: 0.0177s
+SlimeVolley: 2024-09-12 20:58:14,749 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:58:14,749 [INFO] Iter=74, size=8, max=-2.5000, avg=-2.5000, median=-2.5000, min=-2.5000, std=0.0000
+nNodes: min=17, max=18, avg=17.25, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0152, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.3403, median=0.0000
+SlimeVolley: 2024-09-12 20:58:15,748 [INFO] solver.ask time: 0.9987s
+SlimeVolley: 2024-09-12 20:58:15,766 [INFO] sim_mgr.eval_params time: 0.0179s
+SlimeVolley: 2024-09-12 20:58:15,767 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:58:15,768 [INFO] Iter=75, size=8, max=-2.5000, avg=-2.5000, median=-2.5000, min=-2.5000, std=0.0000
+nNodes: min=17, max=18, avg=17.12, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0178, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=4.0000, avg=0.2500, median=0.0000
+SlimeVolley: 2024-09-12 20:58:17,494 [INFO] solver.ask time: 1.7265s
+SlimeVolley: 2024-09-12 20:58:17,513 [INFO] sim_mgr.eval_params time: 0.0184s
+SlimeVolley: 2024-09-12 20:58:17,514 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:58:17,514 [INFO] Iter=76, size=8, max=-1.5000, avg=-1.5000, median=-1.5000, min=-1.5000, std=0.0000
+nNodes: min=17, max=18, avg=17.50, median=17.50
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0062, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.3194, median=0.0000
+SlimeVolley: 2024-09-12 20:58:18,933 [INFO] solver.ask time: 1.4184s
+SlimeVolley: 2024-09-12 20:58:18,950 [INFO] sim_mgr.eval_params time: 0.0172s
+SlimeVolley: 2024-09-12 20:58:18,951 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:58:18,951 [INFO] Iter=77, size=8, max=-3.5000, avg=-3.5000, median=-3.5000, min=-3.5000, std=0.0000
+nNodes: min=17, max=18, avg=17.25, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0022, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=7.0000, avg=0.3125, median=0.0000
+SlimeVolley: 2024-09-12 20:58:20,205 [INFO] solver.ask time: 1.2531s
+SlimeVolley: 2024-09-12 20:58:20,228 [INFO] sim_mgr.eval_params time: 0.0236s
+SlimeVolley: 2024-09-12 20:58:20,229 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:58:20,230 [INFO] Iter=78, size=8, max=-2.0000, avg=-2.0000, median=-2.0000, min=-2.0000, std=0.0000
+nNodes: min=17, max=18, avg=17.38, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0035, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=8.0000, avg=0.3333, median=0.0000
+SlimeVolley: 2024-09-12 20:58:21,857 [INFO] solver.ask time: 1.6269s
+SlimeVolley: 2024-09-12 20:58:21,877 [INFO] sim_mgr.eval_params time: 0.0198s
+SlimeVolley: 2024-09-12 20:58:21,878 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:58:21,879 [INFO] Iter=79, size=8, max=-2.5000, avg=-2.5000, median=-2.5000, min=-2.5000, std=0.0000
+nNodes: min=17, max=18, avg=17.38, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0086, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=4.0000, avg=0.2917, median=0.0000
+SlimeVolley: 2024-09-12 20:58:23,040 [INFO] solver.ask time: 1.1617s
+SlimeVolley: 2024-09-12 20:58:23,061 [INFO] sim_mgr.eval_params time: 0.0200s
+SlimeVolley: 2024-09-12 20:58:23,061 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:58:23,062 [INFO] Iter=80, size=8, max=-3.5000, avg=-3.5000, median=-3.5000, min=-3.5000, std=0.0000
+nNodes: min=17, max=18, avg=17.25, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0166, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=5.0000, avg=0.2847, median=0.0000
+SlimeVolley: 2024-09-12 20:58:24,111 [INFO] solver.ask time: 1.0493s
+SlimeVolley: 2024-09-12 20:58:24,130 [INFO] sim_mgr.eval_params time: 0.0187s
+SlimeVolley: 2024-09-12 20:58:24,131 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:58:24,132 [INFO] Iter=81, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=17, max=18, avg=17.12, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0115, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=5.0000, avg=0.2569, median=0.0000
+SlimeVolley: 2024-09-12 20:58:25,256 [INFO] solver.ask time: 1.1240s
+SlimeVolley: 2024-09-12 20:58:25,276 [INFO] sim_mgr.eval_params time: 0.0199s
+SlimeVolley: 2024-09-12 20:58:25,277 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:58:25,277 [INFO] Iter=82, size=8, max=-2.5000, avg=-2.5000, median=-2.5000, min=-2.5000, std=0.0000
+nNodes: min=17, max=18, avg=17.50, median=17.50
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0090, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.3472, median=0.0000
+SlimeVolley: 2024-09-12 20:58:26,792 [INFO] solver.ask time: 1.5149s
+SlimeVolley: 2024-09-12 20:58:26,811 [INFO] sim_mgr.eval_params time: 0.0190s
+SlimeVolley: 2024-09-12 20:58:26,812 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:58:26,813 [INFO] Iter=83, size=8, max=-3.5000, avg=-3.5000, median=-3.5000, min=-3.5000, std=0.0000
+nNodes: min=17, max=18, avg=17.50, median=17.50
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0095, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.3819, median=0.0000
+SlimeVolley: 2024-09-12 20:58:28,214 [INFO] solver.ask time: 1.4013s
+SlimeVolley: 2024-09-12 20:58:28,233 [INFO] sim_mgr.eval_params time: 0.0188s
+SlimeVolley: 2024-09-12 20:58:28,234 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:58:28,235 [INFO] Iter=84, size=8, max=-1.5000, avg=-1.5000, median=-1.5000, min=-1.5000, std=0.0000
+nNodes: min=17, max=18, avg=17.50, median=17.50
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0095, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=8.0000, avg=0.3333, median=0.0000
+SlimeVolley: 2024-09-12 20:58:29,537 [INFO] solver.ask time: 1.3024s
+SlimeVolley: 2024-09-12 20:58:29,560 [INFO] sim_mgr.eval_params time: 0.0227s
+SlimeVolley: 2024-09-12 20:58:29,561 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:58:29,562 [INFO] Iter=85, size=8, max=-2.5000, avg=-2.5000, median=-2.5000, min=-2.5000, std=0.0000
+nNodes: min=17, max=18, avg=17.25, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0082, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=4.0000, avg=0.2569, median=0.0000
+SlimeVolley: 2024-09-12 20:58:30,775 [INFO] solver.ask time: 1.2131s
+SlimeVolley: 2024-09-12 20:58:30,794 [INFO] sim_mgr.eval_params time: 0.0187s
+SlimeVolley: 2024-09-12 20:58:30,795 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:58:30,795 [INFO] Iter=86, size=8, max=-2.5000, avg=-3.3750, median=-3.5000, min=-3.5000, std=0.3307
+nNodes: min=17, max=18, avg=17.12, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0120, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.2847, median=0.0000
+SlimeVolley: 2024-09-12 20:58:31,956 [INFO] solver.ask time: 1.1605s
+SlimeVolley: 2024-09-12 20:58:31,975 [INFO] sim_mgr.eval_params time: 0.0193s
+SlimeVolley: 2024-09-12 20:58:31,976 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 20:58:31,977 [INFO] Iter=87, size=8, max=-4.5000, avg=-4.5000, median=-4.5000, min=-4.5000, std=0.0000
+nNodes: min=17, max=18, avg=17.25, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0130, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=4.0000, avg=0.2292, median=0.0000
+SlimeVolley: 2024-09-12 20:58:32,751 [INFO] solver.ask time: 0.7745s
+SlimeVolley: 2024-09-12 20:58:32,770 [INFO] sim_mgr.eval_params time: 0.0193s
+SlimeVolley: 2024-09-12 20:58:32,771 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:58:32,772 [INFO] Iter=88, size=8, max=-4.0000, avg=-4.0000, median=-4.0000, min=-4.0000, std=0.0000
+nNodes: min=17, max=17, avg=17.00, median=17.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0164, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=4.0000, avg=0.2353, median=0.0000
+SlimeVolley: 2024-09-12 20:58:33,715 [INFO] solver.ask time: 0.9430s
+SlimeVolley: 2024-09-12 20:58:33,733 [INFO] sim_mgr.eval_params time: 0.0181s
+SlimeVolley: 2024-09-12 20:58:33,734 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:58:33,735 [INFO] Iter=89, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=17, max=18, avg=17.38, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0158, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=8.0000, avg=0.3333, median=0.0000
+SlimeVolley: 2024-09-12 20:58:35,039 [INFO] solver.ask time: 1.3047s
+SlimeVolley: 2024-09-12 20:58:35,057 [INFO] sim_mgr.eval_params time: 0.0178s
+SlimeVolley: 2024-09-12 20:58:35,058 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:58:35,059 [INFO] Iter=90, size=8, max=-4.0000, avg=-4.0000, median=-4.0000, min=-4.0000, std=0.0000
+nNodes: min=17, max=18, avg=17.25, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0094, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=4.0000, avg=0.2292, median=0.0000
+SlimeVolley: 2024-09-12 20:58:36,322 [INFO] solver.ask time: 1.2637s
+SlimeVolley: 2024-09-12 20:58:36,342 [INFO] sim_mgr.eval_params time: 0.0198s
+SlimeVolley: 2024-09-12 20:58:36,343 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:58:36,344 [INFO] Iter=91, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=17, max=18, avg=17.12, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0025, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=4.0000, avg=0.2500, median=0.0000
+SlimeVolley: 2024-09-12 20:58:37,729 [INFO] solver.ask time: 1.3850s
+SlimeVolley: 2024-09-12 20:58:37,752 [INFO] sim_mgr.eval_params time: 0.0231s
+SlimeVolley: 2024-09-12 20:58:37,753 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:58:37,754 [INFO] Iter=92, size=8, max=-3.5000, avg=-3.5000, median=-3.5000, min=-3.5000, std=0.0000
+nNodes: min=17, max=18, avg=17.50, median=17.50
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0064, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.3889, median=0.0000
+SlimeVolley: 2024-09-12 20:58:41,302 [INFO] solver.ask time: 3.5476s
+SlimeVolley: 2024-09-12 20:58:43,623 [INFO] sim_mgr.eval_params time: 2.3211s
+SlimeVolley: 2024-09-12 20:58:43,624 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:58:43,624 [INFO] Iter=93, size=8, max=-2.0000, avg=-2.0000, median=-2.0000, min=-2.0000, std=0.0000
+nNodes: min=17, max=19, avg=18.00, median=18.00
+wMat: shape=(8, 19, 19), min=-2.0000, max=2.0000, avg=0.0055, median=0.0000
+aVec: shape=(8, 19), min=0.0000, max=8.0000, avg=0.4671, median=0.0000
+SlimeVolley: 2024-09-12 20:58:45,140 [INFO] solver.ask time: 1.5152s
+SlimeVolley: 2024-09-12 20:58:45,158 [INFO] sim_mgr.eval_params time: 0.0179s
+SlimeVolley: 2024-09-12 20:58:45,159 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:58:45,159 [INFO] Iter=94, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=17, max=18, avg=17.50, median=17.50
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0028, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=7.0000, avg=0.3681, median=0.0000
+SlimeVolley: 2024-09-12 20:58:46,792 [INFO] solver.ask time: 1.6323s
+SlimeVolley: 2024-09-12 20:58:46,817 [INFO] sim_mgr.eval_params time: 0.0253s
+SlimeVolley: 2024-09-12 20:58:46,818 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 20:58:46,819 [INFO] Iter=95, size=8, max=-2.0000, avg=-2.0000, median=-2.0000, min=-2.0000, std=0.0000
+nNodes: min=17, max=18, avg=17.25, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0065, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=5.0000, avg=0.2778, median=0.0000
+SlimeVolley: 2024-09-12 20:58:47,941 [INFO] solver.ask time: 1.1227s
+SlimeVolley: 2024-09-12 20:58:47,961 [INFO] sim_mgr.eval_params time: 0.0199s
+SlimeVolley: 2024-09-12 20:58:47,962 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 20:58:47,963 [INFO] Iter=96, size=8, max=-3.5000, avg=-3.5000, median=-3.5000, min=-3.5000, std=0.0000
+nNodes: min=17, max=18, avg=17.12, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0131, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=5.0000, avg=0.2569, median=0.0000
+SlimeVolley: 2024-09-12 20:58:49,162 [INFO] solver.ask time: 1.1988s
+SlimeVolley: 2024-09-12 20:58:49,179 [INFO] sim_mgr.eval_params time: 0.0174s
+SlimeVolley: 2024-09-12 20:58:49,180 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:58:49,180 [INFO] Iter=97, size=8, max=-2.5000, avg=-2.5000, median=-2.5000, min=-2.5000, std=0.0000
+nNodes: min=17, max=18, avg=17.38, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0130, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=8.0000, avg=0.2986, median=0.0000
+SlimeVolley: 2024-09-12 20:58:50,207 [INFO] solver.ask time: 1.0262s
+SlimeVolley: 2024-09-12 20:58:50,226 [INFO] sim_mgr.eval_params time: 0.0190s
+SlimeVolley: 2024-09-12 20:58:50,227 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:58:50,227 [INFO] Iter=98, size=8, max=-3.5000, avg=-3.5000, median=-3.5000, min=-3.5000, std=0.0000
+nNodes: min=17, max=18, avg=17.25, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0145, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=4.0000, avg=0.2361, median=0.0000
+SlimeVolley: 2024-09-12 20:58:51,497 [INFO] solver.ask time: 1.2693s
+SlimeVolley: 2024-09-12 20:58:51,516 [INFO] sim_mgr.eval_params time: 0.0193s
+SlimeVolley: 2024-09-12 20:58:51,517 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 20:58:51,518 [INFO] Iter=99, size=8, max=-3.0000, avg=-3.0000, median=-3.0000, min=-3.0000, std=0.0000
+nNodes: min=17, max=18, avg=17.38, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0031, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=6.0000, avg=0.3056, median=0.0000
+SlimeVolley: 2024-09-12 20:58:53,306 [INFO] [TEST] Iter=100, #tests=10, max=-1.0000, avg=-3.1000, min=-5.0000, std=1.0440
+SlimeVolley: 2024-09-12 20:58:53,307 [INFO] Training done, best_score=-3.1000
+SlimeVolley: 2024-09-12 20:58:53,308 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-12 20:58:53,308 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-12 20:58:53,324 [INFO] [TEST] #tests=10, max=-1.0000, avg=-3.3000, min=-5.0000, std=1.1000
+SlimeVolley: 2024-09-12 20:58:57,613 [INFO] GIF saved to ./log/slimevolley/slimevolley.gif.
+SlimeVolley: 2024-09-12 21:01:08,155 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 21:01:08,155 [INFO] ==============================
+SlimeVolley: 2024-09-12 21:01:08,248 [INFO] Start to train for 50 iterations.
+SlimeVolley: 2024-09-12 21:01:09,568 [INFO] solver.ask time: 1.3200s
+SlimeVolley: 2024-09-12 21:01:12,436 [INFO] sim_mgr.eval_params time: 2.8676s
+SlimeVolley: 2024-09-12 21:01:12,466 [INFO] solver.tell time: 0.0302s
+SlimeVolley: 2024-09-12 21:01:17,582 [INFO] solver.ask time: 5.1156s
+SlimeVolley: 2024-09-12 21:01:19,758 [INFO] sim_mgr.eval_params time: 2.1755s
+SlimeVolley: 2024-09-12 21:01:19,759 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:01:19,759 [INFO] Iter=1, size=8, max=-36.5000, avg=-37.3750, median=-37.5000, min=-37.5000, std=0.3307
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0329, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=1.0000, avg=0.0074, median=0.0000
+SlimeVolley: 2024-09-12 21:01:24,426 [INFO] solver.ask time: 4.6668s
+SlimeVolley: 2024-09-12 21:01:26,871 [INFO] sim_mgr.eval_params time: 2.4445s
+SlimeVolley: 2024-09-12 21:01:26,872 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 21:01:26,872 [INFO] Iter=2, size=8, max=-35.5000, avg=-35.5625, median=-35.5000, min=-36.0000, std=0.1654
+nNodes: min=16, max=18, avg=17.00, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0174, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=6.0000, avg=0.0903, median=0.0000
+SlimeVolley: 2024-09-12 21:01:29,886 [INFO] solver.ask time: 3.0142s
+SlimeVolley: 2024-09-12 21:01:30,047 [INFO] sim_mgr.eval_params time: 0.1607s
+SlimeVolley: 2024-09-12 21:01:30,048 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:01:30,049 [INFO] Iter=3, size=8, max=-30.5000, avg=-30.8750, median=-30.5000, min=-33.5000, std=0.9922
+nNodes: min=16, max=18, avg=17.00, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0080, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=6.0000, avg=0.0833, median=0.0000
+SlimeVolley: 2024-09-12 21:01:31,415 [INFO] solver.ask time: 1.3664s
+SlimeVolley: 2024-09-12 21:01:31,589 [INFO] sim_mgr.eval_params time: 0.1740s
+SlimeVolley: 2024-09-12 21:01:31,590 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:01:31,591 [INFO] Iter=4, size=8, max=-26.5000, avg=-27.3125, median=-26.5000, min=-33.0000, std=2.1497
+nNodes: min=16, max=17, avg=16.88, median=17.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0040, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=8.0000, avg=0.1176, median=0.0000
+SlimeVolley: 2024-09-12 21:01:34,140 [INFO] solver.ask time: 2.5487s
+SlimeVolley: 2024-09-12 21:01:34,283 [INFO] sim_mgr.eval_params time: 0.1433s
+SlimeVolley: 2024-09-12 21:01:34,284 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:01:34,285 [INFO] Iter=5, size=8, max=-31.0000, avg=-32.0000, median=-31.0000, min=-35.0000, std=1.7321
+nNodes: min=16, max=18, avg=17.00, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0063, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=8.0000, avg=0.2014, median=0.0000
+SlimeVolley: 2024-09-12 21:01:35,999 [INFO] solver.ask time: 1.7145s
+SlimeVolley: 2024-09-12 21:01:36,150 [INFO] sim_mgr.eval_params time: 0.1510s
+SlimeVolley: 2024-09-12 21:01:36,151 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 21:01:36,152 [INFO] Iter=6, size=8, max=-32.0000, avg=-32.0000, median=-32.0000, min=-32.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.62, median=17.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0005, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=7.0000, avg=0.1912, median=0.0000
+SlimeVolley: 2024-09-12 21:01:37,740 [INFO] solver.ask time: 1.5883s
+SlimeVolley: 2024-09-12 21:01:37,904 [INFO] sim_mgr.eval_params time: 0.1639s
+SlimeVolley: 2024-09-12 21:01:37,905 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 21:01:37,906 [INFO] Iter=7, size=8, max=-32.5000, avg=-33.0000, median=-33.0000, min=-33.5000, std=0.5000
+nNodes: min=16, max=17, avg=16.50, median=16.50
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0025, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=9.0000, avg=0.1176, median=0.0000
+SlimeVolley: 2024-09-12 21:01:38,897 [INFO] solver.ask time: 0.9912s
+SlimeVolley: 2024-09-12 21:01:39,074 [INFO] sim_mgr.eval_params time: 0.1771s
+SlimeVolley: 2024-09-12 21:01:39,075 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 21:01:39,076 [INFO] Iter=8, size=8, max=-32.5000, avg=-33.1875, median=-32.5000, min=-38.0000, std=1.8190
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0096, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=8.0000, avg=0.0588, median=0.0000
+SlimeVolley: 2024-09-12 21:01:39,931 [INFO] solver.ask time: 0.8557s
+SlimeVolley: 2024-09-12 21:01:40,109 [INFO] sim_mgr.eval_params time: 0.1769s
+SlimeVolley: 2024-09-12 21:01:40,109 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 21:01:40,110 [INFO] Iter=9, size=8, max=-32.5000, avg=-35.5625, median=-36.0000, min=-36.0000, std=1.1575
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0145, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=3.0000, avg=0.0221, median=0.0000
+SlimeVolley: 2024-09-12 21:01:41,053 [INFO] solver.ask time: 0.9424s
+SlimeVolley: 2024-09-12 21:01:41,196 [INFO] sim_mgr.eval_params time: 0.1435s
+SlimeVolley: 2024-09-12 21:01:41,197 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:01:41,198 [INFO] Iter=10, size=8, max=-32.5000, avg=-32.6875, median=-32.5000, min=-33.0000, std=0.2421
+nNodes: min=16, max=17, avg=16.62, median=17.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0250, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=3.0000, avg=0.0735, median=0.0000
+SlimeVolley: 2024-09-12 21:01:42,560 [INFO] solver.ask time: 1.3619s
+SlimeVolley: 2024-09-12 21:01:42,706 [INFO] sim_mgr.eval_params time: 0.1467s
+SlimeVolley: 2024-09-12 21:01:42,707 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 21:01:42,708 [INFO] Iter=11, size=8, max=-33.0000, avg=-33.5625, median=-33.0000, min=-37.5000, std=1.4882
+nNodes: min=16, max=17, avg=16.88, median=17.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0170, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=8.0000, avg=0.1544, median=0.0000
+SlimeVolley: 2024-09-12 21:01:43,971 [INFO] solver.ask time: 1.2638s
+SlimeVolley: 2024-09-12 21:01:44,127 [INFO] sim_mgr.eval_params time: 0.1556s
+SlimeVolley: 2024-09-12 21:01:44,128 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:01:44,129 [INFO] Iter=12, size=8, max=-33.0000, avg=-33.7500, median=-33.0000, min=-36.0000, std=1.2990
+nNodes: min=16, max=17, avg=16.75, median=17.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0144, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=2.0000, avg=0.0809, median=0.0000
+SlimeVolley: 2024-09-12 21:01:45,593 [INFO] solver.ask time: 1.4644s
+SlimeVolley: 2024-09-12 21:01:45,767 [INFO] sim_mgr.eval_params time: 0.1732s
+SlimeVolley: 2024-09-12 21:01:45,767 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:01:45,768 [INFO] Iter=13, size=8, max=-34.0000, avg=-35.8750, median=-37.0000, min=-37.0000, std=1.4524
+nNodes: min=16, max=18, avg=16.88, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0227, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.1181, median=0.0000
+SlimeVolley: 2024-09-12 21:01:46,632 [INFO] solver.ask time: 0.8642s
+SlimeVolley: 2024-09-12 21:01:46,837 [INFO] sim_mgr.eval_params time: 0.2048s
+SlimeVolley: 2024-09-12 21:01:46,838 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 21:01:46,839 [INFO] Iter=14, size=8, max=-32.0000, avg=-32.8750, median=-32.0000, min=-35.5000, std=1.5155
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0212, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=1.0000, avg=0.0147, median=0.0000
+SlimeVolley: 2024-09-12 21:01:48,045 [INFO] solver.ask time: 1.2059s
+SlimeVolley: 2024-09-12 21:01:48,232 [INFO] sim_mgr.eval_params time: 0.1865s
+SlimeVolley: 2024-09-12 21:01:48,232 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:01:48,233 [INFO] Iter=15, size=8, max=-34.5000, avg=-36.2500, median=-36.5000, min=-36.5000, std=0.6614
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0136, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=4.0000, avg=0.0294, median=0.0000
+SlimeVolley: 2024-09-12 21:01:49,070 [INFO] solver.ask time: 0.8368s
+SlimeVolley: 2024-09-12 21:01:49,214 [INFO] sim_mgr.eval_params time: 0.1442s
+SlimeVolley: 2024-09-12 21:01:49,215 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 21:01:49,215 [INFO] Iter=16, size=8, max=-32.5000, avg=-33.5000, median=-32.5000, min=-36.5000, std=1.7321
+nNodes: min=16, max=18, avg=16.38, median=16.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0124, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.1458, median=0.0000
+SlimeVolley: 2024-09-12 21:01:50,523 [INFO] solver.ask time: 1.3075s
+SlimeVolley: 2024-09-12 21:01:50,668 [INFO] sim_mgr.eval_params time: 0.1445s
+SlimeVolley: 2024-09-12 21:01:50,669 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:01:50,669 [INFO] Iter=17, size=8, max=-32.0000, avg=-32.3125, median=-32.5000, min=-32.5000, std=0.2421
+nNodes: min=16, max=17, avg=16.38, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0076, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=8.0000, avg=0.1103, median=0.0000
+SlimeVolley: 2024-09-12 21:01:51,533 [INFO] solver.ask time: 0.8643s
+SlimeVolley: 2024-09-12 21:01:51,675 [INFO] sim_mgr.eval_params time: 0.1415s
+SlimeVolley: 2024-09-12 21:01:51,676 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:01:51,676 [INFO] Iter=18, size=8, max=-35.0000, avg=-37.1875, median=-38.5000, min=-38.5000, std=1.6944
+nNodes: min=16, max=18, avg=16.88, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0045, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=8.0000, avg=0.1736, median=0.0000
+SlimeVolley: 2024-09-12 21:01:53,295 [INFO] solver.ask time: 1.6186s
+SlimeVolley: 2024-09-12 21:01:53,434 [INFO] sim_mgr.eval_params time: 0.1391s
+SlimeVolley: 2024-09-12 21:01:53,435 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 21:01:53,436 [INFO] Iter=19, size=8, max=-33.5000, avg=-33.9375, median=-34.0000, min=-34.0000, std=0.1654
+nNodes: min=16, max=18, avg=17.00, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0001, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.2083, median=0.0000
+SlimeVolley: 2024-09-12 21:01:54,857 [INFO] solver.ask time: 1.4218s
+SlimeVolley: 2024-09-12 21:01:55,007 [INFO] sim_mgr.eval_params time: 0.1492s
+SlimeVolley: 2024-09-12 21:01:55,007 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 21:01:55,008 [INFO] Iter=20, size=8, max=-27.0000, avg=-29.2500, median=-27.0000, min=-33.0000, std=2.9047
+nNodes: min=16, max=18, avg=16.88, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0017, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.2569, median=0.0000
+SlimeVolley: 2024-09-12 21:01:55,690 [INFO] solver.ask time: 0.6822s
+SlimeVolley: 2024-09-12 21:01:55,864 [INFO] sim_mgr.eval_params time: 0.1741s
+SlimeVolley: 2024-09-12 21:01:55,865 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:01:55,866 [INFO] Iter=21, size=8, max=-35.5000, avg=-36.2500, median=-36.2500, min=-37.0000, std=0.7500
+nNodes: min=16, max=18, avg=16.62, median=16.50
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0082, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=6.0000, avg=0.0694, median=0.0000
+SlimeVolley: 2024-09-12 21:01:56,980 [INFO] solver.ask time: 1.1136s
+SlimeVolley: 2024-09-12 21:01:57,154 [INFO] sim_mgr.eval_params time: 0.1739s
+SlimeVolley: 2024-09-12 21:01:57,154 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:01:57,155 [INFO] Iter=22, size=8, max=-33.5000, avg=-35.3750, median=-36.5000, min=-36.5000, std=1.4524
+nNodes: min=16, max=17, avg=16.38, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0025, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=4.0000, avg=0.0588, median=0.0000
+SlimeVolley: 2024-09-12 21:01:58,168 [INFO] solver.ask time: 1.0129s
+SlimeVolley: 2024-09-12 21:01:58,319 [INFO] sim_mgr.eval_params time: 0.1504s
+SlimeVolley: 2024-09-12 21:01:58,319 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:01:58,320 [INFO] Iter=23, size=8, max=-37.5000, avg=-37.5000, median=-37.5000, min=-37.5000, std=0.0000
+nNodes: min=16, max=18, avg=16.62, median=16.50
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0025, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.1319, median=0.0000
+SlimeVolley: 2024-09-12 21:01:59,190 [INFO] solver.ask time: 0.8702s
+SlimeVolley: 2024-09-12 21:01:59,336 [INFO] sim_mgr.eval_params time: 0.1460s
+SlimeVolley: 2024-09-12 21:01:59,337 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 21:01:59,338 [INFO] Iter=24, size=8, max=-32.5000, avg=-32.8750, median=-32.5000, min=-34.0000, std=0.6495
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0071, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=9.0000, avg=0.1176, median=0.0000
+SlimeVolley: 2024-09-12 21:02:00,100 [INFO] solver.ask time: 0.7624s
+SlimeVolley: 2024-09-12 21:02:00,239 [INFO] sim_mgr.eval_params time: 0.1387s
+SlimeVolley: 2024-09-12 21:02:00,240 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:02:00,240 [INFO] Iter=25, size=8, max=-35.5000, avg=-35.6250, median=-35.5000, min=-36.5000, std=0.3307
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0154, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=7.0000, avg=0.0515, median=0.0000
+SlimeVolley: 2024-09-12 21:02:01,118 [INFO] solver.ask time: 0.8776s
+SlimeVolley: 2024-09-12 21:02:01,262 [INFO] sim_mgr.eval_params time: 0.1439s
+SlimeVolley: 2024-09-12 21:02:01,263 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:02:01,263 [INFO] Iter=26, size=8, max=-35.5000, avg=-36.2500, median=-35.5000, min=-37.5000, std=0.9682
+nNodes: min=16, max=17, avg=16.38, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0189, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=8.0000, avg=0.1324, median=0.0000
+SlimeVolley: 2024-09-12 21:02:02,402 [INFO] solver.ask time: 1.1386s
+SlimeVolley: 2024-09-12 21:02:02,550 [INFO] sim_mgr.eval_params time: 0.1478s
+SlimeVolley: 2024-09-12 21:02:02,551 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:02:02,551 [INFO] Iter=27, size=8, max=-34.0000, avg=-35.5625, median=-36.5000, min=-36.5000, std=1.2103
+nNodes: min=16, max=17, avg=16.38, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0158, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=8.0000, avg=0.0882, median=0.0000
+SlimeVolley: 2024-09-12 21:02:03,176 [INFO] solver.ask time: 0.6242s
+SlimeVolley: 2024-09-12 21:02:03,358 [INFO] sim_mgr.eval_params time: 0.1819s
+SlimeVolley: 2024-09-12 21:02:03,358 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:02:03,359 [INFO] Iter=28, size=8, max=-32.5000, avg=-32.8750, median=-32.5000, min=-34.0000, std=0.6495
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0123, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=2.0000, avg=0.0147, median=0.0000
+SlimeVolley: 2024-09-12 21:02:05,013 [INFO] solver.ask time: 1.6540s
+SlimeVolley: 2024-09-12 21:02:05,174 [INFO] sim_mgr.eval_params time: 0.1607s
+SlimeVolley: 2024-09-12 21:02:05,175 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:02:05,175 [INFO] Iter=29, size=8, max=-34.5000, avg=-34.5000, median=-34.5000, min=-34.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0139, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=9.0000, avg=0.0662, median=0.0000
+SlimeVolley: 2024-09-12 21:02:06,279 [INFO] solver.ask time: 1.1037s
+SlimeVolley: 2024-09-12 21:02:06,420 [INFO] sim_mgr.eval_params time: 0.1410s
+SlimeVolley: 2024-09-12 21:02:06,421 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 21:02:06,422 [INFO] Iter=30, size=8, max=-34.5000, avg=-34.7500, median=-34.7500, min=-35.0000, std=0.2500
+nNodes: min=16, max=17, avg=16.50, median=16.50
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0194, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=9.0000, avg=0.1397, median=0.0000
+SlimeVolley: 2024-09-12 21:02:07,217 [INFO] solver.ask time: 0.7959s
+SlimeVolley: 2024-09-12 21:02:07,363 [INFO] sim_mgr.eval_params time: 0.1456s
+SlimeVolley: 2024-09-12 21:02:07,364 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 21:02:07,364 [INFO] Iter=31, size=8, max=-31.5000, avg=-33.5000, median=-33.5000, min=-35.5000, std=2.0000
+nNodes: min=16, max=18, avg=16.75, median=16.50
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0112, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=8.0000, avg=0.1944, median=0.0000
+SlimeVolley: 2024-09-12 21:02:08,104 [INFO] solver.ask time: 0.7393s
+SlimeVolley: 2024-09-12 21:02:08,248 [INFO] sim_mgr.eval_params time: 0.1438s
+SlimeVolley: 2024-09-12 21:02:08,249 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 21:02:08,249 [INFO] Iter=32, size=8, max=-35.5000, avg=-35.5000, median=-35.5000, min=-35.5000, std=0.0000
+nNodes: min=16, max=18, avg=16.75, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0038, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=5.0000, avg=0.1806, median=0.0000
+SlimeVolley: 2024-09-12 21:02:09,101 [INFO] solver.ask time: 0.8518s
+SlimeVolley: 2024-09-12 21:02:09,242 [INFO] sim_mgr.eval_params time: 0.1410s
+SlimeVolley: 2024-09-12 21:02:09,243 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 21:02:09,243 [INFO] Iter=33, size=8, max=-35.0000, avg=-35.4375, median=-35.5000, min=-35.5000, std=0.1654
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0164, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=1.0000, avg=0.0074, median=0.0000
+SlimeVolley: 2024-09-12 21:02:09,931 [INFO] solver.ask time: 0.6874s
+SlimeVolley: 2024-09-12 21:02:10,067 [INFO] sim_mgr.eval_params time: 0.1364s
+SlimeVolley: 2024-09-12 21:02:10,068 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 21:02:10,069 [INFO] Iter=34, size=8, max=-36.5000, avg=-38.3750, median=-39.0000, min=-39.0000, std=1.0825
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0068, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=7.0000, avg=0.0956, median=0.0000
+SlimeVolley: 2024-09-12 21:02:10,771 [INFO] solver.ask time: 0.7023s
+SlimeVolley: 2024-09-12 21:02:10,930 [INFO] sim_mgr.eval_params time: 0.1589s
+SlimeVolley: 2024-09-12 21:02:10,931 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:02:10,932 [INFO] Iter=35, size=8, max=-31.5000, avg=-33.1875, median=-31.5000, min=-36.0000, std=2.1786
+nNodes: min=16, max=17, avg=16.38, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0065, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=9.0000, avg=0.1691, median=0.0000
+SlimeVolley: 2024-09-12 21:02:11,947 [INFO] solver.ask time: 1.0151s
+SlimeVolley: 2024-09-12 21:02:12,123 [INFO] sim_mgr.eval_params time: 0.1765s
+SlimeVolley: 2024-09-12 21:02:12,124 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:02:12,125 [INFO] Iter=36, size=8, max=-30.5000, avg=-32.3750, median=-30.5000, min=-35.5000, std=2.4206
+nNodes: min=16, max=17, avg=16.38, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0083, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=7.0000, avg=0.0662, median=0.0000
+SlimeVolley: 2024-09-12 21:02:12,965 [INFO] solver.ask time: 0.8400s
+SlimeVolley: 2024-09-12 21:02:13,123 [INFO] sim_mgr.eval_params time: 0.1581s
+SlimeVolley: 2024-09-12 21:02:13,124 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:02:13,125 [INFO] Iter=37, size=8, max=-35.0000, avg=-35.3750, median=-35.0000, min=-36.0000, std=0.4841
+nNodes: min=16, max=17, avg=16.38, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0148, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=9.0000, avg=0.1176, median=0.0000
+SlimeVolley: 2024-09-12 21:02:14,176 [INFO] solver.ask time: 1.0514s
+SlimeVolley: 2024-09-12 21:02:14,318 [INFO] sim_mgr.eval_params time: 0.1420s
+SlimeVolley: 2024-09-12 21:02:14,319 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:02:14,320 [INFO] Iter=38, size=8, max=-33.5000, avg=-34.1250, median=-33.5000, min=-36.0000, std=1.0825
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0085, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=8.0000, avg=0.1029, median=0.0000
+SlimeVolley: 2024-09-12 21:02:15,373 [INFO] solver.ask time: 1.0530s
+SlimeVolley: 2024-09-12 21:02:15,525 [INFO] sim_mgr.eval_params time: 0.1526s
+SlimeVolley: 2024-09-12 21:02:15,526 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 21:02:15,527 [INFO] Iter=39, size=8, max=-32.0000, avg=-33.8750, median=-34.5000, min=-34.5000, std=1.0825
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0196, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=8.0000, avg=0.0956, median=0.0000
+SlimeVolley: 2024-09-12 21:02:16,750 [INFO] solver.ask time: 1.2233s
+SlimeVolley: 2024-09-12 21:02:16,927 [INFO] sim_mgr.eval_params time: 0.1763s
+SlimeVolley: 2024-09-12 21:02:16,927 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:02:16,928 [INFO] Iter=40, size=8, max=-30.5000, avg=-32.2500, median=-32.2500, min=-34.0000, std=1.7500
+nNodes: min=16, max=18, avg=16.62, median=16.50
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0114, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=8.0000, avg=0.2083, median=0.0000
+SlimeVolley: 2024-09-12 21:02:18,054 [INFO] solver.ask time: 1.1260s
+SlimeVolley: 2024-09-12 21:02:18,202 [INFO] sim_mgr.eval_params time: 0.1473s
+SlimeVolley: 2024-09-12 21:02:18,202 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:02:18,203 [INFO] Iter=41, size=8, max=-32.0000, avg=-32.5625, median=-32.0000, min=-33.5000, std=0.7262
+nNodes: min=16, max=17, avg=16.38, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0173, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=6.0000, avg=0.1176, median=0.0000
+SlimeVolley: 2024-09-12 21:02:19,056 [INFO] solver.ask time: 0.8531s
+SlimeVolley: 2024-09-12 21:02:19,248 [INFO] sim_mgr.eval_params time: 0.1913s
+SlimeVolley: 2024-09-12 21:02:19,248 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 21:02:19,249 [INFO] Iter=42, size=8, max=-35.0000, avg=-35.7500, median=-35.0000, min=-38.0000, std=1.2990
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0123, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=6.0000, avg=0.0588, median=0.0000
+SlimeVolley: 2024-09-12 21:02:19,999 [INFO] solver.ask time: 0.7494s
+SlimeVolley: 2024-09-12 21:02:20,183 [INFO] sim_mgr.eval_params time: 0.1846s
+SlimeVolley: 2024-09-12 21:02:20,184 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 21:02:20,185 [INFO] Iter=43, size=8, max=-32.5000, avg=-32.8750, median=-32.5000, min=-35.5000, std=0.9922
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0091, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=2.0000, avg=0.0147, median=0.0000
+SlimeVolley: 2024-09-12 21:02:21,367 [INFO] solver.ask time: 1.1820s
+SlimeVolley: 2024-09-12 21:02:21,506 [INFO] sim_mgr.eval_params time: 0.1388s
+SlimeVolley: 2024-09-12 21:02:21,507 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:02:21,507 [INFO] Iter=44, size=8, max=-35.0000, avg=-36.2500, median=-36.2500, min=-37.5000, std=1.2500
+nNodes: min=16, max=17, avg=16.50, median=16.50
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0069, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=6.0000, avg=0.0515, median=0.0000
+SlimeVolley: 2024-09-12 21:02:22,726 [INFO] solver.ask time: 1.2184s
+SlimeVolley: 2024-09-12 21:02:22,907 [INFO] sim_mgr.eval_params time: 0.1813s
+SlimeVolley: 2024-09-12 21:02:22,908 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 21:02:22,909 [INFO] Iter=45, size=8, max=-29.5000, avg=-34.7500, median=-36.5000, min=-36.5000, std=3.0311
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0140, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=6.0000, avg=0.0662, median=0.0000
+SlimeVolley: 2024-09-12 21:02:24,222 [INFO] solver.ask time: 1.3131s
+SlimeVolley: 2024-09-12 21:02:24,369 [INFO] sim_mgr.eval_params time: 0.1472s
+SlimeVolley: 2024-09-12 21:02:24,370 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 21:02:24,371 [INFO] Iter=46, size=8, max=-29.5000, avg=-32.5000, median=-32.5000, min=-35.5000, std=3.0000
+nNodes: min=16, max=18, avg=16.75, median=16.50
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0227, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=7.0000, avg=0.1597, median=0.0000
+SlimeVolley: 2024-09-12 21:02:26,403 [INFO] solver.ask time: 2.0325s
+SlimeVolley: 2024-09-12 21:02:26,549 [INFO] sim_mgr.eval_params time: 0.1461s
+SlimeVolley: 2024-09-12 21:02:26,550 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 21:02:26,551 [INFO] Iter=47, size=8, max=-35.0000, avg=-35.2500, median=-35.0000, min=-37.0000, std=0.6614
+nNodes: min=16, max=18, avg=17.12, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0277, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=3.0000, avg=0.1597, median=0.0000
+SlimeVolley: 2024-09-12 21:02:27,363 [INFO] solver.ask time: 0.8121s
+SlimeVolley: 2024-09-12 21:02:27,513 [INFO] sim_mgr.eval_params time: 0.1496s
+SlimeVolley: 2024-09-12 21:02:27,513 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:02:27,514 [INFO] Iter=48, size=8, max=-34.0000, avg=-34.1250, median=-34.0000, min=-34.5000, std=0.2165
+nNodes: min=16, max=18, avg=16.88, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0281, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=8.0000, avg=0.1806, median=0.0000
+SlimeVolley: 2024-09-12 21:02:28,733 [INFO] solver.ask time: 1.2190s
+SlimeVolley: 2024-09-12 21:02:28,941 [INFO] sim_mgr.eval_params time: 0.2081s
+SlimeVolley: 2024-09-12 21:02:28,942 [INFO] solver.tell time: 0.0009s
+SlimeVolley: 2024-09-12 21:02:28,943 [INFO] Iter=49, size=8, max=-30.0000, avg=-30.8125, median=-30.0000, min=-36.5000, std=2.1497
+nNodes: min=16, max=18, avg=17.25, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0294, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=8.0000, avg=0.4167, median=0.0000
+SlimeVolley: 2024-09-12 21:02:32,002 [INFO] [TEST] Iter=50, #tests=10, max=-4.0000, avg=-4.9000, min=-5.0000, std=0.3000
+SlimeVolley: 2024-09-12 21:02:32,003 [INFO] Training done, best_score=-4.9000
+SlimeVolley: 2024-09-12 21:02:32,004 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-12 21:02:32,004 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-12 21:02:32,107 [INFO] [TEST] #tests=10, max=-5.0000, avg=-5.0000, min=-5.0000, std=0.0000
+SlimeVolley: 2024-09-12 21:02:55,913 [INFO] GIF saved to ./log/slimevolley/slimevolley.gif.
+SlimeVolley: 2024-09-12 21:03:48,234 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 21:03:48,234 [INFO] ==============================
+SlimeVolley: 2024-09-12 21:03:48,323 [INFO] Start to train for 100 iterations.
+SlimeVolley: 2024-09-12 21:03:49,667 [INFO] solver.ask time: 1.3434s
+SlimeVolley: 2024-09-12 21:03:52,735 [INFO] sim_mgr.eval_params time: 3.0684s
+SlimeVolley: 2024-09-12 21:03:52,771 [INFO] solver.tell time: 0.0350s
+SlimeVolley: 2024-09-12 21:03:58,281 [INFO] solver.ask time: 5.5106s
+SlimeVolley: 2024-09-12 21:04:00,618 [INFO] sim_mgr.eval_params time: 2.3362s
+SlimeVolley: 2024-09-12 21:04:00,619 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:04:00,619 [INFO] Iter=1, size=8, max=-36.5000, avg=-37.3750, median=-37.5000, min=-37.5000, std=0.3307
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0329, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=1.0000, avg=0.0074, median=0.0000
+SlimeVolley: 2024-09-12 21:04:05,298 [INFO] solver.ask time: 4.6787s
+SlimeVolley: 2024-09-12 21:04:08,767 [INFO] sim_mgr.eval_params time: 3.4691s
+SlimeVolley: 2024-09-12 21:04:08,768 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 21:04:08,769 [INFO] Iter=2, size=8, max=-35.5000, avg=-35.5625, median=-35.5000, min=-36.0000, std=0.1654
+nNodes: min=16, max=18, avg=17.00, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0174, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=6.0000, avg=0.0903, median=0.0000
+SlimeVolley: 2024-09-12 21:04:11,246 [INFO] solver.ask time: 2.4770s
+SlimeVolley: 2024-09-12 21:04:11,389 [INFO] sim_mgr.eval_params time: 0.1431s
+SlimeVolley: 2024-09-12 21:04:11,390 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:04:11,391 [INFO] Iter=3, size=8, max=-30.5000, avg=-30.8750, median=-30.5000, min=-33.5000, std=0.9922
+nNodes: min=16, max=18, avg=17.00, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0080, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=6.0000, avg=0.0833, median=0.0000
+SlimeVolley: 2024-09-12 21:04:12,599 [INFO] solver.ask time: 1.2081s
+SlimeVolley: 2024-09-12 21:04:12,753 [INFO] sim_mgr.eval_params time: 0.1537s
+SlimeVolley: 2024-09-12 21:04:12,753 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:04:12,754 [INFO] Iter=4, size=8, max=-26.5000, avg=-27.3125, median=-26.5000, min=-33.0000, std=2.1497
+nNodes: min=16, max=17, avg=16.88, median=17.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0040, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=8.0000, avg=0.1176, median=0.0000
+SlimeVolley: 2024-09-12 21:04:15,279 [INFO] solver.ask time: 2.5248s
+SlimeVolley: 2024-09-12 21:04:15,427 [INFO] sim_mgr.eval_params time: 0.1481s
+SlimeVolley: 2024-09-12 21:04:15,428 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:04:15,429 [INFO] Iter=5, size=8, max=-31.0000, avg=-32.0000, median=-31.0000, min=-35.0000, std=1.7321
+nNodes: min=16, max=18, avg=17.00, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0063, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=8.0000, avg=0.2014, median=0.0000
+SlimeVolley: 2024-09-12 21:04:17,002 [INFO] solver.ask time: 1.5736s
+SlimeVolley: 2024-09-12 21:04:17,161 [INFO] sim_mgr.eval_params time: 0.1588s
+SlimeVolley: 2024-09-12 21:04:17,162 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:04:17,163 [INFO] Iter=6, size=8, max=-32.0000, avg=-32.0000, median=-32.0000, min=-32.0000, std=0.0000
+nNodes: min=16, max=17, avg=16.62, median=17.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0005, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=7.0000, avg=0.1912, median=0.0000
+SlimeVolley: 2024-09-12 21:04:18,788 [INFO] solver.ask time: 1.6249s
+SlimeVolley: 2024-09-12 21:04:18,950 [INFO] sim_mgr.eval_params time: 0.1618s
+SlimeVolley: 2024-09-12 21:04:18,951 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:04:18,951 [INFO] Iter=7, size=8, max=-32.5000, avg=-33.0000, median=-33.0000, min=-33.5000, std=0.5000
+nNodes: min=16, max=17, avg=16.50, median=16.50
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0025, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=9.0000, avg=0.1176, median=0.0000
+SlimeVolley: 2024-09-12 21:04:19,884 [INFO] solver.ask time: 0.9327s
+SlimeVolley: 2024-09-12 21:04:20,038 [INFO] sim_mgr.eval_params time: 0.1544s
+SlimeVolley: 2024-09-12 21:04:20,039 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 21:04:20,040 [INFO] Iter=8, size=8, max=-32.5000, avg=-33.1875, median=-32.5000, min=-38.0000, std=1.8190
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0096, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=8.0000, avg=0.0588, median=0.0000
+SlimeVolley: 2024-09-12 21:04:20,779 [INFO] solver.ask time: 0.7395s
+SlimeVolley: 2024-09-12 21:04:20,964 [INFO] sim_mgr.eval_params time: 0.1846s
+SlimeVolley: 2024-09-12 21:04:20,965 [INFO] solver.tell time: 0.0009s
+SlimeVolley: 2024-09-12 21:04:20,966 [INFO] Iter=9, size=8, max=-32.5000, avg=-35.5625, median=-36.0000, min=-36.0000, std=1.1575
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0145, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=3.0000, avg=0.0221, median=0.0000
+SlimeVolley: 2024-09-12 21:04:22,193 [INFO] solver.ask time: 1.2269s
+SlimeVolley: 2024-09-12 21:04:22,392 [INFO] sim_mgr.eval_params time: 0.1987s
+SlimeVolley: 2024-09-12 21:04:22,393 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 21:04:22,393 [INFO] Iter=10, size=8, max=-32.5000, avg=-32.6875, median=-32.5000, min=-33.0000, std=0.2421
+nNodes: min=16, max=17, avg=16.62, median=17.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0250, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=3.0000, avg=0.0735, median=0.0000
+SlimeVolley: 2024-09-12 21:04:23,977 [INFO] solver.ask time: 1.5832s
+SlimeVolley: 2024-09-12 21:04:24,121 [INFO] sim_mgr.eval_params time: 0.1446s
+SlimeVolley: 2024-09-12 21:04:24,122 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:04:24,123 [INFO] Iter=11, size=8, max=-33.0000, avg=-33.5625, median=-33.0000, min=-37.5000, std=1.4882
+nNodes: min=16, max=17, avg=16.88, median=17.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0170, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=8.0000, avg=0.1544, median=0.0000
+SlimeVolley: 2024-09-12 21:04:25,292 [INFO] solver.ask time: 1.1696s
+SlimeVolley: 2024-09-12 21:04:25,444 [INFO] sim_mgr.eval_params time: 0.1517s
+SlimeVolley: 2024-09-12 21:04:25,445 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:04:25,446 [INFO] Iter=12, size=8, max=-33.0000, avg=-33.7500, median=-33.0000, min=-36.0000, std=1.2990
+nNodes: min=16, max=17, avg=16.75, median=17.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0144, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=2.0000, avg=0.0809, median=0.0000
+SlimeVolley: 2024-09-12 21:04:26,747 [INFO] solver.ask time: 1.3015s
+SlimeVolley: 2024-09-12 21:04:26,902 [INFO] sim_mgr.eval_params time: 0.1548s
+SlimeVolley: 2024-09-12 21:04:26,903 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:04:26,904 [INFO] Iter=13, size=8, max=-34.0000, avg=-35.8750, median=-37.0000, min=-37.0000, std=1.4524
+nNodes: min=16, max=18, avg=16.88, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0227, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.1181, median=0.0000
+SlimeVolley: 2024-09-12 21:04:27,592 [INFO] solver.ask time: 0.6884s
+SlimeVolley: 2024-09-12 21:04:27,755 [INFO] sim_mgr.eval_params time: 0.1625s
+SlimeVolley: 2024-09-12 21:04:27,756 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:04:27,756 [INFO] Iter=14, size=8, max=-32.0000, avg=-32.8750, median=-32.0000, min=-35.5000, std=1.5155
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0212, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=1.0000, avg=0.0147, median=0.0000
+SlimeVolley: 2024-09-12 21:04:28,731 [INFO] solver.ask time: 0.9742s
+SlimeVolley: 2024-09-12 21:04:28,920 [INFO] sim_mgr.eval_params time: 0.1892s
+SlimeVolley: 2024-09-12 21:04:28,921 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 21:04:28,922 [INFO] Iter=15, size=8, max=-34.5000, avg=-36.2500, median=-36.5000, min=-36.5000, std=0.6614
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0136, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=4.0000, avg=0.0294, median=0.0000
+SlimeVolley: 2024-09-12 21:04:29,813 [INFO] solver.ask time: 0.8913s
+SlimeVolley: 2024-09-12 21:04:30,008 [INFO] sim_mgr.eval_params time: 0.1949s
+SlimeVolley: 2024-09-12 21:04:30,009 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:04:30,009 [INFO] Iter=16, size=8, max=-32.5000, avg=-33.5000, median=-32.5000, min=-36.5000, std=1.7321
+nNodes: min=16, max=18, avg=16.38, median=16.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0124, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.1458, median=0.0000
+SlimeVolley: 2024-09-12 21:04:31,700 [INFO] solver.ask time: 1.6904s
+SlimeVolley: 2024-09-12 21:04:31,868 [INFO] sim_mgr.eval_params time: 0.1680s
+SlimeVolley: 2024-09-12 21:04:31,869 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 21:04:31,869 [INFO] Iter=17, size=8, max=-32.0000, avg=-32.3125, median=-32.5000, min=-32.5000, std=0.2421
+nNodes: min=16, max=17, avg=16.38, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0076, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=8.0000, avg=0.1103, median=0.0000
+SlimeVolley: 2024-09-12 21:04:32,805 [INFO] solver.ask time: 0.9352s
+SlimeVolley: 2024-09-12 21:04:32,982 [INFO] sim_mgr.eval_params time: 0.1771s
+SlimeVolley: 2024-09-12 21:04:32,983 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 21:04:32,984 [INFO] Iter=18, size=8, max=-35.0000, avg=-37.1875, median=-38.5000, min=-38.5000, std=1.6944
+nNodes: min=16, max=18, avg=16.88, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0045, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=8.0000, avg=0.1736, median=0.0000
+SlimeVolley: 2024-09-12 21:04:34,800 [INFO] solver.ask time: 1.8162s
+SlimeVolley: 2024-09-12 21:04:34,966 [INFO] sim_mgr.eval_params time: 0.1665s
+SlimeVolley: 2024-09-12 21:04:34,968 [INFO] solver.tell time: 0.0009s
+SlimeVolley: 2024-09-12 21:04:34,968 [INFO] Iter=19, size=8, max=-33.5000, avg=-33.9375, median=-34.0000, min=-34.0000, std=0.1654
+nNodes: min=16, max=18, avg=17.00, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0001, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.2083, median=0.0000
+SlimeVolley: 2024-09-12 21:04:36,597 [INFO] solver.ask time: 1.6287s
+SlimeVolley: 2024-09-12 21:04:36,763 [INFO] sim_mgr.eval_params time: 0.1655s
+SlimeVolley: 2024-09-12 21:04:36,764 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 21:04:36,764 [INFO] Iter=20, size=8, max=-27.0000, avg=-29.2500, median=-27.0000, min=-33.0000, std=2.9047
+nNodes: min=16, max=18, avg=16.88, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0017, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.2569, median=0.0000
+SlimeVolley: 2024-09-12 21:04:37,523 [INFO] solver.ask time: 0.7590s
+SlimeVolley: 2024-09-12 21:04:37,693 [INFO] sim_mgr.eval_params time: 0.1694s
+SlimeVolley: 2024-09-12 21:04:37,694 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:04:37,694 [INFO] Iter=21, size=8, max=-35.5000, avg=-36.2500, median=-36.2500, min=-37.0000, std=0.7500
+nNodes: min=16, max=18, avg=16.62, median=16.50
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0082, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=6.0000, avg=0.0694, median=0.0000
+SlimeVolley: 2024-09-12 21:04:40,004 [INFO] solver.ask time: 2.3098s
+SlimeVolley: 2024-09-12 21:04:40,530 [INFO] sim_mgr.eval_params time: 0.5259s
+SlimeVolley: 2024-09-12 21:04:40,534 [INFO] solver.tell time: 0.0036s
+SlimeVolley: 2024-09-12 21:04:40,537 [INFO] Iter=22, size=8, max=-33.5000, avg=-35.3750, median=-36.5000, min=-36.5000, std=1.4524
+nNodes: min=16, max=17, avg=16.38, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=-0.0025, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=4.0000, avg=0.0588, median=0.0000
+SlimeVolley: 2024-09-12 21:04:42,182 [INFO] solver.ask time: 1.6448s
+SlimeVolley: 2024-09-12 21:04:42,354 [INFO] sim_mgr.eval_params time: 0.1712s
+SlimeVolley: 2024-09-12 21:04:42,354 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:04:42,355 [INFO] Iter=23, size=8, max=-37.5000, avg=-37.5000, median=-37.5000, min=-37.5000, std=0.0000
+nNodes: min=16, max=18, avg=16.62, median=16.50
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=-0.0025, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=9.0000, avg=0.1319, median=0.0000
+SlimeVolley: 2024-09-12 21:04:43,297 [INFO] solver.ask time: 0.9418s
+SlimeVolley: 2024-09-12 21:04:43,442 [INFO] sim_mgr.eval_params time: 0.1453s
+SlimeVolley: 2024-09-12 21:04:43,443 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 21:04:43,444 [INFO] Iter=24, size=8, max=-32.5000, avg=-32.8750, median=-32.5000, min=-34.0000, std=0.6495
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0071, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=9.0000, avg=0.1176, median=0.0000
+SlimeVolley: 2024-09-12 21:04:44,213 [INFO] solver.ask time: 0.7687s
+SlimeVolley: 2024-09-12 21:04:44,372 [INFO] sim_mgr.eval_params time: 0.1591s
+SlimeVolley: 2024-09-12 21:04:44,373 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:04:44,373 [INFO] Iter=25, size=8, max=-35.5000, avg=-35.6250, median=-35.5000, min=-36.5000, std=0.3307
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0154, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=7.0000, avg=0.0515, median=0.0000
+SlimeVolley: 2024-09-12 21:04:45,335 [INFO] solver.ask time: 0.9614s
+SlimeVolley: 2024-09-12 21:04:45,511 [INFO] sim_mgr.eval_params time: 0.1762s
+SlimeVolley: 2024-09-12 21:04:45,513 [INFO] solver.tell time: 0.0015s
+SlimeVolley: 2024-09-12 21:04:45,514 [INFO] Iter=26, size=8, max=-35.5000, avg=-36.2500, median=-35.5000, min=-37.5000, std=0.9682
+nNodes: min=16, max=17, avg=16.38, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0189, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=8.0000, avg=0.1324, median=0.0000
+SlimeVolley: 2024-09-12 21:04:47,105 [INFO] solver.ask time: 1.5911s
+SlimeVolley: 2024-09-12 21:04:47,351 [INFO] sim_mgr.eval_params time: 0.2462s
+SlimeVolley: 2024-09-12 21:04:47,352 [INFO] solver.tell time: 0.0009s
+SlimeVolley: 2024-09-12 21:04:47,353 [INFO] Iter=27, size=8, max=-34.0000, avg=-35.5625, median=-36.5000, min=-36.5000, std=1.2103
+nNodes: min=16, max=17, avg=16.38, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0158, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=8.0000, avg=0.0882, median=0.0000
+SlimeVolley: 2024-09-12 21:04:48,336 [INFO] solver.ask time: 0.9826s
+SlimeVolley: 2024-09-12 21:04:48,583 [INFO] sim_mgr.eval_params time: 0.2472s
+SlimeVolley: 2024-09-12 21:04:48,585 [INFO] solver.tell time: 0.0010s
+SlimeVolley: 2024-09-12 21:04:48,585 [INFO] Iter=28, size=8, max=-32.5000, avg=-32.8750, median=-32.5000, min=-34.0000, std=0.6495
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0123, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=2.0000, avg=0.0147, median=0.0000
+SlimeVolley: 2024-09-12 21:04:50,436 [INFO] solver.ask time: 1.8503s
+SlimeVolley: 2024-09-12 21:04:50,622 [INFO] sim_mgr.eval_params time: 0.1863s
+SlimeVolley: 2024-09-12 21:04:50,623 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 21:04:50,624 [INFO] Iter=29, size=8, max=-34.5000, avg=-34.5000, median=-34.5000, min=-34.5000, std=0.0000
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0139, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=9.0000, avg=0.0662, median=0.0000
+SlimeVolley: 2024-09-12 21:04:51,745 [INFO] solver.ask time: 1.1210s
+SlimeVolley: 2024-09-12 21:04:51,897 [INFO] sim_mgr.eval_params time: 0.1519s
+SlimeVolley: 2024-09-12 21:04:51,898 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:04:51,898 [INFO] Iter=30, size=8, max=-34.5000, avg=-34.7500, median=-34.7500, min=-35.0000, std=0.2500
+nNodes: min=16, max=17, avg=16.50, median=16.50
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0194, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=9.0000, avg=0.1397, median=0.0000
+SlimeVolley: 2024-09-12 21:04:52,680 [INFO] solver.ask time: 0.7820s
+SlimeVolley: 2024-09-12 21:04:52,830 [INFO] sim_mgr.eval_params time: 0.1495s
+SlimeVolley: 2024-09-12 21:04:52,831 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 21:04:52,831 [INFO] Iter=31, size=8, max=-31.5000, avg=-33.5000, median=-33.5000, min=-35.5000, std=2.0000
+nNodes: min=16, max=18, avg=16.75, median=16.50
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0112, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=8.0000, avg=0.1944, median=0.0000
+SlimeVolley: 2024-09-12 21:04:53,597 [INFO] solver.ask time: 0.7659s
+SlimeVolley: 2024-09-12 21:04:53,750 [INFO] sim_mgr.eval_params time: 0.1530s
+SlimeVolley: 2024-09-12 21:04:53,751 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:04:53,752 [INFO] Iter=32, size=8, max=-35.5000, avg=-35.5000, median=-35.5000, min=-35.5000, std=0.0000
+nNodes: min=16, max=18, avg=16.75, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0038, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=5.0000, avg=0.1806, median=0.0000
+SlimeVolley: 2024-09-12 21:04:54,606 [INFO] solver.ask time: 0.8542s
+SlimeVolley: 2024-09-12 21:04:54,759 [INFO] sim_mgr.eval_params time: 0.1533s
+SlimeVolley: 2024-09-12 21:04:54,760 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 21:04:54,761 [INFO] Iter=33, size=8, max=-35.0000, avg=-35.4375, median=-35.5000, min=-35.5000, std=0.1654
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0164, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=1.0000, avg=0.0074, median=0.0000
+SlimeVolley: 2024-09-12 21:04:55,456 [INFO] solver.ask time: 0.6948s
+SlimeVolley: 2024-09-12 21:04:55,605 [INFO] sim_mgr.eval_params time: 0.1495s
+SlimeVolley: 2024-09-12 21:04:55,606 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 21:04:55,606 [INFO] Iter=34, size=8, max=-36.5000, avg=-38.3750, median=-39.0000, min=-39.0000, std=1.0825
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0068, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=7.0000, avg=0.0956, median=0.0000
+SlimeVolley: 2024-09-12 21:04:56,294 [INFO] solver.ask time: 0.6870s
+SlimeVolley: 2024-09-12 21:04:56,438 [INFO] sim_mgr.eval_params time: 0.1447s
+SlimeVolley: 2024-09-12 21:04:56,439 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 21:04:56,440 [INFO] Iter=35, size=8, max=-31.5000, avg=-33.1875, median=-31.5000, min=-36.0000, std=2.1786
+nNodes: min=16, max=17, avg=16.38, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0065, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=9.0000, avg=0.1691, median=0.0000
+SlimeVolley: 2024-09-12 21:04:57,317 [INFO] solver.ask time: 0.8773s
+SlimeVolley: 2024-09-12 21:04:57,493 [INFO] sim_mgr.eval_params time: 0.1759s
+SlimeVolley: 2024-09-12 21:04:57,494 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:04:57,495 [INFO] Iter=36, size=8, max=-30.5000, avg=-32.3750, median=-30.5000, min=-35.5000, std=2.4206
+nNodes: min=16, max=17, avg=16.38, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0083, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=7.0000, avg=0.0662, median=0.0000
+SlimeVolley: 2024-09-12 21:04:58,351 [INFO] solver.ask time: 0.8562s
+SlimeVolley: 2024-09-12 21:04:58,534 [INFO] sim_mgr.eval_params time: 0.1830s
+SlimeVolley: 2024-09-12 21:04:58,535 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 21:04:58,536 [INFO] Iter=37, size=8, max=-35.0000, avg=-35.3750, median=-35.0000, min=-36.0000, std=0.4841
+nNodes: min=16, max=17, avg=16.38, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0148, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=9.0000, avg=0.1176, median=0.0000
+SlimeVolley: 2024-09-12 21:04:59,617 [INFO] solver.ask time: 1.0811s
+SlimeVolley: 2024-09-12 21:04:59,773 [INFO] sim_mgr.eval_params time: 0.1555s
+SlimeVolley: 2024-09-12 21:04:59,773 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 21:04:59,774 [INFO] Iter=38, size=8, max=-33.5000, avg=-34.1250, median=-33.5000, min=-36.0000, std=1.0825
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0085, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=8.0000, avg=0.1029, median=0.0000
+SlimeVolley: 2024-09-12 21:05:00,834 [INFO] solver.ask time: 1.0596s
+SlimeVolley: 2024-09-12 21:05:00,984 [INFO] sim_mgr.eval_params time: 0.1499s
+SlimeVolley: 2024-09-12 21:05:00,984 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:05:00,985 [INFO] Iter=39, size=8, max=-32.0000, avg=-33.8750, median=-34.5000, min=-34.5000, std=1.0825
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0196, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=8.0000, avg=0.0956, median=0.0000
+SlimeVolley: 2024-09-12 21:05:02,035 [INFO] solver.ask time: 1.0498s
+SlimeVolley: 2024-09-12 21:05:02,180 [INFO] sim_mgr.eval_params time: 0.1445s
+SlimeVolley: 2024-09-12 21:05:02,181 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:05:02,181 [INFO] Iter=40, size=8, max=-30.5000, avg=-32.2500, median=-32.2500, min=-34.0000, std=1.7500
+nNodes: min=16, max=18, avg=16.62, median=16.50
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0114, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=8.0000, avg=0.2083, median=0.0000
+SlimeVolley: 2024-09-12 21:05:03,148 [INFO] solver.ask time: 0.9673s
+SlimeVolley: 2024-09-12 21:05:03,301 [INFO] sim_mgr.eval_params time: 0.1520s
+SlimeVolley: 2024-09-12 21:05:03,301 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:05:03,302 [INFO] Iter=41, size=8, max=-32.0000, avg=-32.5625, median=-32.0000, min=-33.5000, std=0.7262
+nNodes: min=16, max=17, avg=16.38, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0173, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=6.0000, avg=0.1176, median=0.0000
+SlimeVolley: 2024-09-12 21:05:04,021 [INFO] solver.ask time: 0.7192s
+SlimeVolley: 2024-09-12 21:05:04,171 [INFO] sim_mgr.eval_params time: 0.1500s
+SlimeVolley: 2024-09-12 21:05:04,172 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:05:04,173 [INFO] Iter=42, size=8, max=-35.0000, avg=-35.7500, median=-35.0000, min=-38.0000, std=1.2990
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0123, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=6.0000, avg=0.0588, median=0.0000
+SlimeVolley: 2024-09-12 21:05:04,738 [INFO] solver.ask time: 0.5648s
+SlimeVolley: 2024-09-12 21:05:04,902 [INFO] sim_mgr.eval_params time: 0.1640s
+SlimeVolley: 2024-09-12 21:05:04,903 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 21:05:04,904 [INFO] Iter=43, size=8, max=-32.5000, avg=-32.8750, median=-32.5000, min=-35.5000, std=0.9922
+nNodes: min=16, max=17, avg=16.12, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0091, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=2.0000, avg=0.0147, median=0.0000
+SlimeVolley: 2024-09-12 21:05:06,270 [INFO] solver.ask time: 1.3666s
+SlimeVolley: 2024-09-12 21:05:06,474 [INFO] sim_mgr.eval_params time: 0.2036s
+SlimeVolley: 2024-09-12 21:05:06,475 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 21:05:06,476 [INFO] Iter=44, size=8, max=-35.0000, avg=-36.2500, median=-36.2500, min=-37.5000, std=1.2500
+nNodes: min=16, max=17, avg=16.50, median=16.50
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0069, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=6.0000, avg=0.0515, median=0.0000
+SlimeVolley: 2024-09-12 21:05:07,645 [INFO] solver.ask time: 1.1691s
+SlimeVolley: 2024-09-12 21:05:07,794 [INFO] sim_mgr.eval_params time: 0.1493s
+SlimeVolley: 2024-09-12 21:05:07,795 [INFO] solver.tell time: 0.0008s
+SlimeVolley: 2024-09-12 21:05:07,796 [INFO] Iter=45, size=8, max=-29.5000, avg=-34.7500, median=-36.5000, min=-36.5000, std=3.0311
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(8, 17, 17), min=-2.0000, max=2.0000, avg=0.0140, median=0.0000
+aVec: shape=(8, 17), min=0.0000, max=6.0000, avg=0.0662, median=0.0000
+SlimeVolley: 2024-09-12 21:05:08,987 [INFO] solver.ask time: 1.1914s
+SlimeVolley: 2024-09-12 21:05:09,135 [INFO] sim_mgr.eval_params time: 0.1471s
+SlimeVolley: 2024-09-12 21:05:09,136 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:05:09,136 [INFO] Iter=46, size=8, max=-29.5000, avg=-32.5000, median=-32.5000, min=-35.5000, std=3.0000
+nNodes: min=16, max=18, avg=16.75, median=16.50
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0227, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=7.0000, avg=0.1597, median=0.0000
+SlimeVolley: 2024-09-12 21:05:11,176 [INFO] solver.ask time: 2.0397s
+SlimeVolley: 2024-09-12 21:05:11,317 [INFO] sim_mgr.eval_params time: 0.1414s
+SlimeVolley: 2024-09-12 21:05:11,318 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:05:11,319 [INFO] Iter=47, size=8, max=-35.0000, avg=-35.2500, median=-35.0000, min=-37.0000, std=0.6614
+nNodes: min=16, max=18, avg=17.12, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0277, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=3.0000, avg=0.1597, median=0.0000
+SlimeVolley: 2024-09-12 21:05:12,126 [INFO] solver.ask time: 0.8067s
+SlimeVolley: 2024-09-12 21:05:12,266 [INFO] sim_mgr.eval_params time: 0.1402s
+SlimeVolley: 2024-09-12 21:05:12,267 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 21:05:12,267 [INFO] Iter=48, size=8, max=-34.0000, avg=-34.1250, median=-34.0000, min=-34.5000, std=0.2165
+nNodes: min=16, max=18, avg=16.88, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0281, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=8.0000, avg=0.1806, median=0.0000
+SlimeVolley: 2024-09-12 21:05:13,202 [INFO] solver.ask time: 0.9345s
+SlimeVolley: 2024-09-12 21:05:13,346 [INFO] sim_mgr.eval_params time: 0.1438s
+SlimeVolley: 2024-09-12 21:05:13,347 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:05:13,347 [INFO] Iter=49, size=8, max=-30.0000, avg=-30.8125, median=-30.0000, min=-36.5000, std=2.1497
+nNodes: min=16, max=18, avg=17.25, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0294, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=8.0000, avg=0.4167, median=0.0000
+SlimeVolley: 2024-09-12 21:05:15,890 [INFO] solver.ask time: 2.5426s
+SlimeVolley: 2024-09-12 21:05:18,110 [INFO] sim_mgr.eval_params time: 2.2203s
+SlimeVolley: 2024-09-12 21:05:18,111 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 21:05:18,111 [INFO] Iter=50, size=8, max=-35.0000, avg=-35.3750, median=-35.5000, min=-35.5000, std=0.2165
+nNodes: min=16, max=19, avg=17.62, median=18.00
+wMat: shape=(8, 19, 19), min=-2.0000, max=2.0000, avg=0.0280, median=0.0000
+aVec: shape=(8, 19), min=0.0000, max=9.0000, avg=0.5329, median=0.0000
+SlimeVolley: 2024-09-12 21:05:52,205 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 21:05:52,205 [INFO] ==============================
+SlimeVolley: 2024-09-12 21:05:52,301 [INFO] Start to train for 10 iterations.
+SlimeVolley: 2024-09-12 21:05:53,737 [INFO] solver.ask time: 1.4358s
+SlimeVolley: 2024-09-12 21:05:56,987 [INFO] sim_mgr.eval_params time: 3.2498s
+SlimeVolley: 2024-09-12 21:05:57,021 [INFO] solver.tell time: 0.0344s
+SlimeVolley: 2024-09-12 21:06:02,477 [INFO] solver.ask time: 5.4559s
+SlimeVolley: 2024-09-12 21:06:05,478 [INFO] sim_mgr.eval_params time: 3.0005s
+SlimeVolley: 2024-09-12 21:06:05,479 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 21:06:10,183 [INFO] solver.ask time: 4.7042s
+SlimeVolley: 2024-09-12 21:06:12,956 [INFO] sim_mgr.eval_params time: 2.7732s
+SlimeVolley: 2024-09-12 21:06:12,957 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 21:06:15,520 [INFO] solver.ask time: 2.5632s
+SlimeVolley: 2024-09-12 21:06:15,664 [INFO] sim_mgr.eval_params time: 0.1436s
+SlimeVolley: 2024-09-12 21:06:15,665 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 21:06:16,840 [INFO] solver.ask time: 1.1756s
+SlimeVolley: 2024-09-12 21:06:16,986 [INFO] sim_mgr.eval_params time: 0.1452s
+SlimeVolley: 2024-09-12 21:06:16,987 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 21:06:19,488 [INFO] solver.ask time: 2.5010s
+SlimeVolley: 2024-09-12 21:06:19,634 [INFO] sim_mgr.eval_params time: 0.1459s
+SlimeVolley: 2024-09-12 21:06:19,634 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 21:06:19,635 [INFO] Iter=5, size=8, max=-31.0000, avg=-32.0000, median=-31.0000, min=-35.0000, std=1.7321
+nNodes: min=16, max=18, avg=17.00, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0063, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=8.0000, avg=0.2014, median=0.0000
+SlimeVolley: 2024-09-12 21:06:21,178 [INFO] solver.ask time: 1.5427s
+SlimeVolley: 2024-09-12 21:06:21,324 [INFO] sim_mgr.eval_params time: 0.1458s
+SlimeVolley: 2024-09-12 21:06:21,325 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 21:06:22,816 [INFO] solver.ask time: 1.4912s
+SlimeVolley: 2024-09-12 21:06:22,961 [INFO] sim_mgr.eval_params time: 0.1452s
+SlimeVolley: 2024-09-12 21:06:22,962 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:06:23,820 [INFO] solver.ask time: 0.8583s
+SlimeVolley: 2024-09-12 21:06:23,962 [INFO] sim_mgr.eval_params time: 0.1416s
+SlimeVolley: 2024-09-12 21:06:23,963 [INFO] solver.tell time: 0.0007s
+SlimeVolley: 2024-09-12 21:06:24,645 [INFO] solver.ask time: 0.6820s
+SlimeVolley: 2024-09-12 21:06:24,795 [INFO] sim_mgr.eval_params time: 0.1495s
+SlimeVolley: 2024-09-12 21:06:24,795 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 21:06:27,936 [INFO] [TEST] Iter=9, #tests=10, max=-4.0000, avg=-4.9000, min=-5.0000, std=0.3000
+SlimeVolley: 2024-09-12 21:06:28,033 [INFO] [TEST] Iter=10, #tests=10, max=-4.0000, avg=-4.9000, min=-5.0000, std=0.3000
+SlimeVolley: 2024-09-12 21:06:28,033 [INFO] Training done, best_score=-4.9000
+SlimeVolley: 2024-09-12 21:06:28,034 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-12 21:06:28,034 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-12 21:06:28,138 [INFO] [TEST] #tests=10, max=-4.0000, avg=-4.9000, min=-5.0000, std=0.3000
+SlimeVolley: 2024-09-12 21:06:52,910 [INFO] GIF saved to ./log/slimevolley/slimevolley.gif.
+SlimeVolley: 2024-09-12 21:07:19,471 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 21:07:19,471 [INFO] ==============================
+SlimeVolley: 2024-09-12 21:07:19,563 [INFO] Start to train for 10 iterations.
+SlimeVolley: 2024-09-12 21:07:20,925 [INFO] solver.ask time: 1.3614s
+SlimeVolley: 2024-09-12 21:07:24,057 [INFO] sim_mgr.eval_params time: 3.1323s
+SlimeVolley: 2024-09-12 21:07:24,086 [INFO] solver.tell time: 0.0288s
+SlimeVolley: 2024-09-12 21:07:29,589 [INFO] solver.ask time: 5.5030s
+SlimeVolley: 2024-09-12 21:07:32,357 [INFO] sim_mgr.eval_params time: 2.7678s
+SlimeVolley: 2024-09-12 21:07:32,358 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:07:37,593 [INFO] solver.ask time: 5.2351s
+SlimeVolley: 2024-09-12 21:07:41,806 [INFO] sim_mgr.eval_params time: 4.2125s
+SlimeVolley: 2024-09-12 21:07:41,806 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:07:44,459 [INFO] solver.ask time: 2.6528s
+SlimeVolley: 2024-09-12 21:07:44,607 [INFO] sim_mgr.eval_params time: 0.1477s
+SlimeVolley: 2024-09-12 21:07:44,607 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:07:45,796 [INFO] solver.ask time: 1.1885s
+SlimeVolley: 2024-09-12 21:07:45,947 [INFO] sim_mgr.eval_params time: 0.1509s
+SlimeVolley: 2024-09-12 21:07:45,947 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:07:48,539 [INFO] solver.ask time: 2.5917s
+SlimeVolley: 2024-09-12 21:07:48,707 [INFO] sim_mgr.eval_params time: 0.1682s
+SlimeVolley: 2024-09-12 21:07:48,708 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:07:48,709 [INFO] Iter=5, size=8, max=-31.0000, avg=-32.0000, median=-31.0000, min=-35.0000, std=1.7321
+nNodes: min=16, max=18, avg=17.00, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0063, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=8.0000, avg=0.2014, median=0.0000
+SlimeVolley: 2024-09-12 21:07:50,613 [INFO] solver.ask time: 1.9045s
+SlimeVolley: 2024-09-12 21:07:50,762 [INFO] sim_mgr.eval_params time: 0.1489s
+SlimeVolley: 2024-09-12 21:07:50,763 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:07:52,368 [INFO] solver.ask time: 1.6048s
+SlimeVolley: 2024-09-12 21:07:52,510 [INFO] sim_mgr.eval_params time: 0.1424s
+SlimeVolley: 2024-09-12 21:07:52,511 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:07:53,485 [INFO] solver.ask time: 0.9745s
+SlimeVolley: 2024-09-12 21:07:53,636 [INFO] sim_mgr.eval_params time: 0.1510s
+SlimeVolley: 2024-09-12 21:07:53,637 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:07:54,378 [INFO] solver.ask time: 0.7408s
+SlimeVolley: 2024-09-12 21:07:54,529 [INFO] sim_mgr.eval_params time: 0.1509s
+SlimeVolley: 2024-09-12 21:07:54,529 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:07:57,650 [INFO] [TEST] Iter=9, #tests=10, max=-4.0000, avg=-4.9000, min=-5.0000, std=0.3000
+SlimeVolley: 2024-09-12 21:07:57,778 [INFO] [TEST] Iter=10, #tests=10, max=-4.0000, avg=-4.9000, min=-5.0000, std=0.3000
+SlimeVolley: 2024-09-12 21:07:57,779 [INFO] Training done, best_score=-4.9000
+SlimeVolley: 2024-09-12 21:07:57,781 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-12 21:07:57,781 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-12 21:07:57,924 [INFO] [TEST] #tests=10, max=-4.0000, avg=-4.9000, min=-5.0000, std=0.3000
+SlimeVolley: 2024-09-12 21:08:25,304 [INFO] GIF saved to ./log/slimevolley/slimevolley.gif.
+SlimeVolley: 2024-09-12 21:14:03,027 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 21:14:03,027 [INFO] ==============================
+SlimeVolley: 2024-09-12 21:14:03,119 [INFO] Start to train for 10 iterations.
+SlimeVolley: 2024-09-12 21:14:04,426 [INFO] solver.ask time: 1.3068s
+SlimeVolley: 2024-09-12 21:14:06,822 [INFO] sim_mgr.eval_params time: 2.3956s
+SlimeVolley: 2024-09-12 21:14:06,849 [INFO] solver.tell time: 0.0274s
+SlimeVolley: 2024-09-12 21:14:12,055 [INFO] solver.ask time: 5.2057s
+SlimeVolley: 2024-09-12 21:14:13,847 [INFO] sim_mgr.eval_params time: 1.7916s
+SlimeVolley: 2024-09-12 21:14:13,847 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:14:17,857 [INFO] solver.ask time: 4.0102s
+SlimeVolley: 2024-09-12 21:14:19,650 [INFO] sim_mgr.eval_params time: 1.7926s
+SlimeVolley: 2024-09-12 21:14:19,651 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:14:22,183 [INFO] solver.ask time: 2.5326s
+SlimeVolley: 2024-09-12 21:14:22,347 [INFO] sim_mgr.eval_params time: 0.1631s
+SlimeVolley: 2024-09-12 21:14:22,347 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:14:23,695 [INFO] solver.ask time: 1.3481s
+SlimeVolley: 2024-09-12 21:14:23,866 [INFO] sim_mgr.eval_params time: 0.1710s
+SlimeVolley: 2024-09-12 21:14:23,867 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:14:26,487 [INFO] solver.ask time: 2.6200s
+SlimeVolley: 2024-09-12 21:14:26,701 [INFO] sim_mgr.eval_params time: 0.2142s
+SlimeVolley: 2024-09-12 21:14:26,701 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:14:26,702 [INFO] Iter=5, size=8, max=-31.0000, avg=-32.0000, median=-31.0000, min=-35.0000, std=1.7321
+nNodes: min=16, max=18, avg=17.00, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0063, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=8.0000, avg=0.2014, median=0.0000
+SlimeVolley: 2024-09-12 21:14:28,433 [INFO] solver.ask time: 1.7312s
+SlimeVolley: 2024-09-12 21:14:28,590 [INFO] sim_mgr.eval_params time: 0.1560s
+SlimeVolley: 2024-09-12 21:14:28,590 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:14:30,105 [INFO] solver.ask time: 1.5151s
+SlimeVolley: 2024-09-12 21:14:30,250 [INFO] sim_mgr.eval_params time: 0.1446s
+SlimeVolley: 2024-09-12 21:14:30,250 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:14:31,154 [INFO] solver.ask time: 0.9036s
+SlimeVolley: 2024-09-12 21:14:31,310 [INFO] sim_mgr.eval_params time: 0.1558s
+SlimeVolley: 2024-09-12 21:14:31,310 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:14:32,120 [INFO] solver.ask time: 0.8095s
+SlimeVolley: 2024-09-12 21:14:32,292 [INFO] sim_mgr.eval_params time: 0.1721s
+SlimeVolley: 2024-09-12 21:14:32,292 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:14:35,182 [INFO] [TEST] Iter=9, #tests=10, max=-4.0000, avg=-4.9000, min=-5.0000, std=0.3000
+SlimeVolley: 2024-09-12 21:14:35,289 [INFO] [TEST] Iter=10, #tests=10, max=-4.0000, avg=-4.9000, min=-5.0000, std=0.3000
+SlimeVolley: 2024-09-12 21:14:35,289 [INFO] Training done, best_score=-4.9000
+SlimeVolley: 2024-09-12 21:14:35,290 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-12 21:14:35,290 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-12 21:14:35,408 [INFO] [TEST] #tests=10, max=-4.0000, avg=-4.9000, min=-5.0000, std=0.3000
+SlimeVolley: 2024-09-12 21:14:59,299 [INFO] GIF saved to ./log/slimevolley/slimevolley.gif.
+SlimeVolley: 2024-09-12 21:15:04,399 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 21:15:04,399 [INFO] ==============================
+SlimeVolley: 2024-09-12 21:15:04,488 [INFO] Start to train for 10 iterations.
+SlimeVolley: 2024-09-12 21:15:05,907 [INFO] solver.ask time: 1.4188s
+SlimeVolley: 2024-09-12 21:15:08,660 [INFO] sim_mgr.eval_params time: 2.7534s
+SlimeVolley: 2024-09-12 21:15:08,692 [INFO] solver.tell time: 0.0317s
+SlimeVolley: 2024-09-12 21:15:15,520 [INFO] solver.ask time: 6.8276s
+SlimeVolley: 2024-09-12 21:15:17,677 [INFO] sim_mgr.eval_params time: 2.1563s
+SlimeVolley: 2024-09-12 21:15:17,677 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:15:22,379 [INFO] solver.ask time: 4.7023s
+SlimeVolley: 2024-09-12 21:15:24,695 [INFO] sim_mgr.eval_params time: 2.3149s
+SlimeVolley: 2024-09-12 21:15:24,695 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:15:27,423 [INFO] solver.ask time: 2.7281s
+SlimeVolley: 2024-09-12 21:15:27,575 [INFO] sim_mgr.eval_params time: 0.1515s
+SlimeVolley: 2024-09-12 21:15:27,575 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:15:28,824 [INFO] solver.ask time: 1.2485s
+SlimeVolley: 2024-09-12 21:15:28,970 [INFO] sim_mgr.eval_params time: 0.1463s
+SlimeVolley: 2024-09-12 21:15:28,970 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:15:31,348 [INFO] solver.ask time: 2.3780s
+SlimeVolley: 2024-09-12 21:15:31,518 [INFO] sim_mgr.eval_params time: 0.1691s
+SlimeVolley: 2024-09-12 21:15:31,518 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:15:31,519 [INFO] Iter=5, size=8, max=-31.0000, avg=-32.0000, median=-31.0000, min=-35.0000, std=1.7321
+nNodes: min=16, max=18, avg=17.00, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0063, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=8.0000, avg=0.2014, median=0.0000
+SlimeVolley: 2024-09-12 21:15:33,399 [INFO] solver.ask time: 1.8805s
+SlimeVolley: 2024-09-12 21:15:33,547 [INFO] sim_mgr.eval_params time: 0.1478s
+SlimeVolley: 2024-09-12 21:15:33,548 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:15:35,073 [INFO] solver.ask time: 1.5248s
+SlimeVolley: 2024-09-12 21:15:35,219 [INFO] sim_mgr.eval_params time: 0.1459s
+SlimeVolley: 2024-09-12 21:15:35,219 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:15:36,155 [INFO] solver.ask time: 0.9364s
+SlimeVolley: 2024-09-12 21:15:36,312 [INFO] sim_mgr.eval_params time: 0.1568s
+SlimeVolley: 2024-09-12 21:15:36,313 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:15:37,039 [INFO] solver.ask time: 0.7262s
+SlimeVolley: 2024-09-12 21:15:37,183 [INFO] sim_mgr.eval_params time: 0.1435s
+SlimeVolley: 2024-09-12 21:15:37,183 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:15:39,766 [INFO] [TEST] Iter=9, #tests=10, max=-4.0000, avg=-4.9000, min=-5.0000, std=0.3000
+SlimeVolley: 2024-09-12 21:15:39,888 [INFO] [TEST] Iter=10, #tests=10, max=-4.0000, avg=-4.9000, min=-5.0000, std=0.3000
+SlimeVolley: 2024-09-12 21:15:39,889 [INFO] Training done, best_score=-4.9000
+SlimeVolley: 2024-09-12 21:15:39,890 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-12 21:15:39,890 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-12 21:15:40,023 [INFO] [TEST] #tests=10, max=-4.0000, avg=-4.9000, min=-5.0000, std=0.3000
+SlimeVolley: 2024-09-12 21:16:06,243 [INFO] GIF saved to ./log/slimevolley/slimevolley.gif.
+SlimeVolley: 2024-09-12 21:16:59,617 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 21:16:59,618 [INFO] ==============================
+SlimeVolley: 2024-09-12 21:16:59,723 [INFO] Start to train for 10 iterations.
+SlimeVolley: 2024-09-12 21:17:01,196 [INFO] solver.ask time: 1.4727s
+SlimeVolley: 2024-09-12 21:22:42,680 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 21:22:42,680 [INFO] ==============================
+SlimeVolley: 2024-09-12 21:22:42,774 [INFO] Start to train for 10 iterations.
+SlimeVolley: 2024-09-12 21:22:44,153 [INFO] solver.ask time: 1.3789s
+SlimeVolley: 2024-09-12 21:23:33,187 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 21:23:33,187 [INFO] ==============================
+SlimeVolley: 2024-09-12 21:23:33,279 [INFO] Start to train for 10 iterations.
+SlimeVolley: 2024-09-12 21:23:34,570 [INFO] solver.ask time: 1.2909s
+SlimeVolley: 2024-09-12 21:24:08,873 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 21:24:08,873 [INFO] ==============================
+SlimeVolley: 2024-09-12 21:24:08,968 [INFO] Start to train for 10 iterations.
+SlimeVolley: 2024-09-12 21:24:10,371 [INFO] solver.ask time: 1.4028s
+SlimeVolley: 2024-09-12 21:24:19,110 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 21:24:19,110 [INFO] ==============================
+SlimeVolley: 2024-09-12 21:24:19,203 [INFO] Start to train for 10 iterations.
+SlimeVolley: 2024-09-12 21:24:20,552 [INFO] solver.ask time: 1.3488s
+SlimeVolley: 2024-09-12 21:24:23,040 [INFO] sim_mgr.eval_params time: 2.4875s
+SlimeVolley: 2024-09-12 21:24:23,069 [INFO] solver.tell time: 0.0289s
+SlimeVolley: 2024-09-12 21:24:51,105 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 21:24:51,105 [INFO] ==============================
+SlimeVolley: 2024-09-12 21:24:51,203 [INFO] Start to train for 10 iterations.
+SlimeVolley: 2024-09-12 21:24:52,551 [INFO] solver.ask time: 1.3475s
+SlimeVolley: 2024-09-12 21:24:58,306 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 21:24:58,306 [INFO] ==============================
+SlimeVolley: 2024-09-12 21:24:58,400 [INFO] Start to train for 10 iterations.
+SlimeVolley: 2024-09-12 21:24:59,719 [INFO] solver.ask time: 1.3194s
+SlimeVolley: 2024-09-12 21:28:08,022 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 21:28:08,022 [INFO] ==============================
+SlimeVolley: 2024-09-12 21:28:08,117 [INFO] Start to train for 10 iterations.
+SlimeVolley: 2024-09-12 21:28:09,496 [INFO] solver.ask time: 1.3781s
+SlimeVolley: 2024-09-12 21:28:28,855 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 21:28:28,855 [INFO] ==============================
+SlimeVolley: 2024-09-12 21:28:28,952 [INFO] Start to train for 10 iterations.
+SlimeVolley: 2024-09-12 21:28:30,270 [INFO] solver.ask time: 1.3180s
+SlimeVolley: 2024-09-12 21:29:01,117 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 21:29:01,117 [INFO] ==============================
+SlimeVolley: 2024-09-12 21:29:01,212 [INFO] Start to train for 10 iterations.
+SlimeVolley: 2024-09-12 21:29:02,568 [INFO] solver.ask time: 1.3557s
+SlimeVolley: 2024-09-12 21:30:00,676 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 21:30:00,676 [INFO] ==============================
+SlimeVolley: 2024-09-12 21:30:00,771 [INFO] Start to train for 10 iterations.
+SlimeVolley: 2024-09-12 21:30:02,327 [INFO] solver.ask time: 1.5552s
+SlimeVolley: 2024-09-12 21:30:05,030 [INFO] sim_mgr.eval_params time: 2.7029s
+SlimeVolley: 2024-09-12 21:30:05,060 [INFO] solver.tell time: 0.0301s
+SlimeVolley: 2024-09-12 21:30:10,663 [INFO] solver.ask time: 5.6033s
+SlimeVolley: 2024-09-12 21:30:13,100 [INFO] sim_mgr.eval_params time: 2.4365s
+SlimeVolley: 2024-09-12 21:30:13,100 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:30:17,646 [INFO] solver.ask time: 4.5455s
+SlimeVolley: 2024-09-12 21:30:19,853 [INFO] sim_mgr.eval_params time: 2.2068s
+SlimeVolley: 2024-09-12 21:30:19,853 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:30:22,315 [INFO] solver.ask time: 2.4617s
+SlimeVolley: 2024-09-12 21:30:22,470 [INFO] sim_mgr.eval_params time: 0.1546s
+SlimeVolley: 2024-09-12 21:30:22,470 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:30:23,653 [INFO] solver.ask time: 1.1828s
+SlimeVolley: 2024-09-12 21:30:23,800 [INFO] sim_mgr.eval_params time: 0.1469s
+SlimeVolley: 2024-09-12 21:30:23,801 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:30:26,398 [INFO] solver.ask time: 2.5970s
+SlimeVolley: 2024-09-12 21:30:26,563 [INFO] sim_mgr.eval_params time: 0.1651s
+SlimeVolley: 2024-09-12 21:30:26,564 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:30:26,564 [INFO] Iter=5, size=8, max=-31.0000, avg=-32.0000, median=-31.0000, min=-35.0000, std=1.7321
+nNodes: min=16, max=18, avg=17.00, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0063, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=8.0000, avg=0.2014, median=0.0000
+SlimeVolley: 2024-09-12 21:30:28,300 [INFO] solver.ask time: 1.7355s
+SlimeVolley: 2024-09-12 21:30:28,448 [INFO] sim_mgr.eval_params time: 0.1483s
+SlimeVolley: 2024-09-12 21:30:28,449 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:30:30,138 [INFO] solver.ask time: 1.6896s
+SlimeVolley: 2024-09-12 21:30:30,295 [INFO] sim_mgr.eval_params time: 0.1564s
+SlimeVolley: 2024-09-12 21:30:30,295 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:30:31,208 [INFO] solver.ask time: 0.9121s
+SlimeVolley: 2024-09-12 21:30:31,354 [INFO] sim_mgr.eval_params time: 0.1461s
+SlimeVolley: 2024-09-12 21:30:31,354 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:30:32,065 [INFO] solver.ask time: 0.7110s
+SlimeVolley: 2024-09-12 21:30:32,216 [INFO] sim_mgr.eval_params time: 0.1510s
+SlimeVolley: 2024-09-12 21:30:32,217 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:30:35,134 [INFO] [TEST] Iter=9, #tests=10, max=-4.0000, avg=-4.9000, min=-5.0000, std=0.3000
+SlimeVolley: 2024-09-12 21:30:35,236 [INFO] [TEST] Iter=10, #tests=10, max=-4.0000, avg=-4.9000, min=-5.0000, std=0.3000
+SlimeVolley: 2024-09-12 21:30:35,238 [INFO] Training done, best_score=-4.9000
+SlimeVolley: 2024-09-12 21:30:35,239 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-12 21:30:35,239 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-12 21:30:35,347 [INFO] [TEST] #tests=10, max=-4.0000, avg=-4.9000, min=-5.0000, std=0.3000
+SlimeVolley: 2024-09-12 21:31:01,922 [INFO] GIF saved to ./log/slimevolley/slimevolley.gif.
+SlimeVolley: 2024-09-12 21:31:13,498 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 21:31:13,498 [INFO] ==============================
+SlimeVolley: 2024-09-12 21:31:13,592 [INFO] Start to train for 10 iterations.
+SlimeVolley: 2024-09-12 21:31:15,013 [INFO] solver.ask time: 1.4214s
+SlimeVolley: 2024-09-12 21:31:17,286 [INFO] sim_mgr.eval_params time: 2.2722s
+SlimeVolley: 2024-09-12 21:31:17,314 [INFO] solver.tell time: 0.0281s
+SlimeVolley: 2024-09-12 21:31:23,024 [INFO] solver.ask time: 5.7093s
+SlimeVolley: 2024-09-12 21:31:24,843 [INFO] sim_mgr.eval_params time: 1.8196s
+SlimeVolley: 2024-09-12 21:31:24,844 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:31:30,039 [INFO] solver.ask time: 5.1950s
+SlimeVolley: 2024-09-12 21:31:31,782 [INFO] sim_mgr.eval_params time: 1.7431s
+SlimeVolley: 2024-09-12 21:31:31,782 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:31:34,742 [INFO] solver.ask time: 2.9599s
+SlimeVolley: 2024-09-12 21:31:34,921 [INFO] sim_mgr.eval_params time: 0.1782s
+SlimeVolley: 2024-09-12 21:31:34,921 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:31:36,253 [INFO] solver.ask time: 1.3319s
+SlimeVolley: 2024-09-12 21:31:36,431 [INFO] sim_mgr.eval_params time: 0.1782s
+SlimeVolley: 2024-09-12 21:31:36,432 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:31:38,888 [INFO] solver.ask time: 2.4564s
+SlimeVolley: 2024-09-12 21:31:39,084 [INFO] sim_mgr.eval_params time: 0.1950s
+SlimeVolley: 2024-09-12 21:31:39,084 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:31:39,085 [INFO] Iter=5, size=8, max=-31.0000, avg=-32.0000, median=-31.0000, min=-35.0000, std=1.7321
+nNodes: min=16, max=18, avg=17.00, median=17.00
+wMat: shape=(8, 18, 18), min=-2.0000, max=2.0000, avg=0.0063, median=0.0000
+aVec: shape=(8, 18), min=0.0000, max=8.0000, avg=0.2014, median=0.0000
+SlimeVolley: 2024-09-12 21:31:41,082 [INFO] solver.ask time: 1.9968s
+SlimeVolley: 2024-09-12 21:31:41,421 [INFO] sim_mgr.eval_params time: 0.3387s
+SlimeVolley: 2024-09-12 21:31:41,421 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:31:43,429 [INFO] solver.ask time: 2.0082s
+SlimeVolley: 2024-09-12 21:31:43,597 [INFO] sim_mgr.eval_params time: 0.1677s
+SlimeVolley: 2024-09-12 21:31:43,598 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:31:44,517 [INFO] solver.ask time: 0.9196s
+SlimeVolley: 2024-09-12 21:31:44,685 [INFO] sim_mgr.eval_params time: 0.1675s
+SlimeVolley: 2024-09-12 21:31:44,685 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:31:45,410 [INFO] solver.ask time: 0.7248s
+SlimeVolley: 2024-09-12 21:31:45,574 [INFO] sim_mgr.eval_params time: 0.1630s
+SlimeVolley: 2024-09-12 21:31:45,574 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:31:48,156 [INFO] [TEST] Iter=9, #tests=10, max=-4.0000, avg=-4.9000, min=-5.0000, std=0.3000
+SlimeVolley: 2024-09-12 21:31:48,262 [INFO] [TEST] Iter=10, #tests=10, max=-4.0000, avg=-4.9000, min=-5.0000, std=0.3000
+SlimeVolley: 2024-09-12 21:31:48,263 [INFO] Training done, best_score=-4.9000
+SlimeVolley: 2024-09-12 21:31:48,264 [INFO] Loaded model parameters from ./log/slimevolley.
+SlimeVolley: 2024-09-12 21:31:48,264 [INFO] Start to test the parameters.
+SlimeVolley: 2024-09-12 21:31:48,401 [INFO] [TEST] #tests=10, max=-4.0000, avg=-4.9000, min=-5.0000, std=0.3000
+SlimeVolley: 2024-09-12 21:32:12,626 [INFO] GIF saved to ./log/slimevolley/slimevolley.gif.
+SlimeVolley: 2024-09-12 21:34:16,263 [INFO] EvoJAX SlimeVolley
+SlimeVolley: 2024-09-12 21:34:16,263 [INFO] ==============================
+SlimeVolley: 2024-09-12 21:34:16,362 [INFO] Start to train for 1000 iterations.
+SlimeVolley: 2024-09-12 21:34:17,882 [INFO] solver.ask time: 1.5194s
+SlimeVolley: 2024-09-12 21:34:20,106 [INFO] sim_mgr.eval_params time: 2.2240s
+SlimeVolley: 2024-09-12 21:34:20,150 [INFO] solver.tell time: 0.0436s
+SlimeVolley: 2024-09-12 21:34:28,437 [INFO] solver.ask time: 8.2877s
+SlimeVolley: 2024-09-12 21:34:30,003 [INFO] sim_mgr.eval_params time: 1.5652s
+SlimeVolley: 2024-09-12 21:34:30,003 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:34:39,131 [INFO] solver.ask time: 9.1276s
+SlimeVolley: 2024-09-12 21:34:40,953 [INFO] sim_mgr.eval_params time: 1.8220s
+SlimeVolley: 2024-09-12 21:34:40,954 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:34:47,828 [INFO] solver.ask time: 6.8743s
+SlimeVolley: 2024-09-12 21:34:48,410 [INFO] sim_mgr.eval_params time: 0.5817s
+SlimeVolley: 2024-09-12 21:34:48,411 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:34:55,814 [INFO] solver.ask time: 7.4035s
+SlimeVolley: 2024-09-12 21:34:56,404 [INFO] sim_mgr.eval_params time: 0.5898s
+SlimeVolley: 2024-09-12 21:34:56,405 [INFO] solver.tell time: 0.0005s
+SlimeVolley: 2024-09-12 21:35:03,731 [INFO] solver.ask time: 7.3260s
+SlimeVolley: 2024-09-12 21:35:04,322 [INFO] sim_mgr.eval_params time: 0.5900s
+SlimeVolley: 2024-09-12 21:35:04,322 [INFO] solver.tell time: 0.0005s
+SlimeVolley: 2024-09-12 21:35:09,992 [INFO] solver.ask time: 5.6692s
+SlimeVolley: 2024-09-12 21:35:10,826 [INFO] sim_mgr.eval_params time: 0.8337s
+SlimeVolley: 2024-09-12 21:35:10,826 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:35:16,282 [INFO] solver.ask time: 5.4555s
+SlimeVolley: 2024-09-12 21:35:16,844 [INFO] sim_mgr.eval_params time: 0.5623s
+SlimeVolley: 2024-09-12 21:35:16,845 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:35:21,344 [INFO] solver.ask time: 4.4990s
+SlimeVolley: 2024-09-12 21:35:21,747 [INFO] sim_mgr.eval_params time: 0.4028s
+SlimeVolley: 2024-09-12 21:35:21,747 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:35:26,112 [INFO] solver.ask time: 4.3644s
+SlimeVolley: 2024-09-12 21:35:26,514 [INFO] sim_mgr.eval_params time: 0.4018s
+SlimeVolley: 2024-09-12 21:35:26,514 [INFO] solver.tell time: 0.0005s
+SlimeVolley: 2024-09-12 21:35:31,441 [INFO] solver.ask time: 4.9264s
+SlimeVolley: 2024-09-12 21:35:31,829 [INFO] sim_mgr.eval_params time: 0.3874s
+SlimeVolley: 2024-09-12 21:35:31,829 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:35:31,830 [INFO] Iter=10, size=32, max=-32.5000, avg=-32.8125, median=-33.0000, min=-33.0000, std=0.2421
+nNodes: min=16, max=18, avg=16.41, median=16.00
+wMat: shape=(32, 18, 18), min=-2.0000, max=2.0000, avg=-0.0057, median=0.0000
+aVec: shape=(32, 18), min=0.0000, max=9.0000, avg=0.1337, median=0.0000
+SlimeVolley: 2024-09-12 21:35:37,305 [INFO] solver.ask time: 5.4751s
+SlimeVolley: 2024-09-12 21:35:37,854 [INFO] sim_mgr.eval_params time: 0.5486s
+SlimeVolley: 2024-09-12 21:35:37,855 [INFO] solver.tell time: 0.0005s
+SlimeVolley: 2024-09-12 21:35:43,517 [INFO] solver.ask time: 5.6620s
+SlimeVolley: 2024-09-12 21:35:43,944 [INFO] sim_mgr.eval_params time: 0.4267s
+SlimeVolley: 2024-09-12 21:35:43,944 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:35:50,217 [INFO] solver.ask time: 6.2723s
+SlimeVolley: 2024-09-12 21:35:50,824 [INFO] sim_mgr.eval_params time: 0.6077s
+SlimeVolley: 2024-09-12 21:35:50,825 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:35:56,290 [INFO] solver.ask time: 5.4649s
+SlimeVolley: 2024-09-12 21:35:56,649 [INFO] sim_mgr.eval_params time: 0.3584s
+SlimeVolley: 2024-09-12 21:35:56,649 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:36:01,852 [INFO] solver.ask time: 5.2027s
+SlimeVolley: 2024-09-12 21:36:02,344 [INFO] sim_mgr.eval_params time: 0.4923s
+SlimeVolley: 2024-09-12 21:36:02,345 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:36:07,398 [INFO] solver.ask time: 5.0530s
+SlimeVolley: 2024-09-12 21:36:07,985 [INFO] sim_mgr.eval_params time: 0.5865s
+SlimeVolley: 2024-09-12 21:36:07,985 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:36:13,821 [INFO] solver.ask time: 5.8350s
+SlimeVolley: 2024-09-12 21:36:14,391 [INFO] sim_mgr.eval_params time: 0.5699s
+SlimeVolley: 2024-09-12 21:36:14,391 [INFO] solver.tell time: 0.0005s
+SlimeVolley: 2024-09-12 21:36:18,220 [INFO] solver.ask time: 3.8283s
+SlimeVolley: 2024-09-12 21:36:18,600 [INFO] sim_mgr.eval_params time: 0.3800s
+SlimeVolley: 2024-09-12 21:36:18,600 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:36:22,868 [INFO] solver.ask time: 4.2677s
+SlimeVolley: 2024-09-12 21:36:23,401 [INFO] sim_mgr.eval_params time: 0.5324s
+SlimeVolley: 2024-09-12 21:36:23,401 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:36:28,955 [INFO] solver.ask time: 5.5532s
+SlimeVolley: 2024-09-12 21:36:29,444 [INFO] sim_mgr.eval_params time: 0.4888s
+SlimeVolley: 2024-09-12 21:36:29,444 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:36:29,445 [INFO] Iter=20, size=32, max=-27.0000, avg=-30.7500, median=-33.0000, min=-33.0000, std=2.9047
+nNodes: min=16, max=17, avg=16.38, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=0.0165, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=9.0000, avg=0.0772, median=0.0000
+SlimeVolley: 2024-09-12 21:36:34,698 [INFO] solver.ask time: 5.2522s
+SlimeVolley: 2024-09-12 21:36:35,230 [INFO] sim_mgr.eval_params time: 0.5321s
+SlimeVolley: 2024-09-12 21:36:35,231 [INFO] solver.tell time: 0.0005s
+SlimeVolley: 2024-09-12 21:36:40,815 [INFO] solver.ask time: 5.5841s
+SlimeVolley: 2024-09-12 21:36:41,303 [INFO] sim_mgr.eval_params time: 0.4878s
+SlimeVolley: 2024-09-12 21:36:41,303 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:36:46,129 [INFO] solver.ask time: 4.8252s
+SlimeVolley: 2024-09-12 21:36:46,527 [INFO] sim_mgr.eval_params time: 0.3982s
+SlimeVolley: 2024-09-12 21:36:46,528 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:36:51,423 [INFO] solver.ask time: 4.8950s
+SlimeVolley: 2024-09-12 21:36:51,868 [INFO] sim_mgr.eval_params time: 0.4447s
+SlimeVolley: 2024-09-12 21:36:51,868 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:36:56,865 [INFO] solver.ask time: 4.9969s
+SlimeVolley: 2024-09-12 21:36:57,328 [INFO] sim_mgr.eval_params time: 0.4627s
+SlimeVolley: 2024-09-12 21:36:57,329 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:37:01,355 [INFO] solver.ask time: 4.0261s
+SlimeVolley: 2024-09-12 21:37:01,697 [INFO] sim_mgr.eval_params time: 0.3416s
+SlimeVolley: 2024-09-12 21:37:01,697 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:37:06,028 [INFO] solver.ask time: 4.3302s
+SlimeVolley: 2024-09-12 21:37:06,580 [INFO] sim_mgr.eval_params time: 0.5526s
+SlimeVolley: 2024-09-12 21:37:06,581 [INFO] solver.tell time: 0.0005s
+SlimeVolley: 2024-09-12 21:37:11,283 [INFO] solver.ask time: 4.7019s
+SlimeVolley: 2024-09-12 21:37:11,770 [INFO] sim_mgr.eval_params time: 0.4868s
+SlimeVolley: 2024-09-12 21:37:11,771 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:37:15,739 [INFO] solver.ask time: 3.9688s
+SlimeVolley: 2024-09-12 21:37:16,265 [INFO] sim_mgr.eval_params time: 0.5257s
+SlimeVolley: 2024-09-12 21:37:16,266 [INFO] solver.tell time: 0.0005s
+SlimeVolley: 2024-09-12 21:37:20,331 [INFO] solver.ask time: 4.0650s
+SlimeVolley: 2024-09-12 21:37:20,813 [INFO] sim_mgr.eval_params time: 0.4815s
+SlimeVolley: 2024-09-12 21:37:20,813 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:37:20,814 [INFO] Iter=30, size=32, max=-34.5000, avg=-34.8594, median=-35.0000, min=-35.0000, std=0.2248
+nNodes: min=16, max=17, avg=16.28, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=0.0006, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=9.0000, avg=0.0533, median=0.0000
+SlimeVolley: 2024-09-12 21:37:25,182 [INFO] solver.ask time: 4.3674s
+SlimeVolley: 2024-09-12 21:37:25,652 [INFO] sim_mgr.eval_params time: 0.4698s
+SlimeVolley: 2024-09-12 21:37:25,652 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:37:31,910 [INFO] solver.ask time: 6.2576s
+SlimeVolley: 2024-09-12 21:37:32,327 [INFO] sim_mgr.eval_params time: 0.4169s
+SlimeVolley: 2024-09-12 21:37:32,328 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:37:38,523 [INFO] solver.ask time: 6.1957s
+SlimeVolley: 2024-09-12 21:37:39,005 [INFO] sim_mgr.eval_params time: 0.4815s
+SlimeVolley: 2024-09-12 21:37:39,006 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:37:44,224 [INFO] solver.ask time: 5.2180s
+SlimeVolley: 2024-09-12 21:37:44,770 [INFO] sim_mgr.eval_params time: 0.5461s
+SlimeVolley: 2024-09-12 21:37:44,770 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:37:49,496 [INFO] solver.ask time: 4.7255s
+SlimeVolley: 2024-09-12 21:37:49,869 [INFO] sim_mgr.eval_params time: 0.3724s
+SlimeVolley: 2024-09-12 21:37:49,869 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:37:53,943 [INFO] solver.ask time: 4.0736s
+SlimeVolley: 2024-09-12 21:37:54,303 [INFO] sim_mgr.eval_params time: 0.3600s
+SlimeVolley: 2024-09-12 21:37:54,303 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:37:59,976 [INFO] solver.ask time: 5.6724s
+SlimeVolley: 2024-09-12 21:38:00,458 [INFO] sim_mgr.eval_params time: 0.4823s
+SlimeVolley: 2024-09-12 21:38:00,459 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:38:04,809 [INFO] solver.ask time: 4.3496s
+SlimeVolley: 2024-09-12 21:38:05,267 [INFO] sim_mgr.eval_params time: 0.4583s
+SlimeVolley: 2024-09-12 21:38:05,268 [INFO] solver.tell time: 0.0005s
+SlimeVolley: 2024-09-12 21:38:10,700 [INFO] solver.ask time: 5.4321s
+SlimeVolley: 2024-09-12 21:38:11,158 [INFO] sim_mgr.eval_params time: 0.4578s
+SlimeVolley: 2024-09-12 21:38:11,159 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:38:16,598 [INFO] solver.ask time: 5.4388s
+SlimeVolley: 2024-09-12 21:38:17,059 [INFO] sim_mgr.eval_params time: 0.4612s
+SlimeVolley: 2024-09-12 21:38:17,060 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:38:17,060 [INFO] Iter=40, size=32, max=-30.5000, avg=-32.3594, median=-34.0000, min=-34.0000, std=1.7466
+nNodes: min=16, max=18, avg=16.59, median=16.00
+wMat: shape=(32, 18, 18), min=-2.0000, max=2.0000, avg=-0.0041, median=0.0000
+aVec: shape=(32, 18), min=0.0000, max=9.0000, avg=0.1875, median=0.0000
+SlimeVolley: 2024-09-12 21:38:22,755 [INFO] solver.ask time: 5.6946s
+SlimeVolley: 2024-09-12 21:38:23,170 [INFO] sim_mgr.eval_params time: 0.4153s
+SlimeVolley: 2024-09-12 21:38:23,171 [INFO] solver.tell time: 0.0005s
+SlimeVolley: 2024-09-12 21:38:27,448 [INFO] solver.ask time: 4.2766s
+SlimeVolley: 2024-09-12 21:38:27,961 [INFO] sim_mgr.eval_params time: 0.5131s
+SlimeVolley: 2024-09-12 21:38:27,962 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:38:32,222 [INFO] solver.ask time: 4.2601s
+SlimeVolley: 2024-09-12 21:38:32,774 [INFO] sim_mgr.eval_params time: 0.5519s
+SlimeVolley: 2024-09-12 21:38:32,774 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:38:37,012 [INFO] solver.ask time: 4.2379s
+SlimeVolley: 2024-09-12 21:38:37,542 [INFO] sim_mgr.eval_params time: 0.5301s
+SlimeVolley: 2024-09-12 21:38:37,543 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:38:42,403 [INFO] solver.ask time: 4.8604s
+SlimeVolley: 2024-09-12 21:38:42,937 [INFO] sim_mgr.eval_params time: 0.5335s
+SlimeVolley: 2024-09-12 21:38:42,937 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:38:47,172 [INFO] solver.ask time: 4.2342s
+SlimeVolley: 2024-09-12 21:38:47,603 [INFO] sim_mgr.eval_params time: 0.4312s
+SlimeVolley: 2024-09-12 21:38:47,603 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:38:52,281 [INFO] solver.ask time: 4.6773s
+SlimeVolley: 2024-09-12 21:38:52,745 [INFO] sim_mgr.eval_params time: 0.4635s
+SlimeVolley: 2024-09-12 21:38:52,745 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:38:58,142 [INFO] solver.ask time: 5.3969s
+SlimeVolley: 2024-09-12 21:38:58,739 [INFO] sim_mgr.eval_params time: 0.5971s
+SlimeVolley: 2024-09-12 21:38:58,740 [INFO] solver.tell time: 0.0005s
+SlimeVolley: 2024-09-12 21:39:03,133 [INFO] solver.ask time: 4.3926s
+SlimeVolley: 2024-09-12 21:39:03,664 [INFO] sim_mgr.eval_params time: 0.5317s
+SlimeVolley: 2024-09-12 21:39:03,665 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:39:08,618 [INFO] solver.ask time: 4.9528s
+SlimeVolley: 2024-09-12 21:39:09,183 [INFO] sim_mgr.eval_params time: 0.5643s
+SlimeVolley: 2024-09-12 21:39:09,183 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:39:09,184 [INFO] Iter=50, size=32, max=-35.0000, avg=-35.2656, median=-35.5000, min=-35.5000, std=0.2495
+nNodes: min=16, max=18, avg=16.72, median=17.00
+wMat: shape=(32, 18, 18), min=-2.0000, max=2.0000, avg=-0.0127, median=0.0000
+aVec: shape=(32, 18), min=0.0000, max=9.0000, avg=0.2622, median=0.0000
+SlimeVolley: 2024-09-12 21:39:12,530 [INFO] [TEST] Iter=50, #tests=100, max=-4.0000, avg=-4.9000, min=-5.0000, std=0.3000
+SlimeVolley: 2024-09-12 21:39:18,836 [INFO] solver.ask time: 6.3041s
+SlimeVolley: 2024-09-12 21:39:19,407 [INFO] sim_mgr.eval_params time: 0.5708s
+SlimeVolley: 2024-09-12 21:39:19,407 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:39:23,448 [INFO] solver.ask time: 4.0407s
+SlimeVolley: 2024-09-12 21:39:23,982 [INFO] sim_mgr.eval_params time: 0.5339s
+SlimeVolley: 2024-09-12 21:39:23,983 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:39:28,209 [INFO] solver.ask time: 4.2259s
+SlimeVolley: 2024-09-12 21:39:28,658 [INFO] sim_mgr.eval_params time: 0.4492s
+SlimeVolley: 2024-09-12 21:39:28,659 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:39:33,639 [INFO] solver.ask time: 4.9801s
+SlimeVolley: 2024-09-12 21:39:34,145 [INFO] sim_mgr.eval_params time: 0.5065s
+SlimeVolley: 2024-09-12 21:39:34,146 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:39:38,875 [INFO] solver.ask time: 4.7292s
+SlimeVolley: 2024-09-12 21:39:39,485 [INFO] sim_mgr.eval_params time: 0.6095s
+SlimeVolley: 2024-09-12 21:39:39,486 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:39:44,342 [INFO] solver.ask time: 4.8565s
+SlimeVolley: 2024-09-12 21:39:44,738 [INFO] sim_mgr.eval_params time: 0.3950s
+SlimeVolley: 2024-09-12 21:39:44,738 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:39:49,856 [INFO] solver.ask time: 5.1179s
+SlimeVolley: 2024-09-12 21:39:50,464 [INFO] sim_mgr.eval_params time: 0.6076s
+SlimeVolley: 2024-09-12 21:39:50,465 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:39:54,827 [INFO] solver.ask time: 4.3618s
+SlimeVolley: 2024-09-12 21:39:55,461 [INFO] sim_mgr.eval_params time: 0.6340s
+SlimeVolley: 2024-09-12 21:39:55,462 [INFO] solver.tell time: 0.0005s
+SlimeVolley: 2024-09-12 21:39:59,858 [INFO] solver.ask time: 4.3961s
+SlimeVolley: 2024-09-12 21:40:00,375 [INFO] sim_mgr.eval_params time: 0.5165s
+SlimeVolley: 2024-09-12 21:40:00,375 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 21:40:05,275 [INFO] solver.ask time: 4.8991s
+SlimeVolley: 2024-09-12 21:40:05,826 [INFO] sim_mgr.eval_params time: 0.5507s
+SlimeVolley: 2024-09-12 21:40:05,826 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:40:05,827 [INFO] Iter=60, size=32, max=-38.0000, avg=-39.8750, median=-40.5000, min=-40.5000, std=1.0825
+nNodes: min=16, max=17, avg=16.25, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0147, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=8.0000, avg=0.0901, median=0.0000
+SlimeVolley: 2024-09-12 21:40:11,084 [INFO] solver.ask time: 5.2566s
+SlimeVolley: 2024-09-12 21:40:11,500 [INFO] sim_mgr.eval_params time: 0.4157s
+SlimeVolley: 2024-09-12 21:40:11,500 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:40:17,162 [INFO] solver.ask time: 5.6616s
+SlimeVolley: 2024-09-12 21:40:17,730 [INFO] sim_mgr.eval_params time: 0.5674s
+SlimeVolley: 2024-09-12 21:40:17,730 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:40:24,087 [INFO] solver.ask time: 6.3566s
+SlimeVolley: 2024-09-12 21:40:24,682 [INFO] sim_mgr.eval_params time: 0.5945s
+SlimeVolley: 2024-09-12 21:40:24,682 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:40:29,598 [INFO] solver.ask time: 4.9156s
+SlimeVolley: 2024-09-12 21:40:30,160 [INFO] sim_mgr.eval_params time: 0.5622s
+SlimeVolley: 2024-09-12 21:40:30,161 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:40:33,998 [INFO] solver.ask time: 3.8375s
+SlimeVolley: 2024-09-12 21:40:34,370 [INFO] sim_mgr.eval_params time: 0.3710s
+SlimeVolley: 2024-09-12 21:40:34,370 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:40:40,477 [INFO] solver.ask time: 6.1067s
+SlimeVolley: 2024-09-12 21:40:41,005 [INFO] sim_mgr.eval_params time: 0.5280s
+SlimeVolley: 2024-09-12 21:40:41,006 [INFO] solver.tell time: 0.0005s
+SlimeVolley: 2024-09-12 21:40:46,741 [INFO] solver.ask time: 5.7354s
+SlimeVolley: 2024-09-12 21:40:47,262 [INFO] sim_mgr.eval_params time: 0.5207s
+SlimeVolley: 2024-09-12 21:40:47,263 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:40:54,102 [INFO] solver.ask time: 6.8391s
+SlimeVolley: 2024-09-12 21:40:54,625 [INFO] sim_mgr.eval_params time: 0.5235s
+SlimeVolley: 2024-09-12 21:40:54,626 [INFO] solver.tell time: 0.0006s
+SlimeVolley: 2024-09-12 21:41:00,201 [INFO] solver.ask time: 5.5744s
+SlimeVolley: 2024-09-12 21:41:00,593 [INFO] sim_mgr.eval_params time: 0.3919s
+SlimeVolley: 2024-09-12 21:41:00,594 [INFO] solver.tell time: 0.0005s
+SlimeVolley: 2024-09-12 21:41:05,983 [INFO] solver.ask time: 5.3894s
+SlimeVolley: 2024-09-12 21:41:06,551 [INFO] sim_mgr.eval_params time: 0.5675s
+SlimeVolley: 2024-09-12 21:41:06,552 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:41:06,553 [INFO] Iter=70, size=32, max=-34.0000, avg=-36.4375, median=-37.0000, min=-37.0000, std=1.1709
+nNodes: min=16, max=17, avg=16.19, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0114, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=8.0000, avg=0.0460, median=0.0000
+SlimeVolley: 2024-09-12 21:41:10,559 [INFO] solver.ask time: 4.0062s
+SlimeVolley: 2024-09-12 21:41:10,954 [INFO] sim_mgr.eval_params time: 0.3943s
+SlimeVolley: 2024-09-12 21:41:10,954 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:41:15,216 [INFO] solver.ask time: 4.2614s
+SlimeVolley: 2024-09-12 21:41:15,733 [INFO] sim_mgr.eval_params time: 0.5171s
+SlimeVolley: 2024-09-12 21:41:15,733 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:41:21,769 [INFO] solver.ask time: 6.0358s
+SlimeVolley: 2024-09-12 21:41:22,220 [INFO] sim_mgr.eval_params time: 0.4509s
+SlimeVolley: 2024-09-12 21:41:22,221 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:41:27,733 [INFO] solver.ask time: 5.5115s
+SlimeVolley: 2024-09-12 21:41:28,160 [INFO] sim_mgr.eval_params time: 0.4275s
+SlimeVolley: 2024-09-12 21:41:28,161 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:41:32,525 [INFO] solver.ask time: 4.3643s
+SlimeVolley: 2024-09-12 21:41:33,063 [INFO] sim_mgr.eval_params time: 0.5372s
+SlimeVolley: 2024-09-12 21:41:33,063 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:41:38,439 [INFO] solver.ask time: 5.3760s
+SlimeVolley: 2024-09-12 21:41:38,992 [INFO] sim_mgr.eval_params time: 0.5529s
+SlimeVolley: 2024-09-12 21:41:38,993 [INFO] solver.tell time: 0.0005s
+SlimeVolley: 2024-09-12 21:41:44,240 [INFO] solver.ask time: 5.2464s
+SlimeVolley: 2024-09-12 21:41:44,797 [INFO] sim_mgr.eval_params time: 0.5566s
+SlimeVolley: 2024-09-12 21:41:44,797 [INFO] solver.tell time: 0.0005s
+SlimeVolley: 2024-09-12 21:41:50,604 [INFO] solver.ask time: 5.8069s
+SlimeVolley: 2024-09-12 21:41:51,129 [INFO] sim_mgr.eval_params time: 0.5244s
+SlimeVolley: 2024-09-12 21:41:51,130 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:41:56,936 [INFO] solver.ask time: 5.8067s
+SlimeVolley: 2024-09-12 21:41:58,124 [INFO] sim_mgr.eval_params time: 1.1873s
+SlimeVolley: 2024-09-12 21:41:58,125 [INFO] solver.tell time: 0.0005s
+SlimeVolley: 2024-09-12 21:42:02,940 [INFO] solver.ask time: 4.8153s
+SlimeVolley: 2024-09-12 21:42:03,372 [INFO] sim_mgr.eval_params time: 0.4319s
+SlimeVolley: 2024-09-12 21:42:03,373 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:42:03,374 [INFO] Iter=80, size=32, max=-29.5000, avg=-32.0781, median=-29.5000, min=-35.0000, std=2.7446
+nNodes: min=16, max=18, avg=16.53, median=16.00
+wMat: shape=(32, 18, 18), min=-2.0000, max=2.0000, avg=-0.0039, median=0.0000
+aVec: shape=(32, 18), min=0.0000, max=9.0000, avg=0.1302, median=0.0000
+SlimeVolley: 2024-09-12 21:42:08,453 [INFO] solver.ask time: 5.0791s
+SlimeVolley: 2024-09-12 21:42:08,987 [INFO] sim_mgr.eval_params time: 0.5339s
+SlimeVolley: 2024-09-12 21:42:08,988 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:42:14,037 [INFO] solver.ask time: 5.0489s
+SlimeVolley: 2024-09-12 21:42:14,495 [INFO] sim_mgr.eval_params time: 0.4579s
+SlimeVolley: 2024-09-12 21:42:14,495 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:42:19,909 [INFO] solver.ask time: 5.4138s
+SlimeVolley: 2024-09-12 21:42:20,428 [INFO] sim_mgr.eval_params time: 0.5182s
+SlimeVolley: 2024-09-12 21:42:20,428 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:42:26,004 [INFO] solver.ask time: 5.5750s
+SlimeVolley: 2024-09-12 21:42:26,584 [INFO] sim_mgr.eval_params time: 0.5799s
+SlimeVolley: 2024-09-12 21:42:26,584 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:42:32,080 [INFO] solver.ask time: 5.4953s
+SlimeVolley: 2024-09-12 21:42:32,557 [INFO] sim_mgr.eval_params time: 0.4771s
+SlimeVolley: 2024-09-12 21:42:32,557 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:42:37,040 [INFO] solver.ask time: 4.4822s
+SlimeVolley: 2024-09-12 21:42:37,481 [INFO] sim_mgr.eval_params time: 0.4409s
+SlimeVolley: 2024-09-12 21:42:37,481 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:42:42,290 [INFO] solver.ask time: 4.8086s
+SlimeVolley: 2024-09-12 21:42:42,769 [INFO] sim_mgr.eval_params time: 0.4789s
+SlimeVolley: 2024-09-12 21:42:42,770 [INFO] solver.tell time: 0.0002s
+SlimeVolley: 2024-09-12 21:42:48,166 [INFO] solver.ask time: 5.3968s
+SlimeVolley: 2024-09-12 21:42:48,640 [INFO] sim_mgr.eval_params time: 0.4736s
+SlimeVolley: 2024-09-12 21:42:48,641 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:42:53,942 [INFO] solver.ask time: 5.3013s
+SlimeVolley: 2024-09-12 21:42:54,320 [INFO] sim_mgr.eval_params time: 0.3779s
+SlimeVolley: 2024-09-12 21:42:54,321 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:43:00,839 [INFO] solver.ask time: 6.5184s
+SlimeVolley: 2024-09-12 21:43:01,416 [INFO] sim_mgr.eval_params time: 0.5767s
+SlimeVolley: 2024-09-12 21:43:01,417 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:43:01,418 [INFO] Iter=90, size=32, max=-37.0000, avg=-38.0156, median=-37.0000, min=-39.5000, std=1.2278
+nNodes: min=16, max=18, avg=16.81, median=17.00
+wMat: shape=(32, 18, 18), min=-2.0000, max=2.0000, avg=-0.0105, median=0.0000
+aVec: shape=(32, 18), min=0.0000, max=9.0000, avg=0.1562, median=0.0000
+SlimeVolley: 2024-09-12 21:43:07,115 [INFO] solver.ask time: 5.6966s
+SlimeVolley: 2024-09-12 21:43:07,716 [INFO] sim_mgr.eval_params time: 0.6012s
+SlimeVolley: 2024-09-12 21:43:07,717 [INFO] solver.tell time: 0.0005s
+SlimeVolley: 2024-09-12 21:43:12,322 [INFO] solver.ask time: 4.6048s
+SlimeVolley: 2024-09-12 21:43:12,691 [INFO] sim_mgr.eval_params time: 0.3693s
+SlimeVolley: 2024-09-12 21:43:12,692 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:43:17,976 [INFO] solver.ask time: 5.2841s
+SlimeVolley: 2024-09-12 21:43:18,470 [INFO] sim_mgr.eval_params time: 0.4941s
+SlimeVolley: 2024-09-12 21:43:18,471 [INFO] solver.tell time: 0.0005s
+SlimeVolley: 2024-09-12 21:43:23,784 [INFO] solver.ask time: 5.3132s
+SlimeVolley: 2024-09-12 21:43:24,360 [INFO] sim_mgr.eval_params time: 0.5759s
+SlimeVolley: 2024-09-12 21:43:24,361 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:43:29,263 [INFO] solver.ask time: 4.9019s
+SlimeVolley: 2024-09-12 21:43:29,683 [INFO] sim_mgr.eval_params time: 0.4197s
+SlimeVolley: 2024-09-12 21:43:29,684 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:43:34,234 [INFO] solver.ask time: 4.5500s
+SlimeVolley: 2024-09-12 21:43:34,811 [INFO] sim_mgr.eval_params time: 0.5768s
+SlimeVolley: 2024-09-12 21:43:34,811 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:43:40,351 [INFO] solver.ask time: 5.5395s
+SlimeVolley: 2024-09-12 21:43:40,785 [INFO] sim_mgr.eval_params time: 0.4341s
+SlimeVolley: 2024-09-12 21:43:40,786 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:43:45,383 [INFO] solver.ask time: 4.5974s
+SlimeVolley: 2024-09-12 21:43:45,796 [INFO] sim_mgr.eval_params time: 0.4131s
+SlimeVolley: 2024-09-12 21:43:45,797 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:43:50,097 [INFO] solver.ask time: 4.3000s
+SlimeVolley: 2024-09-12 21:43:50,537 [INFO] sim_mgr.eval_params time: 0.4399s
+SlimeVolley: 2024-09-12 21:43:50,538 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:43:55,484 [INFO] solver.ask time: 4.9466s
+SlimeVolley: 2024-09-12 21:43:56,074 [INFO] sim_mgr.eval_params time: 0.5891s
+SlimeVolley: 2024-09-12 21:43:56,074 [INFO] solver.tell time: 0.0005s
+SlimeVolley: 2024-09-12 21:43:56,076 [INFO] Iter=100, size=32, max=-33.5000, avg=-33.7812, median=-34.0000, min=-34.0000, std=0.2480
+nNodes: min=16, max=17, avg=16.44, median=16.00
+wMat: shape=(32, 17, 17), min=-2.0000, max=2.0000, avg=-0.0102, median=0.0000
+aVec: shape=(32, 17), min=0.0000, max=8.0000, avg=0.1360, median=0.0000
+SlimeVolley: 2024-09-12 21:43:58,767 [INFO] [TEST] Iter=100, #tests=100, max=-3.0000, avg=-4.8500, min=-5.0000, std=0.4093
+SlimeVolley: 2024-09-12 21:44:02,965 [INFO] solver.ask time: 4.1969s
+SlimeVolley: 2024-09-12 21:44:03,475 [INFO] sim_mgr.eval_params time: 0.5091s
+SlimeVolley: 2024-09-12 21:44:03,475 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:44:08,265 [INFO] solver.ask time: 4.7895s
+SlimeVolley: 2024-09-12 21:44:08,645 [INFO] sim_mgr.eval_params time: 0.3801s
+SlimeVolley: 2024-09-12 21:44:08,646 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:44:13,947 [INFO] solver.ask time: 5.3015s
+SlimeVolley: 2024-09-12 21:44:14,441 [INFO] sim_mgr.eval_params time: 0.4937s
+SlimeVolley: 2024-09-12 21:44:14,442 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:44:18,792 [INFO] solver.ask time: 4.3502s
+SlimeVolley: 2024-09-12 21:44:19,225 [INFO] sim_mgr.eval_params time: 0.4333s
+SlimeVolley: 2024-09-12 21:44:19,226 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:44:24,283 [INFO] solver.ask time: 5.0574s
+SlimeVolley: 2024-09-12 21:44:24,726 [INFO] sim_mgr.eval_params time: 0.4427s
+SlimeVolley: 2024-09-12 21:44:24,727 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:44:30,471 [INFO] solver.ask time: 5.7446s
+SlimeVolley: 2024-09-12 21:44:30,912 [INFO] sim_mgr.eval_params time: 0.4401s
+SlimeVolley: 2024-09-12 21:44:30,912 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:44:36,537 [INFO] solver.ask time: 5.6241s
+SlimeVolley: 2024-09-12 21:44:36,969 [INFO] sim_mgr.eval_params time: 0.4321s
+SlimeVolley: 2024-09-12 21:44:36,969 [INFO] solver.tell time: 0.0003s
+SlimeVolley: 2024-09-12 21:44:41,698 [INFO] solver.ask time: 4.7286s
+SlimeVolley: 2024-09-12 21:44:42,231 [INFO] sim_mgr.eval_params time: 0.5328s
+SlimeVolley: 2024-09-12 21:44:42,232 [INFO] solver.tell time: 0.0005s
+SlimeVolley: 2024-09-12 21:44:47,181 [INFO] solver.ask time: 4.9486s
+SlimeVolley: 2024-09-12 21:44:47,566 [INFO] sim_mgr.eval_params time: 0.3851s
+SlimeVolley: 2024-09-12 21:44:47,567 [INFO] solver.tell time: 0.0004s
+SlimeVolley: 2024-09-12 21:44:53,079 [INFO] solver.ask time: 5.5125s

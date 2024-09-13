@@ -53,18 +53,20 @@ from hyp import hyp
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--pop-size", type=int, default=8, help="ES population size.")
+    parser.add_argument("--pop-size", type=int, default=32, help="ES population size.")
     parser.add_argument(
-        "--num-tests", type=int, default=10, help="Number of test rollouts."
+        "--num-tests", type=int, default=100, help="Number of test rollouts."
     )
     parser.add_argument(
         "--n-repeats", type=int, default=2, help="Training repetitions."
     )
     parser.add_argument(
-        "--max-iter", type=int, default=2000, help="Max training iterations."
+        "--max-iter", type=int, default=1000, help="Max training iterations."
     )
     parser.add_argument("--test-interval", type=int, default=50, help="Test interval.")
-    parser.add_argument("--log-interval", type=int, default=1, help="Logging interval.")
+    parser.add_argument(
+        "--log-interval", type=int, default=10, help="Logging interval."
+    )
     parser.add_argument(
         "--seed", type=int, default=124, help="Random seed for training."
     )
@@ -82,7 +84,7 @@ def main(config):
     logger.info("EvoJAX SlimeVolley")
     logger.info("=" * 30)
 
-    max_steps = 300
+    max_steps = 3000
     train_task = SlimeVolley(test=False, max_steps=max_steps)
     test_task = SlimeVolley(test=True, max_steps=max_steps)
     policy = ANNPolicy()

@@ -55,7 +55,7 @@ class NEAT(NEAlgorithm):
         if len(self.pop) == 0:
             self.initPop()  # Initialize population
         else:
-            self.probMoo()  # Rank population according to objectivess
+            self.probMoo()  # Rank population according to objectives
             self.speciate()  # Divide population into species
             self.key, subkey = jax.random.split(self.key)
             self.key = self.evolvePop(subkey)  # Create child population
@@ -63,18 +63,21 @@ class NEAT(NEAlgorithm):
         # Find the maximum dimensions for wMat and aVec
         max_nodes = max(len(ind.wMat) for ind in self.pop)
 
-        # Pad wMat and aVec for each individual
-        padded_wMat = []
-        padded_aVec = []
-        for ind in self.pop:
-            pad_width = max_nodes - len(ind.wMat)
-            padded_wMat.append(jnp.pad(ind.wMat, ((0, pad_width), (0, pad_width))))
-            padded_aVec.append(jnp.pad(ind.aVec, (0, pad_width)))
+        # Pre-allocate arrays for padded wMat and aVec
+        padded_wMat = jnp.zeros((len(self.pop), max_nodes, max_nodes))
+        padded_aVec = jnp.zeros((len(self.pop), max_nodes))
+
+        # Pad wMat and aVec for each individual using vectorized operations
+        for i, ind in enumerate(self.pop):
+            padded_wMat = padded_wMat.at[i, : len(ind.wMat), : len(ind.wMat)].set(
+                ind.wMat
+            )
+            padded_aVec = padded_aVec.at[i, : len(ind.aVec)].set(ind.aVec)
 
         return (
             jnp.array([len(ind.wMat) for ind in self.pop]),
-            jnp.array(padded_wMat),
-            jnp.array(padded_aVec),
+            padded_wMat,
+            padded_aVec,
         )
 
     def tell(self, fitness):
@@ -85,14 +88,14 @@ class NEAT(NEAlgorithm):
                    [nInd X 1]
 
         """
-        for i in range(fitness.shape[0]):
-            self.pop[i].fitness = fitness[i]
+        # Vectorized assignment of fitness
+        for ind, fit in zip(self.pop, fitness):
+            ind.fitness = fit
 
-        # Update best_params
+        # Update best_params using jax operations
         best_index = jnp.argmax(fitness)
-        best_ind = self.pop[best_index]
-        self._best_wMat = best_ind.wMat
-        self._best_aVec = best_ind.aVec
+        self._best_wMat = self.pop[best_index].wMat
+        self._best_aVec = self.pop[best_index].aVec
 
     def initPop(self):
         """Initialize population with a list of random individuals"""

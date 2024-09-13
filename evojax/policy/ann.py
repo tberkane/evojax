@@ -142,6 +142,7 @@ def getLayer(wMat):
     return layer - 1
 
 
+@jax.jit
 def act(weights, aVec, inPattern, nNodes):
     """
     JAX implementation of a feedforward neural network.
@@ -149,32 +150,32 @@ def act(weights, aVec, inPattern, nNodes):
     Args:
     weights (jnp.array): Weight matrix of shape ((N+pad_len), (N+pad_len))
     aVec (jnp.array): 1D array of activation functions, length (N+pad_len)
-    inPattern (jnp.array): 1D input array of length 13
+    inPattern (jnp.array): 1D input array of length 12
     nNodes (int): Number of nodes (N)
 
     Returns:
     jnp.array: Output activations
     """
-
-    # Initialize node activations
     total_nodes = weights.shape[0]
-    nodeAct = jnp.zeros(total_nodes)
-    nodeAct = nodeAct.at[0].set(1.0)  # Bias activation
-    nodeAct = nodeAct.at[1:13].set(inPattern)  # Input pattern (12 elements)
 
-    # Propagate signal through hidden to output nodes
+    @jax.jit
+    def initialize_nodeAct(inPattern):
+        return jnp.concatenate(
+            [jnp.array([1.0]), inPattern, jnp.zeros(total_nodes - 13)]
+        )
+
+    @jax.jit
     def loop_body(i, nodeAct):
         rawAct = jnp.dot(nodeAct, weights[:, i])
         return nodeAct.at[i].set(applyAct(aVec[i], rawAct))
 
+    nodeAct = initialize_nodeAct(inPattern)
     nodeAct = jax.lax.fori_loop(13, total_nodes, loop_body, nodeAct)
 
-    # Return the last nNodes activations as output
-    # return nodeAct
-    start_idx = nNodes - 3
-    return jax.lax.dynamic_slice(nodeAct, (start_idx,), (3,))
+    return jax.lax.dynamic_slice(nodeAct, (nNodes - 3,), (3,))
 
 
+@jax.jit
 def applyAct(actId, x):
     return jax.lax.switch(
         actId.astype(int),
@@ -194,6 +195,11 @@ def applyAct(actId, x):
     )
 
 
+def act_and_softmax(weights, aVec, obs, nNodes):
+    output = act(weights, aVec, obs, nNodes)
+    return jax.nn.softmax(output, axis=-1)
+
+
 class ANNPolicy(PolicyNetwork):
 
     def __init__(self, logger: logging.Logger = None):
@@ -210,35 +216,20 @@ class ANNPolicy(PolicyNetwork):
         aVec: jnp.ndarray,
         p_states: PolicyState,
     ) -> Tuple[jnp.ndarray, PolicyState]:
-        outputs = []
+        @jax.jit
+        def process_single(weights, aVec, obs, nNodes):
+            return nn.softmax(act(weights, aVec, obs, nNodes), axis=-1)
+
+        @jax.vmap
+        def process_batch(weights, aVec, obs, nNodes):
+            return process_single(weights, aVec, obs, nNodes)
+
         if len(nNodes.shape) == 0:
-            truncated_weights = weights
-            truncated_aVec = aVec
-            output = act(truncated_weights, truncated_aVec, t_states.obs[0], nNodes)
-            output = nn.softmax(output, axis=-1)
-            outputs.append(output)
-            outputs = jnp.stack(outputs, axis=0)
+            outputs = process_single(weights, aVec, t_states.obs[0], nNodes)
+            outputs = jnp.expand_dims(outputs, axis=0)
         elif len(nNodes.shape) == 1:
-            for i in range(nNodes.shape[0]):
-                truncated_weights = weights[i]
-                truncated_aVec = aVec[i]
-                output = act(
-                    truncated_weights, truncated_aVec, t_states.obs[i], nNodes[i]
-                )
-                output = nn.softmax(output, axis=-1)
-                outputs.append(output)
-            outputs = jnp.stack(outputs, axis=0)
+            outputs = process_batch(weights, aVec, t_states.obs, nNodes)
         else:
-            for i in range(nNodes.shape[0]):
-                outputs_i = []
-                for j in range(nNodes.shape[1]):
-                    truncated_weights = weights[i, j]
-                    truncated_aVec = aVec[i, j]
-                    output = act(
-                        truncated_weights, truncated_aVec, t_states.obs[j], nNodes[i, j]
-                    )
-                    output = nn.softmax(output, axis=-1)
-                    outputs_i.append(output)
-                outputs.append(jnp.stack(outputs_i, axis=0))
-            outputs = jnp.stack(outputs, axis=0)
+            outputs = jax.vmap(process_batch)(weights, aVec, t_states.obs, nNodes)
+
         return outputs, p_states
