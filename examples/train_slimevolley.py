@@ -53,7 +53,9 @@ from hyp import hyp
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--pop-size", type=int, default=8, help="ES population size.")
+    parser.add_argument(
+        "--pop-size", type=int, default=1000, help="ES population size."
+    )
     parser.add_argument(
         "--num-tests", type=int, default=10, help="Number of test rollouts."
     )
@@ -61,7 +63,7 @@ def parse_args():
         "--n-repeats", type=int, default=2, help="Training repetitions."
     )
     parser.add_argument(
-        "--max-iter", type=int, default=10, help="Max training iterations."
+        "--max-iter", type=int, default=1000, help="Max training iterations."
     )
     parser.add_argument("--test-interval", type=int, default=50, help="Test interval.")
     parser.add_argument(
@@ -89,15 +91,8 @@ def main(config):
     test_task = SlimeVolley(test=True, max_steps=max_steps)
     policy = ANNPolicy()
 
-    activations = jnp.concatenate(
-        [
-            jnp.full(1, 1),
-            jnp.full(train_task.obs_shape[0], 1),
-            jnp.full(train_task.act_shape[0], 1),
-        ]
-    )
-
     solver = NEAT(hyp)
+
     # Train.
     trainer = Trainer(
         policy=policy,
