@@ -1,24 +1,22 @@
 import jax.numpy as jnp
 import jax.random as random
+import jax
 
 from evojax.algo.utils import *
+from evojax.algo.hyp import hyp
 
 
-def evolvePop(self, key):
-    """Evolves new population from existing species.
-    Wrapper which calls 'recombine' on every species and combines all offspring into a new population. When speciation is not used, the entire population is treated as a single species.
-    """
+def evolvePop(species, innov, gen, key):
     newPop = []
-    for i in range(len(self.species)):
-        children, self.innov, key = self.recombine(
-            self.species[i], self.innov, self.gen, key
-        )
+    for i in range(len(species)):
+        children, innov, key = recombine(species[i], innov, gen, key)
         newPop.append(children)
-    self.pop = [ind for species in newPop for ind in species]
-    return key
+    pop = [ind for species in newPop for ind in species]
+
+    return pop, innov, key
 
 
-def recombine(self, species, innov, gen, key):
+def recombine(species, innov, gen, key):
     """Creates next generation of child solutions from a species
 
     Procedure:
@@ -46,7 +44,7 @@ def recombine(self, species, innov, gen, key):
         innov   - (jnp.array)  - updated innovation record
 
     """
-    p = self.p
+    p = hyp
     nOffspring = int(species.nOffspring)
     pop = species.members
     children = []

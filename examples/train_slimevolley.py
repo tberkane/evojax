@@ -53,15 +53,15 @@ from hyp import hyp
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--pop-size", type=int, default=32, help="ES population size.")
+    parser.add_argument("--pop-size", type=int, default=8, help="ES population size.")
     parser.add_argument(
-        "--num-tests", type=int, default=100, help="Number of test rollouts."
+        "--num-tests", type=int, default=10, help="Number of test rollouts."
     )
     parser.add_argument(
         "--n-repeats", type=int, default=2, help="Training repetitions."
     )
     parser.add_argument(
-        "--max-iter", type=int, default=1000, help="Max training iterations."
+        "--max-iter", type=int, default=10, help="Max training iterations."
     )
     parser.add_argument("--test-interval", type=int, default=50, help="Test interval.")
     parser.add_argument(
@@ -96,14 +96,6 @@ def main(config):
             jnp.full(train_task.act_shape[0], 1),
         ]
     )
-
-    hyp["ann_nInput"] = train_task.obs_shape[0]
-    hyp["ann_nOutput"] = train_task.act_shape[0]
-    hyp["ann_initAct"] = 0
-    hyp["ann_absWCap"] = 2.0
-    hyp["ann_mutSigma"] = 0.4
-    hyp["ann_actRange"] = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-    hyp["popSize"] = config.pop_size
 
     solver = NEAT(hyp)
     # Train.

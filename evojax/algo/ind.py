@@ -1,6 +1,7 @@
 import jax.numpy as jnp
 import jax.random as random
 from evojax.policy.ann import getLayer, getNodeOrder
+from jax import tree_util
 
 
 class Ind:
@@ -408,3 +409,41 @@ class Ind:
                 break
 
         return connG, innov, key
+
+
+def flatten_ind(obj):
+    children = (
+        obj.conn,
+        obj.node,
+        obj.nInput,
+        obj.nOutput,
+        obj.wMat,
+        obj.wVec,
+        obj.aVec,
+        obj.nConn,
+        obj.fitness,
+        obj.rank,
+        obj.birth,
+        obj.species,
+    )
+    aux_data = None
+    return children, aux_data
+
+
+def unflatten_ind(aux_data, children):
+    n = Ind(children[0], children[1])
+    n.nInput = children[2]
+    n.nOutput = children[3]
+    n.wMat = children[4]
+    n.wVec = children[5]
+    n.aVec = children[6]
+    n.nConn = children[7]
+    n.fitness = children[8]
+    n.rank = children[9]
+    n.birth = children[10]
+    n.species = children[11]
+
+    return n
+
+
+tree_util.register_pytree_node(Ind, flatten_ind, unflatten_ind)

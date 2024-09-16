@@ -5,12 +5,16 @@ from evojax.algo.ind import Ind
 from evojax.algo.utils import *
 from evojax.algo.nsga_sort import nsga_sort
 from evojax.algo.base import NEAlgorithm
+import time
+from jax import tree_util
+from evojax.algo.hyp import hyp as default_hyp
+from evojax.algo._variation import evolvePop, recombine
 
 
 class NEAT(NEAlgorithm):
     """NEAT main class. Evolves population given fitness values of individuals."""
 
-    def __init__(self, hyp):
+    def __init__(self, hyp=None):
         """Intialize NEAT algorithm with hyperparameters
         Args:
           hyp - (dict) - algorithm hyperparameters
@@ -28,20 +32,19 @@ class NEAT(NEAlgorithm):
                     [4,:] == Generation evolved
           gen     - (int)      - Current generation
         """
-        self.p = hyp
+        self.p = default_hyp
         self.pop = []
         self.species = []
         self.innov = []
         self.gen = 0
-        self.pop_size = hyp["popSize"]
-        self.ann_nInput = hyp["ann_nInput"]
-        self.ann_nOutput = hyp["ann_nOutput"]
+        self.pop_size = default_hyp["popSize"]
+        self.ann_nInput = default_hyp["ann_nInput"]
+        self.ann_nOutput = default_hyp["ann_nOutput"]
         self._best_wMat = None
         self._best_aVec = None
         self.key = jax.random.PRNGKey(0)
 
     """ Subfunctions """
-    from evojax.algo._variation import evolvePop, recombine
     from evojax.algo._speciate import (
         Species,
         speciate,
@@ -55,10 +58,25 @@ class NEAT(NEAlgorithm):
         if len(self.pop) == 0:
             self.initPop()  # Initialize population
         else:
+            start_time = time.time()
+
             self.probMoo()  # Rank population according to objectives
+            moo_time = time.time() - start_time
+
+            start_time = time.time()
             self.speciate()  # Divide population into species
+            speciate_time = time.time() - start_time
+
+            start_time = time.time()
             self.key, subkey = jax.random.split(self.key)
-            self.key = self.evolvePop(subkey)  # Create child population
+            self.pop, self.innov, self.key = evolvePop(
+                self.species, self.innov, self.gen, subkey
+            )  # Create child population
+            evolve_time = time.time() - start_time
+
+            print(f"probMoo time: {moo_time:.4f}s")
+            print(f"speciate time: {speciate_time:.4f}s")
+            print(f"evolvePop time: {evolve_time:.4f}s")
 
         # Find the maximum dimensions for wMat and aVec
         max_nodes = max(len(ind.wMat) for ind in self.pop)
@@ -179,3 +197,38 @@ class NEAT(NEAlgorithm):
     def best_params(self, wMat, aVec) -> None:
         self._best_wMat = wMat
         self._best_aVec = aVec
+
+
+def flatten_neat(obj):
+    children = (
+        obj.pop,
+        obj.species,
+        obj.innov,
+        obj.gen,
+        obj.pop_size,
+        obj.ann_nInput,
+        obj.ann_nOutput,
+        obj._best_wMat,
+        obj._best_aVec,
+        obj.key,
+    )
+    aux_data = None
+    return children, aux_data
+
+
+def unflatten_neat(aux_data, children):
+    n = NEAT()
+    n.pop = children[0]
+    n.species = children[1]
+    n.innov = children[2]
+    n.gen = children[3]
+    n.pop_size = children[4]
+    n.ann_nInput = children[5]
+    n.ann_nOutput = children[6]
+    n._best_wMat = children[7]
+    n._best_aVec = children[8]
+    n.key = children[9]
+    return n
+
+
+tree_util.register_pytree_node(NEAT, flatten_neat, unflatten_neat)

@@ -1,5 +1,6 @@
 import jax.numpy as jnp
 from evojax.algo.utils import *
+from jax import tree_util
 
 
 class Species:
@@ -26,6 +27,32 @@ class Species:
         self.bestFit = seed.fitness
         self.lastImp = 0
         self.nOffspring = []
+
+
+def flatten_species(obj):
+    children = (
+        obj.seed,
+        obj.members,
+        obj.bestInd,
+        obj.bestFit,
+        obj.lastImp,
+        obj.nOffspring,
+    )
+    aux_data = None
+    return children, aux_data
+
+
+def unflatten_species(aux_data, children):
+    n = Species(children[0])
+    n.members = children[1]
+    n.bestInd = children[2]
+    n.bestFit = children[3]
+    n.lastImp = children[4]
+    n.nOffspring = children[5]
+    return n
+
+
+tree_util.register_pytree_node(Species, flatten_species, unflatten_species)
 
 
 def speciate(self):
